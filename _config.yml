@@ -1,25 +1,25 @@
-name: "LLNL Software Portal"
-author: "LLNL Open Source <open-source@llnl.gov>"
-title: LLNL Software Portal
-description: "Lawrence Livermore National Laboratory Software Portal"
-remote_theme: LLNL/Jekyll-LLNL-Theme@main
+name: "ORNL Software Catalog"
+author: "ORNL Open Source Software <software@ornl.gov>"
+title: ORNL Software Catalog
+description: "Oak Ridge National Laboratory Software Catalog"
+remote_theme: ORNL/Jekyll-ORNL-Theme@main
 
-url: "https://software.llnl.gov"
-repo_url: "https://github.com/LLNL/llnl.github.io"
+url: "https://software.ornl.gov/catalog"
+repo_url: "https://github.com/ORNL/ornl.github.io"
 
-# LLNL Piwik Analytics https://analytics.llnl.gov
-piwik_id: 250
+# ORNL Piwik Analytics https://analytics.ornl.gov
+#piwik_id: 250
 
 # Google Analytics ID
-google_analytics:
-  tracking_id: UA-75179431-1
+#google_analytics:
+#  tracking_id: UA-75179431-1
 
 # Twitter username (used by jekyll-seo-tag)
-twitter:
-  username: llnl_opensource
+#twitter:
+#  username: ornl_opensource
 
 # GitHub Metadata -- https://github.com/jekyll/github-metadata
-repository: llnl/llnl.github.io
+repository: ornl/ornl.github.io
 plugins:
   - jekyll-github-metadata
   - jekyll-seo-tag
