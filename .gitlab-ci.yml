@@ -1,0 +1,55 @@
+### Global CI/CD Settings ###
+
+stages:
+  - worker-build
+  - worker-test
+  - deploy
+
+variables:
+  REGISTRY: "https://code.ornl.gov:4567/rse/ornl.github.io"
+  WORKER_URL: "${REGISTRY}/worker"
+
+include:
+  remote: "https://code.ornl.gov/rse-deployment/rse-sharables/-/raw/master/.gitlab-ci-before_script.yml"
+
+### CI/CD Jobs ###
+
+#worker_build_job:
+  #stage: worker-build
+  #script:
+    #- func_rse_docker_cleanup
+    #- docker login --username=$CI_REGISTRY_USER --password=$CI_REGISTRY_PASSWORD $CI_REGISTRY
+    #- docker build -f worker.Dockerfile -t $WORKER_URL/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA .
+    #- docker push $WORKER_URL/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA
+  #tags:
+    #- rse-multi-builder
+
+#worker_test_job:
+  #stage: worker-test
+  #script:
+    #- func_rse_docker_cleanup
+    #- docker login --username=$CI_REGISTRY_USER --password=$CI_REGISTRY_PASSWORD $CI_REGISTRY
+    #- docker pull $WORKER_URL/$CI_COMMIT_REF_NAME
+    #- docker run --name ornl-software-catalog sh -c "make test"
+  #tags:
+    #- rse-multi-builder
+
+deploy_website_job:
+  stage: deploy
+  image: ruby:latest
+  variables:
+    LC_ALL: C.UTF_8
+    JEKYLL_ENV: production
+  before_script: 
+    - gem install bundler
+    - bundle install
+  script:
+    # output directory needs to be "public" for Gitlab Pages
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
+  tags:
+    - rse-multi-builder
+  only:
+    - main
