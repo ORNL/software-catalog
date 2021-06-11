@@ -4,6 +4,7 @@ title: ORNL Software Catalog
 description: "Oak Ridge National Laboratory Software Catalog"
 remote_theme: ORNL/Jekyll-ORNL-Theme@main
 
+#baseurl: ""
 url: "https://software.ornl.gov/catalog"
 repo_url: "https://github.com/ORNL/ornl.github.io"
 
@@ -48,3 +49,4 @@ exclude:
     - README.md
     - Makefile
     - build
+    - worker.Dockerfile

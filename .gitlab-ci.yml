@@ -3,7 +3,7 @@
 stages:
   - worker-build
   - worker-test
-  - deploy
+  - deploy-website
 
 variables:
   REGISTRY: "https://code.ornl.gov:4567/rse/ornl.github.io"
@@ -11,6 +11,10 @@ variables:
 
 include:
   remote: "https://code.ornl.gov/rse-deployment/rse-sharables/-/raw/master/.gitlab-ci-before_script.yml"
+
+after_script:
+  - func_rse_docker_cleanup
+  - sudo chown -R gitlab-runner .
 
 ### CI/CD Jobs ###
 
@@ -34,22 +38,21 @@ include:
   #tags:
     #- rse-multi-builder
 
-deploy_website_job:
-  stage: deploy
-  image: ruby:latest
+# the Gitlab Pages job needs to be named "pages"
+pages:
+  stage: deploy-website
   variables:
-    LC_ALL: C.UTF_8
-    JEKYLL_ENV: production
-  before_script: 
-    - gem install bundler
-    - bundle install
+    DOCKER_WORKDIR: /srv/jekyll # default workdir of image, plus where we mount the repository to
+    IMAGE_NAME: software-catalog-website
   script:
-    # output directory needs to be "public" for Gitlab Pages
-    - bundle exec jekyll build -d public
+    - docker run -dit --name $IMAGE_NAME -v $PWD:$DOCKER_WORKDIR -e JEKYLL_ROOTLESS=true -e JEKYLL_ENV=production jekyll/builder:latest bash
+    # update bundler to match Gemfile.lock "BUNDLED WITH" version
+    - docker exec -it $IMAGE_NAME bash -c "gem install bundler:$(tail -1 Gemfile.lock | xargs) && jekyll build -d public"
+  # for Gitlab Pages, you must have the built artifacts in the "public" directory
   artifacts:
     paths:
       - public
   tags:
     - rse-multi-builder
-  only:
-    - main
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
