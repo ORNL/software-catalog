@@ -6,6 +6,7 @@ stages:
   - deploy-website
 
 variables:
+  GIT_STRATEGY: clone
   REGISTRY: "https://code.ornl.gov:4567/rse/ornl.github.io"
   WORKER_URL: "${REGISTRY}/worker"
 
