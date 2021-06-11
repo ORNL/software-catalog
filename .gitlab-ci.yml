@@ -49,6 +49,8 @@ pages:
     IMAGE_NAME: software-catalog-website
   script:
     - func_rse_docker_cleanup
+    - docker login --username=$CI_REGISTRY_USER --password=$CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker pull $DOCKER_IMAGE
     - docker run -dit --name $IMAGE_NAME -v $PWD:$DOCKER_WORKDIR -e JEKYLL_ROOTLESS=true -e JEKYLL_ENV=production $DOCKER_IMAGE bash
     # update bundler to match Gemfile.lock "BUNDLED WITH" version
     - docker exec -it $IMAGE_NAME bash -c "gem install bundler:$(tail -1 Gemfile.lock | xargs) && jekyll build -d public"
