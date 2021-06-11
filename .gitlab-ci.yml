@@ -13,7 +13,6 @@ include:
   remote: "https://code.ornl.gov/rse-deployment/rse-sharables/-/raw/master/.gitlab-ci-before_script.yml"
 
 after_script:
-  - func_rse_docker_cleanup
   - sudo chown -R gitlab-runner .
 
 ### CI/CD Jobs ###
@@ -45,6 +44,7 @@ pages:
     DOCKER_WORKDIR: /srv/jekyll # default workdir of image, plus where we mount the repository to
     IMAGE_NAME: software-catalog-website
   script:
+    - func_rse_docker_cleanup
     - docker run -dit --name $IMAGE_NAME -v $PWD:$DOCKER_WORKDIR -e JEKYLL_ROOTLESS=true -e JEKYLL_ENV=production jekyll/builder:latest bash
     # update bundler to match Gemfile.lock "BUNDLED WITH" version
     - docker exec -it $IMAGE_NAME bash -c "gem install bundler:$(tail -1 Gemfile.lock | xargs) && jekyll build -d public"
