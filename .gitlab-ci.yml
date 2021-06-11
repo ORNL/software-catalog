@@ -53,7 +53,7 @@ pages:
     - docker pull $DOCKER_IMAGE
     - docker run -dit --name $IMAGE_NAME -v $PWD:$DOCKER_WORKDIR -e JEKYLL_ROOTLESS=true -e JEKYLL_ENV=production $DOCKER_IMAGE bash
     # update bundler to match Gemfile.lock "BUNDLED WITH" version
-    - docker exec -it $IMAGE_NAME bash -c "gem install bundler:$(tail -1 Gemfile.lock | xargs) && jekyll build -d public"
+    - docker exec -i $IMAGE_NAME bash -c "gem install bundler:$(tail -1 Gemfile.lock | xargs) && jekyll build -d public"
   # for Gitlab Pages, you must have the built artifacts in the "public" directory
   artifacts:
     paths:
