@@ -13,4 +13,4 @@ query ($ownName: String!, $repoName: String!, $numUsers: Int!, $pgCursor: String
     nameWithOwner
   }
 }
-# {"ownName": "LLNL", "repoName": "llnl.github.io", "numUsers": 100, "pgCursor": null}
+# {"ownName": "ORNL", "repoName": "ornl.github.io", "numUsers": 100, "pgCursor": null}
