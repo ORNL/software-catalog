@@ -63,13 +63,13 @@ Additional 2FA info:
 
 ### How do I join the ORNL organization on GitHub?
 
-If you are an employee at ORNL and have 2FA enabled, you are eligible to join the [ORNL GitHub organization](https://github.com/ornl) and appear in the [member list](https://github.com/orgs/LLNL/people).
+If you are an employee at ORNL and have 2FA enabled, you are eligible to join the [ORNL GitHub organization](https://github.com/ornl) and appear in the [member list](https://github.com/orgs/ORNL/people).
 
 1. Send an email, with your GitHub username included, to the [ORNL GitHub admins](mailto:software@ornl.gov) from your `@ornl.gov` email, requesting to be added to the organization.
 
 2. After an administrator has added you to the organization, you will receive a notification email from GitHub. Alternatively, once the invitation has been sent, you will see a notification banner at the top of [github.com/ornl](https://github.com/ornl) which you can use to accept the invitation.
 
-3. Head over to the [@LLNL People](https://github.com/orgs/LLNL/people) page and make your membership `Public`.
+3. Head over to the [@ORNL People](https://github.com/orgs/ORNL/people) page and make your membership `Public`.
 
 ### How do I get my repo reviewed and released for GitHub?
 
@@ -94,7 +94,7 @@ When in doubt, contact a Derivative Classifier (DC) and/or IM for further guidan
 
 Make sure your repo contains [community health files](https://github.com/LLNL/.github/tree/main/community-health):
 
-* An appropriate open source **license** and `LLNL-CODE-xxxxxx` **release number**. See the [LLNL Software Licensing](https://software.llnl.gov/about/licenses) page for details and examples.
+* An appropriate open source **license** and `LLNL-CODE-xxxxxx` **release number**. See the [LLNL Software Licensing](/about/licenses) page for details and examples.
 
 * A [**README**](https://guides.github.com/features/wikis/) file that summarizes what the software does and how others can use it.
 
@@ -108,7 +108,7 @@ After your project has been initially released on GitHub and you are ready to pr
 
 Another good practice is to provide **user documentation**. Read the Docs (RtD) is a common platform for user guides, tutorials, quick start instructions, and other forms of documentation. Our [LLNL/.github repo](https://github.com/LLNL/.github) contains step-by-step instructions for setting up a RtD instance, a [template](https://github-main.readthedocs.io/en/latest/) you can start with, and links to various resources for tips and additional details.
 
-Submit your repo to [**DOE CODE**](https://www.osti.gov/doecode/faq#what-is) so others can find it when searching through DOE-funded projects. After your repo is included in DOE CODE, you may also want to add the **digital object identifier** (DOI) to the repo. See the [relevant section](https://software.llnl.gov/about/licenses/#digital-object-identifier-doi) of our LLNL Software Licensing page for more information.
+Submit your repo to [**DOE CODE**](https://www.osti.gov/doecode/faq#what-is) so others can find it when searching through DOE-funded projects. After your repo is included in DOE CODE, you may also want to add the **digital object identifier** (DOI) to the repo. See the [relevant section](/about/licenses/#digital-object-identifier-doi) of our LLNL Software Licensing page for more information.
 
 If your repo is research software, consider submitting it to the *Journal of Open Source Software* ([JOSS](https://joss.theoj.org/about)). Submission will produce a **citation** to include in your README file, then users or other researchers can cite your software correctly. The [JOSS RtD site](https://joss.readthedocs.io/en/latest/submitting.html) describes the submission requirements. JOSS defines *research software* as "software that solves complex modeling problems in a scientific context (physics, mathematics, biology, medicine, social science, neuroscience, engineering); supports the functioning of research instruments or the execution of research experiments; extracts knowledge from large data sets; offers a mathematical library; or similar." (You can also [sign up](https://joss.theoj.org/reviewer-signup.html) to review JOSS papers, if you are so inclined.)
 
@@ -116,7 +116,7 @@ If your repo is research software, consider submitting it to the *Journal of Ope
 
 Repositories within the LLNL organization are owned and managed by LLNL. Please do not create personal repositories here.
 
-Make sure your repository is included on this website’s home page and [full catalog](https://software.llnl.gov/). If you’ve set up your repository within the LLNL organization, you don’t need to take any action; it will automatically appear after the next data update.
+Make sure your repository is included on this website’s home page and [full catalog](/). If you’ve set up your repository within the LLNL organization, you don’t need to take any action; it will automatically appear after the next data update.
 
 * If your repository exists under a different organization, you can move it to LLNL by selecting “Transfer Ownership” under Settings.
 
@@ -133,8 +133,6 @@ Now that your project is on GitHub, make sure users and contributors can find it
     * Start with our [list](https://github.com/LLNL/llnl.github.io/blob/main/category/README.md) of recommended, standardized topics.
 
     * See helpful hints on [GitHub's topic help page](https://help.github.com/articles/about-topics/). Add tags relevant to your project's programming language, platforms, and more (e.g., Python, HPC, Linux).
-
-    * If your repo is part of the [RADIUSS project](https://software.llnl.gov/radiuss/), be sure to add the `radiuss` topic along with the appropriate [category tags](https://github.com/LLNL/llnl.github.io/blob/main/radiuss/README.md).
 
 2. Let [Twitter](https://twitter.com/LLNL_OpenSource) followers know your project is available on GitHub. Feel free to tag this handle on your own tweet, or submit a request to [open-source@llnl.gov](mailto:open-source@llnl.gov) so we can tweet on your behalf.
 
