@@ -48,7 +48,7 @@ function draw_sunburst_licenses(areaID) {
         const colors = d3.scaleOrdinal()
             .domain([0, root.children.length - 1])
             .range(["#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9","#bc80bd","#ccebc5","#ffed6f"]);
-        
+
         const chart = d3
             .select('.' + areaID)
                 .attr('width', width + margin.left + margin.right)
@@ -112,7 +112,7 @@ function draw_sunburst_licenses(areaID) {
                     .attr('d', d => arc(d.current))
                     .on('mouseover', tip.show)
                     .on('mouseout', tip.hide);
-        
+
         // Makes license wedges appear clickable
         path.filter(d => d.children)
             .style('cursor', 'pointer')
@@ -151,7 +151,7 @@ function draw_sunburst_licenses(areaID) {
                                 }
                             }
                         });
-        
+
         // Creates blank circle in center with click event to go up one level
         const parent = centerGroup
             .append('circle')
@@ -209,7 +209,7 @@ function draw_sunburst_licenses(areaID) {
             const scale = 2 * Math.PI / (d.parent.x1 - d.parent.x0);
             return (d.x1 - d.x0) * scale > 0.07;
         }
-    
+
         function labelTransform(d) {
             const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;
             const y = (d.y0 + d.y1) / 2 * radius;
@@ -275,7 +275,7 @@ function draw_sunburst_licenses(areaID) {
                 path.selectAll('title').remove();
                 path.append('title').text(d => d.data.name);
             });
-    
+
         // Creates option slider
         chart.append('g')
             .attr('transform', `translate(${margin.left},${margin.top / 2})`)
