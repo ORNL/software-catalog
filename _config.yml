@@ -1,8 +1,14 @@
+# To automatically enable dependencies for Github Pages deployments:
+# 1. Make sure every PRIOR line consists of '#[github-pages]'
+# 2. Then run `convert-to-gh-pages.sh`
+
 name: "ORNL Software Catalog"
 author: "ORNL Open Source Software <software@ornl.gov>"
 title: ORNL Software Catalog
 description: "Oak Ridge National Laboratory Software Catalog"
-remote_theme: ORNL/Jekyll-ORNL-Theme@main
+
+#[github-pages]
+#remote_theme: ORNL/Jekyll-ORNL-Theme@main
 
 #baseurl: ""
 url: "https://software.ornl.gov/catalog"
@@ -22,10 +28,13 @@ repo_url: "https://github.com/ORNL/ornl.github.io"
 # GitHub Metadata -- https://github.com/jekyll/github-metadata
 repository: ornl/ornl.github.io
 plugins:
+  #[github-pages]
+  #- jekyll-github-metadata
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
+  #[github-pages]
+  #- jekyll-remote-theme
 
 kramdown:
   auto_ids: true
