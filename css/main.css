@@ -157,7 +157,7 @@ a:visited {
         background: #555;
         color: #fff;
         text-decoration: none;
-        font-family: arial, sans-serif;
+        font-family: sans-serif;
         text-align: center;
         font-weight: bold;
         padding: 10px 20px;
@@ -323,7 +323,8 @@ a:visited {
 
 @media (max-width: 768px) {
     .banner {
-        background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
+        /* background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png'); */
+        /* background-image: url('/assets/images/ornl-logo.png'); */
         background-color: #3d444a;
         background-position: center, 50% 90%;
         background-repeat: no-repeat, no-repeat;
@@ -334,7 +335,9 @@ a:visited {
 
 @media (min-width: 769px) {
     .banner {
-        background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
+      /* Adds icons and background image to gray banner. */
+        background-image: url('/assets/images/banner-top.svg'), url('/assets/images/ornl-logo.png');
+        /* background-image: url('https://www.ornl.gov/themes/custom/ornl/logo.svg'); */
         background-color: #3d444a;
         background-position: center, 50% 90%;
         background-repeat: no-repeat, no-repeat;
@@ -356,7 +359,10 @@ a:visited {
 
 @media (min-width: 1200px) {
     .banner {
-        background-image: url('/assets/images/OS-icon-color.png'), url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
+      /* Adds colored LLNL icon to banner. */
+        /* background-image: url('/assets/images/OS-icon-color.png'), url('/assets/images/banner-top.svg'), url('/assets/images/ornl-logo.png'); */
+        /* background-image: url('https://www.ornl.gov/themes/custom/ornl/logo.svg'); */
+        /* background-image: url('/assets/images/ornl-logo.png'), url('/assets/images/banner-top.svg'), url('/assets/images/ornl-logo.png'); */
         background-color: #3d444a;
         background-position: 30% 50%, 70% 50%, 67% 90%;
         background-position: -webkit-calc(50% - 310px) 50%, -webkit-calc(50% + 310px) 50%, -webkit-calc(50% + 310px) 90%;

@@ -8,7 +8,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
 
     // Draws graph
     function drawGraph(data, areaID, adjacentAreaID) {
-        const graphHeader = 'LLNL Dependencies';
+        const graphHeader = 'ORNL Dependencies';
 
         const margin = { top: stdMargin.top, right: stdMargin.right / 2, bottom: stdMargin.bottom / 2, left: stdMargin.left / 2 },
             width = stdTotalWidth * 2 + 80 - margin.left - margin.right,
@@ -46,7 +46,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
             .html(function(d) {
                 return `${d.id}`;
             });
-            
+
         const linkTip = d3
             .tip()
             .attr('class', 'd3-tip')
@@ -88,7 +88,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
                 .attr('transform', 'translate(40,0)')
                 .attr('stroke', '#999')
                 .attr('stroke-opacity', 0.6);
-        
+
         // Adds links
         link.selectAll('line')
             .data(links)
@@ -178,8 +178,8 @@ function draw_force_graph(areaID, adjacentAreaID) {
         });
 
         // Data for legend
-        const labels = ['LLNL Repositories with Dependencies', 'External Packages', 'Internal Packages'];
-    
+        const labels = ['ORNL Repositories with Dependencies', 'External Packages', 'Internal Packages'];
+
         // Creates legend
         const legend = chart
             .append('g');
@@ -193,7 +193,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
             color.forEach((d, i) => {
                 legendMap.push({ text: labels[i], color: d });
             });
-    
+
             const legendEntries = legend
                 .selectAll('g')
                 .data(legendMap)
@@ -206,7 +206,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
                         const vertical = i * legendHeight - height / 2;
                         return `translate(${horizontal}, ${vertical})`;
                     });
-            
+
             // Adds rectangle for color reference
             legendEntries
                 .append('rect')
@@ -218,7 +218,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
                     .style('stroke', d => {
                         return d.color;
                     });
-    
+
             // Adds legend text
             legendEntries
                 .append('text')
@@ -249,7 +249,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
             .style('cursor', 'pointer')
             .on('click', () => {
                 // Since orgs do not have languages, we do not want colorByLanguage to be called
-                if (!orgSelected) { 
+                if (!orgSelected) {
                     if (colorLanguage) {
                         colorLanguage = !colorLanguage;
                         colorButtonCircle.attr('fill', 'white');
@@ -274,10 +274,10 @@ function draw_force_graph(areaID, adjacentAreaID) {
         const options = {};
 
         // Options for graph view
-        options.normalView = { name: 'normalView', text: 'Repos connected to dependencies', labels: ['LLNL Repositories with Dependencies', 'External Packages', 'Internal Packages'], languages: true, function: redraw };
-        options.simplifiedView = { name: 'simplifiedView', text: 'Repos connected by shared dependencies', labels: ['LLNL Repositories with Dependencies', 'External Packages', 'Internal Packages'], languages: true, function: simplify };
-        options.orgView = { name: 'orgView', text: 'Organizations connected to dependency organizations', labels: ['LLNL Organizations', 'External Package Organizations', 'LLNL Package Organizations'], languages: false, function: organize };
-        options.simplifiedOrgView = { name: 'simplifiedOrgView', text: 'Organizations connected by shared dependencies', labels: ['LLNL Organizations', 'External Package Organizations', 'LLNL Package Organizations'], languages: false, function: simplifyOrganize };
+        options.normalView = { name: 'normalView', text: 'Repos connected to dependencies', labels: ['ORNL Repositories with Dependencies', 'External Packages', 'Internal Packages'], languages: true, function: redraw };
+        options.simplifiedView = { name: 'simplifiedView', text: 'Repos connected by shared dependencies', labels: ['ORNL Repositories with Dependencies', 'External Packages', 'Internal Packages'], languages: true, function: simplify };
+        options.orgView = { name: 'orgView', text: 'Organizations connected to dependency organizations', labels: ['ORNL Organizations', 'External Package Organizations', 'ORNL Package Organizations'], languages: false, function: organize };
+        options.simplifiedOrgView = { name: 'simplifiedOrgView', text: 'Organizations connected by shared dependencies', labels: ['ORNL Organizations', 'External Package Organizations', 'ORNL Package Organizations'], languages: false, function: simplifyOrganize };
         const optionsArray = Object.values(options);
 
         // Options slider
@@ -300,7 +300,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
             .call(slider);
 
         let currentOption = 'normalView';
-        
+
         // What to do when the option slider is changed
         function optionChanged(o) {
             currentOption = o.name;
@@ -846,9 +846,9 @@ function draw_force_graph(areaID, adjacentAreaID) {
             }
 
             data.children.sort((a,b) => compare(a,b));
-            
+
             const root = d3.tree().size([Math.min(Math.max(data.children.length * 15, treeWidth), treeHeight - margin.top), treeWidth * 0.3])(d3.hierarchy(data));
-            
+
             const treeChart = svg
                 .append('g');
 
@@ -923,7 +923,7 @@ function draw_force_graph(areaID, adjacentAreaID) {
                     d['focused'] = true;
                     node.selectAll('circle').attr('r', d => d.focused ? 8 : 5);
                 });
-            
+
             treeNode.append('text')
                 .attr('dy', '0.31em')
                 .attr('x', d => d.children ? -6 : 6)
@@ -1028,7 +1028,7 @@ function searchForm(event) {
     $('.inGraph').attr('stroke-opacity', function(i, d) {
         return $(this).attr('id').toUpperCase().includes(document.getElementById('search').value.toUpperCase()) || ($(this).attr('language') && $(this).attr('language').toUpperCase().includes(document.getElementById('search').value.toUpperCase())) ? 1 : 0.2;
     });
-    
+
     $('.inGraph').attr('r', function(i, d) {
         return $(this).attr('id').toUpperCase().includes(document.getElementById('search').value.toUpperCase()) || ($(this).attr('language') && $(this).attr('language').toUpperCase().includes(document.getElementById('search').value.toUpperCase())) ? 6.5 : 5;
     });
