@@ -103,7 +103,8 @@
 	padding-top:7px;
 }
 #llnl-menu-tab {
-	background: url("../images/llnl-tab.png") no-repeat top center;
+	/* background: url("../images/llnl-tab.png") no-repeat top center; */
+	background: url("../images/ornl-logo.png") no-repeat top center;
 	-webkit-border-radius: 0 0 4px 4px;
 	-moz-border-radius: 0 0 4px 4px;
 	border-radius: 0 0 4px 4px;
@@ -137,7 +138,9 @@
 	float:left;
 	padding:0;
 	margin:4px 0px 0px 0px;
-	background: url("../images/small_llnl_logo.jpg") no-repeat top center;
+	/* background: url("../images/small_llnl_logo.jpg") no-repeat top center; */
+	background: url("../images/ornl-logo.jpg") no-repeat top center;
+
 }
 .llnl-menu-tab > a {
 	display: block;
