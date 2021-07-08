@@ -51,11 +51,14 @@ defaults:
 permalink: pretty
 
 exclude:
+    - build
+    - public
     - CNAME
     - CONTRIBUTING.md
+    - convert-to-gh-pages.sh
     - Gemfile
     - Gemfile.lock
-    - README.md
     - Makefile
-    - build
+    - README.md
+    - setup.cfg
     - worker.Dockerfile
