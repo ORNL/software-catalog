@@ -30,7 +30,7 @@
  /*	LLNL Menu
 -------------------------------------------------------------------*/
 #llnl-menu {
-	background-color: #005dab;
+	background-color: #007833;
 	height: auto;
 	padding-top: 20px;
 	clear: both;
@@ -128,7 +128,7 @@
 }
 .smallllnlmenu {
 	display:none;
-	background-color:#005dab;
+	background-color:#007833;
 	padding-top:0px;
 	padding-bottom:0px;
 	margin:0px;
@@ -166,7 +166,7 @@
 	/* Make the selection a little bit more obvious for mobile users */
 	.nav-collapse .nav  li:hover > a {
 		background-image:none;
-		background-color: #005dab;
+		background-color: #007833;
 		color: #fff;
 		text-shadow: none;
 		text-decoration: none;
@@ -205,7 +205,7 @@
 
 .nav-list li:hover > a, li.dropdown li:hover>a {
 	background-image:none;
-	background-color: #005dab;
+	background-color: #007833;
 	color: #fff;
 	text-shadow: none;
 	text-decoration: none;
@@ -251,7 +251,7 @@
 
 #header-fat #brand .brand {
 	line-height: 33px;
-	color: #005dab;
+	color: #007833;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
 }
 
@@ -317,7 +317,7 @@ span.showto {
 
 .hero-unit.hero-text h1 {
 	font-size: 48px;
-	color: #005dab;
+	color: #007833;
 }
 
 .hero-unit.hero-text p {
@@ -343,7 +343,7 @@ span.showto {
 }
 
 .hero-unit.hero-full-image.hero-unit-blue {
-	background-color: #005dab;
+	background-color: #007833;
 }
 
 .hero-unit.hero-full-image > .container > .row {
@@ -373,7 +373,7 @@ span.showto {
 }
 
 .hero-unit.hero-carousel h1 {
-	color: #005dab;
+	color: #007833;
 }
 
 .hero-unit.hero-carousel p {
@@ -433,7 +433,7 @@ span.showto {
 }
 
 .hero-unit .carousel-control {
-	color: #005dab;
+	color: #007833;
 }
 
 .hero-unit-blue .carousel-control {
@@ -729,7 +729,7 @@ span.showto {
 
 /* For the footer, added by Roziena Badree.
 -----------------------------------*/
-.footer-bottom-banner {
+.footer-top-banner {
   background: #36a447;
   color: #ffffff;
   padding: 0.5rem 0;
@@ -737,7 +737,7 @@ span.showto {
 /* Centers everything in the banner. */
   text-align: center;
 }
-.footer-bottom-banner a {
+.footer-top-banner a {
   color: #ffffff;
 }
 .footer-banner-wrapper {
@@ -765,6 +765,27 @@ span.showto {
   height: auto;
   width: auto;
 }
+
+.footer-bottom-banner a {
+	color: #007833;
+}
+
+#site-links {
+	text-decoration: none;
+}
+
+#site-links ul {
+	list-style: none;
+	text-align: center;
+}
+
+#site-links ul li {
+	display: inline-block;
+	padding: 0.5rem;
+	font-family: sans-serif;
+	font-weight: 500;
+}
+
 
 -------------------------------------------------------------------*/
 @media (min-width: 980px) {
