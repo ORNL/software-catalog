@@ -18,25 +18,31 @@ after_script:
 
 ### CI/CD Jobs ###
 
-#worker_build_job:
-  #stage: worker-build
-  #script:
-    #- func_rse_docker_cleanup
-    #- docker login --username=$CI_REGISTRY_USER --password=$CI_REGISTRY_PASSWORD $CI_REGISTRY
-    #- docker build -f worker.Dockerfile -t $WORKER_URL/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA .
-    #- docker push $WORKER_URL/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA
-  #tags:
-    #- rse-multi-builder
+worker_build_job:
+  stage: worker-build
+  script:
+    - func_rse_docker_cleanup
+    - docker login --username=$CI_REGISTRY_USER --password=$CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build -f worker.Dockerfile -t $WORKER_URL/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA .
+    - docker push $WORKER_URL/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA
+  tags:
+    - rse-multi-builder
+  rules:
+    - changes:
+      - _explore/scripts/requirements.txt
 
-#worker_test_job:
-  #stage: worker-test
-  #script:
-    #- func_rse_docker_cleanup
-    #- docker login --username=$CI_REGISTRY_USER --password=$CI_REGISTRY_PASSWORD $CI_REGISTRY
-    #- docker pull $WORKER_URL/$CI_COMMIT_REF_NAME
-    #- docker run --name ornl-software-catalog sh -c "make test"
-  #tags:
-    #- rse-multi-builder
+worker_test_job:
+  stage: worker-test
+  script:
+    - func_rse_docker_cleanup
+    - docker login --username=$CI_REGISTRY_USER --password=$CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker pull $WORKER_URL/$CI_COMMIT_REF_NAME
+    - docker run --name ornl-software-catalog -v $PWD:/app bash -c "make test"
+  tags:
+    - rse-multi-builder
+  rules:
+    - changes:
+      - _explore/scripts/*.py
 
 # the Gitlab Pages job needs to be named "pages"
 pages:
@@ -61,4 +67,4 @@ pages:
   tags:
     - rse-multi-builder
   rules:
-    - if: '$CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_COMMIT_BRANCH == "dev" || $CI_COMMIT_BRANCH == "master"'      

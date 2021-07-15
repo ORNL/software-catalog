@@ -17,3 +17,7 @@ pip install -r requirements.txt
 # Run the collection script
 ./MASTER.sh
 ```
+
+## Cronjob
+
+The `cron.sh` script can be a useful utility for automatically running the collection script and pushing it to your remote repositories - view the comments in the file for more details on how to set it up.

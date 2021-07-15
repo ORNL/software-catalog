@@ -1,6 +1,8 @@
 #!/bin/bash
 # Run this script to refresh all data for today
 
+cd $(dirname "$0")
+
 exec &> >(tee ../LAST_MASTER_UPDATE.log)
 
 export GITHUB_DATA=../../explore/github-data
