@@ -3,7 +3,7 @@
 stages:
   - worker-build
   - worker-test
-  - deploy-website
+  - website-test
 
 variables:
   GIT_STRATEGY: clone
@@ -44,9 +44,8 @@ worker_test_job:
     - changes:
       - _explore/scripts/*.py
 
-# the Gitlab Pages job needs to be named "pages"
 pages:
-  stage: deploy-website
+  stage: website-test
   variables:
     # this image is based off of the "jekyll/builder" image from https://github.com/envygeeks/jekyll-docker
     # we use this image instead of pulling from Docker Hub, to avoid rate limits
@@ -67,4 +66,5 @@ pages:
   tags:
     - rse-multi-builder
   rules:
-    - if: '$CI_COMMIT_BRANCH == "dev" || $CI_COMMIT_BRANCH == "master"'      
+    # test that the website can build on any feature/hotfix branch.
+    - if: '$CI_COMMIT_BRANCH != "dev" && $CI_COMMIT_BRANCH != "master" && $CI_COMMIT_BRANCH != "main"'      
