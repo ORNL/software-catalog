@@ -322,32 +322,29 @@ a:visited {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+/* For original LLNL software catalog. */
+/* @media (max-width: 768px) {
     .banner {
-        /* background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png'); */
-        background-image: url('/assets/images/ornl-logo.png');
+        background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
         background-color: #3d444a;
         background-position: center, 50% 90%;
         background-repeat: no-repeat, no-repeat;
         background-size: auto, 80px 80px;
         height: 200px;
     }
-}
+} */
 
-@media (min-width: 769px) {
+/* For original LLNL software catalog. */
+/* @media (min-width: 769px) {
     .banner {
-      /* Adds icons and background image to gray banner. */
-        /* background-image: url('/assets/images/banner-top.svg'), url('/assets/images/ornl-logo.png'); */
-        background-image: url('../assets/images/ORNL_Stacked_white.svg');
-        background-color: #36a447;
-        /* background-position: center, 50% 90%; */
-        background-position: center;
+        background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
+        background-color: #3d444a;
+        background-position: center, 50% 90%;
         background-repeat: no-repeat, no-repeat;
-        /* background-size: auto, 100px 100px; */
-        background=size: auto;
+        background-size: auto, 100px 100px;
         height: 300px;
     }
-}
+} */
 
 /* @media (min-width: 768px) and (max-width: 1199px) {
     .banner {
@@ -360,18 +357,28 @@ a:visited {
     }
 } */
 
-@media (min-width: 1200px) {
+/* For original LLNL software catalog. */
+/* @media (min-width: 1200px) {
     .banner {
-      /* Adds colored LLNL icon to banner. */
-        /* background-image: url('/assets/images/OS-icon-color.png'), url('/assets/images/banner-top.svg'), url('/assets/images/ornl-logo.png'); */
-        /* background-image: url('https://www.ornl.gov/themes/custom/ornl/logo.svg'); */
-        /* background-image: url('/assets/images/ornl-logo.png'), url('/assets/images/banner-top.svg'), url('/assets/images/ornl-logo.png'); */
-        background-color: #36a447;
+        background-image: url('/assets/images/OS-icon-color.png'), url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
+        background-color: #3d444a;
         background-position: 30% 50%, 70% 50%, 67% 90%;
         background-position: -webkit-calc(50% - 310px) 50%, -webkit-calc(50% + 310px) 50%, -webkit-calc(50% + 310px) 90%;
         background-position: calc(50% - 310px) 50%, calc(50% + 310px) 50%, calc(50% + 310px) 90%;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-size: 550px 550px, auto, 130px 130px;
+        height: 300px;
+    }
+} */
+
+/* Background is white ORNL logo on green background.  No small banner icons. */
+@media (min-width: 1200px) {
+    .banner {
+        background-image: url('/assets/images/ornl-logo-white.svg');
+        background-color: #36a447;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 550px;
         height: 300px;
     }
 }
