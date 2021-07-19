@@ -52,5 +52,5 @@ Check out our [FAQ](faq). If you have other questions or would like to request a
 Follow us on Twitter for up-to-date information about the latest developments!
 
 <div class="text-center">
-  <a href="https://twitter.com/ORNL" class="twitter-follow-button" data-show-count="true">Follow @ORNL</a>
+  <a href="https://twitter.com/{{site.twitter.username}}" class="twitter-follow-button" data-show-count="true">Follow @ORNL</a>
 </div>

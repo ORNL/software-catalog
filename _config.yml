@@ -2,17 +2,23 @@
 # 1. Make sure every PRIOR line consists of '#[github-pages]'
 # 2. Then run `convert-to-gh-pages.sh`
 
+### WEBSITE VARIABLES ###
 name: "ORNL Software Catalog"
-author: "ORNL Open Source Software <software@ornl.gov>"
-title: ORNL Software Catalog
-description: "Oak Ridge National Laboratory Software Catalog"
-
-#[github-pages]
-#remote_theme: ORNL/Jekyll-ORNL-Theme@main
-
-#baseurl: ""
-url: "https://software.ornl.gov/catalog"
 repo_url: "https://github.com/ORNL/ornl.github.io"
+lab_name: "ORNL"
+
+### SEO ###
+
+title: ORNL Software Catalog
+tagline: The hub for open-source software produced at ORNL
+description: "Get the latest news and metadata about ORNL's software"
+url: "https://software.ornl.gov/catalog"
+author: "ORNL Open Source Software <software@ornl.gov>"
+twitter:
+  username: ornl
+  #username: ornl_opensource
+
+# google_site_verification: 477TVoInt3HiUgSl_hU4rb5_JrgNMKK5Rl-KPMUClpQ
 
 # ORNL Piwik Analytics https://analytics.ornl.gov
 #piwik_id: 250
@@ -21,12 +27,17 @@ repo_url: "https://github.com/ORNL/ornl.github.io"
 #google_analytics:
 #  tracking_id: UA-75179431-1
 
-# Twitter username (used by jekyll-seo-tag)
-#twitter:
-#  username: ornl_opensource
+### GitHub Metadata -- https://github.com/jekyll/github-metadata ###
+#[github-pages]
+#repository: ornl/ornl.github.io
 
-# GitHub Metadata -- https://github.com/jekyll/github-metadata
-repository: ornl/ornl.github.io
+#[github-pages]
+#remote_theme: ORNL/Jekyll-ORNL-Theme@main
+
+### JEKYLL DEFAULTS ###
+
+#baseurl: ""
+
 plugins:
   #[github-pages]
   #- jekyll-github-metadata
@@ -47,6 +58,12 @@ defaults:
     values:
       layout: "post"
       permalink: "/news/:year/:month/:day/:title/"
+  -
+    scope:
+      path: ""
+    values:
+      image: 
+        path: /assets/images/ornl-logo.png
 
 permalink: pretty
 
