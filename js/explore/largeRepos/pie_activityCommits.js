@@ -70,7 +70,7 @@ function draw_pie_commits(areaID) {
             .sort(null);
 
             const pathGroup = chart.append('g');
-    
+
         var path = pathGroup
             .selectAll('path')
             .data(pie(data.slice(0,2)))
@@ -110,7 +110,7 @@ function draw_pie_commits(areaID) {
                 .attr('d', arc)
                 .attr('fill', (d, i) => {
                     if (i < mostPopularRepositories.length) {
-                        return '#3182bd'; 
+                        return '#3182bd';
                     } else {
                         return '#6baed6';
                     }
@@ -119,7 +119,7 @@ function draw_pie_commits(areaID) {
                 .on('mouseover', tip.show)
                 .on('mouseout', tip.hide)
                 .on('click', unclicked);
-            
+
             label
                 .selectAll('text')
                     .data(pieData)
@@ -237,7 +237,7 @@ function draw_pie_commits(areaID) {
             .attr('text-anchor', 'start');
 
         const textArray = [{ text: graphHeader, class: 'graphtitle', x: 0, y: 0 }, { text: dataTotalCount, class: 'graphtitle bignum', x: 0, y: -25 }];
-        
+
         // Add title
         const titles = chart
             .append('g')
@@ -261,7 +261,7 @@ function draw_pie_commits(areaID) {
         function labelVisible(d) {
             return (d.endAngle - d.startAngle) > 0.07;
         }
-    
+
         function labelTransform(d) {
             const x = (d.endAngle + d.startAngle) / 2 * 180 / Math.PI;
             const y = radius - donutWidth / 2;
@@ -271,7 +271,7 @@ function draw_pie_commits(areaID) {
 
     // Turn json obj into desired working data
     function reformatData(obj) {
-        var data = [{ label: 'In Top Ten LLNL Repos', count: totalCommits(obj, mostPopularRepositories.map(d => `${d.owner}/${d.name}`)) }, { label: 'In Other LLNL Repos', count: totalCommits(obj) }, { labels: mostPopularRepositories.map(d => `${d.owner}/${d.name}`), counts: mostPopularRepositories.map(d => totalCommits(obj, [`${d.owner}/${d.name}`])) }];
+        var data = [{ label: 'In Top Ten ORNL Repos', count: totalCommits(obj, mostPopularRepositories.map(d => `${d.owner}/${d.name}`)) }, { label: 'In Other ORNL Repos', count: totalCommits(obj) }, { labels: mostPopularRepositories.map(d => `${d.owner}/${d.name}`), counts: mostPopularRepositories.map(d => totalCommits(obj, [`${d.owner}/${d.name}`])) }];
         return data;
     }
 

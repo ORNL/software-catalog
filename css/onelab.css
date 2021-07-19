@@ -591,61 +591,48 @@ span.showto {
 -----------------------------------*/
 .footer-top-banner {
   background: #36a447;
-  color: #ffffff;
   padding: 0.5rem 0;
-  height: 100%;
 /* Centers everything in the banner. */
-  text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .footer-top-banner a {
   color: #ffffff;
 }
 .footer-banner-wrapper {
-  display: inline-block;
   padding: 2em;
-  align-items: center;
-  font-family: sans-serif;
 }
 .contact-us {
   padding: 0.5rem 1rem;
   border:1px solid #ffffff;
-  display: inline-block;
+	font-family: sans-serif;
 }
 .newsdesk-social-icon {
-  display: inline-block;
+  display: inline-flex;
+	justify-content: center;
+	align-items: center;
 }
 .svg-inline--fa {
-  display: inline;
-  font-size: inherit;
-  height: 2.1em;
-  overflow: visible;
+  height: 2.8em;
   padding: 0.20em;
 }
-.field-element {
-  height: auto;
-  width: auto;
-}
-
 .footer-bottom-banner a {
 	color: #007833;
 }
-
 #site-links {
 	text-decoration: none;
 }
-
 #site-links ul {
 	list-style: none;
 	text-align: center;
 }
-
 #site-links ul li {
 	display: inline-block;
 	padding: 0.5rem;
 	font-family: sans-serif;
 	font-weight: 500;
 }
-
 
 -------------------------------------------------------------------*/
 @media (min-width: 980px) {
