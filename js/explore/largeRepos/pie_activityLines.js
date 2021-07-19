@@ -111,7 +111,7 @@ function draw_pie_lines(areaID) {
                 .attr('d', arc)
                 .attr('fill', (d, i) => {
                     if (i < mostPopularRepositories.length) {
-                        return '#756bb1'; 
+                        return '#756bb1';
                     } else {
                         return '#9e9ac8';
                     }
@@ -120,7 +120,7 @@ function draw_pie_lines(areaID) {
                 .on('mouseover', tip.show)
                 .on('mouseout', tip.hide)
                 .on('click', unclicked);
-            
+
             label
                 .selectAll('text')
                     .data(pieData)
@@ -236,7 +236,7 @@ function draw_pie_lines(areaID) {
             .attr('text-anchor', 'start');
 
         const textArray = [{ text: graphHeader, class: 'graphtitle', x: 0, y: 0 }, { text: d3.format('.4s')(dataTotalCount), class: 'graphtitle bignum', x: 0, y: -25 }];
-        
+
         // Add title
         const titles = chart
             .append('g')
@@ -260,7 +260,7 @@ function draw_pie_lines(areaID) {
         function labelVisible(d) {
             return (d.endAngle - d.startAngle) > 0.07;
         }
-    
+
         function labelTransform(d) {
             const x = (d.endAngle + d.startAngle) / 2 * 180 / Math.PI;
             const y = radius - donutWidth / 2;
@@ -270,7 +270,7 @@ function draw_pie_lines(areaID) {
 
     // Turn json obj into desired working data
     function reformatData(obj) {
-        var data = [{ label: 'In Top Ten LLNL Repos', count: totalLines(obj, mostPopularRepositories.map(d => `${d.owner}/${d.name}`)) }, { label: 'In Other LLNL Repos', count: totalLines(obj) }, { labels: mostPopularRepositories.map(d => `${d.owner}/${d.name}`), counts: mostPopularRepositories.map(d => totalLines(obj, [`${d.owner}/${d.name}`])) }];
+        var data = [{ label: 'In Top Ten ORNL Repos', count: totalLines(obj, mostPopularRepositories.map(d => `${d.owner}/${d.name}`)) }, { label: 'In Other ORNL Repos', count: totalLines(obj) }, { labels: mostPopularRepositories.map(d => `${d.owner}/${d.name}`), counts: mostPopularRepositories.map(d => totalLines(obj, [`${d.owner}/${d.name}`])) }];
         return data;
     }
 
