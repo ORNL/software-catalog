@@ -593,15 +593,18 @@ span.showto {
   background: #36a447;
   padding: 0.5rem 0;
 /* Centers everything in the banner. */
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	text-align: center;
 }
 .footer-top-banner a {
   color: #ffffff;
 }
 .footer-banner-wrapper {
   padding: 2em;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+	vertical-align: middle;
 }
 .contact-us {
   padding: 0.5rem 1rem;
@@ -616,6 +619,7 @@ span.showto {
 .svg-inline--fa {
   height: 2.8em;
   padding: 0.20em;
+	fill: white;
 }
 .footer-bottom-banner a {
 	color: #007833;
