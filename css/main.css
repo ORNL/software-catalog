@@ -372,15 +372,15 @@ a:visited {
 } */
 
 /* Background is white ORNL logo on green background.  No small banner icons. */
-@media (min-width: 1200px) {
-    .banner {
-        background-image: url('/assets/images/ornl-logo-white.svg');
-        background-color: #36a447;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 550px;
-        height: 300px;
-    }
+.banner {
+  background-image: url('/assets/images/ornl-logo-white.svg');
+  background-color: #36a447;
+  /* background-color: white; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 300px;
+  overflow: visible;
 }
 
 .wrapper {
