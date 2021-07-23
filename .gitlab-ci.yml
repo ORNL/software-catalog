@@ -23,8 +23,8 @@ worker_build_job:
   script:
     - func_rse_docker_cleanup
     - docker login --username=$CI_REGISTRY_USER --password=$CI_REGISTRY_PASSWORD $CI_REGISTRY
-    - docker build -f worker.Dockerfile -t $WORKER_URL/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA .
-    - docker push $WORKER_URL/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA
+    - docker build -f worker.Dockerfile -t $WORKER_URL/$CI_COMMIT_REF_NAME .
+    - docker push $WORKER_URL/$CI_COMMIT_REF_NAME
   tags:
     - rse-multi-builder
   rules:
