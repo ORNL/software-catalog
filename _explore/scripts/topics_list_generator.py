@@ -25,6 +25,6 @@ for i in data:
             for t in topics:
                 all_topics.append(t)
 
-#Alphabetically sorting the topics, removing any duplicates, and printing them.
+#Alphabetically sorting the topics, removing any duplicates, printing, and counting them.
 for i in sorted(set(all_topics)):
-    print(i)
+    print(i, all_topics.count(i))
