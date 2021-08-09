@@ -8,7 +8,9 @@
     "ORNL/COVID19Vis": {
         "description": "Visualizations of COVID-19 case data",
         "name": "ORNL/COVID19Vis",
-        "topics": null,
+        "topics": [
+            "data-analysis"
+        ],
         "website": "https://ornl.github.io/COVID19Vis/"
     },
     "ORNL/CrossVis": {
@@ -20,7 +22,9 @@
     "ORNL/DataFed": {
         "description": "A Federated Scientific Data Management System",
         "name": "ORNL/DataFed",
-        "topics": null,
+        "topics": [
+            "data-analysis"
+        ],
         "website": "https://ornl.github.io/DataFed/"
     },
     "ORNL/DistGANs": {
@@ -44,7 +48,9 @@
     "ORNL/MD_Extractors": {
         "description": "Sets of scripts for extracting metadata from scientific data files",
         "name": "ORNL/MD_Extractors",
-        "topics": null,
+        "topics": [
+            "data-analysis"
+        ],
         "website": null
     },
     "ORNL/ORAgendaVis": {
@@ -116,7 +122,9 @@
     "ORNL/VitalVis": {
         "description": "Prototype Visualization System for Healthcare Data",
         "name": "ORNL/VitalVis",
-        "topics": null,
+        "topics": [
+            "data-analysis"
+        ],
         "website": "https://ornl.github.io/VitalVis/"
     },
     "ORNL/WeldPredictor": {
@@ -245,269 +253,6 @@
         "topics": null,
         "website": null
     },
-    "mantidproject/3rdpartyincludes": {
-        "description": null,
-        "name": "mantidproject/3rdpartyincludes",
-        "topics": null,
-        "website": ""
-    },
-    "mantidproject/3rdpartylibs-mac": {
-        "description": null,
-        "name": "mantidproject/3rdpartylibs-mac",
-        "topics": null,
-        "website": ""
-    },
-    "mantidproject/3rdpartylibs-win32": {
-        "description": null,
-        "name": "mantidproject/3rdpartylibs-win32",
-        "topics": null,
-        "website": ""
-    },
-    "mantidproject/3rdpartylibs-win64": {
-        "description": null,
-        "name": "mantidproject/3rdpartylibs-win64",
-        "topics": null,
-        "website": ""
-    },
-    "mantidproject/3rdpartysources": {
-        "description": null,
-        "name": "mantidproject/3rdpartysources",
-        "topics": null,
-        "website": ""
-    },
-    "mantidproject/SCDReductionGUI": {
-        "description": null,
-        "name": "mantidproject/SCDReductionGUI",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/autoreduce": {
-        "description": "Autoreduction service",
-        "name": "mantidproject/autoreduce",
-        "topics": null,
-        "website": ""
-    },
-    "mantidproject/collaboration": {
-        "description": null,
-        "name": "mantidproject/collaboration",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/conda-recipes": {
-        "description": "conda recipes for mantid packages",
-        "name": "mantidproject/conda-recipes",
-        "topics": null,
-        "website": "https://anaconda.org/mantid/mantid-framework"
-    },
-    "mantidproject/cxxtest": {
-        "description": "CxxTest Unit Testing Framework",
-        "name": "mantidproject/cxxtest",
-        "topics": null,
-        "website": "http://cxxtest.com"
-    },
-    "mantidproject/developer": {
-        "description": "Github pages for keeping people updated on what has been recently merged into master and will be released in the next nightly build.",
-        "name": "mantidproject/developer",
-        "topics": null,
-        "website": "http://developer.mantidproject.org"
-    },
-    "mantidproject/dockerfiles": {
-        "description": "Docker images relating to Mantid",
-        "name": "mantidproject/dockerfiles",
-        "topics": null,
-        "website": "https://hub.docker.com/u/mantidproject/"
-    },
-    "mantidproject/documents": {
-        "description": "Holds documents relating to the Mantid project",
-        "name": "mantidproject/documents",
-        "topics": null,
-        "website": "https://www.mantidproject.org"
-    },
-    "mantidproject/download.mantidproject.org": {
-        "description": "Sources and scripts for building Mantid download page",
-        "name": "mantidproject/download.mantidproject.org",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/errorreports": {
-        "description": "This contains the code for the errorreporting web service",
-        "name": "mantidproject/errorreports",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/governance": {
-        "description": "The governance process and model for mantid ",
-        "name": "mantidproject/governance",
-        "topics": [
-            "governance"
-        ],
-        "website": ""
-    },
-    "mantidproject/homebrew-mantid": {
-        "description": "Homebrew Tap for Mantid packages",
-        "name": "mantidproject/homebrew-mantid",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/jenkins-scripts": {
-        "description": "A collection of scripts to administer Jenkins for mantidproject",
-        "name": "mantidproject/jenkins-scripts",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/leeroy": {
-        "description": "Jenkins integration with GitHub pull requests",
-        "name": "mantidproject/leeroy",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/livereduce": {
-        "description": "Daemon for running live data reduction with systemd",
-        "name": "mantidproject/livereduce",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/mantid": {
-        "description": "Main repository for Mantid code",
-        "name": "mantidproject/mantid",
-        "topics": [
-            "python",
-            "mantid",
-            "neutron",
-            "muon",
-            "reduction",
-            "numpy",
-            "c-plus-plus-17"
-        ],
-        "website": "https://www.mantidproject.org"
-    },
-    "mantidproject/mantidgeometry": {
-        "description": "Repository of generators of Instrument Definition Files. ",
-        "name": "mantidproject/mantidgeometry",
-        "topics": null,
-        "website": ""
-    },
-    "mantidproject/mantidimaging": {
-        "description": "Graphical toolkit for neutron imaging.",
-        "name": "mantidproject/mantidimaging",
-        "topics": [
-            "python",
-            "imaging",
-            "tomography",
-            "python3"
-        ],
-        "website": "https://mantidproject.github.io/mantidimaging"
-    },
-    "mantidproject/mantidimaging-data": {
-        "description": "Hosts test data for Mantid Imaging",
-        "name": "mantidproject/mantidimaging-data",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/mslice": {
-        "description": "Source code for Mantid MSlice",
-        "name": "mantidproject/mslice",
-        "topics": null,
-        "website": "http://mantidproject.github.io/mslice"
-    },
-    "mantidproject/newstarter": {
-        "description": "A repository to support new starters as they work through the introductory development exercise at http://www.mantidproject.org/New_Starter_C++_introduction",
-        "name": "mantidproject/newstarter",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/paraview-build": {
-        "description": "Home for ParaView build scripts and things for making kits and build versions for Mantid",
-        "name": "mantidproject/paraview-build",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/paraview-superbuild": {
-        "description": "Fork of Kitware's version to get a ParaView kit capable of working with Mantid",
-        "name": "mantidproject/paraview-superbuild",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/plotting-evaluation": {
-        "description": "Contains prototypes for evaluating future plotting packages in Mantid",
-        "name": "mantidproject/plotting-evaluation",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/pre-commit-hooks": {
-        "description": "Stores hooks for pre-commit that are not available from the community",
-        "name": "mantidproject/pre-commit-hooks",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/reports": {
-        "description": "Django site for usage statistics",
-        "name": "mantidproject/reports",
-        "topics": null,
-        "website": "http://reports.mantidproject.org/"
-    },
-    "mantidproject/roadmap": {
-        "description": "Mantid project roadmap",
-        "name": "mantidproject/roadmap",
-        "topics": [
-            "roadmap"
-        ],
-        "website": ""
-    },
-    "mantidproject/sandbox": {
-        "description": "Used for testing out the script uploading",
-        "name": "mantidproject/sandbox",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/scriptrepository": {
-        "description": "This is the repository used for the user scripts repository in Mantid",
-        "name": "mantidproject/scriptrepository",
-        "topics": null,
-        "website": "www.mantidproject.org/ScriptRepository"
-    },
-    "mantidproject/scripts": {
-        "description": "Development Scripts for Mantid",
-        "name": "mantidproject/scripts",
-        "topics": null,
-        "website": ""
-    },
-    "mantidproject/systemtests": {
-        "description": "Old system test code before it was merged back to main code repository",
-        "name": "mantidproject/systemtests",
-        "topics": null,
-        "website": ""
-    },
-    "mantidproject/thirdparty-msvc2015": {
-        "description": "Holds the 3rd party dependencies for Mantid compiled under Visual Studio 2015",
-        "name": "mantidproject/thirdparty-msvc2015",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/training": {
-        "description": "This repository holds training materials for Mantid classes",
-        "name": "mantidproject/training",
-        "topics": null,
-        "website": ""
-    },
-    "mantidproject/upload.mantidproject.org": {
-        "description": "Holds scripts to support upload mechanism",
-        "name": "mantidproject/upload.mantidproject.org",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/workspace-sandbox": {
-        "description": "Sandbox for testing and prototyping related to workspace-2.0",
-        "name": "mantidproject/workspace-sandbox",
-        "topics": null,
-        "website": null
-    },
-    "mantidproject/www.mantidproject.org": {
-        "description": "This repository holds the source for the main project website for the mantidproject",
-        "name": "mantidproject/www.mantidproject.org",
-        "topics": null,
-        "website": null
-    },
     "neutrons/CrystalPlan": {
         "description": null,
         "name": "neutrons/CrystalPlan",
@@ -589,13 +334,19 @@
     "neutrons/StatisticsService": {
         "description": null,
         "name": "neutrons/StatisticsService",
-        "topics": null,
+        "topics": [
+            "neutrons",
+            "data-analysis"
+        ],
         "website": null
     },
     "neutrons/SysMon": {
         "description": "Python qt system monitor",
         "name": "neutrons/SysMon",
-        "topics": null,
+        "topics": [
+            "neutrons",
+            "system-software"
+        ],
         "website": null
     },
     "neutrons/WebAnalysis": {
@@ -631,31 +382,44 @@
     "neutrons/data_workflow": {
         "description": "SNS data workflow manager and reporting app",
         "name": "neutrons/data_workflow",
-        "topics": null,
+        "topics": [
+            "neutrons",
+            "workflows"
+        ],
         "website": null
     },
     "neutrons/fit_peak_intensities": {
         "description": null,
         "name": "neutrons/fit_peak_intensities",
-        "topics": null,
+        "topics": [
+            "neutrons"
+        ],
         "website": null
     },
     "neutrons/gsas-stitch": {
         "description": "Simple script to combine two or more powgen gsas files for use in pdfgetn",
         "name": "neutrons/gsas-stitch",
-        "topics": null,
+        "topics": [
+            "neutrons"
+        ],
         "website": null
     },
     "neutrons/imaging_tools": {
         "description": null,
         "name": "neutrons/imaging_tools",
-        "topics": null,
+        "topics": [
+            "neutrons",
+            "data-analysis"
+        ],
         "website": null
     },
     "neutrons/live_data_server": {
         "description": "Data server for data plots",
         "name": "neutrons/live_data_server",
-        "topics": null,
+        "topics": [
+            "neutrons",
+            "system-software"
+        ],
         "website": null
     },
     "neutrons/mandi_autoreduction_scripts": {
@@ -731,7 +495,10 @@
     "neutrons/sns-plot-fit": {
         "description": null,
         "name": "neutrons/sns-plot-fit",
-        "topics": null,
+        "topics": [
+            "neutrons",
+            "data-analysis"
+        ],
         "website": null
     },
     "neutrons/sns-reduction-dashboard": {
