@@ -1,9 +1,22 @@
 #A Python program to read the intRepo_Metadata.json file and print a list of topics.
 
 import json
+import os
+import sys
+
+#Changing the current directory to the directory of the Metadata.json file.
+workingDirectory = os.path.realpath(sys.argv[0])
+print(workingDirectory)
+
+fileDir = os.path.dirname(os.path.abspath(__file__))
+print(fileDir)
+
+fileName = os.path.join(workingDirectory, '_explore/scripts')
+print(fileName)
 
 #Opening the JSON file.
 inputFile = open('../../explore/github-data/intRepo_Metadata.json')
+# inputFile = open(fileName)
 
 #Loading the JSON file into a Python dictionary.
 data = json.load(inputFile)
