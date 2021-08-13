@@ -11,7 +11,6 @@ os.chdir(fileDir)
 
 #Opening the JSON file.
 inputFile = open('../../explore/github-data/intRepo_Metadata.json')
-# inputFile = open(fileName)
 
 #Loading the JSON file into a Python dictionary.
 data = json.load(inputFile)
