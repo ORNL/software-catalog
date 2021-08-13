@@ -2,17 +2,12 @@
 
 import json
 import os
-import sys
 
-#Changing the current directory to the directory of the Metadata.json file.
-workingDirectory = os.path.realpath(sys.argv[0])
-print(workingDirectory)
-
+#Printing the directory of this scipt.
 fileDir = os.path.dirname(os.path.abspath(__file__))
-print(fileDir)
 
-fileName = os.path.join(workingDirectory, '_explore/scripts')
-print(fileName)
+#Changing the directory of this scipt.
+os.chdir(fileDir)
 
 #Opening the JSON file.
 inputFile = open('../../explore/github-data/intRepo_Metadata.json')
