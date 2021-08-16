@@ -42,7 +42,7 @@ formatting and links so that your `README.md` will render nicely on
 GitHub. Take a look at GitHub's
 [markdown guide](https://guides.github.com/features/mastering-markdown/)
 for the basics.  For inspiration, look at other projects' `README.md`
-files at [software.llnl.gov](https://software.llnl.gov/), or take a look
+files at [software.ornl.gov/catalog/](/), or take a look
 at this
 [simple README.md template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
 
@@ -194,17 +194,17 @@ simply rely on the default inbound = outbound assumption.
 
 #### Digital Object Identifier (DOI)
 
-A digital object identifier (DOI) is a unique persistent identifier that 
-references a digital object and provides long-term access. Just as journal 
+A digital object identifier (DOI) is a unique persistent identifier that
+references a digital object and provides long-term access. Just as journal
 articles carry DOIs, so too can open source software repositories.
 
-The U.S. Office of Scientific and Technical Information (OSTI) assigns DOIs 
-to software *after* your code has been submitted to [DOE CODE](https://www.osti.gov/doecode/faq#what-is). 
-See OSTI's [FAQ on DOIs](https://www.osti.gov/doecode/faq#what-is-a-doi) for 
+The U.S. Office of Scientific and Technical Information (OSTI) assigns DOIs
+to software *after* your code has been submitted to [DOE CODE](https://www.osti.gov/doecode/faq#what-is).
+See OSTI's [FAQ on DOIs](https://www.osti.gov/doecode/faq#what-is-a-doi) for
 details about how DOIs work and why they are beneficial.
 
-OSTI is evaluating a notification workflow that would let a developer know 
-when a DOI has been assigned. Until then, you can find your repo's DOI *and* 
+OSTI is evaluating a notification workflow that would let a developer know
+when a DOI has been assigned. Until then, you can find your repo's DOI *and*
 add it to the repo by following these steps:
 
 1. Type in the name of your repo at [DOE CODE](https://www.osti.gov/doecode/), then select it.
@@ -217,4 +217,4 @@ add it to the repo by following these steps:
 ### Have Questions?
 
 If you still have questions or need more information, contact the
-[LLNL GitHub Admins](mailto:github-admin@llnl.gov).
+[ORNL GitHub Admins](mailto:software@ornl.gov).

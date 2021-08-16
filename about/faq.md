@@ -6,7 +6,7 @@ layout: info
 ## {{ page.title }}
 {: .page-header .no_toc}
 
-*These FAQs primarily target LLNL developers working in the [LLNL GitHub organization](https://github.com/LLNL). Don't see your question listed below? Please contact [LLNL GitHub admins](mailto:github-admin@llnl.gov).*
+*These FAQs primarily target ORNL developers working in the [ORNL GitHub organization](https://github.com/ORNL). Don't see your question listed below? Please contact [ORNL GitHub admins](mailto:software@ornl.gov).*
 
 * Table of Contents
 {:toc}
@@ -23,18 +23,18 @@ If you’re new to GitHub and open source in general, figuring out how to get se
 
     * **Photo**: A headshot photo, or image that is uniquely you.
     * **Name**: Your first and last name.
-    * **Bio**: Include a few words about yourself! Don't forget to mention @LLNL.
+    * **Bio**: Include a few words about yourself! Don't forget to mention @ORNL.
     * **URL**: This might be your [people.llnl.gov](https://people.llnl.gov) page, or a personal website if you prefer.
-    * **Company**: Probably `Lawrence Livermore National Laboratory, @LLNL`.
+    * **Company**: Probably `Oak Ridge National Laboratory, @ORNL`.
     * **Location**: Your primary location.
 
-3. Add your `@LLNL` email address (and any aliases) to your [Email Settings](https://github.com/settings/emails) page. This will link any commits done via [your Git identity](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#Your-Identity) to your GitHub account.
+3. Add your `@ORNL` email address (and any aliases) to your [Email Settings](https://github.com/settings/emails) page. This will link any commits done via [your Git identity](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#Your-Identity) to your GitHub account.
 
 4. [Enable two-factor authentication (2FA)](https://github.com/settings/security).
 
 ### What is two-factor authentication (2FA)?
 
-*Membership in the @LLNL GitHub organization will soon require that 2FA has been enabled on your GitHub account.* There are several options for configuring 2FA for your GitHub account:
+*Membership in the @ORNL GitHub organization will soon require that 2FA has been enabled on your GitHub account.* There are several options for configuring 2FA for your GitHub account:
 
 * [YubiKey](https://yubico.com) hardware security keys
     * Note that the YubiKey deployment (called "MyPass" at LLNL) is in its pilot phase, and not all users have them yet.
@@ -45,31 +45,31 @@ If you’re new to GitHub and open source in general, figuring out how to get se
     * Google Authenticator is a mobile application which you can install on your personal or government issued phone.
     * It provides a one-time token (OTP) which you can use to authenticate to GitHub.com
     * [Learn more about setting up Google Authenticator with GitHub.com](https://help.github.com/articles/configuring-two-factor-authentication/#configuring-two-factor-authentication-using-a-totp-mobile-app)
-    
+
 * [Authy](https://authy.com/guides/github/)
     * Authy is a desktop- or laptop-based application which can be used to generate a one-time token (OTP) for use logging in to GitHub.com.
     * This option is usually best for when you do all or most of your work in an environment where you do not have access to a mobile phone or USB YubiKey.
     * [Learn more about setting up Authy with GitHub.com](https://authy.com/guides/github/)
 
 Additional 2FA info:
-    
+
 * You also have the option during 2FA to generate and save a list of recovery codes to get into your account in the event you lose access to one of your 2FA methods. This is *highly* recommended, and the recovery codes should be stored someplace safe. Some options for storing your recovery codes include:
     * Printing the codes and storing them in a safe place in your office.
     * Storing the recovery codes in a password manager that you might be using.
-    
+
 * We recommend that you set up *MULTIPLE* 2FA options. This can protect your access to your account in the event that you lose access to one of your authenticators.
     * For more information, check out the [Two-factor Authentication](https://github.com/blog/1614-two-factor-authentication) post on the GitHub Blog.
-    * Having trouble setting up 2FA? Contact the [LLNL GitHub admins](mailto:github-admin@llnl.gov) who may be able to help.
+    * Having trouble setting up 2FA? Contact the [ORNL GitHub admins](mailto:software@ornl.gov) who may be able to help.
 
-### How do I join the LLNL organization on GitHub?
+### How do I join the ORNL organization on GitHub?
 
-If you are an employee at LLNL and have 2FA enabled, you are eligible to join the [LLNL GitHub organization](https://github.com/llnl) and appear in the [member list](https://github.com/orgs/LLNL/people).
+If you are an employee at ORNL and have 2FA enabled, you are eligible to join the [ORNL GitHub organization](https://github.com/ornl) and appear in the [member list](https://github.com/orgs/ORNL/people).
 
-1. Send an email, with your GitHub username included, to the [LLNL GitHub admins](mailto:github-admin@llnl.gov) from your `@llnl.gov` email, requesting to be added to the organization.
+1. Send an email, with your GitHub username included, to the [ORNL GitHub admins](mailto:software@ornl.gov) from your `@ornl.gov` email, requesting to be added to the organization.
 
-2. After an administrator has added you to the organization, you will receive a notification email from GitHub. Alternatively, once the invitation has been sent, you will see a notification banner at the top of [github.com/llnl](https://github.com/llnl) which you can use to accept the invitation.
+2. After an administrator has added you to the organization, you will receive a notification email from GitHub. Alternatively, once the invitation has been sent, you will see a notification banner at the top of [github.com/ornl](https://github.com/ornl) which you can use to accept the invitation.
 
-3. Head over to the [@LLNL People](https://github.com/orgs/LLNL/people) page and make your membership `Public`.
+3. Head over to the [@ORNL People](https://github.com/orgs/ORNL/people) page and make your membership `Public`.
 
 ### How do I get my repo reviewed and released for GitHub?
 
@@ -94,7 +94,7 @@ When in doubt, contact a Derivative Classifier (DC) and/or IM for further guidan
 
 Make sure your repo contains [community health files](https://github.com/LLNL/.github/tree/main/community-health):
 
-* An appropriate open source **license** and `LLNL-CODE-xxxxxx` **release number**. See the [LLNL Software Licensing](https://software.llnl.gov/about/licenses) page for details and examples.
+* An appropriate open source **license** and `LLNL-CODE-xxxxxx` **release number**. See the [LLNL Software Licensing](/about/licenses) page for details and examples.
 
 * A [**README**](https://guides.github.com/features/wikis/) file that summarizes what the software does and how others can use it.
 
@@ -108,7 +108,7 @@ After your project has been initially released on GitHub and you are ready to pr
 
 Another good practice is to provide **user documentation**. Read the Docs (RtD) is a common platform for user guides, tutorials, quick start instructions, and other forms of documentation. Our [LLNL/.github repo](https://github.com/LLNL/.github) contains step-by-step instructions for setting up a RtD instance, a [template](https://github-main.readthedocs.io/en/latest/) you can start with, and links to various resources for tips and additional details.
 
-Submit your repo to [**DOE CODE**](https://www.osti.gov/doecode/faq#what-is) so others can find it when searching through DOE-funded projects. After your repo is included in DOE CODE, you may also want to add the **digital object identifier** (DOI) to the repo. See the [relevant section](https://software.llnl.gov/about/licenses/#digital-object-identifier-doi) of our LLNL Software Licensing page for more information.
+Submit your repo to [**DOE CODE**](https://www.osti.gov/doecode/faq#what-is) so others can find it when searching through DOE-funded projects. After your repo is included in DOE CODE, you may also want to add the **digital object identifier** (DOI) to the repo. See the [relevant section](/about/licenses/#digital-object-identifier-doi) of our LLNL Software Licensing page for more information.
 
 If your repo is research software, consider submitting it to the *Journal of Open Source Software* ([JOSS](https://joss.theoj.org/about)). Submission will produce a **citation** to include in your README file, then users or other researchers can cite your software correctly. The [JOSS RtD site](https://joss.readthedocs.io/en/latest/submitting.html) describes the submission requirements. JOSS defines *research software* as "software that solves complex modeling problems in a scientific context (physics, mathematics, biology, medicine, social science, neuroscience, engineering); supports the functioning of research instruments or the execution of research experiments; extracts knowledge from large data sets; offers a mathematical library; or similar." (You can also [sign up](https://joss.theoj.org/reviewer-signup.html) to review JOSS papers, if you are so inclined.)
 
@@ -116,7 +116,7 @@ If your repo is research software, consider submitting it to the *Journal of Ope
 
 Repositories within the LLNL organization are owned and managed by LLNL. Please do not create personal repositories here.
 
-Make sure your repository is included on this website’s home page and [full catalog](https://software.llnl.gov/). If you’ve set up your repository within the LLNL organization, you don’t need to take any action; it will automatically appear after the next data update.
+Make sure your repository is included on this website’s home page and [full catalog](/). If you’ve set up your repository within the LLNL organization, you don’t need to take any action; it will automatically appear after the next data update.
 
 * If your repository exists under a different organization, you can move it to LLNL by selecting “Transfer Ownership” under Settings.
 
@@ -134,9 +134,7 @@ Now that your project is on GitHub, make sure users and contributors can find it
 
     * See helpful hints on [GitHub's topic help page](https://help.github.com/articles/about-topics/). Add tags relevant to your project's programming language, platforms, and more (e.g., Python, HPC, Linux).
 
-    * If your repo is part of the [RADIUSS project](https://software.llnl.gov/radiuss/), be sure to add the `radiuss` topic along with the appropriate [category tags](https://github.com/LLNL/llnl.github.io/blob/main/radiuss/README.md).
-
-2. Let [Twitter](https://twitter.com/LLNL_OpenSource) followers know your project is available on GitHub. Feel free to tag this handle on your own tweet, or submit a request to [open-source@llnl.gov](mailto:open-source@llnl.gov) so we can tweet on your behalf.
+2. Let [Twitter](https://twitter.com/{{site.twitter.username}}) followers know your project is available on GitHub. Feel free to tag this handle on your own tweet, or submit a request to [open-source@llnl.gov](mailto:open-source@llnl.gov) so we can tweet on your behalf.
 
 3. Publicize any outreach activities or major milestones related to your project. Examples: You have a paper/poster/presentation accepted at a conference; you're hosting a workshop or webinar; your project is nominated for an award; or you're speaking on a podcast or guest blogging.
 
@@ -158,9 +156,9 @@ Before contributing, please contact [open-source@llnl.gov](mailto:open-source@ll
 
 ### My repo has grown. How do I move it out of the LLNL organization?
 
-The process to transfer organizational ownership is straightforward, but generally discouraged. This should really only be done for projects that are starting to build a "bigger than LLNL" community, and the decision should not be made lightly. 
+The process to transfer organizational ownership is straightforward, but generally discouraged. This should really only be done for projects that are starting to build a "bigger than LLNL" community, and the decision should not be made lightly.
 
-Migrating the repo outside of the LLNL organization requires an organization admin. Contact [github-admin@llnl.gov](mailto:github-admin@llnl.gov) to coordinate the move.
+Migrating the repo outside of the LLNL organization requires an organization admin. Contact [software@ornl.gov](mailto:software@ornl.gov) to coordinate the move.
 
 Once the repository has moved to the new organization:
 

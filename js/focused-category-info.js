@@ -77,7 +77,9 @@ angular.module('app', []).controller('gitHubDataController', [
                     path: '/assets/images/catalog.svg',
                     alt: 'All Software'
                 },
-                description: 'Browse all LLNL open source projects',
+                description: {
+                    short: `Browse all ${$window.labName} open source projects`
+                },
                 displayTitle: 'All Software',
                 topics: []
             };

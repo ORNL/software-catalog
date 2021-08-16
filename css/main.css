@@ -1,6 +1,6 @@
 .static-text a,
 a:visited {
-    color: #005dab;
+    /* color: #007833; */
     text-decoration: underline;
 }
 
@@ -154,10 +154,10 @@ a:visited {
     }
     #forkongithub a {
         pointer-events: all;
-        background: #555;
-        color: #fff;
+        background: #36a447;
+        color: #ffffff;
         text-decoration: none;
-        font-family: arial, sans-serif;
+        font-family: sans-serif;
         text-align: center;
         font-weight: bold;
         padding: 10px 20px;
@@ -175,8 +175,8 @@ a:visited {
         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
     }
     #forkongithub a:hover {
-        background: #333;
-        color: #fff;
+        background: #007833;
+        color: #ffffff;
     }
     #forkongithub a::before,
     #forkongithub a::after {
@@ -197,13 +197,13 @@ a:visited {
 
 /* --- */
 .navbar-header a.navbar-brand {
-    color: #005dab;
+    color: #007833;
     font-weight: bold;
     text-decoration: none;
 }
 
 .navbar a.navbar-normal {
-    color: #005dab;
+    color: #007833;
     text-decoration: none;
 }
 
@@ -213,6 +213,7 @@ a:visited {
 }
 
 .navbar {
+    padding: 1.5rem;
     margin-bottom: 0;
     text-decoration: none;
 }
@@ -321,7 +322,8 @@ a:visited {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+/* For original LLNL software catalog. */
+/* @media (max-width: 768px) {
     .banner {
         background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
         background-color: #3d444a;
@@ -330,9 +332,10 @@ a:visited {
         background-size: auto, 80px 80px;
         height: 200px;
     }
-}
+} */
 
-@media (min-width: 769px) {
+/* For original LLNL software catalog. */
+/* @media (min-width: 769px) {
     .banner {
         background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
         background-color: #3d444a;
@@ -341,7 +344,7 @@ a:visited {
         background-size: auto, 100px 100px;
         height: 300px;
     }
-}
+} */
 
 /* @media (min-width: 768px) and (max-width: 1199px) {
     .banner {
@@ -354,7 +357,8 @@ a:visited {
     }
 } */
 
-@media (min-width: 1200px) {
+/* For original LLNL software catalog. */
+/* @media (min-width: 1200px) {
     .banner {
         background-image: url('/assets/images/OS-icon-color.png'), url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
         background-color: #3d444a;
@@ -365,6 +369,19 @@ a:visited {
         background-size: 550px 550px, auto, 130px 130px;
         height: 300px;
     }
+} */
+
+/* Background is white ORNL logo on green background.  No small banner icons. */
+.banner {
+  /* background-image: url('/assets/images/ornl-logo-white.svg'), url('/assets/images/software.jpg'); */
+  /* background-color: #36a447; */
+  /* background-color: white; */
+  background-image: url('/assets/images/software.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 300px;
+  overflow: visible;
 }
 
 .wrapper {

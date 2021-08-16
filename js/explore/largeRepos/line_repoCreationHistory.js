@@ -146,7 +146,7 @@ function draw_line_repoCreationHistory(areaID, repoNamesWOwner) {
         // Draw reference date lines
         addDateLine(gitrelease, 'Git Released');
         addDateLine(ghfounded, 'GitHub Founded');
-        addDateLine(sw_llnl, 'LLNL Soft. Portal');
+        addDateLine(sw_llnl, 'ORNL Soft. Portal');
 
         // Add title
         chart
