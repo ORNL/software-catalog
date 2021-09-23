@@ -77,6 +77,7 @@ permalink: /news/
 
     </article>
     {% endfor %}
+
   </main>
   
   <br />

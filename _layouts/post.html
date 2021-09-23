@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+  {% include head.html %}
 
-{% include head.html %}
+  <body>
+    {% include header.html %}
 
-<body>
+    <main class="container">
+      <div class="row">
+        <h2>
+          <a href="{{ page.url }}">{{ page.title }}</a>
+          <small class="pull-right">{{ page.date | date: '%B %d, %Y' }}</small>
+        </h2>
 
-{% include header.html %}
+        {{ content }}
+      </div>
+    </main>
 
-<main class="container">
-  <div class="row">
-    <h2>
-      <a href="{{ page.url }}">{{ page.title }}</a>
-      <small class="pull-right">{{ page.date | date: '%B %d, %Y' }}</small>
-    </h2>
-
-    {{ content }}
-  </div>
-</main>
-
-{% include footer.html %}
-
-{% include scripts.html %}
-</body>
+    {% include footer.html %}
+    <!-- prettier-ignore -->
+    {% include scripts.html %}
+  </body>
 </html>

@@ -1,52 +1,50 @@
 // Script for filtering the repository results based on search strings
 
-$(function() {
-    function tokenize(str) {
-        return str
-            .replace(/\s+/g, ' ')
-            .split(' ')
-            .filter(function(s) {
-                return s !== '';
-            });
+$(function () {
+  function tokenize(str) {
+    return str
+      .replace(/\s+/g, ' ')
+      .split(' ')
+      .filter(function (s) {
+        return s !== '';
+      });
+  }
+
+  function simple_text(str) {
+    return str.toLowerCase().replace(/\s+/g, ' ');
+  }
+
+  $('#filterRepos').on('input', function () {
+    var $allRepos = $('.flex-item');
+
+    var text = $(this).val().toLowerCase();
+
+    if (text === '') {
+      $allRepos.show();
+      return;
     }
 
-    function simple_text(str) {
-        return str.toLowerCase().replace(/\s+/g, ' ');
-    }
+    var $matches = $(tokenize(text));
 
-    $('#filterRepos').on('input', function() {
-        var $allRepos = $('.flex-item');
+    // Hide everything first
+    $allRepos.hide();
 
-        var text = $(this)
-            .val()
-            .toLowerCase();
+    $allRepos.each(function () {
+      var $repo = $(this);
 
-        if (text === '') {
-            $allRepos.show();
-            return;
+      var text = simple_text($repo.text());
+
+      var num_matched = 0;
+
+      $matches.each(function () {
+        if (text.search(this) > -1) {
+          num_matched += 1;
         }
+      });
 
-        var $matches = $(tokenize(text));
-
-        // Hide everything first
-        $allRepos.hide();
-
-        $allRepos.each(function() {
-            var $repo = $(this);
-
-            var text = simple_text($repo.text());
-
-            var num_matched = 0;
-
-            $matches.each(function() {
-                if (text.search(this) > -1) {
-                    num_matched += 1;
-                }
-            });
-
-            if (num_matched === $matches.length) {
-                $repo.show();
-            }
-        });
+      if (num_matched === $matches.length) {
+        $repo.show();
+      }
     });
+  });
 });

@@ -24,7 +24,7 @@ Make sure you are in the directory you just created by running `cd ornl.github.i
 bundle install
 ```
 
-Running this will install everything in your Gemfile (including Jekyll). 
+Running this will install everything in your Gemfile (including Jekyll).
 
 Next, run the development web server with:
 

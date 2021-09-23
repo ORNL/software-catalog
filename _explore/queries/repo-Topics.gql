@@ -1,4 +1,9 @@
-query ($ownName: String!, $repoName: String!, $numTopics: Int!, $pgCursor: String) {
+query (
+  $ownName: String!
+  $repoName: String!
+  $numTopics: Int!
+  $pgCursor: String
+) {
   repository(owner: $ownName, name: $repoName) {
     repositoryTopics(first: $numTopics, after: $pgCursor) {
       totalCount
