@@ -10,6 +10,11 @@
 .news .caption {
 	float:left;
 }
+.news-archive-link {
+	background-color: #007833;
+	color: #fff;
+	text-decoration: none !important;
+}
 .video-container {
 	position: relative;
 	padding-bottom: 56.25%;
@@ -27,9 +32,9 @@
 	width: 100%;
 	height: 100%;
 }
- /*	LLNL Menu
+ /*	ORNL Menu
 -------------------------------------------------------------------*/
-#llnl-menu {
+#ornl-menu {
 	background-color: #007833;
 	height: auto;
 	padding-top: 20px;
@@ -38,36 +43,36 @@
 	display: block;
 	overflow: visible;
 }
-#llnl-menu * {
+#ornl-menu * {
 	color: #fff;
 }
-#llnl-menu a {
+#ornl-menu a {
 	text-decoration: underline;
 }
-#llnl-menu-carousel {min-height: 243px}
-#llnl-menu-carousel a.carousel-control {
+#ornl-menu-carousel {min-height: 243px}
+#ornl-menu-carousel a.carousel-control {
 	text-decoration:none;
 }
-#llnl-menu a:hover {
+#ornl-menu a:hover {
 	text-decoration: none;
 }
-#llnl-menu form input {
+#ornl-menu form input {
 	color: #333;
 }
-#llnl-menu .llnl-menu-nav {
+#ornl-menu .ornl-menu-nav {
 	margin-right: 20px;
 	padding-left: 20px;
 	margin-bottom: 10px;
 }
-#llnl-menu .span3.llnl-menu-nav {
+#ornl-menu .span3.ornl-menu-nav {
 	padding-left: 0;
 }
-#llnl-menu .div-line {
+#ornl-menu .div-line {
 	display: inline-block;
 	border-left: 1px solid #003867;
 	border-right: 1px solid #0072d2;
 	min-height: 200px;
-	float: left;
+	/*float: left;*/
 }
 .carouselleft {
 	float:left;
@@ -77,32 +82,32 @@
 	clear:both;
 	margin-top:90px;
 }
-#llnl-menu .carouselleft a, #llnl-menu .carouselright a {
+#ornl-menu .carouselleft a, #ornl-menu .carouselright a {
   font-size: 50px;
   color: #ffffff;
   text-decoration: none;
 }
-#llnl-menu .carouselleft a:hover, #llnl-menu .carouselright a:hover {
+#ornl-menu .carouselleft a:hover, #ornl-menu .carouselright a:hover {
   color: #eeeeee;
 }
-#llnl-menu .carousel-control {
+#ornl-menu .carousel-control {
 	color: #fff;
 }
-#llnl-menu .carousel-control {
+#ornl-menu .carousel-control {
 	border: none;
 	background-color: transparent;
 }
-.llnlsitesearch {
+.ornlsitesearch {
 	display:none;
 }
-.llnlpeoplesearch {
+.ornlpeoplesearch {
 	display:block;
 }
-.llnlseachtoggle {
+.ornlseachtoggle {
 	float:left;
 	padding-top:7px;
 }
-#llnl-menu-tab {
+#ornl-menu-tab {
 	background: url("/assets/images/ornl-logo.svg") no-repeat top center;
 	-webkit-border-radius: 0 0 4px 4px;
 	-moz-border-radius: 0 0 4px 4px;
@@ -113,15 +118,15 @@
 	width: 240px;
 	height: 39px;
 }
-#llnl-menu-tab.open {
+#ornl-menu-tab.open {
 	background-position: 0 -39px;
 }
-#llnl-menu-tab > a {
+#ornl-menu-tab > a {
 	display: block;
 	width: 240px;
 	height: 39px;
 }
-#llnl-menu-tab > a > span {
+#ornl-menu-tab > a > span {
 	display: none;
 	visibility: hidden;
 }
@@ -133,20 +138,18 @@
 	margin:0px;
 	width:100%;
 }
-.llnl-menu-tab {
+.ornl-menu-tab {
 	float:left;
 	padding:0;
 	margin:4px 0px 0px 0px;
-	/* background: url("../images/small_llnl_logo.jpg") no-repeat top center; */
 	background: url("/assets/images/ornl-logo.jpg") no-repeat top center;
-
 }
-.llnl-menu-tab > a {
+.ornl-menu-tab > a {
 	display: block;
 	width: 261px;
 	height: 24px;
 }
-.llnl-menu-tab > a > span {
+.ornl-menu-tab > a > span {
 	display: none;
 	visibility: hidden;
 }
@@ -638,7 +641,6 @@ span.showto {
 	font-weight: 500;
 }
 
--------------------------------------------------------------------*/
 @media (min-width: 980px) {
 	.smallllnlmenu {
 		display:none;
@@ -687,15 +689,15 @@ span.showto {
 	}
 	.hero-unit form {padding: 0 19px}
 
-	/*	llnl-menu
+	/*	ornl-menu
 	-----------------------------------*/
-	.llnl-menu-nav {
+	.ornl-menu-nav {
 		padding-left:20px !important;
 	}
-	#llnl-menu .div-line {
+	#ornl-menu .div-line {
 		display:none;
 	}
-	#llnl-menu-tab {
+	#ornl-menu-tab {
 		display: none;
 	}
 	.smallllnlmenu {
@@ -775,10 +777,9 @@ span.showto {
 	.hero-unit p,
 	.hero-unit.hero-text p {
 		font-size: 80%;
-	} */
+	}
 
-	/* Sidebar
-	-----------------------------------*/
+	/* Sidebar-----------------------------------*/
 }
 
 
@@ -941,7 +942,7 @@ a:focus { outline:none; }
 	}
 }
 @media print {
-.noprint, .sortmarker, #llnl-menu-tab, .navbar-search, .navbar .nav, .btn, .socialmedia {display:none}
+.noprint, .sortmarker, #ornl-menu-tab, .navbar-search, .navbar .nav, .btn, .socialmedia {display:none}
 .footernav, noscript {display:none}
 th a {color: #000}
 a[href]:after{content:"";}

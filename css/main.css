@@ -1,3 +1,21 @@
+/** Add a few CSS standarizations */
+
+html,
+body {
+    min-height: 100vh;
+}
+
+body, .vertical-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* static text */
+
 .static-text a,
 a:visited {
     /* color: #007833; */
@@ -5,7 +23,7 @@ a:visited {
 }
 
 .static-text a:hover {
-    color: #009bab;
+    color: #aaa;
     text-decoration: underline;
 }
 
@@ -195,7 +213,7 @@ a:visited {
     }
 }
 
-/* --- */
+/* Navbar */
 .navbar-header a.navbar-brand {
     color: #007833;
     font-weight: bold;
@@ -218,6 +236,10 @@ a:visited {
     text-decoration: none;
 }
 
+.navbar-right {
+    margin-right: 15px; /* Don't let "fork me" banner cover the last element */
+}
+
 /* Dropdown */
 
 .dropdown-content {
@@ -237,6 +259,7 @@ a:visited {
 }
 
 .dropdown:hover .dropdown-content {
+    z-index: 999;
     display: block;
 }
 
@@ -322,66 +345,28 @@ a:visited {
     cursor: pointer;
 }
 
-/* For original LLNL software catalog. */
-/* @media (max-width: 768px) {
-    .banner {
-        background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
-        background-color: #3d444a;
-        background-position: center, 50% 90%;
-        background-repeat: no-repeat, no-repeat;
-        background-size: auto, 80px 80px;
-        height: 200px;
-    }
-} */
+.banner-img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    max-height: 33vh;
+    filter: brightness(75%);
+}
 
-/* For original LLNL software catalog. */
-/* @media (min-width: 769px) {
-    .banner {
-        background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
-        background-color: #3d444a;
-        background-position: center, 50% 90%;
-        background-repeat: no-repeat, no-repeat;
-        background-size: auto, 100px 100px;
-        height: 300px;
-    }
-} */
+.banner-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
 
-/* @media (min-width: 768px) and (max-width: 1199px) {
-    .banner {
-        background-image: url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
-        background-color: #3d444a;
-        background-position: center, 50% 90%;
-        background-repeat: no-repeat, no-repeat;
-        background-size: auto, 80px 80px;
-        height: 200px;
-    }
-} */
-
-/* For original LLNL software catalog. */
-/* @media (min-width: 1200px) {
-    .banner {
-        background-image: url('/assets/images/OS-icon-color.png'), url('/assets/images/banner-top.svg'), url('/assets/images/OS-logo-white.png');
-        background-color: #3d444a;
-        background-position: 30% 50%, 70% 50%, 67% 90%;
-        background-position: -webkit-calc(50% - 310px) 50%, -webkit-calc(50% + 310px) 50%, -webkit-calc(50% + 310px) 90%;
-        background-position: calc(50% - 310px) 50%, calc(50% + 310px) 50%, calc(50% + 310px) 90%;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-size: 550px 550px, auto, 130px 130px;
-        height: 300px;
-    }
-} */
-
-/* Background is white ORNL logo on green background.  No small banner icons. */
-.banner {
-  /* background-image: url('/assets/images/ornl-logo-white.svg'), url('/assets/images/software.jpg'); */
-  /* background-color: #36a447; */
-  /* background-color: white; */
-  background-image: url('/assets/images/software.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  height: 300px;
-  overflow: visible;
+.banner-text {
+    color: #f8f8f8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-size: 7vw;
 }
 
 .wrapper {

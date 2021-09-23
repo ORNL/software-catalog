@@ -6,13 +6,9 @@
     <body ng-controller="gitHubDataController">
 
         {% include header.html %}
-
-        <div>
-            <div class="banner"></div>
-        </div>
-
+        
         {% raw %}
-
+        
         <div class="hamburger-container">
             <span ng-click="showHamburger = !showHamburger" class="fa fa-bars fa-2x"></span>
             <div class="hamburger-nav" ng-if="showHamburger">
@@ -21,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <div class="wrapper">
+        <main class="wrapper">
             <div class="nav-container">
                 <nav class="stickynav">
                     <div ng-repeat="category in catData" ng-click="categoryHref(category.title)" ng-class="{'selected-tab': $index == selectedIndex }">
@@ -90,7 +86,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
 
         {% endraw %}
 
