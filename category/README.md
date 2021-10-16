@@ -6,7 +6,7 @@ A repository can have up to 20 tags. The list below also contains each category'
 
 For each category, this file contains its title, [icon][icon dir] filepath, and category description. This data is read by the [category info javascript][js dir].
 
-[icon dir]: ../assets/images/
+[icon dir]: ../assets/images/categories/
 [js dir]: ../js/category-info.js
 
 -   **App Infrastructure**: Browse tools for basic functionality common in HPC codes - `app-infrastructure`
@@ -26,6 +26,6 @@ In general, topic tags raise a repo's visibility on GitHub and help users find r
 To add a new category to the catalog:
 
 1. Update this README with the category name (in alphabetical order), description, and tag.
-2. Add the new icon (.svg) to [Assets > Images](https://github.com/ORNL/ornl.github.io/tree/main/assets/images).
-3. Update [`category_info.json`](https://github.com/ORNL/ornl.github.io/blob/main/category/category_info.json) with category metadata such as image file path, descriptive blurb, and corresponding topic(s).
+2. Add the new icon (.svg) to [Assets > Images > Categories](https://code.ornl.gov/rse/ornl.github.io/-/tree/main/assets/images/categories).
+3. Update [`category_info.json`](https://code.ornl.gov/rse/ornl.github.io/-/blob/main/category/category_info.json) with category metadata such as image file path, descriptive blurb, and corresponding topic(s).
 4. Tag repos with the new topic as appropriate.
