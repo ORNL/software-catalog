@@ -3,6 +3,7 @@
 stages:
   - worker-build
   - worker-test
+  - cron
   - website-test
 
 variables:
@@ -44,6 +45,17 @@ after_script:
     #- changes:
       #- _explore/scripts/*.py
 
+scheduled-data-update:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'schedule'
+  stages:
+    - cron
+  tags:
+    - software-catalog
+  script:
+    - ./_explore/scripts/cron.sh --docker
+
+# NOTE: this job just tests that a feature branch with a MR out can still work on dev
 pages:
   stage: website-test
   variables:
@@ -67,4 +79,8 @@ pages:
     - rse-multi-builder
   rules:
     # test that the website can build on any feature/hotfix branch.
-    - if: '$CI_COMMIT_BRANCH != "dev" && $CI_COMMIT_BRANCH != "master" && $CI_COMMIT_BRANCH != "main"'
+    - if: |
+        $CI_PIPELINE_SOURCE == 'merge_request_event'
+        && $CI_COMMIT_BRANCH != 'dev'
+        && $CI_COMMIT_BRANCH != 'master'
+        && $CI_COMMIT_BRANCH != 'main'

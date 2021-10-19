@@ -8,18 +8,25 @@
 # To set up for this script, you will need to:
 # 1. Make sure 'git' is installed and configured on the machine you are executing this script on.
 # 2. You will want either Docker or Python + needed dependencies to be installed on the machine.
-# 3. Clone this repository so it can push and pull automatically. 
+# 3. Clone this repository so it can push and pull automatically.
 #   One example: on Gitlab, Maintainers/Owners can configure a "Project Access Token" with write_repository permissions, and then run:
 #   git clone https://oauth2:${PROJECT_ACCESS_TOKEN}@${domain}/path/to/repo
-# 4. Make sure you define the environment variable GITHUB_API_TOKEN
+# 4. Make sure you define any environment variables mentioned in "input_lists.json" .
 # 5. Add this script to your crontab (don't move it).
 
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 set -euo pipefail
 
 ### branch name variables - customize these based on your own configurations ###
-CHECKOUT_BRANCH="master" # branch we initially checkout and commit to
-declare -a MERGE_BRANCHES=("dev" "main") # array of branches we merge $CHECKOUT_BRANCH to and push to - leave as empty if this doesn't apply to you
+
+### TODO temporary until master/main are ready for cronjob ###
+readonly CHECKOUT_BRANCH="dev"
+declare -a MERGE_BRANCHES=()
+### TODO will eventually uncomment when master/main are ready for cronjob ###
+#readonly CHECKOUT_BRANCH="master" # branch we initially checkout and commit to
+#declare -a MERGE_BRANCHES=("dev" "main") # array of branches we merge $CHECKOUT_BRANCH to and push to - leave as empty if this doesn't apply to you
+
+readonly REPO_ROOT_PATH="../.."
 
 ### functions ###
 
@@ -28,26 +35,27 @@ run_without_docker() {
 }
 
 run_with_docker() {
-    pushd ../..
+    pushd $REPO_ROOT_PATH
     docker build -f worker.Dockerfile -t software-catalog:latest .
-    docker run --rm --name software-catalog -e GITHUB_API_TOKEN="${GITHUB_API_TOKEN}" software-catalog:latest -v "$PWD":/app bash -c "/app/_explore/scripts/MASTER.sh"
+    # TODO line to run after scraper updates
+    #docker run --rm --name software-catalog --env-file <(printenv | grep '^SOFT_CAT_') software-catalog:latest -v "$PWD":/app bash -c "/app/_explore/scripts/MASTER.sh"
+    # TODO remove next line after scraper updates
+    docker run --rm --name software-catalog -e GITHUB_API_TOKEN="${GITHUB_API_TOKEN}" -e CODE_ORNL_GOV_API_TOKEN="${CODE_ORNL_GOV_API_TOKEN}" software-catalog:latest -v "$PWD":/app bash -c "/app/_explore/scripts/MASTER.sh"
     popd
 }
 
 ### args ###
 USE_DOCKER=0
 for i in "$@"; do
-    case $1 in         
+    case $1 in
         -d|--docker) USE_DOCKER=1 ;;
         *) echo "Ignoring param $1 , only use '-d' or '--docker' as params" ;;
-    esac    
+    esac
     shift
 done
 
 ### main script ###
 
-# get latest origin information
-git fetch --all
 # make sure $CHECKOUT_BRANCH is up to date with origin branch
 git checkout $CHECKOUT_BRANCH
 git pull
@@ -60,7 +68,7 @@ else
 fi
 
 # add changes to $CHECKOUT_BRANCH on remote
-git add ../../. # make sure this is a path back to the repository root
+git add ${REPO_ROOT_PATH}/.
 git commit -m "Ran JSON collection scripts [AUTO-GENERATED]"
 git push
 
