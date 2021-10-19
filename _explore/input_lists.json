@@ -1,10 +1,33 @@
 {
-    "memberOrgs": [
-        "ornl"
-    ],
-    "orgs": [
-        "neutrons",
-        "ornl"
-    ],
-    "repos": []
+    "https://code.ornl.gov": {
+        "apiEnvKey": "CODE_ORNL_GOV_API_TOKEN",
+        "memberOrgs": [],
+        "orgs": [
+            "rse",
+            "rse-deployment",
+            "sns-hfir-scse",
+            "ssd"
+        ],
+        "repoType": "gitlab",
+        "repos": []
+    },
+    "https://github.com": {
+        "apiEnvKey": "GITHUB_API_TOKEN",
+        "memberOrgs": [
+            "ornl"
+        ],
+        "orgs": [
+            "mcvine",
+            "neutrons",
+            "ornl",
+            "ornl-btric",
+            "ornl-cees",
+            "ornl-fusion",
+            "ornl-sava",
+            "ornl-techint",
+            "ornlcda"
+        ],
+        "repoType": "github",
+        "repos": []
+    }
 }

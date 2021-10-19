@@ -51,31 +51,29 @@ kramdown:
   auto_ids: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       permalink: "/news/:year/:month/:day/:title/"
-  -
-    scope:
+  - scope:
       path: ""
     values:
-      image: 
+      image:
         path: /assets/images/ornl-logo.png
 
 permalink: pretty
 
 exclude:
-    - build
-    - public
-    - CNAME
-    - CONTRIBUTING.md
-    - convert-to-gh-pages.sh
-    - Gemfile
-    - Gemfile.lock
-    - Makefile
-    - README.md
-    - setup.cfg
-    - worker.Dockerfile
+  - build
+  - public
+  - CNAME
+  - CONTRIBUTING.md
+  - convert-to-gh-pages.sh
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - setup.cfg
+  - worker.Dockerfile

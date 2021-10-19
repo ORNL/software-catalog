@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
+  <!-- prettier-ignore -->
+  {% include head.html %}
 
-    {% include head.html %}
+  <body ng-controller="repoDataController">
+    <!-- prettier-ignore -->
+    {% include header.html %}
 
-    <body ng-controller="repoDataController">
+    <main class="container">{{ content }}</main>
 
-        {% include header.html %}
+    <!-- prettier-ignore -->
+    {% include footer.html %}
 
-        <div class="container">
-            {{ content }}
-        </div>
-
-        {% include footer.html %}
-
-        {% include scripts.html %}
-    </body>
+    <!-- prettier-ignore -->
+    {% include scripts.html %}
+  </body>
 </html>

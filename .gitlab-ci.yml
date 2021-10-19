@@ -67,4 +67,4 @@ pages:
     - rse-multi-builder
   rules:
     # test that the website can build on any feature/hotfix branch.
-    - if: '$CI_COMMIT_BRANCH != "dev" && $CI_COMMIT_BRANCH != "master" && $CI_COMMIT_BRANCH != "main"'      
+    - if: '$CI_COMMIT_BRANCH != "dev" && $CI_COMMIT_BRANCH != "master" && $CI_COMMIT_BRANCH != "main"'

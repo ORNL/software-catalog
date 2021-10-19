@@ -1,15 +1,15 @@
 # News Posts
 
-News posts appear on the [News](https://software.ornl.gov/news/), [Events](https://software.ornl.gov/news/events/), and [Archive](https://software.ornl.gov/news/archive/) pages in reverse chronological order (i.e., newest first). The list is curated to promote ORNL's open source endeavors and community engagement. Posts should be tagged with at least one of the following categories, which are not associated with the [catalog topics](https://github.com/ORNL/ornl.github.io/tree/main/category) applied to repos:
+News posts appear on the [News](https://software.ornl.gov/news/), [Events](https://software.ornl.gov/news/events/), and [Archive](https://software.ornl.gov/news/archive/) pages in reverse chronological order (i.e., newest first). The list is curated to promote ORNL's open source endeavors and community engagement. Posts should be tagged with at least one of the following categories, which are not associated with the [catalog topics](https://code.ornl.gov/rse/ornl.github.io/-/tree/main/_posts) applied to repos:
 
-- `event` - announcement of an upcoming event/conference
-- `event-report` - recap of an event/conference
-- `multimedia` - synopsis of a video or podcast published on another platform (e.g., YouTube)
-- `new-repo` - announcement of new repo added to ORNL's software catalog
-- `profile` - profile of a developer
-- `release` - announcement of substantial software release (i.e., more than bug fixes)
-- `story` - synopsis of a relevant news or research-focused article
-- `this-website` - announcement of feature enhancement or other changes to this site
+-   `event` - announcement of an upcoming event/conference
+-   `event-report` - recap of an event/conference
+-   `multimedia` - synopsis of a video or podcast published on another platform (e.g., YouTube)
+-   `new-repo` - announcement of new repo added to ORNL's software catalog
+-   `profile` - profile of a developer
+-   `release` - announcement of substantial software release (i.e., more than bug fixes)
+-   `story` - synopsis of a relevant news or research-focused article
+-   `this-website` - announcement of feature enhancement or other changes to this site
 
 Categories should appear alphabetically in each post's frontmatter under the title, with no punctuation between multiple categories:
 

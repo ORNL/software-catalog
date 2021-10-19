@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
+  {% include head.html %}
 
-    {% include head.html %}
+  <body ng-controller="gitHubDataController">
+    {% include header.html %}
 
-    <body ng-controller="gitHubDataController">
+    <main class="container">{{ content }}</main>
 
-        {% include header.html %}
-
-        <div>
-            <div class="banner"/>
-        </div>
-
-        <div class="container">
-            {{ content }}
-        </div>
-
-        {% include footer.html %}
-
-        {% include scripts.html %}
-    </body>
+    {% include footer.html %}
+    <!-- prettier-ignore -->
+    {% include scripts.html %}
+  </body>
 </html>

@@ -7,15 +7,70 @@ cd _explore/scripts/
 
 _(Additional script functionality detailed in the [`./scripts` section below][jump2 scripts].)_
 
-**IMPORTANT!**  
-Data fetching scripts require an environment variable `GITHUB_API_TOKEN` containing a valid GitHub [OAuth token][oauth] or [personal access token][personaltoken].  
+**IMPORTANT!**
+Scripts which fetch data from Github require an environment variable `GITHUB_API_TOKEN` containing a valid GitHub [OAuth token][oauth] or [personal access token][personaltoken].
+Querying the APIs of other instances (i.e. Gitlab, Bitbucket) will also require a specific API token, check `input_lists.json` to deduce the key that you need.  
 You will also need to install the Python dependencies as listed in [`requirements.txt`][requires].
 
 # About the Contents of this Directory
 
 ## [./input_lists.json][inputs file]
 
-Simple text files containing input lists. (e.g. list of organizations, list of independent repositories)
+Simple text file containing the metadata about which Git URLs we are scraping, and information about each. Sample format:
+
+```json
+{
+  "https://github.com": {
+    "memberOrgs": ["ornl"],
+    "orgs": [
+      "ornl",
+      "ornl-fusion"
+    ],
+    "repos": [
+      "ornluser/onlyWantThisRepoIncluded",
+      "ornl/forkedRepoButImportant"
+    ],
+    "repoType": "github",
+    "apiEnvKey": "GITHUB_API_TOKEN"
+  },
+  "https://my-gitlab-host.com": {
+    "memberOrgs": ["org1", "org2"],
+    "orgs": [
+      "rse",
+      "rse-deployment",
+      "sns-hfir-scse",
+      "ssd"
+    ],
+    "repos": [],
+    "repoType": "gitlab",
+    "apiEnvKey": "CODE_ORNL_GOV_API_TOKEN"
+  }
+}
+```
+
+### Host URL
+
+On the root level, there should be several key-value pairings. The key represents the host URL we want to call. Be sure to include the protocol (i.e. HTTPS) in your key as well.
+
+### memberOrgs
+
+Array of strings (can be empty). Tracks members of the organizations on the URL who have made their profiles publicly accessible. Currently, this is just used for contrasting "Internal Contributors" and "External Contributors" in some D3 graphs.
+
+### orgs
+
+Array of strings (can be empty). Scrape all public repositories _except forks_ from here, i.e. `https://github.com/ORNL` .
+
+### repos
+
+Array of strings (can be empty). Scrape these specific repositories (can include forks). Note that you MUST use the format `org/repo` , i.e. everything after the URL `https://github.com/`, with no forward slash before or after the string.
+
+### repoType
+
+One of `github`, `gitlab`, or `bitbucket` . Required.
+
+### apiEnvKey
+
+OS environment variable used to retrieve secret key for the URL. Required.
 
 ## [./queries][queries dir]
 

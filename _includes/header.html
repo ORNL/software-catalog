@@ -8,12 +8,18 @@
         <span class="icon-bar"></span>
       </button>
 
-      <p id="llnl-menu-tab" class="pull-left"><a href="https://www.ornl.gov"></a></p>
-      <a class="navbar-brand" href="/">{{ site.name }}</a>
+      <a href="https://www.ornl.gov" id="ornl-logo" class="pull-left">
+        <img src="/assets/images/ornl-logo.svg" alt="Oak Ridge National Laboratory" />
+      </a>
     </div>
 
     <div id="siteNavbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right navbar-collapse">
+        <li id="home"
+            {% if page.url == "/" %} class="active dropdown"
+            {% else %} class="dropdown"
+            {% endif %}><a class="navbar-normal" href="/">Home</a>
+        </li>
         <li id="news"
             {% if page.url == "/news/" %} class="active dropdown"
             {% else %} class="dropdown"
@@ -49,3 +55,8 @@
 </nav>
 
 <span id="forkongithub"><a alt="Fork me on GitHub" title="Fork me on GitHub" href="{{site.repo_url}}/tree/main/{{page.path}}" target="_blank">Fork me on GitHub</a></span>
+
+<div class="banner-container">
+  <img class="banner-img" src="/assets/images/banner.jpg" alt="background image" />
+  <span class="banner-text">{{ site.name }}</span>
+</div>
