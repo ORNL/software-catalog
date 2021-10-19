@@ -48,8 +48,7 @@ after_script:
 scheduled-data-update:
   rules:
     - if: $CI_PIPELINE_SOURCE == 'schedule'
-  stage:
-    - cron
+  stage: cron
   tags:
     - software-catalog
   script:
