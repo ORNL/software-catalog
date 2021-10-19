@@ -24,12 +24,12 @@ Make sure you are in the directory you just created by running `cd ornl.github.i
 bundle install
 ```
 
-Running this will install everything in your Gemfile (including Jekyll). 
+Running this will install everything in your Gemfile (including Jekyll).
 
 Next, run the development web server with:
 
 ```shell
-bundle exec jekyll serve
+bundle exec jekyll serve --incremental
 ```
 
 Finally, open <http://localhost:4000> in a web browser.

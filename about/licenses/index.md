@@ -4,14 +4,15 @@ layout: info
 ---
 
 ## {{ page.title }}
+
 {: .page-header .no_toc}
 
-* Table of Contents
-{:toc}
+-   Table of Contents
+    {:toc}
 
-*This page contains information meant for LLNL Employees with instructions for
+_This page contains information meant for LLNL Employees with instructions for
 how to mark their source code projects. It is not intended to serve as legal
-advice.*
+advice._
 
 ### Required Files
 
@@ -23,25 +24,25 @@ code repository:
 All projects shall have a `README.md` file at the root of the repository.
 The `README.md` must contain the LLNL release number
 (`LLNL-CODE-XXXXXX`). We recommend putting it at the bottom in a section
-called "Release".  See
+called "Release". See
 [this example](https://github.com/spack/spack#release).
 
 Additionally, we recommend that all projects have the following sections:
 
-- A description of your project.
-- "Getting Started": Simple instructions for how to install and use your
-  project.
-- "Getting Involved": Information about mailing lists or other ways users
-  connect with you and each other.
-- "Contributing": Instructions for how you'd like people to contribute to
-  your code.
+-   A description of your project.
+-   "Getting Started": Simple instructions for how to install and use your
+    project.
+-   "Getting Involved": Information about mailing lists or other ways users
+    connect with you and each other.
+-   "Contributing": Instructions for how you'd like people to contribute to
+    your code.
 
-The `.md` suffix stands for "markdown".  Markdown is a plain text format.
+The `.md` suffix stands for "markdown". Markdown is a plain text format.
 It's easy to read and write, but it also allows you to add simple
 formatting and links so that your `README.md` will render nicely on
 GitHub. Take a look at GitHub's
 [markdown guide](https://guides.github.com/features/mastering-markdown/)
-for the basics.  For inspiration, look at other projects' `README.md`
+for the basics. For inspiration, look at other projects' `README.md`
 files at [software.ornl.gov/catalog/](/), or take a look
 at this
 [simple README.md template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
@@ -54,6 +55,7 @@ file named `NOTICE`:
 ```
 {% include_relative NOTICE %}
 ```
+
 [Additional information](https://github.com/LLNL/.github/tree/main/community-health/NOTICE.md) about the Notice can be found in our LLNL/.github repo.
 
 #### 3. Open Source LICENSE file
@@ -62,26 +64,26 @@ One of the following files must be included at the top level of your repository
 with the file name `LICENSE`. The only content which may be changed in the file
 is the copyright year.
 
-- [Apache 2.0 License with LLVM Exception](/about/licenses/apache-2.0-llvm-exception.txt)
-- [Apache 2.0 License](/about/licenses/apache-2.0.txt)
-- [BSD-3 License](/about/licenses/bsd-3-clause.txt)
-- [GPL-2.0 License](/about/licenses/gpl-2.0.txt)
-- [GPL-3.0 License](/about/licenses/gpl-3.0.txt)
-- [LGPL-2.1 License](/about/licenses/lgpl-2.1.txt)
-- [MIT License](/about/licenses/mit.txt)
+-   [Apache 2.0 License with LLVM Exception](/about/licenses/apache-2.0-llvm-exception.txt)
+-   [Apache 2.0 License](/about/licenses/apache-2.0.txt)
+-   [BSD-3 License](/about/licenses/bsd-3-clause.txt)
+-   [GPL-2.0 License](/about/licenses/gpl-2.0.txt)
+-   [GPL-3.0 License](/about/licenses/gpl-3.0.txt)
+-   [LGPL-2.1 License](/about/licenses/lgpl-2.1.txt)
+-   [MIT License](/about/licenses/mit.txt)
 
 If your repository was approved for release under a different open source
 license, the text of that license will be provided by the Innovation and
 Partnerships Office.
 
-If your project has more than one license, then you must include *all* of
-the relevant licenses in your repository.  We recommend that you name
-them with descriptive suffixes.  For example, if your project is dual
+If your project has more than one license, then you must include _all_ of
+the relevant licenses in your repository. We recommend that you name
+them with descriptive suffixes. For example, if your project is dual
 licensed under Apache-2.0 and MIT, you should have top-level
 `LICENSE-APACHE` and `LICENSE-MIT` files. Because GitHub does not
-automatically detect multiple licenses, we recommend *also* adding a
+automatically detect multiple licenses, we recommend _also_ adding a
 top-level `COPYRIGHT` file with a summary of license details. GitHub's
-"view license" link will then point to this file.  You can look at
+"view license" link will then point to this file. You can look at
 [Spack](https://github.com/spack/spack) and its `README.md`, `COPYRIGHT`,
 and `LICENSE-*` files for an example of how to organize a project with
 two licenses.
@@ -94,16 +96,16 @@ sections and determine whether they apply to your code.
 #### Contribution Policies
 
 If you host your code publicly, you may receive contributions from
-outside the lab.  You should consider documenting your contribution
+outside the lab. You should consider documenting your contribution
 policies in your `README.md` or in a
 [`CONTRIBUTING.md` file](https://github.com/LLNL/.github/blob/main/community-health/CONTRIBUTING.md).
 It is good practice to make the following details explicit:
 
-- The license under which contributions should be made
-- How to submit contributions (pull requests, branches, etc.)
+-   The license under which contributions should be made
+-   How to submit contributions (pull requests, branches, etc.)
 
 With most open source projects, it is assumed that contributions are made
-under the *same* license under which the project is distributed. For
+under the _same_ license under which the project is distributed. For
 example, if you distribute your project under the `MIT` license,
 contributed code is assumed to be under that license as well. The
 [Cardioid](https://github.com/llnl/cardioid) project makes this explicit
@@ -125,13 +127,13 @@ requests.
 #### SPDX
 
 [SPDX](https://spdx.org/) is an emerging standard for concisely labeling
-source code with license information.  While it is not a requirement, we
+source code with license information. While it is not a requirement, we
 encourage you to use SPDX identifiers in your code, as they significantly
 reduce the amount of license boilerplate included in each source file.
 
 SPDX provides a standard
 [list of license identifiers](https://spdx.dev/ids/) that can be
-used to label code.  To use SPDX identifiers in your project, you should
+used to label code. To use SPDX identifiers in your project, you should
 find your license's short identifier in the list, and add a special
 `SPDX-License-Identifier` line to your `README.md`. For example, if your
 code is licensed under the `MIT` license like
@@ -156,10 +158,10 @@ short headers are sufficient. For example, source files in
 ```
 
 There are two interesting parts here. First, the copyright section
-prominently mentions LLNS.  It also mentions other Spack developers, who
-hold the copyright on the parts of the code they contributed.  The SPDX
+prominently mentions LLNS. It also mentions other Spack developers, who
+hold the copyright on the parts of the code they contributed. The SPDX
 line allows us to avoid pasting much longer license headers into each
-file.  All together, this makes for a much shorter and more concise
+file. All together, this makes for a much shorter and more concise
 header.
 
 The Spack example mentions a
@@ -181,14 +183,14 @@ with your project.
 
 In this model, you can require contributors to use Git's
 [sign-off](https://stackoverflow.com/questions/1962094/what-is-the-sign-off-feature-in-git-for)
-feature to acknowledge the DCO.  This is NOT a license nor a CLA, but
+feature to acknowledge the DCO. This is NOT a license nor a CLA, but
 instead is a positive assertion by the contributor that they are
-authorized to make the contribution they are making.  You should document
+authorized to make the contribution they are making. You should document
 your project's requirement of DCO sign-off in your `README.md` or your
 [`CONTRIBUTING.md` file](https://help.github.com/articles/setting-guidelines-for-repository-contributors/).
 
 You are not required to use the DCO, and it may add overhead to your
-process that deters potential contributors.  Unless you feel that you
+process that deters potential contributors. Unless you feel that you
 need this level of assurance for your project, we recommend that you
 simply rely on the default inbound = outbound assumption.
 
@@ -199,20 +201,21 @@ references a digital object and provides long-term access. Just as journal
 articles carry DOIs, so too can open source software repositories.
 
 The U.S. Office of Scientific and Technical Information (OSTI) assigns DOIs
-to software *after* your code has been submitted to [DOE CODE](https://www.osti.gov/doecode/faq#what-is).
+to software _after_ your code has been submitted to [DOE CODE](https://www.osti.gov/doecode/faq#what-is).
 See OSTI's [FAQ on DOIs](https://www.osti.gov/doecode/faq#what-is-a-doi) for
 details about how DOIs work and why they are beneficial.
 
 OSTI is evaluating a notification workflow that would let a developer know
-when a DOI has been assigned. Until then, you can find your repo's DOI *and*
+when a DOI has been assigned. Until then, you can find your repo's DOI _and_
 add it to the repo by following these steps:
 
 1. Type in the name of your repo at [DOE CODE](https://www.osti.gov/doecode/), then select it.
 2. Look in the RESOURCE section for the DOI number.
 3. In the SAVE/SHARE section, click Export Metadata and download the YAML file.
 4. Include that file in your repo in one of two ways:
-- Create a [CITATION file](https://citation-file-format.github.io/)
-- Add it to the [README file](https://guides.github.com/activities/citable-code/)
+
+-   Create a [CITATION file](https://citation-file-format.github.io/)
+-   Add it to the [README file](https://guides.github.com/activities/citable-code/)
 
 ### Have Questions?
 

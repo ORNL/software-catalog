@@ -3,6 +3,7 @@ title: News Archive
 layout: news
 permalink: /news/archive/
 ---
+
 {% assign postsByYear = site.posts | group_by_exp:"page", "page.date | date: '%Y'" %}
 
 <div class="filterBtnGroup btn-group" role="group" style="margin-bottom: 30px;">
@@ -16,7 +17,6 @@ permalink: /news/archive/
     <button class="btn btn-default" id="story">Stories</button>
     <button class="btn btn-default" id="this-website">Meta</button>
 </div>
-
 <div>
    {% for year in postsByYear %}
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{year.name}}" aria-expanded="true" aria-controls="{{year.name}}"> {{year.name}} <i class= "fa fa-caret-down"></i></button>
@@ -33,10 +33,11 @@ permalink: /news/archive/
                         </h4>
 
                         {{ post.content }}
-                        
+
                     </article>
                 {% endfor %}
             </div>
         </div>
     {% endfor %}
+
 </div>
