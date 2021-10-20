@@ -12,7 +12,7 @@
 #   One example: on Gitlab, Maintainers/Owners can configure a "Project Access Token" with write_repository permissions, and then run:
 #   git clone https://oauth2:${PROJECT_ACCESS_TOKEN}@${domain}/path/to/repo
 # 4. Make sure you define any environment variables mentioned in "input_lists.json" .
-# 5. Add this script to your crontab (don't move it).
+# 5. Add this script to your crontab (don't move it), or reference it from a scheduled Gitlab Runner script.
 
 cd "$(dirname "$0")"
 set -euo pipefail
@@ -21,7 +21,7 @@ set -euo pipefail
 
 ### TODO temporary until master/main are ready for cronjob ###
 readonly CHECKOUT_BRANCH="dev"
-declare -a MERGE_BRANCHES=()
+declare -a MERGE_BRANCHES=("test_cronjob_merge")
 ### TODO will eventually uncomment when master/main are ready for cronjob ###
 #readonly CHECKOUT_BRANCH="master" # branch we initially checkout and commit to
 #declare -a MERGE_BRANCHES=("dev" "main") # array of branches we merge $CHECKOUT_BRANCH to and push to - leave as empty if this doesn't apply to you
@@ -75,8 +75,10 @@ git commit -m "Ran JSON collection scripts [AUTO-GENERATED]"
 git push
 
 for branch in "${MERGE_BRANCHES[@]}"; do
+    # unfortunately, since we are merging, we cannot use "--depth 1" to optimize
+    git fetch origin "${branch}:${branch}"
     git checkout "$branch"
     git pull
     git merge $CHECKOUT_BRANCH
-    git push
+    git push --set-upstream origin "$branch"
 done
