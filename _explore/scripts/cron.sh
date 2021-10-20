@@ -37,10 +37,12 @@ run_without_docker() {
 run_with_docker() {
     pushd $REPO_ROOT_PATH
     docker build -f worker.Dockerfile -t software-catalog:latest .
-    # TODO line to run after scraper updates
-    #docker run --rm --name software-catalog --env-file <(printenv | grep '^SOFT_CAT_') software-catalog:latest -v "$PWD":/app bash -c "/app/_explore/scripts/MASTER.sh"
-    # TODO remove next line after scraper updates
-    docker run --rm --name software-catalog -e GITHUB_API_TOKEN="${GITHUB_API_TOKEN}" -e CODE_ORNL_GOV_API_TOKEN="${CODE_ORNL_GOV_API_TOKEN}" software-catalog:latest -v "$PWD":/app bash -c "/app/_explore/scripts/MASTER.sh"
+    docker run --rm --name software-catalog \
+      -e GITHUB_API_TOKEN="${GITHUB_API_TOKEN}" \
+      -e CODE_ORNL_GOV_API_TOKEN="${CODE_ORNL_GOV_API_TOKEN}" \
+      -v "$PWD":/app \
+      software-catalog:latest \
+      bash -c "/app/_explore/scripts/MASTER.sh"
     popd
 }
 

@@ -70,7 +70,7 @@ One of `github`, `gitlab`, or `bitbucket` . Required.
 
 ### apiEnvKey
 
-OS environment variable used to retrieve secret key for the URL. Required. Each variable should start with `SOFT_CAT_` .
+OS environment variable used to retrieve secret key for the URL. Required.
 
 ## [./queries][queries dir]
 
