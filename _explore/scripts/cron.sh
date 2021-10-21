@@ -72,7 +72,8 @@ git pull
 
 # add changes to $CHECKOUT_BRANCH on remote
 git add ${REPO_ROOT_PATH}/.
-git commit -m "Ran JSON collection scripts [AUTO-GENERATED]"
+# changeless commit has an exit code of 1, but this still indicates that the script was successful
+git commit -m "Ran JSON collection scripts [AUTO-GENERATED]" || true
 git push
 
 for branch in "${MERGE_BRANCHES[@]}"; do
