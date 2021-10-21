@@ -57,17 +57,18 @@ for i in "$@"; do
 done
 
 ### main script ###
+set -x
 
 # make sure $CHECKOUT_BRANCH is up to date with origin branch
 git checkout $CHECKOUT_BRANCH
 git pull
 
 # run script based on arguments
-if [ $USE_DOCKER -eq 1 ] ; then
-  run_with_docker
-else
-  run_without_docker
-fi
+#if [ $USE_DOCKER -eq 1 ] ; then
+  #run_with_docker
+#else
+  #run_without_docker
+#fi
 
 # add changes to $CHECKOUT_BRANCH on remote
 git add ${REPO_ROOT_PATH}/.
@@ -78,6 +79,7 @@ for branch in "${MERGE_BRANCHES[@]}"; do
     # unfortunately, since we are merging, we cannot use "--depth 1" to optimize
     git fetch origin "${branch}:${branch}"
     git checkout "$branch"
+    git branch --set-upstream-to=origin/"${branch}" "$branch"
     git pull
     git merge $CHECKOUT_BRANCH
     git push --set-upstream origin "$branch"
