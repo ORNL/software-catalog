@@ -57,23 +57,22 @@ for i in "$@"; do
 done
 
 ### main script ###
-set -x
 
 # make sure $CHECKOUT_BRANCH is up to date with origin branch
 git checkout $CHECKOUT_BRANCH
 git pull
 
 # run script based on arguments
-#if [ $USE_DOCKER -eq 1 ] ; then
-  #run_with_docker
-#else
-  #run_without_docker
-#fi
+if [ $USE_DOCKER -eq 1 ] ; then
+  run_with_docker
+else
+  run_without_docker
+fi
 
 # add changes to $CHECKOUT_BRANCH on remote
 git add ${REPO_ROOT_PATH}/.
 # changeless commit has an exit code of 1, but this still indicates that the script was successful
-git commit -m "Ran JSON collection scripts [AUTO-GENERATED]" || true
+git commit -m "Ran JSON collection scripts [AUTO-GENERATED]" || exit 0
 git push
 
 for branch in "${MERGE_BRANCHES[@]}"; do
