@@ -316,7 +316,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
             }
         },
         "ORNL-Fusion/KORC": {
@@ -2652,7 +2657,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pillow",
                                     "repository": {
-                                        "nameWithOwner": "python-pillow/Pillow"
+                                        "nameWithOwner": "wiredfool/pillow-fuzz"
                                     }
                                 },
                                 {
@@ -2829,7 +2834,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pillow",
                                     "repository": {
-                                        "nameWithOwner": "python-pillow/Pillow"
+                                        "nameWithOwner": "wiredfool/pillow-fuzz"
                                     }
                                 },
                                 {
@@ -4282,6 +4287,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "matplotlib",
                                     "repository": {
                                         "nameWithOwner": "matplotlib/matplotlib"
@@ -4316,6 +4328,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "black",
+                                    "repository": {
+                                        "nameWithOwner": "psf/black"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "flake8",
                                     "repository": {
                                         "nameWithOwner": "PyCQA/flake8"
@@ -4347,6 +4366,13 @@
                                     "packageName": "pytest-cov",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-qt",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-qt"
                                     }
                                 },
                                 {
