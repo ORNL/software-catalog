@@ -1298,19 +1298,6 @@
                 ]
             }
         },
-        "ORNL/AADL": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "ORNL/COVID19Vis": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -4366,6 +4353,13 @@
                                     "packageName": "pytest-cov",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-mock",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-mock"
                                     }
                                 },
                                 {
