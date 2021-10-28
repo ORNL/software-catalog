@@ -1298,6 +1298,19 @@
                 ]
             }
         },
+        "ORNL/AADL": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL/COVID19Vis": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -2934,7 +2947,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
             }
         },
         "ORNL/kelvin": {
