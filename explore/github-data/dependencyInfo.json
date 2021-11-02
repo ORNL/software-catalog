@@ -1250,6 +1250,21 @@
                 "login": "cssnano"
             }
         },
+        "curzona/pytest-xdist": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "pytest-xdist",
+            "nameWithOwner": "curzona/pytest-xdist",
+            "owner": {
+                "login": "curzona"
+            }
+        },
         "cython/cython": {
             "languages": {
                 "nodes": [
@@ -3098,21 +3113,6 @@
                 "login": "jdesboeufs"
             }
         },
-        "jfstn/Validator": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "Validator",
-            "nameWithOwner": "jfstn/Validator",
-            "owner": {
-                "login": "jfstn"
-            }
-        },
         "jianglb-alibaba/django-redis": {
             "languages": {
                 "nodes": [
@@ -4806,22 +4806,6 @@
                 "login": "pytest-dev"
             }
         },
-        "pytest-dev/pytest-xdist": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "pytest-xdist",
-            "nameWithOwner": "pytest-dev/pytest-xdist",
-            "owner": {
-                "isVerified": false,
-                "login": "pytest-dev"
-            }
-        },
         "python/importlib_metadata": {
             "languages": {
                 "nodes": [
@@ -5954,6 +5938,22 @@
             "nameWithOwner": "vaibhavsingh97/random-word",
             "owner": {
                 "login": "vaibhavsingh97"
+            }
+        },
+        "validatorjs/validator.js": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "validator.js",
+            "nameWithOwner": "validatorjs/validator.js",
+            "owner": {
+                "isVerified": false,
+                "login": "validatorjs"
             }
         },
         "visionmedia/supertest": {

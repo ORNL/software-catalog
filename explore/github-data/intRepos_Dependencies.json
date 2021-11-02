@@ -52,6 +52,14 @@
                 ]
             }
         },
+        "ORNL-BTRIC/weatherization": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "ORNL-CEES/Cap": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -2184,7 +2192,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "validator",
                                     "repository": {
-                                        "nameWithOwner": "jfstn/Validator"
+                                        "nameWithOwner": "validatorjs/validator.js"
                                     }
                                 },
                                 {
@@ -4417,7 +4425,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pytest-xdist",
                                     "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-xdist"
+                                        "nameWithOwner": "curzona/pytest-xdist"
                                     }
                                 }
                             ]
