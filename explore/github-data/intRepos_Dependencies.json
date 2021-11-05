@@ -3414,19 +3414,6 @@
                 ]
             }
         },
-        "mcvine/mcvine": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "mcvine/mcvine.github.io": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -3563,19 +3550,6 @@
             },
             "languages": {
                 "nodes": []
-            }
-        },
-        "mcvine/training": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#DA5B0B",
-                        "name": "Jupyter Notebook"
-                    }
-                ]
             }
         },
         "mcvine/ui": {
@@ -4407,30 +4381,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pytest-mock",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-mock"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "pytest-qt",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest-qt"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-runner",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-runner"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-xdist",
-                                    "repository": {
-                                        "nameWithOwner": "curzona/pytest-xdist"
                                     }
                                 }
                             ]
