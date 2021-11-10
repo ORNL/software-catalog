@@ -311,19 +311,6 @@
                 ]
             }
         },
-        "ORNL-Fusion/GITR_processing": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#e16737",
-                        "name": "MATLAB"
-                    }
-                ]
-            }
-        },
         "ORNL-Fusion/GITR_prototyping": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -8018,7 +8005,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "redis",
                                     "repository": {
-                                        "nameWithOwner": "go-redis/redis"
+                                        "nameWithOwner": "redis/node-redis"
                                     }
                                 },
                                 {
@@ -8154,7 +8141,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "redis",
                                     "repository": {
-                                        "nameWithOwner": "go-redis/redis"
+                                        "nameWithOwner": "redis/node-redis"
                                     }
                                 },
                                 {
@@ -8209,7 +8196,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "redis",
                                     "repository": {
-                                        "nameWithOwner": "go-redis/redis"
+                                        "nameWithOwner": "redis/node-redis"
                                     }
                                 },
                                 {
