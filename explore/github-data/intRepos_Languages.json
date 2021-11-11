@@ -1396,6 +1396,30 @@
                 "totalSize": 2879325
             }
         },
+        "ORNL-Fusion/aorsa3d": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 741748
+                    },
+                    {
+                        "size": 5555
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    },
+                    {
+                        "color": "#427819",
+                        "name": "Makefile"
+                    }
+                ],
+                "totalCount": 2,
+                "totalSize": 747303
+            }
+        },
         "ORNL-Fusion/cswim": {
             "languages": {
                 "edges": [],
@@ -2145,10 +2169,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 135487
+                        "size": 144245
                     },
                     {
-                        "size": 5676
+                        "size": 5947
                     }
                 ],
                 "nodes": [
@@ -2162,7 +2186,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 141163
+                "totalSize": 150192
             }
         },
         "ORNL-Fusion/py-plasmastate": {
@@ -3125,6 +3149,14 @@
                 "totalSize": 152703
             }
         },
+        "ORNL/CabanaPD": {
+            "languages": {
+                "edges": [],
+                "nodes": [],
+                "totalCount": 0,
+                "totalSize": 0
+            }
+        },
         "ORNL/CrossVis": {
             "languages": {
                 "edges": [
@@ -3154,6 +3186,23 @@
                 ],
                 "totalCount": 3,
                 "totalSize": 782848
+            }
+        },
+        "ORNL/DFIngest": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 46622
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ],
+                "totalCount": 1,
+                "totalSize": 46622
             }
         },
         "ORNL/DataFed": {
@@ -5782,7 +5831,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2371148
+                        "size": 2389407
                     },
                     {
                         "size": 8486
@@ -5813,7 +5862,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 2381611
+                "totalSize": 2399870
             }
         },
         "neutrons/data_workflow": {
