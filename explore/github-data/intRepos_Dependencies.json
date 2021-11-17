@@ -1623,13 +1623,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "mpi4py",
-                                    "repository": {
-                                        "nameWithOwner": "mpi4py/mpi4py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "pytest",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest"
@@ -1648,6 +1641,13 @@
                     {
                         "dependencies": {
                             "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch-cluster",
+                                    "repository": {
+                                        "nameWithOwner": "rusty1s/pytorch_cluster"
+                                    }
+                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "torch-geometric",
@@ -1712,6 +1712,68 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pickle5",
+                                    "repository": {
+                                        "nameWithOwner": "pitrou/pickle5-backport"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tensorboard",
+                                    "repository": {
+                                        "nameWithOwner": "tensorflow/tensorboard"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/pytorch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch-geometric",
+                                    "repository": {
+                                        "nameWithOwner": "pyg-team/pytorch_geometric"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch-scatter",
+                                    "repository": {
+                                        "nameWithOwner": "rusty1s/pytorch_scatter"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch-sparse",
+                                    "repository": {
+                                        "nameWithOwner": "rusty1s/pytorch_sparse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -1756,6 +1818,14 @@
                         "name": "CSS"
                     }
                 ]
+            }
+        },
+        "ORNL/PDMATLAB2D": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "ORNL/ParrLO": {
