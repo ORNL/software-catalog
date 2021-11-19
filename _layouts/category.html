@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+  </head>
 
   <body ng-controller="gitHubDataController">
     {% include header.html %}
@@ -109,11 +111,11 @@
     </main>
 
     {% endraw %}
-
+    <!-- prettier-ignore -->
+    {% include footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <script src="/js/focused-category-info.js"></script>
 
-    {% include footer.html %}
     <!-- prettier-ignore -->
     {% include scripts.html %}
   </body>
