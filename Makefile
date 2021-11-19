@@ -1,7 +1,5 @@
 clean:
-	rm -rf _site/
-	rm -rf .jekyll-cache/
-	rm -f .jekyll-metadata
+	bundle exec jekyll clean
 
 build:
 	bundle exec jekyll build
