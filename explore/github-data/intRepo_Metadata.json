@@ -35,6 +35,12 @@
         "topics": null,
         "website": null
     },
+    "ORNL-BTRIC/weatherization-assistant-neat-mhea": {
+        "description": null,
+        "name": "ORNL-BTRIC/weatherization-assistant-neat-mhea",
+        "topics": null,
+        "website": null
+    },
     "ORNL-CEES/Cap": {
         "description": "A library for modeling energy storage devices.",
         "name": "ORNL-CEES/Cap",
@@ -253,6 +259,12 @@
         "name": "ORNL-Fusion/aorsa2d",
         "topics": null,
         "website": ""
+    },
+    "ORNL-Fusion/aorsa3d": {
+        "description": "The real 3D version of the AORSA code",
+        "name": "ORNL-Fusion/aorsa3d",
+        "topics": null,
+        "website": null
     },
     "ORNL-Fusion/cswim": {
         "description": "Center for Simulation of RF Wave Interactions with Magnetohydrodynamics \"memorial\" web site",
@@ -512,11 +524,23 @@
         "topics": null,
         "website": null
     },
+    "ORNL/AutoDIET": {
+        "description": null,
+        "name": "ORNL/AutoDIET",
+        "topics": null,
+        "website": null
+    },
     "ORNL/COVID19Vis": {
         "description": "Visualizations of COVID-19 case data",
         "name": "ORNL/COVID19Vis",
         "topics": null,
         "website": "https://ornl.github.io/COVID19Vis/"
+    },
+    "ORNL/CabanaPD": {
+        "description": null,
+        "name": "ORNL/CabanaPD",
+        "topics": null,
+        "website": null
     },
     "ORNL/CrossVis": {
         "description": "CrossVis Repository",
@@ -565,6 +589,12 @@
         "name": "ORNL/ORAgendaVis",
         "topics": null,
         "website": "https://ornl.github.io/ORAgendaVis/"
+    },
+    "ORNL/PDMATLAB2D": {
+        "description": null,
+        "name": "ORNL/PDMATLAB2D",
+        "topics": null,
+        "website": null
     },
     "ORNL/ParrLO": {
         "description": "Loewdin orthonormalization of distributed tall-skinny matrix using Schulz iteration",
@@ -654,12 +684,10 @@
         "description": "A unified framework across multiple programming platforms",
         "name": "ORNL/iris",
         "topics": [
-            "high-performance-computing",
-            "runtime-system",
-            "compiler",
-            "heterogeneous-parallel-programming"
+            "edge-computing",
+            "high-performance-computing"
         ],
-        "website": "https://iris-programming.com"
+        "website": ""
     },
     "ORNL/kelvin": {
         "description": "This is a repository for Kelvin, a multiphysics sintering simulation code.",
@@ -724,6 +752,12 @@
     "ORNL/tx2": {
         "description": "Transformer eXplainability and eXploration",
         "name": "ORNL/tx2",
+        "topics": null,
+        "website": null
+    },
+    "ORNL/workflows": {
+        "description": null,
+        "name": "ORNL/workflows",
         "topics": null,
         "website": null
     },
@@ -984,10 +1018,10 @@
         "website": null
     },
     "neutrons/RefRed": {
-        "description": "Liquids Reflectometer Reduction",
+        "description": "Data Reduction Software for the Liquids Reflectometer",
         "name": "neutrons/RefRed",
         "topics": null,
-        "website": null
+        "website": ""
     },
     "neutrons/StatisticsService": {
         "description": null,
@@ -1144,7 +1178,7 @@
         "website": null
     },
     "neutrons/web_reflectivity": {
-        "description": "Web Interface for Reflectivity Fitting",
+        "description": "Web Interface for Reflectivity Fitting. This code is now hosted at the link below.",
         "name": "neutrons/web_reflectivity",
         "topics": [
             "reflectivity",
@@ -1152,7 +1186,7 @@
             "neutrons",
             "data-analysis"
         ],
-        "website": ""
+        "website": "https://code.ornl.gov/reflectometry/web_reflectivity"
     },
     "ornl-sava/argus-docker": {
         "description": "Docker image for Argus, the network Audit Record Generation and Utilization System",

@@ -1,124 +1,167 @@
 {
   "data": {
-    "BUILD TOOLS": {
-      "title": "BUILD TOOLS",
+    "DATA SCIENCE & MACHINE LEARNING": {
+      "title": "DATA SCIENCE & MACHINE LEARNING",
       "icon": {
-        "path": "/assets/images/categories/build-tools.svg",
-        "alt": "Build Tools"
+        "path": "/assets/images/categories/data-science-and-machine-learning.svg",
+        "alt": "Data Science & Machine Learning"
       },
       "description": {
-        "short": "Automate and simplify complex dependencies and deployments",
+        "short": "Domain-aware methods to ingest scientific knowledge and robust Machine Learning techniques that aid in simulation and automating scientific and engineering processes",
         "long": ""
       },
-      "topics": ["build-tools"]
+      "topics": [
+        "artificial-intelligence",
+        "data-wrangling",
+        "evolutionary-algorithms",
+        "intelligent-agents",
+        "machine-learning",
+        "neuromorphic-computing",
+        "reduced-order-models",
+        "text-analysis"
+      ]
     },
-    "MATH & PHYSICS LIBRARIES": {
-      "title": "MATH & PHYSICS LIBRARIES",
+    "DATA MANAGEMENT": {
+      "title": "DATA MANAGEMENT",
       "icon": {
-        "path": "/assets/images/categories/math.svg",
-        "alt": "Math & Physics Libraries"
+        "path": "/assets/images/categories/data-management.svg",
+        "alt": "Data Management"
       },
       "description": {
-        "short": "Optimize solvers, higher order methods, and AMR frameworks",
+        "short": "Robust systems which capture both the data and metadata needed for secure storage, searchability and harmonization throughout the data’s lifecycle",
         "long": ""
       },
-      "topics": ["math-physics", "neutrons", "neutron-scattering"]
+      "topics": [
+        "data-enclave",
+        "data-integration",
+        "data-lifecycle management",
+        "data-storage-systems",
+        "in-situ-and-in-transit-workflows",
+        "intelligent-data-management",
+        "intelligent-automated-archives",
+        "portals",
+        "storage-and-io"
+      ]
     },
-    "DATA MANAGEMENT & VIZ": {
-      "title": "DATA MANAGEMENT & VIZ",
+    "DATA ANALYSIS & VISUALIZATION": {
+      "title": "DATA ANALYSIS & VISUALIZATION",
       "icon": {
-        "path": "/assets/images/categories/data-manage.svg",
-        "alt": "Data Management & Visualization"
+        "path": "/assets/images/categories/data-analysis-and-visualization.svg",
+        "alt": "Data Analysis & Visualization"
       },
       "description": {
         "short": "Manage visualizations with robust features and configurable analysis",
         "long": ""
       },
-      "topics": ["data-management", "data-viz", "data-analysis"]
+      "topics": [
+        "data-reduction",
+        "data-ingest-and-cross-validation",
+        "data-services",
+        "data-visualization",
+        "design-of-experiments",
+        "feature-extraction",
+        "in-situ-analysis",
+        "metadata-management",
+        "information-visualization",
+        "portals",
+        "scientific-visualization",
+        "statistical-analysis",
+        "visual-analytics"
+      ]
     },
-    "APPLICATIONS": {
-      "title": "APPLICATIONS",
+    "USER DRIVEN SOFTWARE & SYSTEMS": {
+      "title": "USER DRIVEN SOFTWARE & SYSTEMS",
       "icon": {
-        "path": "/assets/images/categories/application.svg",
-        "alt": "Applications"
+        "path": "/assets/images/categories/user-driven-software-and-systems.svg",
+        "alt": "User Driven Software & Systems"
       },
       "description": {
-        "short": "Browse scientific simulation codes and IT management tools",
+        "short": "The interaction between humans and information in order to solve problems using software, systems, and technologies that must integrate seamlessly in order to provide an efficient and effective computational environment for scientific discovery and advancement",
         "long": ""
       },
-      "topics": ["application"]
+      "topics": [
+        "adaptive-workflows",
+        "community-adoption",
+        "compilers",
+        "informatics-systems",
+        "infrastructure-as-code",
+        "mathematical-tools",
+        "portals",
+        "programming-languages",
+        "programming-models",
+        "resource-management",
+        "secure-cloud",
+        "software-engineering",
+        "standardization-efforts"
+      ]
     },
-    "PROXY APPLICATIONS": {
-      "title": "PROXY APPLICATIONS",
+    "ACCELERATED PERFORMANCE COMPUTING": {
+      "title": "ACCELERATED PERFORMANCE COMPUTING",
       "icon": {
-        "path": "/assets/images/categories/prox-app.svg",
-        "alt": "Proxy Applications"
+        "path": "/assets/images/categories/accelerated-performance-computing.svg",
+        "alt": "Accelerated Performance Computing"
       },
       "description": {
-        "short": "Prepare for testing and porting applications",
+        "short": "Energy efficient, high performance, reliable and small form factor architectures, which are augmented with more advanced programming models, compilers, and performance analysis and modeling techniques, intelligent run-time resource managers and operating systems",
         "long": ""
       },
-      "topics": ["proxy-application"]
+      "topics": [
+        "accelerators",
+        "hardware-evaluation-and-design",
+        "heterogeneous-computing",
+        "neuromorphic-computing",
+        "runtime-systems",
+        "emerging-technologies",
+        "high-performance-computing",
+        "high-performance-networking",
+        "performance-modeling-and-analysis",
+        "programming-models",
+        "quantum-computing",
+        "resource-management",
+        "storage-and-io"
+      ]
     },
-    "SYSTEM SOFTWARE": {
-      "title": "SYSTEM SOFTWARE",
+    "FEDERATED & AUTONOMOUS SYSTEMS": {
+      "title": "FEDERATED & AUTONOMOUS SYSTEMS",
       "icon": {
-        "path": "/assets/images/categories/system-software.svg",
-        "alt": "Systems Software"
+        "path": "/assets/images/categories/federated-and-autonomous-systems.svg",
+        "alt": "Federated and Autonomous Systems"
       },
       "description": {
-        "short": "Manage laptop and desktop computer systems, HPC clusters, and parallel environments",
+        "short": "Systems that allow interoperability and information sharing between semi-autonomous or fully autonomous de-centrally organized information technology systems and applications",
         "long": ""
       },
-      "topics": ["system-software"]
+      "topics": [
+        "code-coupling",
+        "communications-middleware",
+        "cyber-physical-and-iot",
+        "edge-computing",
+        "federated-computing",
+        "multi-physics-and-multiscale"
+      ]
     },
-    "PORTABLE EXECUTION & MEMORY MGMT": {
-      "title": "PORTABLE EXECUTION & MEMORY MGMT",
+    "ALGORITHMIC INNOVATION": {
+      "title": "ALGORITHMIC INNOVATION",
       "icon": {
-        "path": "/assets/images/categories/portable.svg",
-        "alt": "Portable Execution & Memory Management"
+        "path": "/assets/images/categories/algorithmic-innovation.svg",
+        "alt": "Algorithmic Innovation"
       },
       "description": {
-        "short": "Automate data motion and memory allocation on advanced architectures",
+        "short": "Innovative algorithms for solving large-scale scientific and engineering problems on advanced computer architecture",
         "long": ""
       },
-      "topics": ["portability", "memory-management"]
-    },
-    "PERFORMANCE & WORKFLOW": {
-      "title": "PERFORMANCE & WORKFLOW",
-      "icon": {
-        "path": "/assets/images/categories/performance.svg",
-        "alt": "Performance & Workflow"
-      },
-      "description": {
-        "short": "Manage and scale complex workflows, tracking, and data collection",
-        "long": ""
-      },
-      "topics": ["performance", "workflows"]
-    },
-    "FILE SYSTEMS": {
-      "title": "FILE SYSTEMS",
-      "icon": {
-        "path": "/assets/images/categories/file-systems.svg",
-        "alt": "File Systems"
-      },
-      "description": {
-        "short": "Configure data storage and retrieval for more efficient workloads",
-        "long": ""
-      },
-      "topics": ["file-system"]
-    },
-    "APP INFRASTRUCTURE": {
-      "title": "APP INFRASTRUCTURE",
-      "icon": {
-        "path": "/assets/images/categories/app-infrastructure.svg",
-        "alt": "App Infrastructure"
-      },
-      "description": {
-        "short": "Browse tools for basic functionality common in HPC codes",
-        "long": ""
-      },
-      "topics": ["app-infrastructure"]
+      "topics": [
+        "algorithm-optimization",
+        "discrete-simulation",
+        "evolutionary-algorithms",
+        "graph-algorithms",
+        "high-order-approximation-models",
+        "integration-of-data-and-simulation",
+        "inverse-problems",
+        "multi-physics-and-multiscale",
+        "reduced-order-models",
+        "uncertainty-quantification"
+      ]
     }
   }
 }
