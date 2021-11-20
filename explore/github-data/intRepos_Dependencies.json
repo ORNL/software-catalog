@@ -92,14 +92,6 @@
                 ]
             }
         },
-        "ORNL-CEES/DTKData": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": []
-            }
-        },
         "ORNL-CEES/DataTransferKit": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -147,33 +139,7 @@
                 ]
             }
         },
-        "ORNL-CEES/Profugus": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
         "ORNL-CEES/thermochimica": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#4d41b1",
-                        "name": "Fortran"
-                    }
-                ]
-            }
-        },
-        "ORNL-Fusion/AE3D": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -195,19 +161,6 @@
                     {
                         "color": "#4d41b1",
                         "name": "Fortran"
-                    }
-                ]
-            }
-        },
-        "ORNL-Fusion/GITR": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
                     }
                 ]
             }
@@ -324,32 +277,6 @@
                 ]
             }
         },
-        "ORNL-Fusion/RFSciDAC-testing": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#4d41b1",
-                        "name": "Fortran"
-                    }
-                ]
-            }
-        },
-        "ORNL-Fusion/SIESTA": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#4d41b1",
-                        "name": "Fortran"
-                    }
-                ]
-            }
-        },
         "ORNL-Fusion/SOLPSxport": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -424,27 +351,6 @@
                     {
                         "color": "#4d41b1",
                         "name": "Fortran"
-                    }
-                ]
-            }
-        },
-        "ORNL-Fusion/cswim": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": []
-            }
-        },
-        "ORNL-Fusion/dispersioneering": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#e16737",
-                        "name": "MATLAB"
                     }
                 ]
             }
@@ -600,33 +506,7 @@
                 ]
             }
         },
-        "ORNL-Fusion/kineticj": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#dd1100",
-                        "name": "Mathematica"
-                    }
-                ]
-            }
-        },
         "ORNL-Fusion/libconfig_archive": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
-                    }
-                ]
-            }
-        },
-        "ORNL-Fusion/netcdf-c_archive": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -648,19 +528,6 @@
                     {
                         "color": "#555555",
                         "name": "C"
-                    }
-                ]
-            }
-        },
-        "ORNL-Fusion/netcdf-cxx4_archive": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
                     }
                 ]
             }
@@ -704,19 +571,6 @@
                 ]
             }
         },
-        "ORNL-Fusion/util-library": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#e16737",
-                        "name": "MATLAB"
-                    }
-                ]
-            }
-        },
         "ORNL-Fusion/utk-fusion": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -726,19 +580,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "ORNL-Fusion/xolotl": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
                     }
                 ]
             }
@@ -769,19 +610,6 @@
                 ]
             }
         },
-        "ORNL-TechInt/benchmarks": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#89e051",
-                        "name": "Shell"
-                    }
-                ]
-            }
-        },
         "ORNL-TechInt/cug14-fgr": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -804,19 +632,6 @@
                     {
                         "color": "#b07219",
                         "name": "Java"
-                    }
-                ]
-            }
-        },
-        "ORNL-TechInt/esg-octopus": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     }
                 ]
             }
@@ -1003,19 +818,6 @@
                 ]
             }
         },
-        "ORNL-TechInt/io-aggregation": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
-                    }
-                ]
-            }
-        },
         "ORNL-TechInt/jit-stage": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -1030,19 +832,6 @@
             }
         },
         "ORNL-TechInt/lester": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
-                    }
-                ]
-            }
-        },
-        "ORNL-TechInt/lustre": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -1562,14 +1351,6 @@
                         "name": "HTML"
                     }
                 ]
-            }
-        },
-        "ORNL/MD_Extractors": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": []
             }
         },
         "ORNL/ORAgendaVis": {
@@ -2925,19 +2706,6 @@
                 ]
             }
         },
-        "ORNL/iris": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
-                    }
-                ]
-            }
-        },
         "ORNL/kelvin": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -2960,19 +2728,6 @@
                     {
                         "color": "#89e051",
                         "name": "Shell"
-                    }
-                ]
-            }
-        },
-        "ORNL/meumapps_ss": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#4d41b1",
-                        "name": "Fortran"
                     }
                 ]
             }
@@ -3001,14 +2756,6 @@
                         "name": "HTML"
                     }
                 ]
-            }
-        },
-        "ORNL/shaman": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": []
             }
         },
         "ORNL/test-2017-10-03": {
@@ -3199,14 +2946,6 @@
                 ]
             }
         },
-        "ORNL/workflows": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": []
-            }
-        },
         "mcvine/SCADGen": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -3246,14 +2985,6 @@
                 ]
             }
         },
-        "mcvine/devel": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": []
-            }
-        },
         "mcvine/dgsres": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -3263,19 +2994,6 @@
                     {
                         "color": "#DA5B0B",
                         "name": "Jupyter Notebook"
-                    }
-                ]
-            }
-        },
-        "mcvine/docker": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     }
                 ]
             }
@@ -3315,45 +3033,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "mcvine/mcvine.github.io": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#e34c26",
-                        "name": "HTML"
-                    }
-                ]
-            }
-        },
-        "mcvine/mcvine.org": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            }
-        },
-        "mcvine/phonon": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#DA5B0B",
-                        "name": "Jupyter Notebook"
                     }
                 ]
             }
@@ -3423,14 +3102,6 @@
                 ]
             }
         },
-        "mcvine/test-travis": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": []
-            }
-        },
         "mcvine/training": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -3440,19 +3111,6 @@
                     {
                         "color": "#DA5B0B",
                         "name": "Jupyter Notebook"
-                    }
-                ]
-            }
-        },
-        "mcvine/ui": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     }
                 ]
             }
@@ -3586,19 +3244,6 @@
             }
         },
         "neutrons/Licorne-Py": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
-        "neutrons/MagnetismReflectometer": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -5717,19 +5362,6 @@
                 ]
             }
         },
-        "neutrons/mandi_autoreduction_scripts": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#DA5B0B",
-                        "name": "Jupyter Notebook"
-                    }
-                ]
-            }
-        },
         "neutrons/mantid_total_scattering": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -5875,32 +5507,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "neutrons/mslice_2.0": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
-        "neutrons/pdfgetn": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#0298c3",
-                        "name": "Perl"
                     }
                 ]
             }
@@ -6438,19 +6044,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "neutrons/sje-notebooks": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#DA5B0B",
-                        "name": "Jupyter Notebook"
                     }
                 ]
             }
@@ -7397,32 +6990,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "neutrons/web_reflectivity": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
-        "ornl-sava/argus-docker": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#384d54",
-                        "name": "Dockerfile"
                     }
                 ]
             }
