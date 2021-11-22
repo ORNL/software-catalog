@@ -1114,6 +1114,75 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "NPM",
+                                    "packageName": "client-oauth2",
+                                    "repository": {
+                                        "nameWithOwner": "mulesoft-labs/js-client-oauth2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "cookie-parser",
+                                    "repository": {
+                                        "nameWithOwner": "expressjs/cookie-parser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "ect",
+                                    "repository": {
+                                        "nameWithOwner": "baryshev/ect"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "express",
+                                    "repository": {
+                                        "nameWithOwner": "expressjs/express"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "express-session",
+                                    "repository": {
+                                        "nameWithOwner": "expressjs/session"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "helmet",
+                                    "repository": {
+                                        "nameWithOwner": "helmetjs/helmet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "ini",
+                                    "repository": {
+                                        "nameWithOwner": "npm/ini"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "protobufjs",
+                                    "repository": {
+                                        "nameWithOwner": "protobufjs/protobuf.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "zeromq",
+                                    "repository": {
+                                        "nameWithOwner": "zeromq/zeromq.js"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "PIP",
                                     "packageName": "click",
                                     "repository": {
