@@ -1,3 +1,10 @@
+/* ANGULAR-JS: avoid the "flash of uncompiled content" */
+[ng\:cloak],
+[ng-cloak],
+.ng-cloak {
+  display: none;
+}
+
 /** Add a few CSS standarizations */
 
 html,
@@ -13,6 +20,10 @@ body,
 
 main {
   flex: 1 0 auto;
+}
+
+a:focus {
+  outline: none;
 }
 
 #ornl-logo {
@@ -239,6 +250,10 @@ a:visited {
   padding: 1.5rem;
   margin-bottom: 0;
   text-decoration: none;
+}
+
+.navbar .container {
+  position: relative;
 }
 
 .navbar-right {
@@ -628,4 +643,76 @@ a:visited {
 
 blockquote {
   font-size: 14px;
+}
+
+/* news */
+.news-archive-link {
+  background-color: #007833;
+  color: #fff;
+  text-decoration: none !important;
+}
+
+/* footer */
+.footer-top-banner {
+  background: #36a447;
+  padding: 0.5rem 0;
+  /* Centers everything in the banner. */
+  text-align: center;
+}
+.footer-top-banner a {
+  color: #ffffff;
+}
+.footer-banner-wrapper {
+  padding: 2em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  vertical-align: middle;
+}
+.contact-us {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ffffff;
+  font-family: sans-serif;
+}
+.newsdesk-social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.svg-inline--fa {
+  height: 2.8em;
+  padding: 0.2em;
+  fill: white;
+}
+.footer-bottom-banner a {
+  color: #007833;
+}
+#site-links {
+  text-decoration: none;
+}
+#site-links ul {
+  list-style: none;
+  text-align: center;
+}
+#site-links ul li {
+  display: inline-block;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+@media print {
+  .navbar-search,
+  .navbar .nav,
+  .btn,
+  noscript {
+    display: none;
+  }
+  th a {
+    color: #000;
+  }
+  a[href]:after {
+    content: '';
+  }
 }

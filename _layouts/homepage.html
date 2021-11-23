@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
   <head>
@@ -7,7 +11,7 @@
   <body ng-controller="gitHubDataController">
     {% include header.html %}
 
-    <main class="container">{{ content }}</main>
+    <main class="container ng-cloak">{{ content }}</main>
 
     {% include footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
