@@ -2814,6 +2814,19 @@
                 ]
             }
         },
+        "ORNL/papyrus": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "ORNL/sdproc": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -3893,7 +3906,7 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pyqt",
+                                    "packageName": "pyqt5",
                                     "repository": null
                                 },
                                 {
@@ -3908,20 +3921,6 @@
                                     "packageName": "setuptools",
                                     "repository": {
                                         "nameWithOwner": "pypa/setuptools"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-doc/sphinx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-rtd-theme",
-                                    "repository": {
-                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -3977,6 +3976,20 @@
                                     "packageName": "pytest-qt",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest-qt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
