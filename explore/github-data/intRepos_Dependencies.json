@@ -3337,6 +3337,40 @@
                 ]
             }
         },
+        "ORNL/pyvnc_client": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "des",
+                                    "repository": {
+                                        "nameWithOwner": "0x10001/des"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pillow",
+                                    "repository": {
+                                        "nameWithOwner": "wiredfool/pillow-fuzz"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL/sdproc": {
             "dependencyGraphManifests": {
                 "nodes": []
