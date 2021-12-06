@@ -1070,10 +1070,26 @@
         },
         "ORNL-Fusion/RAYS": {
             "languages": {
-                "edges": [],
-                "nodes": [],
-                "totalCount": 0,
-                "totalSize": 0
+                "edges": [
+                    {
+                        "size": 391245
+                    },
+                    {
+                        "size": 1306
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    },
+                    {
+                        "color": "#427819",
+                        "name": "Makefile"
+                    }
+                ],
+                "totalCount": 2,
+                "totalSize": 392551
             }
         },
         "ORNL-Fusion/RFSciDAC-testing": {
@@ -3313,7 +3329,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 147293
+                        "size": 147303
                     }
                 ],
                 "nodes": [
@@ -3323,7 +3339,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 147293
+                "totalSize": 147303
             }
         },
         "ORNL/Jekyll-ORNL-Theme": {
