@@ -206,6 +206,12 @@
         "topics": null,
         "website": null
     },
+    "ORNL-Fusion/RAYS": {
+        "description": "Plasma ray tracing code",
+        "name": "ORNL-Fusion/RAYS",
+        "topics": null,
+        "website": null
+    },
     "ORNL-Fusion/RFSciDAC-testing": {
         "description": "Routines for testing RFSciDAC tools",
         "name": "ORNL-Fusion/RFSciDAC-testing",
@@ -596,6 +602,12 @@
         "topics": null,
         "website": null
     },
+    "ORNL/PFiSM": {
+        "description": "Simple phase-field model (PFM) based on SAMRAI, Sundials and hypre",
+        "name": "ORNL/PFiSM",
+        "topics": null,
+        "website": null
+    },
     "ORNL/ParrLO": {
         "description": "Loewdin orthonormalization of distributed tall-skinny matrix using Schulz iteration",
         "name": "ORNL/ParrLO",
@@ -687,7 +699,7 @@
             "edge-computing",
             "high-performance-computing"
         ],
-        "website": "https://iris-programming.com"
+        "website": "https://iris-programming.github.io"
     },
     "ORNL/kelvin": {
         "description": "This is a repository for Kelvin, a multiphysics sintering simulation code.",
@@ -713,9 +725,28 @@
         "topics": null,
         "website": ""
     },
+    "ORNL/papyrus": {
+        "description": "Papyrus: Parallel Aggregate Persistent Storage",
+        "name": "ORNL/papyrus",
+        "topics": [
+            "hpc",
+            "key-value-store",
+            "mpi",
+            "pgas",
+            "memory-hierarchy",
+            "non-volatile-memory"
+        ],
+        "website": ""
+    },
     "ORNL/pcapmunger": {
         "description": null,
         "name": "ORNL/pcapmunger",
+        "topics": null,
+        "website": null
+    },
+    "ORNL/pyvnc_client": {
+        "description": "A python VNC client written from scratch using python's socket library",
+        "name": "ORNL/pyvnc_client",
         "topics": null,
         "website": null
     },
