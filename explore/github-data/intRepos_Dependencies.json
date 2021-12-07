@@ -175,7 +175,56 @@
         },
         "ORNL-CEES/thermochimica": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "descartes",
+                                    "repository": {
+                                        "nameWithOwner": "benjimin/descartes"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pysimplegui",
+                                    "repository": {
+                                        "nameWithOwner": "PySimpleGUI/PySimpleGUI"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "shapely",
+                                    "repository": {
+                                        "nameWithOwner": "Toblerity/Shapely"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -3476,6 +3525,20 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-mock",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "sklearn",
                                     "repository": {
                                         "nameWithOwner": "scikit-learn/scikit-learn"
@@ -5966,6 +6029,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "decorator",
+                                    "repository": {
+                                        "nameWithOwner": "micheles/decorator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "django",
                                     "repository": {
                                         "nameWithOwner": "django/django"
@@ -5990,6 +6060,20 @@
                                     "packageName": "docopt",
                                     "repository": {
                                         "nameWithOwner": "docopt/docopt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "enum34",
+                                    "repository": {
+                                        "nameWithOwner": "certik/enum34"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "functools32",
+                                    "repository": {
+                                        "nameWithOwner": "michilu/python-functools32"
                                     }
                                 },
                                 {
@@ -6036,6 +6120,27 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "ipython-genutils",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipython_genutils"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jsonschema",
+                                    "repository": {
+                                        "nameWithOwner": "Julian/jsonschema"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jupyter-core",
+                                    "repository": {
+                                        "nameWithOwner": "willingc/jupyter_core"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "kitchen",
                                     "repository": {
                                         "nameWithOwner": "fedora-infra/kitchen"
@@ -6050,6 +6155,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "nbformat",
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/nbformat"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "oauthlib",
                                     "repository": {
                                         "nameWithOwner": "oauthlib/oauthlib"
@@ -6060,6 +6172,13 @@
                                     "packageName": "pathlib2",
                                     "repository": {
                                         "nameWithOwner": "jazzband/pathlib2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "plotly",
+                                    "repository": {
+                                        "nameWithOwner": "plotly/plotly.py"
                                     }
                                 },
                                 {
@@ -6113,6 +6232,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "python-ldap",
+                                    "repository": {
+                                        "nameWithOwner": "python-ldap/python-ldap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pytz",
                                     "repository": {
                                         "nameWithOwner": "stub42/pytz"
@@ -6141,6 +6267,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "retrying",
+                                    "repository": {
+                                        "nameWithOwner": "rholder/retrying"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "scandir",
                                     "repository": {
                                         "nameWithOwner": "benhoyt/scandir"
@@ -6158,6 +6291,13 @@
                                     "packageName": "stomp-py",
                                     "repository": {
                                         "nameWithOwner": "induane/stomp.py3"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "traitlets",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/traitlets"
                                     }
                                 },
                                 {
