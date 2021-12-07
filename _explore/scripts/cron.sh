@@ -20,8 +20,8 @@ set -euo pipefail
 ### branch name variables - customize these based on your own configurations ###
 
 ### TODO temporary until master/main are ready for cronjob ###
-readonly CHECKOUT_BRANCH="dev"
-declare -a MERGE_BRANCHES=("test_cronjob_merge")
+readonly CHECKOUT_BRANCH="master"
+declare -a MERGE_BRANCHES=("dev" "main")
 ### TODO will eventually uncomment when master/main are ready for cronjob ###
 #readonly CHECKOUT_BRANCH="master" # branch we initially checkout and commit to
 #declare -a MERGE_BRANCHES=("dev" "main") # array of branches we merge $CHECKOUT_BRANCH to and push to - leave as empty if this doesn't apply to you
