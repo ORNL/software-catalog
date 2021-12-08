@@ -23,3 +23,15 @@
     document.getElementById('allB').click();
   }
 </script>
+
+{% if page.ext-js %}
+  {% for js in page.ext-js %}
+    <script src="{{js}}"></script>
+  {% endfor %}
+{% endif %}
+
+{% if page.js %}
+  {% for js in page.js %}
+    <script src="{{ js | relative_url }}"></script>
+  {% endfor %}
+{% endif %}

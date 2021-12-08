@@ -1,12 +1,10 @@
 ---
 title: Repo
 layout: repo
+useD3: true
 ---
 
 {% raw %}
-
-<link rel="stylesheet" type="text/css" href="../css/repostyle.css" />
-<link rel="stylesheet" type="text/css" href="../css/graphstyle.css" />
 
 <div id="mainContent">
   <h1 class="page-header text-center">
@@ -44,7 +42,7 @@ layout: repo
   <blockquote ng-if="repo.description" cite="{{ repo.url }}"> {{ repo.description }} </blockquote>
 
   <!-- Preset vis display areas -->
-  <div class="text-center">
+  <main class="text-center">
     <svg class="repoActivityChart"></svg><br />
     <svg class="pieUsers"></svg> <br />
     <svg ng-if="count.pulls" class="piePulls"></svg>
@@ -57,40 +55,6 @@ layout: repo
       <svg ng-if="repo.repositoryTopics.totalCount" class="topicCloud"></svg>
     </span>
   </div>
-</div>
+</main>
 
 {% endraw %}
-
-<!-- Load basic D3 and helper scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/d3js/5.16.0/d3.min.js" charset="UTF-8"></script>
-<script type="text/javascript" src="../static/d3-tip/1.0/d3-tip.js"></script>
-<script type="text/javascript" src="../static/d3-v4-cloud/1.2.2/build/d3.layout.cloud.js"></script>
-<script type="text/javascript" src="../js/explore/helpers.js"></script>
-
-<!-- Load drawing JS -->
-<script type="text/javascript" src="../js/explore/line_repoActivity.js"></script>
-<script type="text/javascript" src="../js/explore/pie_repoUsers.js"></script>
-<script type="text/javascript" src="../js/explore/pie_repoPulls.js"></script>
-<script type="text/javascript" src="../js/explore/pie_repoIssues.js"></script>
-<script type="text/javascript" src="../js/explore/line_repoCreationHistory.js"></script>
-<script type="text/javascript" src="../js/explore/pie_language.js"></script>
-<script type="text/javascript" src="../js/explore/cloud_topics.js"></script>
-<script type="text/javascript" src="../js/explore/line_repoStarHistory.js"></script>
-
-<script>
-  // GiHub Data Directory
-  var ghDataDir = '../explore/github-data';
-  // Global chart standards
-  var stdTotalWidth = 500,
-    stdTotalHeight = 400;
-  var stdMargin = { top: 40, right: 40, bottom: 40, left: 40 },
-    stdWidth = stdTotalWidth - stdMargin.left - stdMargin.right,
-    stdHeight = stdTotalHeight - stdMargin.top - stdMargin.bottom,
-    stdMaxBuffer = 1.07;
-  var stdDotRadius = 4,
-    stdLgndDotRadius = 5,
-    stdLgndSpacing = 20;
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-<script src="../js/repo/repo-dynamic.js"></script>

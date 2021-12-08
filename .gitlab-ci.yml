@@ -3,10 +3,12 @@
 stages:
   - worker-build
   - worker-test
+  - cron
   - website-test
 
 variables:
   GIT_STRATEGY: clone
+  GIT_DEPTH: "50" # this is the default value
   REGISTRY: "https://code.ornl.gov:4567/rse/ornl.github.io"
   WORKER_URL: "${REGISTRY}/worker"
 
@@ -44,6 +46,21 @@ after_script:
     #- changes:
       #- _explore/scripts/*.py
 
+scheduled-data-update:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'schedule'
+  stage: cron
+  tags:
+    - software-catalog
+  before_script:
+    - git remote set-url origin "https://oauth2:${PROJECT_ACCESS_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+    - git config user.name "${GITLAB_USER_NAME}"
+    - git config user.email "${GITLAB_USER_EMAIL}"
+    - git config push.default simple
+  script:
+    - ./_explore/scripts/cron.sh --docker
+
+# NOTE: this job just tests that a feature branch with a MR out can still work on dev
 pages:
   stage: website-test
   variables:
@@ -67,4 +84,8 @@ pages:
     - rse-multi-builder
   rules:
     # test that the website can build on any feature/hotfix branch.
-    - if: '$CI_COMMIT_BRANCH != "dev" && $CI_COMMIT_BRANCH != "master" && $CI_COMMIT_BRANCH != "main"'
+    - if: |
+        $CI_PIPELINE_SOURCE == 'merge_request_event'
+        && $CI_COMMIT_BRANCH != 'dev'
+        && $CI_COMMIT_BRANCH != 'master'
+        && $CI_COMMIT_BRANCH != 'main'
