@@ -391,7 +391,18 @@
         },
         "ORNL-Fusion/plsm": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "plsm v1.1.1",
+                        "publishedAt": "2021-12-08T15:38:04Z",
+                        "tagName": "v1.1.1"
+                    },
+                    {
+                        "name": "plsm v2.0.0",
+                        "publishedAt": "2021-12-08T15:38:20Z",
+                        "tagName": "v2.0.0"
+                    }
+                ]
             }
         },
         "ORNL-Fusion/py-plasmastate": {
@@ -922,6 +933,11 @@
                         "name": "2021.8.0",
                         "publishedAt": "2021-08-17T20:42:08Z",
                         "tagName": "2021.8.0"
+                    },
+                    {
+                        "name": "2021.12.0",
+                        "publishedAt": "2021-12-08T13:13:48Z",
+                        "tagName": "2021.12.0"
                     }
                 ]
             }
