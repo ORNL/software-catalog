@@ -119,22 +119,21 @@ function renderRepoHtml() {
 }
 
 /**
- * Update selected
+ * Call when the user updates category (either through the UI or through the browser)
  *
- * @param {String} categoryId ID of the button
+ * @param {number} categoryIdx selected index of the category
  */
-function updateSelectedCategory(categoryId) {
-  selectedCategoryIndex = catData.findIndex((cat) => cat.urlParam === categoryId);
+function onCategoryUpdate(categoryIdx) {
+  selectedCategoryIndex = categoryIdx;
   const categoryButtons = document.getElementsByClassName('tab');
   for (let i = 0; i < categoryButtons.length; i++) {
     const button = categoryButtons[i];
-    if (button.id.endsWith(categoryId)) {
+    if (button.id.endsWith(categoryIdx)) {
       button.classList.add('selected-tab');
     } else {
       button.classList.remove('selected-tab');
     }
   }
-  window.history.pushState(null, null, `?name=${categoryId}`);
   renderHeaderHtml();
   renderRepoHtml();
 }
@@ -183,7 +182,7 @@ fetch('/category/category_info.json')
     NAV_ELEMENT.innerHTML = catData
       .map(
         (category, idx) => `
-      <button id="btn__${category.urlParam}" class="tab${idx === selectedCategoryIndex ? ' selected-tab' : ''}">
+      <button id="btn__${idx}" class="tab${idx === selectedCategoryIndex ? ' selected-tab' : ''}">
         <img
           src="${category.icon.path}"
           height="40"
@@ -202,7 +201,7 @@ fetch('/category/category_info.json')
     MOBILE_NAV_ELEMENT.innerHTML = catData
       .map(
         (category, idx) => `
-      <button id="nav-btn__${category.urlParam}" class="tab${idx === selectedCategoryIndex ? ' selected-tab' : ''}">${sanitizeHTML(
+      <button id="nav-btn__${idx}" class="tab${idx === selectedCategoryIndex ? ' selected-tab' : ''}">${sanitizeHTML(
           category.displayTitle,
         )}</button>
     `,
@@ -210,8 +209,12 @@ fetch('/category/category_info.json')
       .join('');
     const tabElements = document.getElementsByClassName('tab');
     for (let i = 0; i < tabElements.length; i++) {
-      const tabId = tabElements[i].id.split('__')[1];
-      tabElements[i].addEventListener('click', (e) => updateSelectedCategory(tabId));
+      const ele = tabElements[i];
+      const tabIdx = Number(ele.id.split('__')[1]);
+      ele.addEventListener('click', () => {
+        window.history.pushState({ categoryIndex: tabIdx }, '', `?name=${catData[tabIdx].urlParam}`);
+        onCategoryUpdate(tabIdx);
+      });
     }
 
     // map topics to categories
@@ -289,4 +292,13 @@ document.getElementById('orderProp').addEventListener('change', (e) => {
 // mobile nav
 document.getElementById('category-hamburger-btn').addEventListener('click', () => {
   MOBILE_NAV_ELEMENT.classList.toggle('hidden');
+});
+
+// user presses back/forward buttons on their browser
+window.addEventListener('popstate', (e) => {
+  const oldState = e.state?.categoryIndex;
+  const hasOldState = typeof oldState === 'number';
+  if (!hasOldState || oldState !== selectedCategoryIndex) {
+    onCategoryUpdate(hasOldState ? oldState : 0);
+  }
 });
