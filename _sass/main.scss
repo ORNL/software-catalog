@@ -1,4 +1,4 @@
-
+$primary-color: #36a447;
 
 /** Add a few CSS standarizations */
 
@@ -89,7 +89,7 @@ a:visited {
 }
 
 .flex-item:hover {
-  border: 1px solid steelblue;
+  border: 1px solid $primary-color;
   box-shadow: 3px 3px #ddd;
 }
 
@@ -188,7 +188,7 @@ a:visited {
   }
   #forkongithub a {
     pointer-events: all;
-    background: #36a447;
+    background: $primary-color;
     color: #ffffff;
     text-decoration: none;
     font-family: sans-serif;
@@ -308,7 +308,7 @@ a:visited {
 }
 
 .dynamic:hover {
-  border: 1px solid steelblue;
+  border: 1px solid $primary-color;
   box-shadow: 3px 3px #ddd;
 }
 
@@ -507,9 +507,9 @@ a:visited {
   }
 }
 .selected-tab {
-  background-color: steelblue;
+  background-color: $primary-color;
   color: white;
-  border-color: steelblue;
+  border-color: $primary-color;
 }
 
 #category-hamburger-container button {
@@ -650,7 +650,7 @@ blockquote {
 
 /* footer */
 .footer-top-banner {
-  background: #36a447;
+  background: $primary-color;
   padding: 0.5rem 0;
   /* Centers everything in the banner. */
   text-align: center;
