@@ -4,20 +4,7 @@ layout: news
 permalink: /news/
 ---
 
-<div class="vertical-flex">
-  <div class="filterBtnGroup btn-group" role="group">
-    <button class="btn btn-default" id="allB">All</button>
-    <button class="btn btn-default" id="event">Events</button>
-    <button class="btn btn-default" id="event-report">Event Reports</button>
-    <button class="btn btn-default" id="multimedia">Multimedia</button>
-    <button class="btn btn-default" id="new-repo">New Repos</button>
-    <button class="btn btn-default" id="profile">Profiles</button>
-    <button class="btn btn-default" id="release">Releases</button>
-    <button class="btn btn-default" id="story">Stories</button>
-    <button class="btn btn-default" id="this-website">Meta</button>
-  </div>
-
-  <main>
+  <section class="flex-grow">
     {% assign cap = 20 %} {% comment %} maximum number of each type to store {% endcomment %}
     {% capture shh %}
       {% increment event %}
@@ -78,8 +65,6 @@ permalink: /news/
     </article>
     {% endfor %}
 
-  </main>
+  </section>
   
-  <br />
   <a class="btn btn-block news-archive-link" href="/news/archive/" role="button">See all news in the archive</a>
-</div>

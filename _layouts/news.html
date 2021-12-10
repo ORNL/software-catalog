@@ -1,41 +1,60 @@
 ---
-layout: default
+layout: compress
 ---
 
-<main class="container" style="margin-top: 30px">
-  <div class="twitterFeed">
-    <div class="tweet-border">
-      <h4 class="twitter-title">Latest from Twitter</h4>
-      <a
-        class="twitter-timeline"
-        data-chrome="nofooter noheader noborders"
-        href="https://twitter.com/{{site.twitter.username}}"
-        data-tweet-limit="2"
-      ></a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      <div>
-        <a href="https://twitter.com/{{site.twitter.username}}" class="twitter-follow-button" data-show-count="false"
-          >Follow Oak Ridge National Laboratory</a
-        >
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    <script async id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script>
+  </head>
+
+  <body class="static-text">
+    {% include header.html %}
+    <!-- prettier-ignore -->
+    <main id="content" class="container flex-container">
+      <div class="twitterFeed">
+        <div class="tweet-border">
+          <h4 class="twitter-title">Latest from Twitter</h4>
+          <a
+            class="twitter-timeline"
+            data-chrome="nofooter noheader noborders"
+            href="https://twitter.com/{{site.twitter.username}}"
+            data-tweet-limit="2"
+          ></a>
+          <div>
+            <a href="https://twitter.com/{{site.twitter.username}}" class="twitter-follow-button" data-show-count="false"
+              >Follow Oak Ridge National Laboratory</a
+            >
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-
-  {{ content }}
-
-  <div class="twitterFeed-mobile">
-    <h4 class="twitter-title">Latest from Twitter</h4>
-    <a
-      class="twitter-timeline"
-      data-chrome="nofooter noheader"
-      href="https://twitter.com/{{site.twitter.username}}"
-      data-tweet-limit="2"
-    ></a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <a href="https://twitter.com/{{site.twitter.username}}" class="twitter-follow-button" data-show-count="false"
-      >Follow @{{site.twitter.username}}</a
-    >
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
-</main>
+      <div class="vertical-flex">
+        <div class="filterBtnGroup btn-group" role="group">
+          <button class="btn btn-default" id="allB">All</button>
+          <button class="btn btn-default" id="event">Events</button>
+          <button class="btn btn-default" id="event-report">Event Reports</button>
+          <button class="btn btn-default" id="multimedia">Multimedia</button>
+          <button class="btn btn-default" id="new-repo">New Repos</button>
+          <button class="btn btn-default" id="profile">Profiles</button>
+          <button class="btn btn-default" id="release">Releases</button>
+          <button class="btn btn-default" id="story">Stories</button>
+          <button class="btn btn-default" id="this-website">Meta</button>
+        </div>
+        {{ content }}
+      </div>
+      <div class="twitterFeed-mobile">
+        <h4 class="twitter-title">Latest from Twitter</h4>
+        <a class="twitter-timeline" data-chrome="nofooter noheader" href="https://twitter.com/{{site.twitter.username}}" data-tweet-limit="2"></a>
+        <a href="https://twitter.com/{{site.twitter.username}}" class="twitter-follow-button" data-show-count="false"
+          >Follow @{{site.twitter.username}}</a
+        >
+      </div>
+    </main>
+    <!-- prettier-ignore -->
+    {% include footer.html %}
+    <!-- prettier-ignore -->
+    {% include scripts.html %}
+    <script src="{{'js/news.js' | relative_url}}"></script>
+  </body>
+</html>

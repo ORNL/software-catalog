@@ -1,9 +1,4 @@
-/* ANGULAR-JS: avoid the "flash of uncompiled content" */
-[ng\:cloak],
-[ng-cloak],
-.ng-cloak {
-  display: none;
-}
+
 
 /** Add a few CSS standarizations */
 
@@ -18,12 +13,17 @@ body,
   flex-direction: column;
 }
 
-main {
+main,
+.flex-grow {
   flex: 1 0 auto;
 }
 
 a:focus {
   outline: none;
+}
+
+.hidden {
+  display: none !important;
 }
 
 #ornl-logo {
@@ -91,27 +91,27 @@ a:visited {
 .flex-item:hover {
   border: 1px solid steelblue;
   box-shadow: 3px 3px #ddd;
-  cursor: pointer;
 }
 
-.flex-item > h4 {
+.flex-item h3 {
   background-color: #f5f5f5;
   margin: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 18px;
 }
 
-.flex-item:hover > h4 {
+.flex-item:hover h3 {
   background-color: #d8ecf3;
 }
 
-.flex-item > p {
+.flex-item p {
   margin: 10px 0;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.flex-item > p:last-child {
+.flex-item p:last-child {
   align-self: flex-end;
 }
 
@@ -121,7 +121,7 @@ a:visited {
   text-decoration: none;
 }
 
-.flex-item h4 > small {
+.flex-item h3 > small {
   /* Display of news post date and tag */
   border-left: 1px solid #777;
   padding-left: 5px;
@@ -310,22 +310,20 @@ a:visited {
 .dynamic:hover {
   border: 1px solid steelblue;
   box-shadow: 3px 3px #ddd;
-  cursor: pointer;
 }
 
-.flex-category > img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  height: 150px;
-  width: 150px;
+.dynamic-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.flex-category > h4 {
+.dynamic-link > h2 {
   margin-top: 15px;
   padding-bottom: 10px;
   font-weight: bold;
   text-align: center;
+  font-size: 18px;
 }
 
 .flex-category > p {
@@ -365,7 +363,7 @@ a:visited {
   cursor: pointer;
 }
 
-.banner-img {
+#banner-img {
   display: block;
   width: 100%;
   height: 300px;
@@ -375,20 +373,21 @@ a:visited {
   background-repeat: round;
 }
 
-.banner-container {
+#banner-container {
   position: relative;
   display: inline-block;
   width: 100%;
-}
-
-.banner-text {
-  color: #f8f8f8;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  font-size: 7vw;
+  margin-bottom: 2em;
+  h1 {
+    color: #f8f8f8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-size: 7vw;
+    margin: 0;
+  }
 }
 
 .wrapper {
@@ -421,7 +420,7 @@ a:visited {
     text-align: left;
     top: 0;
     background-color: #f8f8f8;
-    border-radius: 0px 0px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
     border: solid 1px lightgrey;
     border-top: none;
     border-left: none;
@@ -429,8 +428,12 @@ a:visited {
   }
 }
 
+#category-header {
+  margin-top: 0;
+}
+
 @media (max-width: 1199px) {
-  .hamburger-container {
+  #category-hamburger-container {
     width: 100%;
     background-color: #f8f8f8;
     position: -webkit-sticky;
@@ -440,7 +443,7 @@ a:visited {
   }
 }
 @media (min-width: 1200px) {
-  .hamburger-container {
+  #category-hamburger-container {
     display: none;
   }
 }
@@ -457,9 +460,6 @@ a:visited {
   transition: 0.3s;
   border-top: solid 1px lightgrey;
 }
-.stickynav div:first-child {
-  border-top: none;
-}
 
 .stickynav a {
   text-decoration: none;
@@ -475,7 +475,7 @@ a:visited {
   color: black;
 }
 
-.hamburger-nav div {
+#category-hamburger-nav button {
   width: 100%;
   padding-left: 15px;
   white-space: nowrap;
@@ -487,54 +487,51 @@ a:visited {
   transition: 0.3s;
   border: solid 1px lightgrey;
   border-top: none;
-  /* background-color: #f8f8f8; */
-}
-
-.hamburger-nav a {
   text-decoration: none;
-  transition: 0.3s;
-}
-
-.hamburger-nav div:hover > a {
-  color: black;
-}
-
-.hamburger-nav div:hover {
-  background-color: lightgrey;
-  padding-left: 18px;
+  &:hover {
+    background-color: lightgrey;
+    padding-left: 18px;
+    color: black;
+  }
 }
 
 .tab {
   color: black;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  img {
+    margin-right: 10px;
+  }
 }
 .selected-tab {
   background-color: steelblue;
   color: white;
+  border-color: steelblue;
 }
 
-.selected-tab > a {
-  color: white;
-}
-
-.hamburger-container span {
+#category-hamburger-container button {
   color: gray;
   margin: 0;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-  position: absolute;
   background-color: #f8f8f8;
   border-bottom: solid 1px lightgrey;
   width: 100%;
 }
 
-.hamburger-container span:hover {
+#category-hamburger-container button:hover {
   cursor: pointer;
   color: black;
 }
 
-.hamburger-nav {
-  padding-top: 40px;
+#searchText {
+  width: 25%;
+  margin-bottom: 10px;
+  margin-right: 10px
 }
 
 .title-container {
@@ -561,11 +558,10 @@ a:visited {
   display: flex;
   flex-flow: column wrap;
   padding-left: 5%;
+  width: 700px;
 }
 
 .orgAvatar {
-  width: 35px;
-  height: 35px;
   object-fit: contain;
 }
 
@@ -573,7 +569,7 @@ a:visited {
   .title-description {
     text-align: center;
   }
-  .title-description h3 {
+  .title-description h2 {
     font-size: 1.3em;
   }
   .page-title {
@@ -592,7 +588,7 @@ a:visited {
 }
 
 .twitterFeed {
-  float: right;
+  order: 2;
   margin-left: 2em;
   margin-bottom: 2em;
 }

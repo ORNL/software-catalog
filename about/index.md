@@ -1,6 +1,6 @@
 ---
 title: About the ORNL Software Portal
-layout: info
+layout: default
 ---
 
 ## {{ page.title }}

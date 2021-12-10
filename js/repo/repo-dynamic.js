@@ -1,3 +1,4 @@
+/** GLOBALS */
 // GiHub Data Directory
 var ghDataDir = '../explore/github-data';
 // Global chart standards
@@ -11,64 +12,129 @@ var stdDotRadius = 4,
   stdLgndDotRadius = 5,
   stdLgndSpacing = 20;
 
-angular.module('app', []).controller('repoDataController', [
-  '$scope',
-  '$http',
-  '$location',
-  function ($scope, $http, $location) {
-    var hash = $location.url().substring(1);
+/** everything below this line should be specific to this script */
 
-    var promiseRepoInfo = $http.get('../explore/github-data/intReposInfo.json', {
-      cache: true,
-    });
+/**
+ * @param {string|null|undefined} queryParam parameter which may have been decoded from URL query parameter (or may not exist)
+ */
+function renderError(queryParam) {
+  document.getElementById('content').innerHTML = `
+    <h2><span class="fa fa-exclamation-circle"></span> Whoops...</h2>
+    <p>${queryParam ? `The repository ${queryParam} is not in our catalog.` : 'No repository specified in the URL (i.e. "?name=).'}</p>
+  `;
+}
 
-    promiseRepoInfo.then(function (response) {
-      var reposObj = response.data.data;
-      if (reposObj.hasOwnProperty(hash)) {
-        var data = reposObj[hash];
-        $scope.repo = data;
-        draw_graphs(hash);
-        if ($scope.repo.stargazers.totalCount) {
-          draw_line_repoStarHistory('repoStarHistory', hash);
-        }
-        var sumP = 0;
-        var sumI = 0;
-        var pullCounters = ['pullRequests_Merged', 'pullRequests_Open'];
-        var issueCounters = ['issues_Closed', 'issues_Open'];
+/**
+ * @param {Object} repo repo property from intReposInfo.json
+ * @param {number} pulls count of all pull requests (open + closed)
+ * @param {number} issues count of all issues (open + closed)
+ */
+function renderRepo(repo, pulls, issues) {
+  document.getElementById('content').innerHTML = `
+    <h2 class="page-header text-center">
+      <a class="title" href="${repo.url}" title="View Project on GitHub">${sanitizeHTML(repo.name)}</a>
+      <br />
+      <a class="subtitle" href="https://github.com/${repo.owner.login}" title="View Owner on GitHub">
+        <span class="fa fa-user-circle"></span>${repo.owner.login }
+      </a>
+      ${repo.primaryLanguage ? `
+        <span class="subtitle" title="Primary Language">
+          <span class="fa fa-code"></span>
+          ${repo.primaryLanguage.name}
+        </span>
+      `: ''}
+      ${repo.licenseInfo && repo.licenseInfo.spdxId !== 'NOASSERTION' ? `
+        <a
+          class="subtitle"
+          href="${repo.licenseInfo.url}"
+          title="${repo.licenseInfo.name}"
+        >
+          <span class="fa fa-balance-scale"></span>
+          ${repo.licenseInfo.spdxId}
+        </a>
+      ` : ''}
+    </h2>
+
+    <p class="stats text-center">
+      <a href="${repo.url}"> <span class="fa fa-github"></span>GitHub Page </a>
+
+      <a href="${repo.url}/stargazers"> <span class="fa fa-star"></span>Stargazers : ${repo.stargazers.totalCount} </a>
+
+      <a href="${repo.url}/network"> <span class="fa fa-code-fork"></span>Forks : ${repo.forks.totalCount} </a>
+
+      ${repo.homepageUrl ? `
+        <a href="${repo.homepageUrl}"> <span class="fa fa-globe"></span>Project Website </a>
+      ` : ''}
+    </p>
+    ${repo.description ? `
+      <blockquote cite="${repo.url}"> ${sanitizeHTML(repo.description)} </blockquote>
+    ` : ''}
+
+    <div class="text-center">
+      <svg class="repoActivityChart"></svg>
+      <br />
+      <svg class="pieUsers"></svg>
+      <br />
+      ${pulls ? '<svg class="piePulls"></svg>' : ''}
+      ${issues ? '<svg class="pieIssues"></svg>' : ''}
+      <br />
+      <svg class="repoCreationHistory"></svg>
+      <br />
+      ${repo.stargazers.totalCount ? '<svg class="repoStarHistory"></svg>' : ''}
+      <br />
+      ${repo.languages.totalCount ? '<svg class="languagePie"></svg>' : ''}
+      ${repo.repositoryTopics.totalCount ? '<svg class="topicCloud"></svg>' : ''}
+    </div>
+  `;
+}
+
+/**
+ *
+ * @param {string} queryParam parameter which was decoded from URL query parameter
+ */
+function render(queryParam) {
+  fetch('/explore/github-data/intReposInfo.json')
+    .then((res) => res.json())
+    .then((infoJson) => {
+      const reposObj = infoJson.data;
+      if (reposObj.hasOwnProperty(queryParam)) {
+        const repo = reposObj[queryParam];
+        let pulls = 0;
+        let issues = 0;
+        const pullCounters = ['pullRequests_Merged', 'pullRequests_Open'];
+        const issueCounters = ['issues_Closed', 'issues_Open'];
         pullCounters.forEach(function (c) {
-          sumP += data[c]['totalCount'];
+          pulls += repo[c]['totalCount'];
         });
         issueCounters.forEach(function (c) {
-          sumI += data[c]['totalCount'];
+          issues += repo[c]['totalCount'];
         });
-        $scope.count = { pulls: sumP, issues: sumI };
-        if ($scope.count.pulls) {
-          draw_pie_repoPulls('piePulls', hash);
+        renderRepo(repo, pulls, issues);
+        draw_line_repoActivity('repoActivityChart', queryParam);
+        draw_pie_repoUsers('pieUsers', queryParam);
+        draw_line_repoCreationHistory('repoCreationHistory', queryParam);
+        draw_pie_languages('languagePie', queryParam);
+        draw_cloud_topics('topicCloud', queryParam);
+        if (repo.stargazers.totalCount) {
+          draw_line_repoStarHistory('repoStarHistory', queryParam);
         }
-        if ($scope.count.issues) {
-          draw_pie_repoIssues('pieIssues', hash);
+        if (pulls) {
+          draw_pie_repoPulls('piePulls', queryParam);
+        }
+        if (issues) {
+          draw_pie_repoIssues('pieIssues', queryParam);
         }
       } else {
-        repo404();
+        renderError(queryParam);
       }
     });
+}
 
-    var repo404 = function () {
-      var errorString = '<h1><span class="fa fa-exclamation-circle"></span> Whoops...</h1>';
-      if (hash == '') {
-        errorString += 'No repository specified.';
-      } else {
-        errorString += 'The repository "' + hash + '" is not in our catalog.';
-      }
-      document.getElementById('mainContent').innerHTML = errorString;
-    };
-
-    var draw_graphs = function (nametag) {
-      draw_line_repoActivity('repoActivityChart', nametag);
-      draw_pie_repoUsers('pieUsers', nametag);
-      draw_line_repoCreationHistory('repoCreationHistory', nametag);
-      draw_pie_languages('languagePie', nametag);
-      draw_cloud_topics('topicCloud', nametag);
-    };
-  },
-]);
+// init
+const repo = new URLSearchParams(window.location.search).get('name');
+if (repo) {
+  // TODO make this case-sensitive (may need to tweak the backend to store the repository keys as all lowercase in the JSON (store the original repo casing syntax inside the value))
+  render(decodeURIComponent(repo));
+} else {
+  renderError();
+}

@@ -1,28 +1,6 @@
 <!-- jQuery first, then Bootstrap JS. -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script async id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script>
-
-<script src="/js/filter-repos.js"></script>
-<script src="/assets/js/anchor.min.js"></script>
-
-<script>
-  anchors.add();
-</script>
-
-<script type="text/javascript">
-  $('.filterBtnGroup button').on('click', function (filterContent) {
-    $('.filterBtnGroup button').attr('disabled', false);
-    $(this).attr('disabled', true);
-    var tag = $(this).text();
-    $('.all').hide();
-    $('.' + $(this).attr('id')).fadeIn();
-    filterContent.preventDefault();
-  });
-  if (document.getElementById('allB')) {
-    document.getElementById('allB').click();
-  }
-</script>
 
 {% if page.ext-js %}
   {% for js in page.ext-js %}
@@ -35,3 +13,8 @@
     <script src="{{ js | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<script src="{{ 'assets/js/anchor.min.js' | relative_url }}"></script>
+<script>
+  anchors.add();
+</script>

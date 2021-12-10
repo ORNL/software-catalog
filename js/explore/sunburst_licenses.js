@@ -135,7 +135,7 @@ function draw_sunburst_licenses(areaID) {
       .filter((d) => !d.children)
       .style('cursor', 'pointer')
       .on('click', (d) => {
-        const win = window.open(`${window.location['origin']}/repo/#/${d.data.name.split('/')[0]}/${d.data.name.split('/')[1]}`);
+        const win = window.open(`${window.location['origin']}/repo/?name=${encodeURIComponent(d.data.name.split('/').slice(0, 2).join('/'))}`);
         win.focus();
       });
 

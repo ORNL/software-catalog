@@ -1,29 +1,10 @@
 ---
-layout: compress
+layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
+<h2>
+  <a href="{{ page.url }}">{{ page.title }}</a>
+  <small class="pull-right">{{ page.date | date: '%B %d, %Y' }}</small>
+</h2>
 
-  <body>
-    {% include header.html %}
-
-    <main class="container">
-      <div class="row">
-        <h2>
-          <a href="{{ page.url }}">{{ page.title }}</a>
-          <small class="pull-right">{{ page.date | date: '%B %d, %Y' }}</small>
-        </h2>
-
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
-    <!-- prettier-ignore -->
-    {% include scripts.html %}
-  </body>
-</html>
+{{ content }}

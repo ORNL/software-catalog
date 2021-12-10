@@ -7,7 +7,7 @@ A repository can have up to 20 tags. The list below also contains each category'
 For each category, this file contains its title, [icon][icon dir] filepath, and category description. This data is read by the [category info javascript][js dir].
 
 [icon dir]: ../assets/images/categories/
-[js dir]: ../js/category-info.js
+[js dir]: ../js/homepage.js
 
 -   **App Infrastructure**: Browse tools for basic functionality common in HPC codes - `app-infrastructure`
 -   **Applications**: Browse scientific simulation codes and IT management tools - `application`

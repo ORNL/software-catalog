@@ -1,53 +1,17 @@
 ---
 title: ORNL Software Catalog
-layout: homepage
+layout: default
+js:
+  - js/utils.js
+  - js/homepage.js
 ---
-
-{% raw %}
 
 <p class="page-title">
   Welcome to the ORNL software catalog—a hub for our open source projects.<br />
-  Our <a ng-click="categoryHref('ALL SOFTWARE')" style="cursor: pointer">full catalog</a>
+  Our <a href="{{ 'category/?name=all' | relative_url }}">full catalog</a>
   is updated regularly as repositories are added or modified.
 </p>
 
 <section class="flex-container" id="categories">
-  <div ng-repeat="category in catData" class="flex-category dynamic" ng-click="categoryHref(category.title)">
-    <img ng-src="{{ category.icon.path }}" style="width: 150px; height: 150px" alt="{{ category.icon.alt }}" />
-    <h4>{{ category.title }}</h4>
-    <p class="text-center">{{ category.description.short }}</p>
-
-    <div ng-repeat="repo in topicRepos[catData.indexOf(category)]">
-      <p class="links" ng-show="topicRepos[catData.indexOf(category)].indexOf(repo) < 4">
-        <span>
-          <a href="https://github.com/{{ repo.ownerLogin }}" alt="View Owner on GitHub" title="Owner: {{ repo.ownerLogin }}">
-            <img class="orgAvatar" ng-src="{{ repo.ownerAvatar }}" />
-          </a>
-        </span>
-
-        <span>
-          <a
-            href="{{ repo.gitUrl }}"
-            alt="{{ repo.description || '[No Description]' }}"
-            title="{{ repo.description || '[No Description]' }}"
-          >
-            {{ repo.name }}
-          </a>
-        </span>
-
-        <span>
-          <a href="{{ repo.gitUrl }}/stargazers" alt="Stargazers" title="Stargazers"> {{ repo.stars }} <span class="fa fa-star"></span> </a>
-        </span>
-
-        <span>
-          <a ng-click="repoHref(repo.nameWithOwner); $event.stopPropagation();" alt="Rpo Info" title="Repo Info">
-            <span class="fa fa-info-circle"></span>
-          </a>
-        </span>
-      </p>
-    </div>
-    <a class="more" ng-if="topicRepos[catData.indexOf(category)].length > 4">...MORE</a>
-  </div>
+  <noscript class="text-center">To see every category, you will need to enable Javascript.</noscript>
 </section>
-
-{% endraw %}

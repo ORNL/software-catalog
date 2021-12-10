@@ -1,6 +1,6 @@
 ---
 title: FAQ
-layout: info
+layout: default
 ---
 
 ## {{ page.title }}

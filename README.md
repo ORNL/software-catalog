@@ -29,7 +29,7 @@ Running this will install everything in your Gemfile (including Jekyll).
 Next, run the development web server with:
 
 ```shell
-bundle exec jekyll serve --incremental
+bundle exec jekyll serve --livereload --incremental
 ```
 
 Finally, open <http://localhost:4000> in a web browser.

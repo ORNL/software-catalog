@@ -4,12 +4,17 @@
 
 {% seo %}
 
-<link rel="shortcut icon" href="/assets/images/favicon-16x16.png" />
+<link rel="shortcut icon" href="{{ 'assets/images/favicon-16x16.png' | relative_url }}" />
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" media="screen" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" />
 
-<link rel="stylesheet" href="/css/main.css" media="screen" />
+<link rel="stylesheet" href="{{ 'css/main.css' | relative_url }}" media="screen" />
+{% if page.css %}
+  {% for css in page.css %}
+    <link rel="stylesheet" href="{{ css | relative_url }}" media="screen" />
+  {% endfor %}
+{% endif %}
 <!-- Transfer lab-specific variables from site-generator config file to Javascript via window definitions here -->
 <script>
   window.labName = '{{site.lab_name}}';

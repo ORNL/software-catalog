@@ -1,31 +1,28 @@
 ---
 title: Explore
 layout: explore
-useD3: true
 ext-js:
   - https://ajax.googleapis.com/ajax/libs/d3js/5.16.0/d3.min.js
   - https://unpkg.com/d3-simple-slider@1.8.0/dist/d3-simple-slider.min.js
 js:
-  - /static/d3-tip/1.0/d3-tip.js
-  - /static/d3-v4-cloud/1.2.2/build/d3.layout.cloud.js
-  - /js/explore/helpers.js
-  - /js/explore/line_repoCreationHistory.js
-  - /js/explore/pie_members.js
-  - /js/explore/pie_repos.js
-  - /js/explore/line_repoActivityExplore.js
-  - /js/explore/scatter_repoPulls.js
-  - /js/explore/scatter_repoIssues.js
-  - /js/explore/pie_languageExplore.js
-  - /js/explore/cloud_topics.js
-  - /js/explore/sunburst_licenses.js
-  - /js/explore/pack_hierarchy.js
-  - /js/explore/line_repoStarHistoryExplore.js
-  - /js/explore/explore.js
+  - static/d3-tip/1.0/d3-tip.js
+  - static/d3-v4-cloud/1.2.2/build/d3.layout.cloud.js
+  - js/explore/helpers.js
+  - js/explore/line_repoCreationHistory.js
+  - js/explore/pie_members.js
+  - js/explore/pie_repos.js
+  - js/explore/line_repoActivityExplore.js
+  - js/explore/scatter_repoPulls.js
+  - js/explore/scatter_repoIssues.js
+  - js/explore/pie_languageExplore.js
+  - js/explore/cloud_topics.js
+  - js/explore/sunburst_licenses.js
+  - js/explore/pack_hierarchy.js
+  - js/explore/line_repoStarHistoryExplore.js
+  - js/explore/explore.js
 ---
 
-{% raw %}
-
-<h1 class="page-header text-center">ORNL GitHub Visualizations</h1>
+<h2 class="page-header text-center">ORNL GitHub Visualizations</h2>
 
 <!-- Preset vis display areas -->
 <main class="text-center">
@@ -41,6 +38,3 @@ js:
   <svg class="topicCloud"></svg> <br />
   <svg class="licenseSunburst"></svg>
 </main>
-
-
-{% endraw %}
