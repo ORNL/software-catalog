@@ -3467,6 +3467,150 @@
                 "nodes": []
             }
         },
+        "ORNL/soar_survey_scoring": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "anyconfig",
+                                    "repository": {
+                                        "nameWithOwner": "ssato/python-anyconfig"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "catboost",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "click",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/click"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "elasticsearch",
+                                    "repository": {
+                                        "nameWithOwner": "elastic/elasticsearch-py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "faker",
+                                    "repository": {
+                                        "nameWithOwner": "joke2k/faker"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jinja2",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/jinja"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "networkx",
+                                    "repository": {
+                                        "nameWithOwner": "networkx/networkx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nltk",
+                                    "repository": {
+                                        "nameWithOwner": "nltk/nltk"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyforest",
+                                    "repository": {
+                                        "nameWithOwner": "tkrabel/pyforest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyyaml",
+                                    "repository": {
+                                        "nameWithOwner": "yaml/pyyaml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "seaborn",
+                                    "repository": {
+                                        "nameWithOwner": "mwaskom/seaborn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sklearn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "statsmodels",
+                                    "repository": {
+                                        "nameWithOwner": "statsmodels/statsmodels"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/pytorch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "transformers",
+                                    "repository": {
+                                        "nameWithOwner": "huggingface/transformers"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL/test-2017-10-03": {
             "dependencyGraphManifests": {
                 "nodes": []
