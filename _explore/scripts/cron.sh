@@ -35,9 +35,12 @@ run_without_docker() {
 }
 
 run_with_docker() {
+    local readonly container_name="software-catalog"
     pushd $REPO_ROOT_PATH
     docker build -f worker.Dockerfile -t software-catalog:latest .
-    docker run --rm --name software-catalog \
+    docker stop $container_name || true
+    docker rm $container_name || true
+    docker run --rm --name $container_name \
       -e GITHUB_API_TOKEN="${GITHUB_API_TOKEN}" \
       -e CODE_ORNL_GOV_API_TOKEN="${CODE_ORNL_GOV_API_TOKEN}" \
       -v "$PWD":/app \
