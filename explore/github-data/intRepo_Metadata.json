@@ -671,7 +671,12 @@
     "ORNL/TASMANIAN": {
         "description": "The Toolkit for Adaptive Stochastic Modeling and Non-Intrusive ApproximatioN",
         "name": "ORNL/TASMANIAN",
-        "topics": null,
+        "topics": [
+            "uncertainty-quantification",
+            "inverse-problems",
+            "high-order-approximation-models",
+            "reduced-order-models"
+        ],
         "website": "http://tasmanian.ornl.gov/"
     },
     "ORNL/TASQC": {
