@@ -3355,6 +3355,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "dataclasses",
+                                    "repository": {
+                                        "nameWithOwner": "ericvsmith/dataclasses"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "graphviz",
                                     "repository": {
                                         "nameWithOwner": "xflr6/graphviz"
@@ -3402,6 +3409,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pytest-mock",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest-mock"
@@ -3434,6 +3448,13 @@
                     {
                         "dependencies": {
                             "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "dataclasses",
+                                    "repository": {
+                                        "nameWithOwner": "ericvsmith/dataclasses"
+                                    }
+                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "graphviz",
@@ -3485,6 +3506,26 @@
                                     "packageName": "sklearn",
                                     "repository": {
                                         "nameWithOwner": "scikit-learn/scikit-learn"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
                                     }
                                 }
                             ]
@@ -5517,6 +5558,19 @@
                                     "packageName": "pytest-qt",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest-qt"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
