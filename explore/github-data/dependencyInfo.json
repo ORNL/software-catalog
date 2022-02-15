@@ -450,21 +450,6 @@
                 "login": "TryGhost"
             }
         },
-        "acidburn0zzz/pre-commit": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "pre-commit",
-            "nameWithOwner": "acidburn0zzz/pre-commit",
-            "owner": {
-                "login": "acidburn0zzz"
-            }
-        },
         "actions/cache": {
             "languages": {
                 "nodes": [
@@ -4652,6 +4637,22 @@
             "owner": {
                 "isVerified": true,
                 "login": "postcss"
+            }
+        },
+        "pre-commit/pre-commit": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "pre-commit",
+            "nameWithOwner": "pre-commit/pre-commit",
+            "owner": {
+                "isVerified": true,
+                "login": "pre-commit"
             }
         },
         "prompt-toolkit/python-prompt-toolkit": {
