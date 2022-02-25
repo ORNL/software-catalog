@@ -5227,6 +5227,14 @@
                 ]
             }
         },
+        "neutrons/CIS_documentation": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "neutrons/CrystalPlan": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -7294,26 +7302,6 @@
                                     "packageName": "conda-incubator/setup-miniconda",
                                     "repository": {
                                         "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
                                     }
                                 }
                             ]

@@ -151,8 +151,37 @@
         },
         "ORNL-CEES/thermochimica": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/chemistry",
+                        "topic": {
+                            "name": "chemistry"
+                        },
+                        "url": "https://github.com/topics/chemistry"
+                    },
+                    {
+                        "resourcePath": "/topics/thermodynamics",
+                        "topic": {
+                            "name": "thermodynamics"
+                        },
+                        "url": "https://github.com/topics/thermodynamics"
+                    },
+                    {
+                        "resourcePath": "/topics/equilibrium",
+                        "topic": {
+                            "name": "equilibrium"
+                        },
+                        "url": "https://github.com/topics/equilibrium"
+                    },
+                    {
+                        "resourcePath": "/topics/fortran",
+                        "topic": {
+                            "name": "fortran"
+                        },
+                        "url": "https://github.com/topics/fortran"
+                    }
+                ],
+                "totalCount": 4
             }
         },
         "ORNL-Fusion/AE3D": {
@@ -1177,6 +1206,12 @@
             }
         },
         "mcvine/workflow": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "neutrons/CIS_documentation": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0

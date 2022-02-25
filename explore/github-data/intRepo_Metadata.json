@@ -97,8 +97,13 @@
     "ORNL-CEES/thermochimica": {
         "description": "THERMOCHIMICA is a computational library for chemical thermodynamics. It determines a unique combination of phases and their compositions for a prescribed chemical composition, temperature and pressure. The solver and the underlying thermodynamic models can be used to estimate the chemical state and various constitutive and transport properties necessary for various materials and process models.",
         "name": "ORNL-CEES/thermochimica",
-        "topics": null,
-        "website": null
+        "topics": [
+            "chemistry",
+            "thermodynamics",
+            "equilibrium",
+            "fortran"
+        ],
+        "website": ""
     },
     "ORNL-Fusion/AE3D": {
         "description": null,
@@ -1010,6 +1015,12 @@
     "mcvine/workflow": {
         "description": "Scripts and helper files for mcvine workflows",
         "name": "mcvine/workflow",
+        "topics": null,
+        "website": null
+    },
+    "neutrons/CIS_documentation": {
+        "description": "Any documentation related to CIS work (autoreduction, jupyter notebooks, etc)",
+        "name": "neutrons/CIS_documentation",
         "topics": null,
         "website": null
     },
