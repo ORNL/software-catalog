@@ -2270,6 +2270,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "ase",
+                                    "repository": {
+                                        "nameWithOwner": "rosswhitfield/ase"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "matplotlib",
                                     "repository": {
                                         "nameWithOwner": "matplotlib/matplotlib"
@@ -7820,7 +7827,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "notebook",
                                     "repository": {
-                                        "nameWithOwner": "jupyter/notebook"
+                                        "nameWithOwner": "mirobeka/notebook"
                                     }
                                 },
                                 {
