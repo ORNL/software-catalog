@@ -5622,6 +5622,331 @@
                 ]
             }
         },
+        "neutrons/PyArt": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mantid-workbench",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "qtconsole",
+                                    "repository": {
+                                        "nameWithOwner": "jupyter/qtconsole"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "qtpy",
+                                    "repository": {
+                                        "nameWithOwner": "avalentino/qtpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typing-extensions",
+                                    "repository": {
+                                        "nameWithOwner": "python/typing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "uncertainties",
+                                    "repository": {
+                                        "nameWithOwner": "lebigot/uncertainties"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "vtk",
+                                    "repository": {
+                                        "nameWithOwner": "KitwareMedical/VTKPythonPackage"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "codecov",
+                                    "repository": {
+                                        "nameWithOwner": "webknjaz/codecov-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flake8",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/flake8"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mypy",
+                                    "repository": {
+                                        "nameWithOwner": "python/mypy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-qt",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-qt"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "neutrons/PyRS": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mantid-workbench",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "qtpy",
+                                    "repository": {
+                                        "nameWithOwner": "avalentino/qtpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typing-extensions",
+                                    "repository": {
+                                        "nameWithOwner": "python/typing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "uncertainties",
+                                    "repository": {
+                                        "nameWithOwner": "lebigot/uncertainties"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "vtk",
+                                    "repository": {
+                                        "nameWithOwner": "KitwareMedical/VTKPythonPackage"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "codecov",
+                                    "repository": {
+                                        "nameWithOwner": "webknjaz/codecov-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flake8",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/flake8"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mypy",
+                                    "repository": {
+                                        "nameWithOwner": "python/mypy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-qt",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-qt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "types-six",
+                                    "repository": {
+                                        "nameWithOwner": "pexip/os-python-types-six"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "repository": {
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "repository": {
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "neutrons/PyVDrive": {
             "dependencyGraphManifests": {
                 "nodes": [
