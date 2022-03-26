@@ -7994,6 +7994,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "numpy",
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
@@ -9840,7 +9847,9 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "grunt-contrib-mincss",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "gruntjs/grunt-contrib-mincss"
+                                    }
                                 },
                                 {
                                     "packageManager": "NPM",
