@@ -9,7 +9,7 @@ stages:
 variables:
   GIT_STRATEGY: clone
   GIT_DEPTH: "50" # this is the default value
-  REGISTRY: "https://code.ornl.gov:4567/rse/ornl.github.io"
+  REGISTRY: "https://code.ornl.gov:4567/rse-public/ornl-software-catalog"
   WORKER_URL: "${REGISTRY}/worker"
 
 include:
@@ -66,7 +66,7 @@ pages:
   variables:
     # this image is based off of the "jekyll/builder" image from https://github.com/envygeeks/jekyll-docker
     # we use this image instead of pulling from Docker Hub, to avoid rate limits
-    DOCKER_IMAGE: "code.ornl.gov:4567/rse/ornl.github.io/jekyll/builder:latest"
+    DOCKER_IMAGE: "code.ornl.gov:4567/rse-public/ornl-software-catalog/jekyll/builder:latest"
     DOCKER_WORKDIR: /srv/jekyll # default workdir of image, plus where we mount the repository to
     IMAGE_NAME: software-catalog-website
   script:
