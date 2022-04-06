@@ -621,12 +621,6 @@
         "topics": null,
         "website": null
     },
-    "ORNL/MD_Extractors": {
-        "description": "Sets of scripts for extracting metadata from scientific data files",
-        "name": "ORNL/MD_Extractors",
-        "topics": null,
-        "website": null
-    },
     "ORNL/ORAgendaVis": {
         "description": "Timeline Visualization",
         "name": "ORNL/ORAgendaVis",
@@ -725,6 +719,12 @@
     "ORNL/curifactory": {
         "description": "An experiment workflow and organization tool.",
         "name": "ORNL/curifactory",
+        "topics": null,
+        "website": ""
+    },
+    "ORNL/dflow": {
+        "description": "Python interface to ORNL's DataFlow",
+        "name": "ORNL/dflow",
         "topics": null,
         "website": ""
     },
@@ -1166,7 +1166,7 @@
         "description": "SNS data workflow manager and reporting app",
         "name": "neutrons/data_workflow",
         "topics": null,
-        "website": null
+        "website": "https://data-workflow.readthedocs.io/en/latest/"
     },
     "neutrons/fit_peak_intensities": {
         "description": null,
