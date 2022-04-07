@@ -18,7 +18,7 @@ var stdDotRadius = 4,
  * @param {string|null|undefined} queryParam parameter which may have been decoded from URL query parameter (or may not exist)
  */
 function renderError(queryParam) {
-  document.getElementById('content').innerHTML = `
+  document.getElementById('inner-content').innerHTML = `
     <h2><span class="fa fa-exclamation-circle"></span> Whoops...</h2>
     <p>${queryParam ? `The repository ${queryParam} is not in our catalog.` : 'No repository specified in the URL (i.e. "?name=).'}</p>
   `;
@@ -30,7 +30,7 @@ function renderError(queryParam) {
  * @param {number} issues count of all issues (open + closed)
  */
 function renderRepo(repo, pulls, issues) {
-  document.getElementById('content').innerHTML = `
+  document.getElementById('inner-content').innerHTML = `
     <h2 class="page-header text-center">
       <a class="title" href="${repo.url}" title="View Project on GitHub">${sanitizeHTML(repo.name)}</a>
       <br />
