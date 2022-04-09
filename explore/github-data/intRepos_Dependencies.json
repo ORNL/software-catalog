@@ -305,26 +305,6 @@
                                 }
                             ]
                         }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/upload-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/upload-artifact"
-                                    }
-                                }
-                            ]
-                        }
                     }
                 ]
             },
@@ -404,7 +384,21 @@
         },
         "ORNL-Fusion/GITR": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -5073,28 +5067,7 @@
         },
         "mcvine/instruments": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
                 "nodes": [
@@ -5107,28 +5080,7 @@
         },
         "mcvine/mantid2mcvine": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
                 "nodes": [
@@ -5214,28 +5166,7 @@
         },
         "mcvine/phonon": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
                 "nodes": [
@@ -5326,28 +5257,7 @@
         },
         "mcvine/systemtests-sample-assemblies": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
                 "nodes": [
@@ -5407,7 +5317,28 @@
         },
         "mcvine/workflow": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "repository": {
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -7706,26 +7637,6 @@
                                 }
                             ]
                         }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                }
-                            ]
-                        }
                     }
                 ]
             },
@@ -7996,26 +7907,6 @@
                     {
                         "dependencies": {
                             "nodes": []
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                }
-                            ]
                         }
                     }
                 ]
