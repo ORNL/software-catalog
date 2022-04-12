@@ -97,8 +97,13 @@
     "ORNL-CEES/thermochimica": {
         "description": "THERMOCHIMICA is a computational library for chemical thermodynamics. It determines a unique combination of phases and their compositions for a prescribed chemical composition, temperature and pressure. The solver and the underlying thermodynamic models can be used to estimate the chemical state and various constitutive and transport properties necessary for various materials and process models.",
         "name": "ORNL-CEES/thermochimica",
-        "topics": null,
-        "website": null
+        "topics": [
+            "chemistry",
+            "thermodynamics",
+            "equilibrium",
+            "fortran"
+        ],
+        "website": ""
     },
     "ORNL-Fusion/AE3D": {
         "description": null,
@@ -109,6 +114,12 @@
     "ORNL-Fusion/BMW": {
         "description": null,
         "name": "ORNL-Fusion/BMW",
+        "topics": null,
+        "website": null
+    },
+    "ORNL-Fusion/BOOZ_XFORM": {
+        "description": "Convert VMEC coordinates to Boozer Coordinates",
+        "name": "ORNL-Fusion/BOOZ_XFORM",
         "topics": null,
         "website": null
     },
@@ -356,6 +367,12 @@
         "topics": null,
         "website": null
     },
+    "ORNL-Fusion/ornl-fusion.github.io": {
+        "description": null,
+        "name": "ORNL-Fusion/ornl-fusion.github.io",
+        "topics": null,
+        "website": null
+    },
     "ORNL-Fusion/p2f": {
         "description": "particle to distribution function",
         "name": "ORNL-Fusion/p2f",
@@ -371,6 +388,12 @@
     "ORNL-Fusion/py-plasmastate": {
         "description": "Python Binding for PPPL Plasma State",
         "name": "ORNL-Fusion/py-plasmastate",
+        "topics": null,
+        "website": null
+    },
+    "ORNL-Fusion/resolution_export_to_ref_list": {
+        "description": "Takes the export of publications from resolution and converts it to a text list of publications in a useful format for reports / FWPs",
+        "name": "ORNL-Fusion/resolution_export_to_ref_list",
         "topics": null,
         "website": null
     },
@@ -572,6 +595,12 @@
         "topics": null,
         "website": null
     },
+    "ORNL/DataFedEndpointBenchmark": {
+        "description": "This repo contains the DataFed ArangoDB Foxx code and performance benchmark testing infrastructure that has been run on the endpoints. ",
+        "name": "ORNL/DataFedEndpointBenchmark",
+        "topics": null,
+        "website": null
+    },
     "ORNL/DistGANs": {
         "description": "Distributed computed training fo Generative Adversarial Neural Networks",
         "name": "ORNL/DistGANs",
@@ -589,12 +618,6 @@
     "ORNL/Jekyll-ORNL-Theme": {
         "description": null,
         "name": "ORNL/Jekyll-ORNL-Theme",
-        "topics": null,
-        "website": null
-    },
-    "ORNL/MD_Extractors": {
-        "description": "Sets of scripts for extracting metadata from scientific data files",
-        "name": "ORNL/MD_Extractors",
         "topics": null,
         "website": null
     },
@@ -622,9 +645,9 @@
         "topics": null,
         "website": null
     },
-    "ORNL/ProxyIO.jl": {
+    "ORNL/RIOPA.jl": {
         "description": "Proxy app for input/output pattern generation in the Exascale Computing Project using Julia",
-        "name": "ORNL/ProxyIO.jl",
+        "name": "ORNL/RIOPA.jl",
         "topics": null,
         "website": null
     },
@@ -698,6 +721,12 @@
         "name": "ORNL/curifactory",
         "topics": null,
         "website": ""
+    },
+    "ORNL/dflow": {
+        "description": "Python interface to ORNL's DataFlow",
+        "name": "ORNL/dflow",
+        "topics": null,
+        "website": "https://ornl.github.io/dflow/"
     },
     "ORNL/eden": {
         "description": "EDEN v1 Repo",
@@ -1001,6 +1030,12 @@
         "topics": null,
         "website": null
     },
+    "neutrons/CIS_documentation": {
+        "description": "Any documentation related to CIS work (autoreduction, jupyter notebooks, etc)",
+        "name": "neutrons/CIS_documentation",
+        "topics": null,
+        "website": null
+    },
     "neutrons/CrystalPlan": {
         "description": null,
         "name": "neutrons/CrystalPlan",
@@ -1131,7 +1166,7 @@
         "description": "SNS data workflow manager and reporting app",
         "name": "neutrons/data_workflow",
         "topics": null,
-        "website": null
+        "website": "https://data-workflow.readthedocs.io/en/latest/"
     },
     "neutrons/fit_peak_intensities": {
         "description": null,

@@ -15,6 +15,22 @@
                 "login": "0x10001"
             }
         },
+        "5monkeys/pyparsing": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "pyparsing",
+            "nameWithOwner": "5monkeys/pyparsing",
+            "owner": {
+                "isVerified": true,
+                "login": "5monkeys"
+            }
+        },
         "Aquasys/django-sphinx-autodoc": {
             "languages": {
                 "nodes": [
@@ -448,21 +464,6 @@
             "owner": {
                 "isVerified": true,
                 "login": "TryGhost"
-            }
-        },
-        "acidburn0zzz/pre-commit": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "pre-commit",
-            "nameWithOwner": "acidburn0zzz/pre-commit",
-            "owner": {
-                "login": "acidburn0zzz"
             }
         },
         "actions/cache": {
@@ -2506,6 +2507,17 @@
                 "login": "gruntjs"
             }
         },
+        "gruntjs/grunt-contrib-mincss": {
+            "languages": {
+                "nodes": []
+            },
+            "name": "grunt-contrib-mincss",
+            "nameWithOwner": "gruntjs/grunt-contrib-mincss",
+            "owner": {
+                "isVerified": false,
+                "login": "gruntjs"
+            }
+        },
         "gruntjs/grunt-contrib-qunit": {
             "languages": {
                 "nodes": [
@@ -2911,21 +2923,6 @@
             "nameWithOwner": "jakwuh/babel-plugin-transform-runtime",
             "owner": {
                 "login": "jakwuh"
-            }
-        },
-        "jamesplease/material-design-icons": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#e34c26",
-                        "name": "HTML"
-                    }
-                ]
-            },
-            "name": "material-design-icons",
-            "nameWithOwner": "jamesplease/material-design-icons",
-            "owner": {
-                "login": "jamesplease"
             }
         },
         "jantimon/html-webpack-plugin": {
@@ -3353,22 +3350,6 @@
                 "login": "jupyter"
             }
         },
-        "jupyter/notebook": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "notebook",
-            "nameWithOwner": "jupyter/notebook",
-            "owner": {
-                "isVerified": false,
-                "login": "jupyter"
-            }
-        },
         "jupyter/qtconsole": {
             "languages": {
                 "nodes": [
@@ -3682,6 +3663,21 @@
                 "login": "makinacorpus"
             }
         },
+        "marella/material-design-icons": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "material-design-icons",
+            "nameWithOwner": "marella/material-design-icons",
+            "owner": {
+                "login": "marella"
+            }
+        },
         "markau/express-sanitizer": {
             "languages": {
                 "nodes": [
@@ -3834,6 +3830,21 @@
             "owner": {
                 "isVerified": false,
                 "login": "mindojo"
+            }
+        },
+        "mirobeka/notebook": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "notebook",
+            "nameWithOwner": "mirobeka/notebook",
+            "owner": {
+                "login": "mirobeka"
             }
         },
         "mljs/levenberg-marquardt": {
@@ -4654,6 +4665,22 @@
                 "login": "postcss"
             }
         },
+        "pre-commit/pre-commit": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "pre-commit",
+            "nameWithOwner": "pre-commit/pre-commit",
+            "owner": {
+                "isVerified": true,
+                "login": "pre-commit"
+            }
+        },
         "prompt-toolkit/python-prompt-toolkit": {
             "languages": {
                 "nodes": [
@@ -4796,22 +4823,6 @@
             "owner": {
                 "isVerified": true,
                 "login": "pypa"
-            }
-        },
-        "pyparsing/pyparsing": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "pyparsing",
-            "nameWithOwner": "pyparsing/pyparsing",
-            "owner": {
-                "isVerified": false,
-                "login": "pyparsing"
             }
         },
         "pytest-dev/pytest": {
@@ -5067,6 +5078,21 @@
             "owner": {
                 "isVerified": false,
                 "login": "requests"
+            }
+        },
+        "rosswhitfield/ase": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "ase",
+            "nameWithOwner": "rosswhitfield/ase",
+            "owner": {
+                "login": "rosswhitfield"
             }
         },
         "royriojas/eslint-friendly-formatter": {
@@ -6090,6 +6116,22 @@
                 "login": "vuejs"
             }
         },
+        "vuejs/router": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#2b7489",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "router",
+            "nameWithOwner": "vuejs/router",
+            "owner": {
+                "isVerified": true,
+                "login": "vuejs"
+            }
+        },
         "vuejs/vue": {
             "languages": {
                 "nodes": [
@@ -6133,22 +6175,6 @@
             },
             "name": "vue-loader",
             "nameWithOwner": "vuejs/vue-loader",
-            "owner": {
-                "isVerified": true,
-                "login": "vuejs"
-            }
-        },
-        "vuejs/vue-router": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "vue-router",
-            "nameWithOwner": "vuejs/vue-router",
             "owner": {
                 "isVerified": true,
                 "login": "vuejs"

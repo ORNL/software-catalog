@@ -15,10 +15,10 @@ Before you begin, make sure you have working installs of Git, Ruby, and [Bundler
 To work locally, first clone into the repository:
 
 ```shell
-git clone https://github.com/ORNL/ornl.github.io.git
+git clone https://code.ornl.gov/rse-public/ornl-software-catalog
 ```
 
-Make sure you are in the directory you just created by running `cd ornl.github.io` Then you can use `bundler` to install the Ruby dependencies (see the [Jekyll installation docs](https://jekyllrb.com/docs/installation/) for step-by-step guides to setting this up):
+Make sure you are in the directory you just created by running `cd ornl-software-catalog` Then you can use `bundler` to install the Ruby dependencies (see the [Jekyll installation docs](https://jekyllrb.com/docs/installation/) for step-by-step guides to setting this up):
 
 ```shell
 bundle install
