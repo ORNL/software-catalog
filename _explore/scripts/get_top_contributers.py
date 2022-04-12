@@ -3,7 +3,8 @@ from github import Github
 import os
 
 # Initialize Github
-gh = Github('## API_KEY ##')
+apiKey = os.environ.get('GITHUB_API_KEY')
+gh = Github(apiKey)
 
 # Function to pull contributors and return the top 3 for the submitted repo
 def ProcessRepo(gh, url):
