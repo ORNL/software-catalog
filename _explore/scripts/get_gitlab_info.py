@@ -3,13 +3,17 @@ import gitlab
 import json
 import os
 
-apiKey = 'y2d9VyCxmyCWR3EBc9vT'
+# Create Gitlab Connection
+apiKey = os.environ.get('y2d9VyCxmyCWR3EBc9vT')
 gl = gitlab.Gitlab(url='https://code.ornl.gov/',private_token=apiKey)
 
+# Pull only public repos
 projects = gl.projects.list(visibility='public')
 
+# Make Initial Object for Data
 processedProjects = {}
 
+# Loop through projects gathering data
 for project in projects:
     try:
         fullProject = gl.projects.get(project.encoded_id)
@@ -49,5 +53,10 @@ for project in projects:
     except:
         continue
 
+#Set projects in data object
+data = {}
+data["data"] = processedProjects
+
+#write File
 with open('explore/github-data/intReposInfoGitlab.json', 'w') as path:
-    json.dump(processedProjects, path, indent=4)
+    json.dump(data, path, indent=4)
