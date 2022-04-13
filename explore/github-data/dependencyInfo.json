@@ -1003,7 +1003,7 @@
             "name": "launchpad",
             "nameWithOwner": "bitovi/launchpad",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "bitovi"
             }
         },
@@ -3177,6 +3177,21 @@
             "nameWithOwner": "jdesboeufs/connect-mongo",
             "owner": {
                 "login": "jdesboeufs"
+            }
+        },
+        "jfstn/Validator": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "Validator",
+            "nameWithOwner": "jfstn/Validator",
+            "owner": {
+                "login": "jfstn"
             }
         },
         "jianglb-alibaba/django-redis": {
@@ -6050,22 +6065,6 @@
             "nameWithOwner": "vaibhavsingh97/random-word",
             "owner": {
                 "login": "vaibhavsingh97"
-            }
-        },
-        "validatorjs/validator.js": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "validator.js",
-            "nameWithOwner": "validatorjs/validator.js",
-            "owner": {
-                "isVerified": false,
-                "login": "validatorjs"
             }
         },
         "visionmedia/supertest": {
