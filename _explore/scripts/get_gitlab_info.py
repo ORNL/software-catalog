@@ -4,7 +4,7 @@ import json
 import os
 
 # Create Gitlab Connection
-apiKey = os.environ.get('y2d9VyCxmyCWR3EBc9vT')
+apiKey = os.environ.get('GITLAB_API_KEY')
 gl = gitlab.Gitlab(url='https://code.ornl.gov/',private_token=apiKey)
 
 # Pull only public repos
