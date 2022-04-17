@@ -4921,10 +4921,62 @@
         },
         "ORNL/zambeze": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
             }
         },
         "mcvine/McVineGPU": {
