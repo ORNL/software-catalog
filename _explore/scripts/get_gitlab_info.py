@@ -29,7 +29,7 @@ for project in projects:
         info["licenseInfo"] = None #Haven't found a match
         info["mentionableUsers"] = {"totalCount": len(fullProject.users.list())}
         info["name"] = fullProject.name
-        info["nameWithOwner"] = fullProject.name_with_namespace
+        info["nameWithOwner"] = fullProject.path_with_namespace
         info["owner"] = fullProject.namespace["full_path"]
         if (fullProject._parent_attrs == {}):
             info["parent"] = None
@@ -50,7 +50,9 @@ for project in projects:
         info["url"] = fullProject.http_url_to_repo
         
         processedProjects[project.name] = info
+        print("Successfully added project " + fullProject.name)
     except:
+        print("Error: Issue writing Gitlab project information for " + fullProject.name)
         continue
 
 #Set projects in data object
