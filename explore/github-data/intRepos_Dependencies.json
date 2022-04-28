@@ -6403,6 +6403,18 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "json",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "setuptools",
                                     "repository": {
                                         "nameWithOwner": "pypa/setuptools"
@@ -6429,6 +6441,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "JoshuaSBrown/cpp-py-formatter/command",
+                                    "repository": {
+                                        "nameWithOwner": "JoshuaSBrown/cpp-py-formatter"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
@@ -6439,6 +6464,19 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "JoshuaSBrown/cpp-py-formatter/check",
+                                    "repository": {
+                                        "nameWithOwner": "JoshuaSBrown/cpp-py-formatter"
                                     }
                                 }
                             ]
