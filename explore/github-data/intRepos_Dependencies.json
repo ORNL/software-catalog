@@ -6403,14 +6403,9 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "json",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
+                                    "packageName": "nats-py",
                                     "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
+                                        "nameWithOwner": "nats-io/nats.py"
                                     }
                                 },
                                 {
@@ -6426,6 +6421,13 @@
                     {
                         "dependencies": {
                             "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "nats-py",
+                                    "repository": {
+                                        "nameWithOwner": "nats-io/nats.py"
+                                    }
+                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "setuptools",
@@ -6464,6 +6466,13 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
                                     }
                                 }
                             ]
