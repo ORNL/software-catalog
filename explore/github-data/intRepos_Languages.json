@@ -3098,10 +3098,26 @@
         },
         "ORNL/DD-AADL": {
             "languages": {
-                "edges": [],
-                "nodes": [],
-                "totalCount": 0,
-                "totalSize": 0
+                "edges": [
+                    {
+                        "size": 101248
+                    },
+                    {
+                        "size": 1187
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ],
+                "totalCount": 2,
+                "totalSize": 102435
             }
         },
         "ORNL/DataFed": {
@@ -6186,7 +6202,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 620910
+                        "size": 621053
                     },
                     {
                         "size": 344430
@@ -6238,7 +6254,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 1249901
+                "totalSize": 1250044
             }
         },
         "neutrons/fit_peak_intensities": {
