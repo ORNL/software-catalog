@@ -163,19 +163,6 @@
                 ]
             }
         },
-        "ORNL-CEES/MCREX": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#0e60e3",
-                        "name": "Harbour"
-                    }
-                ]
-            }
-        },
         "ORNL-CEES/Profugus": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -3894,6 +3881,13 @@
                                     "packageName": "ase",
                                     "repository": {
                                         "nameWithOwner": "rosswhitfield/ase"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "click",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/click"
                                     }
                                 },
                                 {
@@ -9795,6 +9789,11 @@
                     {
                         "dependencies": {
                             "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mantid",
+                                    "repository": null
+                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "matplotlib",
