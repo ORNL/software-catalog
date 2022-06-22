@@ -2496,7 +2496,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "etag",
                                     "repository": {
-                                        "nameWithOwner": "germanlinux/ETag"
+                                        "nameWithOwner": "jshttp/etag"
                                     }
                                 },
                                 {
@@ -3495,7 +3495,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "etag",
                                     "repository": {
-                                        "nameWithOwner": "germanlinux/ETag"
+                                        "nameWithOwner": "jshttp/etag"
                                     }
                                 },
                                 {
@@ -3615,7 +3615,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "filelist",
                                     "repository": {
-                                        "nameWithOwner": "node-file-api/FileList"
+                                        "nameWithOwner": "mde/filelist"
                                     }
                                 },
                                 {
@@ -6417,6 +6417,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "globus-sdk",
+                                    "repository": {
+                                        "nameWithOwner": "globus/globus-sdk-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "nats-py",
                                     "repository": {
                                         "nameWithOwner": "nats-io/nats.py"
@@ -6441,6 +6448,13 @@
                                     "packageName": "setuptools",
                                     "repository": {
                                         "nameWithOwner": "pypa/setuptools"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "wheel",
+                                    "repository": {
+                                        "nameWithOwner": "Cristie/wheel"
                                     }
                                 }
                             ]
@@ -8338,7 +8352,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "mathjs",
                                     "repository": {
-                                        "nameWithOwner": "edom18/MathJS"
+                                        "nameWithOwner": "josdejong/mathjs"
                                     }
                                 },
                                 {
@@ -8797,6 +8811,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "build",
+                                    "repository": {
+                                        "nameWithOwner": "benjamin-hodgson/build"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "flake8",
                                     "repository": {
                                         "nameWithOwner": "PyCQA/flake8"
@@ -8807,6 +8828,27 @@
                                     "packageName": "mock",
                                     "repository": {
                                         "nameWithOwner": "calvinchengx/python-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "periodictable",
+                                    "repository": {
+                                        "nameWithOwner": "pkienzle/periodictable"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "psutil",
+                                    "repository": {
+                                        "nameWithOwner": "giampaolo/psutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pystog",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/pystog"
                                     }
                                 },
                                 {
@@ -8832,43 +8874,16 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "typing",
-                                    "repository": {
-                                        "nameWithOwner": "akaihola/typing"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "periodictable",
-                                    "repository": {
-                                        "nameWithOwner": "pkienzle/periodictable"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "psutil",
-                                    "repository": {
-                                        "nameWithOwner": "giampaolo/psutil"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pystog",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/pystog"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "qtpy",
                                     "repository": {
                                         "nameWithOwner": "avalentino/qtpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
                                     }
                                 },
                                 {
@@ -8877,13 +8892,20 @@
                                     "repository": {
                                         "nameWithOwner": "simplejson/simplejson"
                                     }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typing",
+                                    "repository": {
+                                        "nameWithOwner": "akaihola/typing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "versioningit",
+                                    "repository": null
                                 }
                             ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": []
                         }
                     },
                     {
@@ -10271,7 +10293,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "mathjs",
                                     "repository": {
-                                        "nameWithOwner": "edom18/MathJS"
+                                        "nameWithOwner": "josdejong/mathjs"
                                     }
                                 },
                                 {
