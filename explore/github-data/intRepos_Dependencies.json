@@ -4086,10 +4086,64 @@
         },
         "ORNL/ORNL.github.io": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "github-pages",
+                                    "repository": {
+                                        "nameWithOwner": "github/pages-gem"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "http_parser.rb",
+                                    "repository": {
+                                        "nameWithOwner": "tmm1/http_parser.rb"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-feed",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-feed"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "tzinfo",
+                                    "repository": {
+                                        "nameWithOwner": "tzinfo/tzinfo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "tzinfo-data",
+                                    "repository": {
+                                        "nameWithOwner": "tzinfo/tzinfo-data"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "wdm",
+                                    "repository": {
+                                        "nameWithOwner": "Maher4Ever/wdm"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#701516",
+                        "name": "Ruby"
+                    }
+                ]
             }
         },
         "ORNL/PDMATLAB2D": {
