@@ -6534,9 +6534,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "wheel",
+                                    "packageName": "typer",
                                     "repository": {
-                                        "nameWithOwner": "Cristie/wheel"
+                                        "nameWithOwner": "tiangolo/typer"
                                     }
                                 }
                             ]
@@ -6557,6 +6557,59 @@
                                     "packageName": "setuptools",
                                     "repository": {
                                         "nameWithOwner": "pypa/setuptools"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "darglint",
+                                    "repository": {
+                                        "nameWithOwner": "terrencepreilly/darglint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "docutils",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "lockfile",
+                                    "repository": {
+                                        "nameWithOwner": "mobilewebup/lockfile-0.9.1-py3k"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "myst-parser",
+                                    "repository": {
+                                        "nameWithOwner": "po60nani/MyST-Parser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typer",
+                                    "repository": {
+                                        "nameWithOwner": "tiangolo/typer"
                                     }
                                 }
                             ]
