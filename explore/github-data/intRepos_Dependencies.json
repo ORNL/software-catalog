@@ -9074,6 +9074,20 @@
                                     "repository": {
                                         "nameWithOwner": "eic/trigger-gitlab-ci"
                                     }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/branch-mapper",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/branch-mapper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peter-evans/commit-comment",
+                                    "repository": {
+                                        "nameWithOwner": "peter-evans/commit-comment"
+                                    }
                                 }
                             ]
                         }
@@ -9087,6 +9101,28 @@
                         "name": "Python"
                     }
                 ]
+            }
+        },
+        "neutrons/branch-mapper": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "neutrons/data_workflow": {
