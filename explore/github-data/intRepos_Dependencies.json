@@ -7669,6 +7669,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "build",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/build"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "codecov",
                                     "repository": {
                                         "nameWithOwner": "webknjaz/codecov-python"
@@ -7711,10 +7718,36 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "qtpy",
+                                    "repository": {
+                                        "nameWithOwner": "avalentino/qtpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "types-six",
                                     "repository": {
                                         "nameWithOwner": "python/typeshed"
                                     }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typing",
+                                    "repository": {
+                                        "nameWithOwner": "akaihola/typing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "versioningit",
+                                    "repository": null
                                 }
                             ]
                         }
