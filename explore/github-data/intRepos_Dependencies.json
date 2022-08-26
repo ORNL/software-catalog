@@ -4949,7 +4949,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.glassfish.jersey.containers:jersey-container-grizzly2-http",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "eclipse-ee4j/jersey"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
