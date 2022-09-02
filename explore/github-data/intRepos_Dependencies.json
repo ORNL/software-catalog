@@ -10059,13 +10059,6 @@
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
                                     }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pylint",
-                                    "repository": {
-                                        "nameWithOwner": "channable/pylint"
-                                    }
                                 }
                             ]
                         }
@@ -10074,51 +10067,17 @@
                         "dependencies": {
                             "nodes": [
                                 {
-                                    "packageManager": "PIP",
-                                    "packageName": "codecov",
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
                                     "repository": {
-                                        "nameWithOwner": "webknjaz/codecov-python"
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 },
                                 {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
                                     "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-cov",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-cov"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-qt",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-qt"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
                                     }
                                 }
                             ]
