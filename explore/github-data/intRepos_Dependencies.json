@@ -5144,6 +5144,101 @@
                 "nodes": []
             }
         },
+        "ORNL/briar-api": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "colorama",
+                                    "repository": {
+                                        "nameWithOwner": "msabramo/colorama"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "dlib",
+                                    "repository": {
+                                        "nameWithOwner": "davisking/dlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "grpcio",
+                                    "repository": {
+                                        "nameWithOwner": "grpc/grpc"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "grpcio-tools",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "imutils",
+                                    "repository": {
+                                        "nameWithOwner": "PyImageSearch/imutils"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "opencv-python",
+                                    "repository": {
+                                        "nameWithOwner": "bertsky/wrap_opencv-python-headless"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyvision-toolkit",
+                                    "repository": {
+                                        "nameWithOwner": "bolme/pyvision"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL/cpp-proposals-pub": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -6362,6 +6457,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "build",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/build"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "ipywidgets",
                                     "repository": {
                                         "nameWithOwner": "jakevdp/ipywidgets-static"
@@ -6435,6 +6537,13 @@
                                     "packageName": "tqdm",
                                     "repository": {
                                         "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "twine",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/twine"
                                     }
                                 },
                                 {
