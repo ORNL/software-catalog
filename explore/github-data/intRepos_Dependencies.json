@@ -6442,6 +6442,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pytest-profiling",
+                                    "repository": {
+                                        "nameWithOwner": "man-group/pytest-plugins"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "autodocsumm",
                                     "repository": {
                                         "nameWithOwner": "descarteslabs/autodocsumm"
