@@ -786,7 +786,7 @@
                 "totalCount": 4
             },
             "stargazers": {
-                "totalCount": 32
+                "totalCount": 33
             },
             "url": "https://github.com/ORNL-CEES/thermochimica"
         },
@@ -1745,7 +1745,9 @@
         },
         "ORNL-Fusion/OEDGE": {
             "createdAt": "2022-07-26T15:22:41Z",
-            "defaultBranchRef": null,
+            "defaultBranchRef": {
+                "name": "master"
+            },
             "description": null,
             "forks": {
                 "totalCount": 0
@@ -1758,7 +1760,7 @@
                 "totalCount": 0
             },
             "languages": {
-                "totalCount": 0
+                "totalCount": 13
             },
             "licenseInfo": null,
             "mentionableUsers": {
@@ -1771,7 +1773,9 @@
                 "login": "ORNL-Fusion"
             },
             "parent": null,
-            "primaryLanguage": null,
+            "primaryLanguage": {
+                "name": "Fortran"
+            },
             "pullRequests_Closed": {
                 "totalCount": 0
             },
@@ -5474,10 +5478,10 @@
                 "totalCount": 19
             },
             "pullRequests_Merged": {
-                "totalCount": 90
+                "totalCount": 92
             },
             "pullRequests_Open": {
-                "totalCount": 3
+                "totalCount": 2
             },
             "repositoryTopics": {
                 "totalCount": 1
@@ -7551,6 +7555,61 @@
                 "totalCount": 0
             },
             "url": "https://github.com/ORNL/soar_survey_scoring"
+        },
+        "ORNL/software-catalog": {
+            "createdAt": "2022-09-26T17:48:27Z",
+            "defaultBranchRef": {
+                "name": "dev"
+            },
+            "description": "ORNL open source software catalog",
+            "forks": {
+                "totalCount": 0
+            },
+            "homepageUrl": "",
+            "issues_Closed": {
+                "totalCount": 0
+            },
+            "issues_Open": {
+                "totalCount": 0
+            },
+            "languages": {
+                "totalCount": 8
+            },
+            "licenseInfo": {
+                "name": "MIT License",
+                "nickname": null,
+                "spdxId": "MIT",
+                "url": "http://choosealicense.com/licenses/mit/"
+            },
+            "mentionableUsers": {
+                "totalCount": 32
+            },
+            "name": "software-catalog",
+            "nameWithOwner": "ORNL/software-catalog",
+            "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/5138006?v=4",
+                "login": "ORNL"
+            },
+            "parent": null,
+            "primaryLanguage": {
+                "name": "JavaScript"
+            },
+            "pullRequests_Closed": {
+                "totalCount": 0
+            },
+            "pullRequests_Merged": {
+                "totalCount": 0
+            },
+            "pullRequests_Open": {
+                "totalCount": 0
+            },
+            "repositoryTopics": {
+                "totalCount": 0
+            },
+            "stargazers": {
+                "totalCount": 0
+            },
+            "url": "https://github.com/ORNL/software-catalog"
         },
         "ORNL/test-2017-10-03": {
             "createdAt": "2017-10-04T02:23:08Z",
@@ -9987,7 +10046,7 @@
                 "totalCount": 69
             },
             "pullRequests_Open": {
-                "totalCount": 0
+                "totalCount": 1
             },
             "repositoryTopics": {
                 "totalCount": 0
@@ -10976,7 +11035,7 @@
                 "totalCount": 19
             },
             "pullRequests_Open": {
-                "totalCount": 0
+                "totalCount": 1
             },
             "repositoryTopics": {
                 "totalCount": 0
