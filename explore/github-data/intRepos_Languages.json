@@ -1279,7 +1279,7 @@
                         "size": 551239
                     },
                     {
-                        "size": 69429
+                        "size": 71410
                     },
                     {
                         "size": 4558
@@ -1307,7 +1307,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 627946
+                "totalSize": 629927
             }
         },
         "ORNL-Fusion/RFSciDAC-testing": {
@@ -3705,6 +3705,9 @@
                     },
                     {
                         "size": 749
+                    },
+                    {
+                        "size": 477
                     }
                 ],
                 "nodes": [
@@ -3715,10 +3718,14 @@
                     {
                         "color": "#384d54",
                         "name": "Dockerfile"
+                    },
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
                     }
                 ],
-                "totalCount": 2,
-                "totalSize": 31008
+                "totalCount": 3,
+                "totalSize": 31485
             }
         },
         "ORNL/SensorVisFC": {
@@ -4277,6 +4284,14 @@
                 "totalSize": 11559122
             }
         },
+        "ORNL/icat": {
+            "languages": {
+                "edges": [],
+                "nodes": [],
+                "totalCount": 0,
+                "totalSize": 0
+            }
+        },
         "ORNL/ipyanchorviz": {
             "languages": {
                 "edges": [],
@@ -4676,7 +4691,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 268234
+                        "size": 270359
                     },
                     {
                         "size": 102070
@@ -4714,7 +4729,7 @@
                     }
                 ],
                 "totalCount": 5,
-                "totalSize": 488456
+                "totalSize": 490581
             }
         },
         "ORNL/shaman": {
@@ -4880,6 +4895,37 @@
                 ],
                 "totalCount": 8,
                 "totalSize": 360691
+            }
+        },
+        "ORNL/sparse-gosine-similarity": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 17939
+                    },
+                    {
+                        "size": 3388
+                    },
+                    {
+                        "size": 1011
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#00ADD8",
+                        "name": "Go"
+                    },
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    },
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ],
+                "totalCount": 3,
+                "totalSize": 22338
             }
         },
         "ORNL/test-2017-10-03": {
@@ -6417,7 +6463,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 775778
+                        "size": 775740
                     },
                     {
                         "size": 6766
@@ -6441,7 +6487,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 782671
+                "totalSize": 782633
             }
         },
         "neutrons/StatisticsService": {

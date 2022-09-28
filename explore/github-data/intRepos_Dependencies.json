@@ -146,7 +146,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 }
                             ]
@@ -5363,14 +5363,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -5961,6 +5961,14 @@
                         "name": "Jupyter Notebook"
                     }
                 ]
+            }
+        },
+        "ORNL/icat": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "ORNL/ipyanchorviz": {
@@ -6798,6 +6806,85 @@
                 ]
             }
         },
+        "ORNL/sparse-gosine-similarity": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/bluele/psort",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/bluele/randutil",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/james-bowman/sparse",
+                                    "repository": {
+                                        "nameWithOwner": "james-bowman/sparse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "gonum.org/v1/gonum",
+                                    "repository": {
+                                        "nameWithOwner": "gonum/gonum"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/bluele/psort",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/bluele/randutil",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/james-bowman/sparse",
+                                    "repository": {
+                                        "nameWithOwner": "james-bowman/sparse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "golang.org/x/exp",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "gonum.org/v1/gonum",
+                                    "repository": {
+                                        "nameWithOwner": "gonum/gonum"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#00ADD8",
+                        "name": "Go"
+                    }
+                ]
+            }
+        },
         "ORNL/test-2017-10-03": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -6892,14 +6979,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -7180,14 +7267,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -8640,14 +8727,14 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 }
                             ]
@@ -8675,6 +8762,27 @@
                                     "packageName": "conda-incubator/setup-miniconda",
                                     "repository": {
                                         "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "repository": {
+                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/branch-mapper",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/branch-mapper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peter-evans/commit-comment",
+                                    "repository": {
+                                        "nameWithOwner": "peter-evans/commit-comment"
                                     }
                                 }
                             ]
@@ -10309,7 +10417,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -10357,7 +10465,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx-rtd-theme",
                                     "repository": {
-                                        "nameWithOwner": "Acidburn0zzz/theme_pour_sphinx"
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
                                     }
                                 },
                                 {
@@ -11871,7 +11979,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "sphinx",
                                     "repository": {
-                                        "nameWithOwner": "Scalr/sphinx"
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 }
                             ]
