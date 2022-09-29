@@ -6522,6 +6522,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "activesupport",
+                                    "repository": {
+                                        "nameWithOwner": "rails/rails"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "addressable",
                                     "repository": {
                                         "nameWithOwner": "sporkmonger/addressable"
@@ -6550,6 +6557,13 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "commonmarker",
+                                    "repository": {
+                                        "nameWithOwner": "gjtorikian/commonmarker"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "concurrent-ruby",
                                     "repository": {
                                         "nameWithOwner": "ruby-concurrency/concurrent-ruby"
@@ -6557,9 +6571,23 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "dnsruby",
+                                    "repository": {
+                                        "nameWithOwner": "alexdalitz/dnsruby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "em-websocket",
                                     "repository": {
                                         "nameWithOwner": "igrigorik/em-websocket"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "ethon",
+                                    "repository": {
+                                        "nameWithOwner": "typhoeus/ethon"
                                     }
                                 },
                                 {
@@ -6578,6 +6606,20 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "faraday",
+                                    "repository": {
+                                        "nameWithOwner": "lostisland/faraday"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "faraday-net_http",
+                                    "repository": {
+                                        "nameWithOwner": "lostisland/faraday-net_http"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "ffi",
                                     "repository": {
                                         "nameWithOwner": "ffi/ffi"
@@ -6588,6 +6630,34 @@
                                     "packageName": "forwardable-extended",
                                     "repository": {
                                         "nameWithOwner": "envygeeks/forwardable-extended"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "gemoji",
+                                    "repository": {
+                                        "nameWithOwner": "github/gemoji"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "github-pages",
+                                    "repository": {
+                                        "nameWithOwner": "github/pages-gem"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "github-pages-health-check",
+                                    "repository": {
+                                        "nameWithOwner": "github/pages-health-check"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "html-pipeline",
+                                    "repository": {
+                                        "nameWithOwner": "gjtorikian/html-pipeline"
                                     }
                                 },
                                 {
@@ -6613,9 +6683,37 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-avatar",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-avatar"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "jekyll-coffeescript",
                                     "repository": {
                                         "nameWithOwner": "jekyll/jekyll-coffeescript"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-commonmark",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-commonmark"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-commonmark-ghpages",
+                                    "repository": {
+                                        "nameWithOwner": "github/jekyll-commonmark-ghpages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-default-layout",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-default-layout"
                                     }
                                 },
                                 {
@@ -6627,9 +6725,72 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-gist",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-gist"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-github-metadata",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/github-metadata"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-include-cache",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-include-cache"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-mentions",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-mentions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-optional-front-matter",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-optional-front-matter"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-paginate",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-paginate"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-readme-index",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-readme-index"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "jekyll-redirect-from",
                                     "repository": {
                                         "nameWithOwner": "jekyll/jekyll-redirect-from"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-relative-links",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-relative-links"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-remote-theme",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-remote-theme"
                                     }
                                 },
                                 {
@@ -6655,9 +6816,121 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-swiss",
+                                    "repository": {
+                                        "nameWithOwner": "broccolini/swiss"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-architect",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/architect"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-cayman",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/cayman"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-dinky",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/dinky"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-hacker",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/hacker"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-leap-day",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/leap-day"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-merlot",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/merlot"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-midnight",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/midnight"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-minimal",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/minimal"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-modernist",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/modernist"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-primer",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/primer"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-slate",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/slate"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-tactile",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/tactile"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-theme-time-machine",
+                                    "repository": {
+                                        "nameWithOwner": "pages-themes/time-machine"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-titles-from-headings",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-titles-from-headings"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "jekyll-watch",
                                     "repository": {
                                         "nameWithOwner": "jekyll/jekyll-watch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jemoji",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jemoji"
                                     }
                                 },
                                 {
@@ -6697,6 +6970,34 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "minima",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/minima"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "minitest",
+                                    "repository": {
+                                        "nameWithOwner": "minitest/minitest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "nokogiri",
+                                    "repository": {
+                                        "nameWithOwner": "sparklemotion/nokogiri"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "octokit",
+                                    "repository": {
+                                        "nameWithOwner": "octokit/octokit.rb"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "pathutil",
                                     "repository": {
                                         "nameWithOwner": "envygeeks/pathutil"
@@ -6707,6 +7008,13 @@
                                     "packageName": "public_suffix",
                                     "repository": {
                                         "nameWithOwner": "weppos/publicsuffix-ruby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "racc",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/racc"
                                     }
                                 },
                                 {
@@ -6739,6 +7047,20 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
+                                    "packageName": "ruby2_keywords",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/ruby2_keywords"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "rubyzip",
+                                    "repository": {
+                                        "nameWithOwner": "rubyzip/rubyzip"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
                                     "packageName": "safe_yaml",
                                     "repository": {
                                         "nameWithOwner": "dtao/safe_yaml"
@@ -6746,9 +7068,30 @@
                                 },
                                 {
                                     "packageManager": "RUBYGEMS",
-                                    "packageName": "sassc",
+                                    "packageName": "sass",
                                     "repository": {
-                                        "nameWithOwner": "sass/sassc-ruby"
+                                        "nameWithOwner": "sass/ruby-sass"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "sass-listen",
+                                    "repository": {
+                                        "nameWithOwner": "hixio-mh/listen"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "sawyer",
+                                    "repository": {
+                                        "nameWithOwner": "lostisland/sawyer"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "simpleidn",
+                                    "repository": {
+                                        "nameWithOwner": "mmriis/simpleidn"
                                     }
                                 },
                                 {
@@ -6756,6 +7099,41 @@
                                     "packageName": "terminal-table",
                                     "repository": {
                                         "nameWithOwner": "tj/terminal-table"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "thread_safe",
+                                    "repository": {
+                                        "nameWithOwner": "ruby-concurrency/thread_safe"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "typhoeus",
+                                    "repository": {
+                                        "nameWithOwner": "typhoeus/typhoeus"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "tzinfo",
+                                    "repository": {
+                                        "nameWithOwner": "tzinfo/tzinfo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "unf",
+                                    "repository": {
+                                        "nameWithOwner": "knu/ruby-unf"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "unf_ext",
+                                    "repository": {
+                                        "nameWithOwner": "knu/ruby-unf_ext"
                                     }
                                 },
                                 {
@@ -6770,6 +7148,13 @@
                                     "packageName": "webrick",
                                     "repository": {
                                         "nameWithOwner": "ruby/webrick"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "zeitwerk",
+                                    "repository": {
+                                        "nameWithOwner": "fxn/zeitwerk"
                                     }
                                 }
                             ]
