@@ -98,7 +98,7 @@ When in doubt, contact a Derivative Classifier (DC) and/or IM for further guidan
 
 Make sure your repo contains [community health files](https://github.com/LLNL/.github/tree/main/community-health):
 
--   An appropriate open source **license** and `LLNL-CODE-xxxxxx` **release number**. See the [LLNL Software Licensing](/about/licenses) page for details and examples.
+-   An appropriate open source **license** and `LLNL-CODE-xxxxxx` **release number**. See the [ORNL Software Licensing]({{ 'about/licenses' | relative_url }}) page for details and examples.
 
 -   A [**README**](https://guides.github.com/features/wikis/) file that summarizes what the software does and how others can use it.
 
@@ -112,7 +112,7 @@ After your project has been initially released on GitHub and you are ready to pr
 
 Another good practice is to provide **user documentation**. Read the Docs (RtD) is a common platform for user guides, tutorials, quick start instructions, and other forms of documentation. Our [LLNL/.github repo](https://github.com/LLNL/.github) contains step-by-step instructions for setting up a RtD instance, a [template](https://github-main.readthedocs.io/en/latest/) you can start with, and links to various resources for tips and additional details.
 
-Submit your repo to [**DOE CODE**](https://www.osti.gov/doecode/faq#what-is) so others can find it when searching through DOE-funded projects. After your repo is included in DOE CODE, you may also want to add the **digital object identifier** (DOI) to the repo. See the [relevant section](/about/licenses/#digital-object-identifier-doi) of our LLNL Software Licensing page for more information.
+Submit your repo to [**DOE CODE**](https://www.osti.gov/doecode/faq#what-is) so others can find it when searching through DOE-funded projects. After your repo is included in DOE CODE, you may also want to add the **digital object identifier** (DOI) to the repo. See the [relevant section]({{ 'about/licenses/#digital-object-identifier-doi' | relative_url }}) of our LLNL Software Licensing page for more information.
 
 If your repo is research software, consider submitting it to the _Journal of Open Source Software_ ([JOSS](https://joss.theoj.org/about)). Submission will produce a **citation** to include in your README file, then users or other researchers can cite your software correctly. The [JOSS RtD site](https://joss.readthedocs.io/en/latest/submitting.html) describes the submission requirements. JOSS defines _research software_ as "software that solves complex modeling problems in a scientific context (physics, mathematics, biology, medicine, social science, neuroscience, engineering); supports the functioning of research instruments or the execution of research experiments; extracts knowledge from large data sets; offers a mathematical library; or similar." (You can also [sign up](https://joss.theoj.org/reviewer-signup.html) to review JOSS papers, if you are so inclined.)
 
@@ -120,13 +120,13 @@ If your repo is research software, consider submitting it to the _Journal of Ope
 
 Repositories within the LLNL organization are owned and managed by LLNL. Please do not create personal repositories here.
 
-Make sure your repository is included on this website’s home page and [full catalog](/). If you’ve set up your repository within the LLNL organization, you don’t need to take any action; it will automatically appear after the next data update.
+Make sure your repository is included on this website’s home page and [full catalog]({{ '/' | relative_url }}). If you’ve set up your repository within the LLNL organization, you don’t need to take any action; it will automatically appear after the next data update.
 
 -   If your repository exists under a different organization, you can move it to LLNL by selecting “Transfer Ownership” under Settings.
 
--   Alternatively, you can submit a pull request [updating the `input_lists.json` file](https://code.ornl.gov/rse/ornl.github.io/-/blob/main/_explore/input_lists.json), with your organization and/or repository names.
+-   Alternatively, you can submit a pull request [updating the `input_lists.json` file]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/_explore/input_lists.json), with your organization and/or repository names.
 
--   If you have a project logo, please follow the [instructions](https://code.ornl.gov/rse/ornl.github.io/-/tree/main/assets/images/logos) for naming and uploading the file. If your repo is part of a non-LLNL organization that has its own avatar, that image will automatically display next to the repo name in the catalog, unless superseded by a repo-specific logo.
+-   If you have a project logo, please follow the [instructions]({{site.repo_url}}/{{site.repo_tree_path}}/{{site.repo_branch}}/assets/images/logos) for naming and uploading the file. If your repo is part of a non-LLNL organization that has its own avatar, that image will automatically display next to the repo name in the catalog, unless superseded by a repo-specific logo.
 
 ### How do I let people know about my new repo?
 
@@ -134,7 +134,7 @@ Now that your project is on GitHub, make sure users and contributors can find it
 
 1. Include meaningful metadata (description and topic tags) in your repository. Example: [Spack](https://github.com/spack/spack) lists several topic tags below a one-sentence description.
 
-    - Start with our [list](https://code.ornl.gov/rse/ornl.github.io/-/blob/main/category/README.md) of recommended, standardized topics.
+    - Start with our [list]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/category/README.md) of recommended, standardized topics.
 
     - See helpful hints on [GitHub's topic help page](https://help.github.com/articles/about-topics/). Add tags relevant to your project's programming language, platforms, and more (e.g., Python, HPC, Linux).
 
@@ -146,7 +146,7 @@ Now that your project is on GitHub, make sure users and contributors can find it
 
 ### How do I contribute news or other content to this website?
 
-Submit a pull request! This website is a GitHub repo just like any other LLNL open source project. News is housed in the [`_posts` directory](https://code.ornl.gov/rse/ornl.github.io/-/tree/main/_posts), and templates are found in the [LLNL/.github repo](https://github.com/LLNL/.github). See the guidelines below about contributing.
+Submit a pull request! This website is a GitHub repo just like any other LLNL open source project. News is housed in the [`_posts` directory]({{site.repo_url}}/{{site.repo_tree_path}}/{{site.repo_branch}}/_posts), and templates are found in the [LLNL/.github repo](https://github.com/LLNL/.github). See the guidelines below about contributing.
 
 Before contributing, please contact [open-source@llnl.gov](mailto:open-source@llnl.gov) with your idea or if you have questions about whether your proposed content requires the LLNL review and release process.
 
@@ -154,7 +154,7 @@ Before contributing, please contact [open-source@llnl.gov](mailto:open-source@ll
 
 1. Remove your repo’s topic tags (e.g., `math-physics`), which connect it to this website’s browsable categories. Also remove the `radiuss` tag, if applicable.
 
-2. Submit a pull request [updating the `input_lists.json` file](https://code.ornl.gov/rse/ornl.github.io/-/blob/main/_explore/input_lists.json) to remove your repo’s name.
+2. Submit a pull request [updating the `input_lists.json` file]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/_explore/input_lists.json) to remove your repo’s name.
 
 3. Change your repo's status via Settings > Manage Access > Who has access > Manage > Danger Zone > Archive this repository (`settings#danger-zone`). Contact [open-source@llnl.gov](mailto:open-source@llnl.gov) if for some reason GitHub won't let you complete this step.
 
@@ -166,7 +166,7 @@ Migrating the repo outside of the LLNL organization requires an organization adm
 
 Once the repository has moved to the new organization:
 
-1. Submit a pull request [updating the `input_lists.json` file](https://code.ornl.gov/rse/ornl.github.io/-/blob/main/_explore/input_lists.json) to add the new organization/repo’s name. This allows for the software catalog to continue including the project even after it moves.
+1. Submit a pull request [updating the `input_lists.json` file]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/_explore/input_lists.json) to add the new organization/repo’s name. This allows for the software catalog to continue including the project even after it moves.
 
 2. Retain topic tags (e.g., `math-physics`) to connect it to this website’s browsable categories, including the `radiuss` tag, if applicable.
 

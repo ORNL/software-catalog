@@ -67,4 +67,4 @@ permalink: /news/
 
   </section>
   
-  <a class="btn btn-block news-archive-link" href="/news/archive/" role="button">See all news in the archive</a>
+  <a class="btn btn-block news-archive-link" href="{{ 'news/archive' | relative_url }}" role="button">See all news in the archive</a>
