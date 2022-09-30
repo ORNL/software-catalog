@@ -4,7 +4,11 @@
 
 ### WEBSITE VARIABLES ###
 name: "ORNL Software Catalog"
-repo_url: "https://github.com/ORNL/ornl.github.io"
+repo_url: "https://github.com/ORNL/software-catalog"
+repo_branch: "dev"
+# tree path varies based on github/gitlab repo, gitlab should be "-/tree"
+repo_tree_path: "tree"
+repo_blob_path: "blob"
 lab_name: "ORNL"
 
 ### SEO ###
@@ -12,7 +16,7 @@ lab_name: "ORNL"
 title: ORNL Software Catalog
 tagline: The hub for open-source software produced at ORNL
 description: "Get the latest news and metadata about ORNL's software"
-url: "https://software.ornl.gov/catalog"
+url: "https://ornl.github.io/software-catalog/"
 author: "ORNL Open Source Software <software@ornl.gov>"
 twitter:
   username: ornl
@@ -36,11 +40,11 @@ remote_theme: ORNL/Jekyll-ORNL-Theme@main
 
 ### JEKYLL DEFAULTS ###
 
-#baseurl: ""
+# NOTE: the website needs to be able to work with the next line both commented AND uncommented
+baseurl: "/software-catalog"
 
+# supported Github plugins are available at https://pages.github.com/versions/
 plugins:
-  #[github-pages]
-  - jekyll-github-metadata
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap

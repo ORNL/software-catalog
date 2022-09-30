@@ -93,7 +93,7 @@ function renderRepo(repo, pulls, issues) {
  * @param {string} queryParam parameter which was decoded from URL query parameter
  */
 function render(queryParam) {
-  fetch('/explore/github-data/intReposInfo.json')
+  fetch(`${window.config.baseUrl}/explore/github-data/intReposInfo.json`)
     .then((res) => res.json())
     .then((infoJson) => {
       const reposObj = infoJson.data;

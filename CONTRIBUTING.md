@@ -64,3 +64,11 @@ The process for hotfixes is similar to features, except for the following:
 -   Hotfix changes should be much narrower in focus - only make fixes which are mandatory for the application to function.
 -   Create a merge request into `main` .
 -   After the hotfix is merged into `main`, `main` should be merged into `dev` by a maintainer.
+
+## Handling intra-site URLs
+
+All URLs between website pages should work, regardless of the actual URL being used. You should be able to comment/uncomment the `baseurl` configuration value in `_config.yml` and have the website work consistently.
+
+- Inside of HTML and Markdown, you should always reference URLs like ``` <a href="{{ 'path/to/page' | relative_url }}"> ...```
+- Inside of SCSS, if using `url()`, just use a relative path to the file (i.e. `url(../images/image.png`))
+- Inside of Javascript, start the URL string with ``` `${window.config.baseUrl}` ```
