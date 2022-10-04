@@ -25,45 +25,13 @@ If you’re new to GitHub and open source in general, figuring out how to get se
     - **Photo**: A headshot photo, or image that is uniquely you.
     - **Name**: Your first and last name.
     - **Bio**: Include a few words about yourself! Don't forget to mention @ORNL.
-    - **URL**: This might be your [people.llnl.gov](https://people.llnl.gov) page, or a personal website if you prefer.
+    - **URL**: This might be your [www.ornl.gov/staff-profile](https://www.ornl.gov/staff-profile) page, or a personal website if you prefer.
     - **Company**: Probably `Oak Ridge National Laboratory, @ORNL`.
     - **Location**: Your primary location.
 
 3. Add your `@ORNL` email address (and any aliases) to your [Email Settings](https://github.com/settings/emails) page. This will link any commits done via [your Git identity](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#Your-Identity) to your GitHub account.
 
 4. [Enable two-factor authentication (2FA)](https://github.com/settings/security).
-
-### What is two-factor authentication (2FA)?
-
-_Membership in the @ORNL GitHub organization will soon require that 2FA has been enabled on your GitHub account._ There are several options for configuring 2FA for your GitHub account:
-
--   [YubiKey](https://yubico.com) hardware security keys
-
-    -   Note that the YubiKey deployment (called "MyPass" at LLNL) is in its pilot phase, and not all users have them yet.
-        -   YubiKeys are the preferred 2FA option, due to the security of the YubiKey hardware tokens. If you have been issued your LLNL YubiKeys they are highly recommended for securing your GitHub (and other) accounts which support them.
-    -   [Learn more about setting up your YubiKey with GitHub.com](https://help.github.com/articles/configuring-two-factor-authentication/#configuring-two-factor-authentication-using-fido-u2f)
-
--   [Google Authenticator](https://support.google.com/accounts/answer/1066447)
-
-    -   Google Authenticator is a mobile application which you can install on your personal or government issued phone.
-    -   It provides a one-time token (OTP) which you can use to authenticate to GitHub.com
-    -   [Learn more about setting up Google Authenticator with GitHub.com](https://help.github.com/articles/configuring-two-factor-authentication/#configuring-two-factor-authentication-using-a-totp-mobile-app)
-
--   [Authy](https://authy.com/guides/github/)
-    -   Authy is a desktop- or laptop-based application which can be used to generate a one-time token (OTP) for use logging in to GitHub.com.
-    -   This option is usually best for when you do all or most of your work in an environment where you do not have access to a mobile phone or USB YubiKey.
-    -   [Learn more about setting up Authy with GitHub.com](https://authy.com/guides/github/)
-
-Additional 2FA info:
-
--   You also have the option during 2FA to generate and save a list of recovery codes to get into your account in the event you lose access to one of your 2FA methods. This is _highly_ recommended, and the recovery codes should be stored someplace safe. Some options for storing your recovery codes include:
-
-    -   Printing the codes and storing them in a safe place in your office.
-    -   Storing the recovery codes in a password manager that you might be using.
-
--   We recommend that you set up _MULTIPLE_ 2FA options. This can protect your access to your account in the event that you lose access to one of your authenticators.
-    -   For more information, check out the [Two-factor Authentication](https://github.com/blog/1614-two-factor-authentication) post on the GitHub Blog.
-    -   Having trouble setting up 2FA? Contact the [ORNL GitHub admins](mailto:software@ornl.gov) who may be able to help.
 
 ### How do I join the ORNL organization on GitHub?
 
@@ -77,11 +45,11 @@ If you are an employee at ORNL and have 2FA enabled, you are eligible to join th
 
 ### How do I get my repo reviewed and released for GitHub?
 
-Before content is placed into an LLNL GitHub.com repository, it should be reviewed and released via LLNL's Information Management (IM) process. All information produced by LLNL must follow the guidance set forth by the LLNL IM policy for both [initial release {% raw %}<i class="fa fa-lock"></i>{% endraw %}](https://dev.llnl.gov/opensource/releasing/) and [incremental contributions {% raw %}<i class="fa fa-lock"></i>{% endraw %}](https://dev.llnl.gov/opensource/contributing/).
+Before content is placed into an ORNL GitHub.com repository, it should be reviewed and released via ORNL's Software Registration System (SRS). Please contact your division representative for information on how to use the SRS.
 
 ### What is/isn’t allowed to be included in my repo?
 
-Remember that these repositories _are hosted_ on GitHub servers, _NOT LLNL servers_, and content placed in them should be limited to "email like" communications. That means:
+Remember that these repositories _are hosted_ on GitHub servers, _NOT ORNL servers_, and content placed in them should be limited to "email like" communications. That means:
 
 -   NO Classified
 -   NO Export Controlled
@@ -92,85 +60,57 @@ Remember that these repositories _are hosted_ on GitHub servers, _NOT LLNL serve
 -   NO Unclassified Controlled Information (UCI)
 -   NO Unclassified Controlled Nuclear Information (UCNI)
 
-When in doubt, contact a Derivative Classifier (DC) and/or IM for further guidance.
+When in doubt, contact your division representative further guidance.
 
-### My project is approved for release. Now what?
+### How do I include my repo in the ORNL organization and/or this website’s catalog?
 
-Make sure your repo contains [community health files](https://github.com/LLNL/.github/tree/main/community-health):
+Repositories within the ORNL organization are owned and managed by ORNL. Please do not create personal repositories here.
 
--   An appropriate open source **license** and `LLNL-CODE-xxxxxx` **release number**. See the [LLNL Software Licensing](/about/licenses) page for details and examples.
+Make sure your repository is included on this website’s home page and [full catalog]({{ '/' | relative_url }}). If you’ve set up your repository within the ORNL organization, you don’t need to take any action; it will automatically appear after the next data update.
 
--   A [**README**](https://guides.github.com/features/wikis/) file that summarizes what the software does and how others can use it.
+-   If your repository exists under a different organization, you can move it to ORNL by selecting “Transfer Ownership” under Settings.
 
--   A [**NOTICE**](https://github.com/LLNL/.github/blob/main/community-health/NOTICE.md) file that includes LLNL auspice and disclaimer statements.
-
--   A [**CODE OF CONDUCT**](https://github.com/LLNL/.github/blob/main/community-health/CODE_OF_CONDUCT.md) file that defines standards for how to engage in your project's community.
-
--   A [**CONTRIBUTING**](https://github.com/LLNL/.github/blob/main/community-health/CONTRIBUTING.md) file that communicates how others should contribute to your repo.
-
-After your project has been initially released on GitHub and you are ready to provide a new version, a good practice is to tag the version and include [**release notes**](https://github.com/LLNL/.github/blob/main/community-health/release-template.md).
-
-Another good practice is to provide **user documentation**. Read the Docs (RtD) is a common platform for user guides, tutorials, quick start instructions, and other forms of documentation. Our [LLNL/.github repo](https://github.com/LLNL/.github) contains step-by-step instructions for setting up a RtD instance, a [template](https://github-main.readthedocs.io/en/latest/) you can start with, and links to various resources for tips and additional details.
-
-Submit your repo to [**DOE CODE**](https://www.osti.gov/doecode/faq#what-is) so others can find it when searching through DOE-funded projects. After your repo is included in DOE CODE, you may also want to add the **digital object identifier** (DOI) to the repo. See the [relevant section](/about/licenses/#digital-object-identifier-doi) of our LLNL Software Licensing page for more information.
-
-If your repo is research software, consider submitting it to the _Journal of Open Source Software_ ([JOSS](https://joss.theoj.org/about)). Submission will produce a **citation** to include in your README file, then users or other researchers can cite your software correctly. The [JOSS RtD site](https://joss.readthedocs.io/en/latest/submitting.html) describes the submission requirements. JOSS defines _research software_ as "software that solves complex modeling problems in a scientific context (physics, mathematics, biology, medicine, social science, neuroscience, engineering); supports the functioning of research instruments or the execution of research experiments; extracts knowledge from large data sets; offers a mathematical library; or similar." (You can also [sign up](https://joss.theoj.org/reviewer-signup.html) to review JOSS papers, if you are so inclined.)
-
-### How do I include my repo in the LLNL organization and/or this website’s catalog?
-
-Repositories within the LLNL organization are owned and managed by LLNL. Please do not create personal repositories here.
-
-Make sure your repository is included on this website’s home page and [full catalog](/). If you’ve set up your repository within the LLNL organization, you don’t need to take any action; it will automatically appear after the next data update.
-
--   If your repository exists under a different organization, you can move it to LLNL by selecting “Transfer Ownership” under Settings.
-
--   Alternatively, you can submit a pull request [updating the `input_lists.json` file](https://code.ornl.gov/rse/ornl.github.io/-/blob/main/_explore/input_lists.json), with your organization and/or repository names.
-
--   If you have a project logo, please follow the [instructions](https://code.ornl.gov/rse/ornl.github.io/-/tree/main/assets/images/logos) for naming and uploading the file. If your repo is part of a non-LLNL organization that has its own avatar, that image will automatically display next to the repo name in the catalog, unless superseded by a repo-specific logo.
+-   Alternatively, you can submit a request to the [ORNL GitHub admins](mailto:software@ornl.gov) to have your repo added to the catalog.
 
 ### How do I let people know about my new repo?
 
-Now that your project is on GitHub, make sure users and contributors can find it! There are several ways to do this. Contact [open-source@llnl.gov](mailto:open-source@llnl.gov) if you need help.
+Now that your project is on GitHub, make sure users and contributors can find it! There are several ways to do this. Contact [software@ornl.gov](mailto:software@ornl.gov) if you need help.
 
 1. Include meaningful metadata (description and topic tags) in your repository. Example: [Spack](https://github.com/spack/spack) lists several topic tags below a one-sentence description.
 
-    - Start with our [list](https://code.ornl.gov/rse/ornl.github.io/-/blob/main/category/README.md) of recommended, standardized topics.
+    - Start with our [list]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/category/README.md) of recommended, standardized topics.
 
     - See helpful hints on [GitHub's topic help page](https://help.github.com/articles/about-topics/). Add tags relevant to your project's programming language, platforms, and more (e.g., Python, HPC, Linux).
 
-2. Let [Twitter](https://twitter.com/{{site.twitter.username}}) followers know your project is available on GitHub. Feel free to tag this handle on your own tweet, or submit a request to [open-source@llnl.gov](mailto:open-source@llnl.gov) so we can tweet on your behalf.
+2. Let [Twitter](https://twitter.com/{{site.twitter.username}}) followers know your project is available on GitHub. Feel free to tag this handle on your own tweet, or submit a request to [software@ornl.gov](mailto:software@ornl.gov) so we can tweet on your behalf.
 
 3. Publicize any outreach activities or major milestones related to your project. Examples: You have a paper/poster/presentation accepted at a conference; you're hosting a workshop or webinar; your project is nominated for an award; or you're speaking on a podcast or guest blogging.
 
-4. Include a summary of your project with GitHub and documentation links on LLNL's [Computing website](https://computing.llnl.gov/projects). Contact [webmaster-comp@llnl.gov](mailto:webmaster-comp@llnl.gov) for this particular task.
-
 ### How do I contribute news or other content to this website?
 
-Submit a pull request! This website is a GitHub repo just like any other LLNL open source project. News is housed in the [`_posts` directory](https://code.ornl.gov/rse/ornl.github.io/-/tree/main/_posts), and templates are found in the [LLNL/.github repo](https://github.com/LLNL/.github). See the guidelines below about contributing.
-
-Before contributing, please contact [open-source@llnl.gov](mailto:open-source@llnl.gov) with your idea or if you have questions about whether your proposed content requires the LLNL review and release process.
+Before contributing, please contact [software@ornl.gov](mailto:osoftware@ornl.gov) with your idea or if you have questions about whether your proposed content requires the ORNL review and release process.
 
 ### What should I do if my repo is no longer actively developed/maintained?
 
-1. Remove your repo’s topic tags (e.g., `math-physics`), which connect it to this website’s browsable categories. Also remove the `radiuss` tag, if applicable.
+1. Remove your repo’s topic tags (e.g., `math-physics`), which connect it to this website’s browsable categories. 
 
-2. Submit a pull request [updating the `input_lists.json` file](https://code.ornl.gov/rse/ornl.github.io/-/blob/main/_explore/input_lists.json) to remove your repo’s name.
+2. Submit a pull request [updating the `input_lists.json` file]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/_explore/input_lists.json) to remove your repo’s name if necessary. 
 
-3. Change your repo's status via Settings > Manage Access > Who has access > Manage > Danger Zone > Archive this repository (`settings#danger-zone`). Contact [open-source@llnl.gov](mailto:open-source@llnl.gov) if for some reason GitHub won't let you complete this step.
+3. Change your repo's status via Settings > Manage Access > Who has access > Manage > Danger Zone > Archive this repository (`settings#danger-zone`). Contact [software@ornl.gov](mailto:software@ornl.gov) if for some reason GitHub won't let you complete this step.
 
-### My repo has grown. How do I move it out of the LLNL organization?
+### My repo has grown. How do I move it out of the ORNL organization?
 
-The process to transfer organizational ownership is straightforward, but generally discouraged. This should really only be done for projects that are starting to build a "bigger than LLNL" community, and the decision should not be made lightly.
+The process to transfer organizational ownership is straightforward, but generally discouraged. This should really only be done for projects that are starting to build a "bigger than ORNL" community, and the decision should not be made lightly.
 
-Migrating the repo outside of the LLNL organization requires an organization admin. Contact [software@ornl.gov](mailto:software@ornl.gov) to coordinate the move.
+Migrating the repo outside of the ORNL organization requires an organization admin. Contact [software@ornl.gov](mailto:software@ornl.gov) to coordinate the move.
 
 Once the repository has moved to the new organization:
 
-1. Submit a pull request [updating the `input_lists.json` file](https://code.ornl.gov/rse/ornl.github.io/-/blob/main/_explore/input_lists.json) to add the new organization/repo’s name. This allows for the software catalog to continue including the project even after it moves.
+1. Submit a pull request [updating the `input_lists.json` file]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/_explore/input_lists.json) to add the new organization/repo’s name. This allows for the software catalog to continue including the project even after it moves.
 
-2. Retain topic tags (e.g., `math-physics`) to connect it to this website’s browsable categories, including the `radiuss` tag, if applicable.
+2. Retain topic tags (e.g., `math-physics`) to connect it to this website’s browsable categories.
 
-### How do I contribute to an LLNL repo?
+### How do I contribute to an ORNL repo?
 
 Refer to individual projects for their requirements on accepting contributions. In general though, we follow the "fork and pull" Git workflow model:
 
