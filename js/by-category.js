@@ -44,7 +44,7 @@ function renderHeaderHtml() {
   const category = catData[selectedCategoryIndex];
   REPO_HEADER_ELEMENT.innerHTML = `
     <img
-      src="${category.icon.path}"
+      src="${window.config.baseUrl}${category.icon.path}"
       width="125"
       height="125"
       alt="${category.icon.alt}"
@@ -81,7 +81,7 @@ function renderRepoHtml() {
     .map(
       (repo) => `
   <div class="flex-item">
-    <a href="/repo?name=${encodeURIComponent(repo.nameWithOwner)}">
+    <a href="${window.config.baseUrl}/repo?name=${encodeURIComponent(repo.nameWithOwner)}">
       <h3 class="text-center">
         <span title="Name">${repo.name}</span>
         <small><span title="Owner">${repo.owner}</span></small>
@@ -139,7 +139,7 @@ function onCategoryUpdate(categoryIdx) {
 }
 
 // init
-fetch('/category/category_info.json')
+fetch(`${window.config.baseUrl}/category/category_info.json`)
   .then((res) => res.json())
   .then((catInfoJson) => {
     catData = Object.values(catInfoJson.data)
@@ -161,7 +161,7 @@ fetch('/category/category_info.json')
         alt: 'All Software',
       },
       description: {
-        short: `Browse all ${window.labName} open source projects`,
+        short: `Browse all ${window.config.labName} open source projects`,
         long: '',
       },
       displayTitle: 'All Software',
@@ -184,7 +184,7 @@ fetch('/category/category_info.json')
         (category, idx) => `
       <button id="btn__${idx}" class="tab${idx === selectedCategoryIndex ? ' selected-tab' : ''}">
         <img
-          src="${category.icon.path}"
+          src="${window.config.baseUrl}${category.icon.path}"
           height="40"
           width="40"
           alt="${category.icon.alt}"
@@ -218,7 +218,7 @@ fetch('/category/category_info.json')
     }
 
     // map topics to categories
-    fetch('/explore/github-data/intRepos_Topics.json')
+    fetch(`${window.config.baseUrl}/explore/github-data/intRepos_Topics.json`)
       .then((res) => res.json())
       .then((topicJson) => {
         const reposObj = topicJson.data;
@@ -236,7 +236,7 @@ fetch('/category/category_info.json')
           }
           topicRepos.push(catRepos);
         });
-        fetch('/explore/github-data/intReposInfo.json').then((res) => res.json())
+        fetch(`${window.config.baseUrl}/explore/github-data/intReposInfo.json`).then((res) => res.json())
           .then((infoJson) => {
             const reposInfoObj = infoJson.data;
             for (let repo in reposInfoObj) {
