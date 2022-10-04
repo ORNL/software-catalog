@@ -5495,6 +5495,19 @@
                 "nodes": []
             }
         },
+        "ORNL/experiment_orchestration": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL/faro": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -6272,14 +6285,6 @@
                 ]
             }
         },
-        "ORNL/shaman": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": []
-            }
-        },
         "ORNL/siena-mem": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -6400,7 +6405,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "seaborn",
                                     "repository": {
-                                        "nameWithOwner": "bowlofstew/seaborn"
+                                        "nameWithOwner": "claudiouzelac/seaborn"
                                     }
                                 },
                                 {
