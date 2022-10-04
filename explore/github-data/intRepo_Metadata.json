@@ -942,6 +942,54 @@
         "topics": null,
         "website": "https://zambeze.org"
     },
+    "QMCPACK/qmcpack": {
+        "description": "Main repository for QMCPACK, an open-source production level many-body ab initio Quantum Monte Carlo code for computing the electronic structure of atoms, molecules, and solids.",
+        "name": "QMCPACK/qmcpack",
+        "topics": [
+            "quantum-monte-carlo",
+            "electronic-structure",
+            "c-plus-plus",
+            "high-performance-computing",
+            "quantum-chemistry"
+        ],
+        "website": "http://www.qmcpack.org"
+    },
+    "arborx/ArborX": {
+        "description": "Performance-portable geometric search library",
+        "name": "arborx/ArborX",
+        "topics": [
+            "c-plus-plus",
+            "cpp",
+            "bounding-volume-hierarchy",
+            "kokkos",
+            "gpu",
+            "knn-search",
+            "hpc",
+            "distributed",
+            "mpi",
+            "cuda",
+            "parallel",
+            "nearest-neighbors",
+            "dbscan",
+            "clustering",
+            "high-performance-computing"
+        ],
+        "website": ""
+    },
+    "kokkos/kokkos": {
+        "description": "Kokkos C++ Performance Portability Programming EcoSystem: The Programming Model - Parallel Execution and Memory Abstraction",
+        "name": "kokkos/kokkos",
+        "topics": [
+            "programming-model",
+            "parallel-computing",
+            "c-plus-plus",
+            "abstraction",
+            "high-performance-computing",
+            "snl-prog-models-runtimes",
+            "kokkos"
+        ],
+        "website": ""
+    },
     "mcvine/McVineGPU": {
         "description": "A repo for storing my proof-of-concept tests for adding GPU acceleration to McVine",
         "name": "mcvine/McVineGPU",
