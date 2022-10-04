@@ -95,10 +95,12 @@ fetch(`${window.config.baseUrl}/catalog/category_info.json`)
                   }
                 }
                 //sort categories by stars descending
-                topicRepos = topicRepos.sort((a, b) => {
-                  const x = a['stars'];
-                  const y = b['stars'];
-                  return x > y ? -1 : x < y ? 1 : 0;
+                topicRepos.forEach((repo) => {
+                  repo.sort((a, b) => {
+                    const x = a['stars'];
+                    const y = b['stars'];
+                    return x > y ? -1 : x < y ? 1 : 0;
+                  });
                 });
 
                 // BUILD HTML
@@ -130,7 +132,7 @@ fetch(`${window.config.baseUrl}/catalog/category_info.json`)
                         </span>
 
                         <span>
-                          <a href="${repo.gitUrl}/stargazers" title="${repo.name} - Stargazers"> ${repo.stars} <span class="fa fa-star"></span> </a>
+                          <a href="${repo.gitUrl}/stargazers" title="Stargazers"> ${repo.stars} <span class="fa fa-star"></span> </a>
                         </span>
 
                         <span>
