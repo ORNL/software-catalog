@@ -62,9 +62,6 @@ Remember that these repositories _are hosted_ on GitHub servers, _NOT ORNL serve
 
 When in doubt, contact your division representative further guidance.
 
-### My project is approved for release. Now what?
-
-
 ### How do I include my repo in the ORNL organization and/or this website’s catalog?
 
 Repositories within the ORNL organization are owned and managed by ORNL. Please do not create personal repositories here.
@@ -73,9 +70,7 @@ Make sure your repository is included on this website’s home page and [full ca
 
 -   If your repository exists under a different organization, you can move it to ORNL by selecting “Transfer Ownership” under Settings.
 
--   Alternatively, you can submit a pull request [updating the `input_lists.json` file]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/_explore/input_lists.json), with your organization and/or repository names.
-
--   If you have a project logo, please follow the [instructions]({{site.repo_url}}/{{site.repo_tree_path}}/{{site.repo_branch}}/assets/images/logos) for naming and uploading the file. If your repo is part of a non-ORNL organization that has its own avatar, that image will automatically display next to the repo name in the catalog, unless superseded by a repo-specific logo.
+-   Alternatively, you can submit a request to the [ORNL GitHub admins](mailto:software@ornl.gov) to have your repo added to the catalog.
 
 ### How do I let people know about my new repo?
 
@@ -93,15 +88,13 @@ Now that your project is on GitHub, make sure users and contributors can find it
 
 ### How do I contribute news or other content to this website?
 
-Submit a pull request! This website is a GitHub repo just like any other ORNL open source project. News is housed in the [`_posts` directory]({{site.repo_url}}/{{site.repo_tree_path}}/{{site.repo_branch}}/_posts), and templates are found in the [ORNL/.github repo](https://github.com/ORNL/.github). See the guidelines below about contributing.
-
 Before contributing, please contact [software@ornl.gov](mailto:osoftware@ornl.gov) with your idea or if you have questions about whether your proposed content requires the ORNL review and release process.
 
 ### What should I do if my repo is no longer actively developed/maintained?
 
-1. Remove your repo’s topic tags (e.g., `math-physics`), which connect it to this website’s browsable categories. Also remove the `radiuss` tag, if applicable.
+1. Remove your repo’s topic tags (e.g., `math-physics`), which connect it to this website’s browsable categories. 
 
-2. Submit a pull request [updating the `input_lists.json` file]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/_explore/input_lists.json) to remove your repo’s name.
+2. Submit a pull request [updating the `input_lists.json` file]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/_explore/input_lists.json) to remove your repo’s name if necessary. 
 
 3. Change your repo's status via Settings > Manage Access > Who has access > Manage > Danger Zone > Archive this repository (`settings#danger-zone`). Contact [software@ornl.gov](mailto:software@ornl.gov) if for some reason GitHub won't let you complete this step.
 
@@ -115,7 +108,7 @@ Once the repository has moved to the new organization:
 
 1. Submit a pull request [updating the `input_lists.json` file]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/_explore/input_lists.json) to add the new organization/repo’s name. This allows for the software catalog to continue including the project even after it moves.
 
-2. Retain topic tags (e.g., `math-physics`) to connect it to this website’s browsable categories, including the `radiuss` tag, if applicable.
+2. Retain topic tags (e.g., `math-physics`) to connect it to this website’s browsable categories.
 
 ### How do I contribute to an ORNL repo?
 
