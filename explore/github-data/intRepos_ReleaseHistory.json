@@ -230,6 +230,11 @@
                 "nodes": []
             }
         },
+        "ORNL-Fusion/OEDGE": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL-Fusion/PARVMEC": {
             "releases": {
                 "nodes": []
@@ -281,6 +286,11 @@
             }
         },
         "ORNL-Fusion/V3RFUN": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL-Fusion/VMEC-V3FIT-Inputs": {
             "releases": {
                 "nodes": []
             }
@@ -342,6 +352,11 @@
                 ]
             }
         },
+        "ORNL-Fusion/ips-fastran-doc": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL-Fusion/ips-wrappers": {
             "releases": {
                 "nodes": [
@@ -385,6 +400,11 @@
             }
         },
         "ORNL-Fusion/manodaq": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL-Fusion/model_reduction_cases": {
             "releases": {
                 "nodes": []
             }
@@ -456,6 +476,16 @@
                 "nodes": []
             }
         },
+        "ORNL-Fusion/tokdesigner-doc": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL-Fusion/tokdesigner-template": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL-Fusion/util-library": {
             "releases": {
                 "nodes": []
@@ -493,6 +523,11 @@
                         "name": "V2.1.0",
                         "publishedAt": "2021-12-17T21:20:36Z",
                         "tagName": "v2.1.0"
+                    },
+                    {
+                        "name": "V2.2.0",
+                        "publishedAt": "2022-06-29T21:04:31Z",
+                        "tagName": "v2.2.0"
                     }
                 ]
             }
@@ -671,7 +706,13 @@
         },
         "ORNL/CabanaPD": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "Version 0.1.0",
+                        "publishedAt": "2022-09-16T22:29:37Z",
+                        "tagName": "0.1.0"
+                    }
+                ]
             }
         },
         "ORNL/CrossVis": {
@@ -760,7 +801,17 @@
                 "nodes": []
             }
         },
+        "ORNL/MLHPC2022": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL/ORAgendaVis": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL/ORNL.github.io": {
             "releases": {
                 "nodes": []
             }
@@ -780,9 +831,20 @@
                 "nodes": []
             }
         },
-        "ORNL/RIOPA.jl": {
+        "ORNL/ProgrammingModels.jl": {
             "releases": {
                 "nodes": []
+            }
+        },
+        "ORNL/RIOPA.jl": {
+            "releases": {
+                "nodes": [
+                    {
+                        "name": "v0.0.1",
+                        "publishedAt": "2022-08-18T18:37:39Z",
+                        "tagName": "v0.0.1"
+                    }
+                ]
             }
         },
         "ORNL/SensorVisFC": {
@@ -871,6 +933,11 @@
                 "nodes": []
             }
         },
+        "ORNL/briar-api": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL/cpp-proposals-pub": {
             "releases": {
                 "nodes": []
@@ -908,6 +975,21 @@
                         "name": "v0.6.3",
                         "publishedAt": "2022-03-07T18:04:07Z",
                         "tagName": "v0.6.3"
+                    },
+                    {
+                        "name": "v0.7.0",
+                        "publishedAt": "2022-07-08T19:47:13Z",
+                        "tagName": "v0.7.0"
+                    },
+                    {
+                        "name": "v0.8.0",
+                        "publishedAt": "2022-09-12T17:41:07Z",
+                        "tagName": "v0.8.0"
+                    },
+                    {
+                        "name": "v0.8.1",
+                        "publishedAt": "2022-09-13T14:33:37Z",
+                        "tagName": "v0.8.1"
                     }
                 ]
             }
@@ -917,7 +999,22 @@
                 "nodes": []
             }
         },
+        "ORNL/experiment_orchestration": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL/faro": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL/icat": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL/ipyanchorviz": {
             "releases": {
                 "nodes": []
             }
@@ -954,7 +1051,13 @@
         },
         "ORNL/ordflow": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "0.0.2",
+                        "publishedAt": "2022-05-02T15:40:11Z",
+                        "tagName": "0.0.2"
+                    }
+                ]
             }
         },
         "ORNL/papyrus": {
@@ -988,11 +1091,6 @@
                 "nodes": []
             }
         },
-        "ORNL/shaman": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "ORNL/siena-mem": {
             "releases": {
                 "nodes": []
@@ -1004,6 +1102,16 @@
             }
         },
         "ORNL/soar_survey_scoring": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL/software-catalog": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL/sparse-gosine-similarity": {
             "releases": {
                 "nodes": []
             }
@@ -1030,6 +1138,16 @@
                         "name": "v1.0.2",
                         "publishedAt": "2022-04-07T16:42:04Z",
                         "tagName": "v1.0.2"
+                    },
+                    {
+                        "name": "v1.1.0",
+                        "publishedAt": "2022-08-30T19:50:24Z",
+                        "tagName": "v1.1.0"
+                    },
+                    {
+                        "name": "v1.2.1",
+                        "publishedAt": "2022-09-21T18:37:21Z",
+                        "tagName": "v1.2.1"
                     }
                 ]
             }
@@ -1345,6 +1463,21 @@
                         "name": "",
                         "publishedAt": "2020-09-10T13:58:40Z",
                         "tagName": "v1.0.0-rc4"
+                    },
+                    {
+                        "name": "V1.2.0 Release Candidate",
+                        "publishedAt": "2022-08-16T18:56:13Z",
+                        "tagName": "v1.2.0"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2022-09-29T13:44:41Z",
+                        "tagName": "v1.2.2rc"
+                    },
+                    {
+                        "name": "pyRS release",
+                        "publishedAt": "2022-09-29T14:08:49Z",
+                        "tagName": "v1.2.2"
                     }
                 ]
             }
@@ -1493,8 +1626,23 @@
                         "name": "Version 5.0.15",
                         "publishedAt": "2022-02-23T17:11:32Z",
                         "tagName": "v5.0.15"
+                    },
+                    {
+                        "name": "Version 5.1.0",
+                        "publishedAt": "2022-05-20T20:22:18Z",
+                        "tagName": "v5.1.0"
+                    },
+                    {
+                        "name": "Version 5.2.2",
+                        "publishedAt": "2022-07-16T01:25:36Z",
+                        "tagName": "v5.2.2"
                     }
                 ]
+            }
+        },
+        "neutrons/branch-mapper": {
+            "releases": {
+                "nodes": []
             }
         },
         "neutrons/data_workflow": {
@@ -1509,6 +1657,46 @@
                         "name": "SNS Data Workflow 2.8.0",
                         "publishedAt": "2015-07-13T13:49:41Z",
                         "tagName": "2.8.0"
+                    },
+                    {
+                        "name": "3.0.0rc1",
+                        "publishedAt": "2022-06-09T14:59:36Z",
+                        "tagName": "3.0.0rc1"
+                    },
+                    {
+                        "name": "3.0.0rc2",
+                        "publishedAt": "2022-06-21T17:04:15Z",
+                        "tagName": "3.0.0rc2"
+                    },
+                    {
+                        "name": "3.0.0rc3",
+                        "publishedAt": "2022-07-29T14:24:03Z",
+                        "tagName": "3.0.0rc3"
+                    },
+                    {
+                        "name": "3.0.0rc4",
+                        "publishedAt": "2022-08-04T21:18:20Z",
+                        "tagName": "3.0.0rc4"
+                    },
+                    {
+                        "name": "3.0.0",
+                        "publishedAt": "2022-08-08T14:27:35Z",
+                        "tagName": "3.0.0"
+                    },
+                    {
+                        "name": "3.0.1rc1",
+                        "publishedAt": "2022-08-29T14:04:12Z",
+                        "tagName": "3.0.1rc1"
+                    },
+                    {
+                        "name": "3.0.1",
+                        "publishedAt": "2022-08-29T20:13:01Z",
+                        "tagName": "3.0.1"
+                    },
+                    {
+                        "name": "3.0.2rc1",
+                        "publishedAt": "2022-09-07T15:21:21Z",
+                        "tagName": "3.0.2rc1"
                     }
                 ]
             }
@@ -1621,6 +1809,11 @@
                         "name": "Version 0.2.13",
                         "publishedAt": "2021-09-21T16:07:42Z",
                         "tagName": "v0.2.13"
+                    },
+                    {
+                        "name": "Version 1.0.0",
+                        "publishedAt": "2022-05-09T18:37:11Z",
+                        "tagName": "v1.0.0"
                     }
                 ]
             }
@@ -1698,6 +1891,26 @@
                         "name": "Version 0.3.2",
                         "publishedAt": "2021-01-21T19:44:47Z",
                         "tagName": "v0.3.2"
+                    },
+                    {
+                        "name": "Version 0.3.3",
+                        "publishedAt": "2022-06-17T19:56:52Z",
+                        "tagName": "v0.3.3"
+                    },
+                    {
+                        "name": "Version 0.3.4",
+                        "publishedAt": "2022-06-20T15:22:05Z",
+                        "tagName": "v0.3.4"
+                    },
+                    {
+                        "name": "Version 0.3.5",
+                        "publishedAt": "2022-06-20T16:57:57Z",
+                        "tagName": "v0.3.5"
+                    },
+                    {
+                        "name": "Version 0.3.6",
+                        "publishedAt": "2022-06-20T18:04:43Z",
+                        "tagName": "v0.3.6"
                     }
                 ]
             }
@@ -1829,6 +2042,11 @@
             }
         },
         "ornlcda/MLHPC2020": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ornlcda/MLHPC22": {
             "releases": {
                 "nodes": []
             }

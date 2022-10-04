@@ -134,14 +134,14 @@ function renderRepoHtml() {
   `,
     )
     .join('');
-    const repoLinks = document.getElementsByClassName('repoLink');
-    for (let i = 0; i < repoLinks.length; i++) {
-      repoLinks[i].addEventListener('click', () => {
-        const repo = encodeURIComponent(items[i].nameWithOwner);
-        setVisibleRepo(repo);
-        // href="/repo?name=${encodeURIComponent(repo.nameWithOwner)}"
-      });
-    }
+  const repoLinks = document.getElementsByClassName('repoLink');
+  for (let i = 0; i < repoLinks.length; i++) {
+    repoLinks[i].addEventListener('click', () => {
+      const repo = encodeURIComponent(items[i].nameWithOwner);
+      setVisibleRepo(repo);
+      // href="/repo?name=${encodeURIComponent(repo.nameWithOwner)}"
+    });
+  }
 }
 
 /**
@@ -185,15 +185,21 @@ function renderRepo(repo, pulls, issues) {
       <a class="title" href="${repo.url}" title="View Project on GitHub">${sanitizeHTML(repo.name)}</a>
       <br />
       <a class="subtitle" href="https://github.com/${repo.owner.login}" title="View Owner on GitHub">
-        <span class="fa fa-user-circle"></span>${repo.owner.login }
+        <span class="fa fa-user-circle"></span>${repo.owner.login}
       </a>
-      ${repo.primaryLanguage ? `
+      ${
+        repo.primaryLanguage
+          ? `
         <span class="subtitle" title="Primary Language">
           <span class="fa fa-code"></span>
           ${repo.primaryLanguage.name}
         </span>
-      `: ''}
-      ${repo.licenseInfo && repo.licenseInfo.spdxId !== 'NOASSERTION' ? `
+      `
+          : ''
+      }
+      ${
+        repo.licenseInfo && repo.licenseInfo.spdxId !== 'NOASSERTION'
+          ? `
         <a
           class="subtitle"
           href="${repo.licenseInfo.url}"
@@ -202,7 +208,9 @@ function renderRepo(repo, pulls, issues) {
           <span class="fa fa-balance-scale"></span>
           ${repo.licenseInfo.spdxId}
         </a>
-      ` : ''}
+      `
+          : ''
+      }
     </h2>
 
     <p class="stats text-center">
@@ -212,13 +220,21 @@ function renderRepo(repo, pulls, issues) {
 
       <a href="${repo.url}/network"> <span class="fa fa-code-fork"></span>Forks : ${repo.forks.totalCount} </a>
 
-      ${repo.homepageUrl ? `
+      ${
+        repo.homepageUrl
+          ? `
         <a href="${repo.homepageUrl}"> <span class="fa fa-globe"></span>Project Website </a>
-      ` : ''}
+      `
+          : ''
+      }
     </p>
-    ${repo.description ? `
+    ${
+      repo.description
+        ? `
       <blockquote cite="${repo.url}"> ${sanitizeHTML(repo.description)} </blockquote>
-    ` : ''}
+    `
+        : ''
+    }
 
     <div class="text-center">
       <svg class="repoActivityChart"></svg>
@@ -243,7 +259,7 @@ function renderRepo(repo, pulls, issues) {
  * @param {string} queryParam parameter which was decoded from URL query parameter
  */
 function render(queryParam) {
-  fetch('/explore/github-data/intReposInfo.json')
+  fetch(`${window.config.baseUrl}/explore/github-data/intReposInfo.json`)
     .then((res) => res.json())
     .then((infoJson) => {
       const reposObj = infoJson.data;
@@ -280,15 +296,14 @@ function render(queryParam) {
     });
 }
 
-
 function setVisibleRepo(newValue) {
   visibleRepo = newValue;
   window.history.pushState({ repo: visibleRepo }, '', `?name=${catData[selectedCategoryIndex]?.urlParam || 'all'}&repo=${visibleRepo}`);
   if (!visibleRepo) {
     if (!hasUserVisitedCategoryListPageYet) {
       hasUserVisitedCategoryListPageYet = true;
-        // init
-        fetch('/category/category_info.json')
+      // init
+      fetch(`${window.config.baseUrl}/category/category_info.json`)
         .then((res) => res.json())
         .then((catInfoJson) => {
           catData = Object.values(catInfoJson.data)
@@ -310,7 +325,7 @@ function setVisibleRepo(newValue) {
               alt: 'All Software',
             },
             description: {
-              short: `Browse all ${window.labName} open source projects`,
+              short: `Browse all ${window.config.labName} open source projects`,
               long: '',
             },
             displayTitle: 'All Software',
@@ -367,7 +382,7 @@ function setVisibleRepo(newValue) {
           }
 
           // map topics to categories
-          fetch('/explore/github-data/intRepos_Topics.json')
+          fetch(`${window.config.baseUrl}/explore/github-data/intRepos_Topics.json`)
             .then((res) => res.json())
             .then((topicJson) => {
               const reposObj = topicJson.data;
@@ -385,7 +400,8 @@ function setVisibleRepo(newValue) {
                 }
                 topicRepos.push(catRepos);
               });
-              fetch('/explore/github-data/intReposInfo.json').then((res) => res.json())
+              fetch(`${window.config.baseUrl}/explore/github-data/intReposInfo.json`)
+                .then((res) => res.json())
                 .then((infoJson) => {
                   const reposInfoObj = infoJson.data;
                   for (let repo in reposInfoObj) {
@@ -419,21 +435,20 @@ function setVisibleRepo(newValue) {
                 });
             });
         });
-    // render category html here
-    // also set "repo-go-back-button" to be invisible
-    // also set some category HTML elements to be visible  
-    
-    // Set category nave to be visible
-    } 
-  } else {
+      // render category html here
+      // also set "repo-go-back-button" to be invisible
+      // also set some category HTML elements to be visible
 
+      // Set category nave to be visible
+    }
+  } else {
     render(decodeURIComponent(visibleRepo));
     // Set category nav to be invisible
-    
-      // if repo exists in topicsList, then render repo
-      // else, render error
-      // also set "repo-go-back-button" to be visible
-      // also set some category HTML elements to be invisible
+
+    // if repo exists in topicsList, then render repo
+    // else, render error
+    // also set "repo-go-back-button" to be visible
+    // also set some category HTML elements to be invisible
   }
 }
 
@@ -468,7 +483,7 @@ document.getElementById('category-hamburger-btn').addEventListener('click', () =
 window.addEventListener('popstate', (e) => {
   const oldRepoState = e.state?.repo;
   const hasOldRepoState = !!oldRepoState;
-  if (!hasOldRepoState || oldRepoState !== visibleRepo){
+  if (!hasOldRepoState || oldRepoState !== visibleRepo) {
     setVisibleRepo(hasOldRepoState ? oldRepoState : '');
   }
 

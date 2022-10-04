@@ -35,7 +35,7 @@ function uniqueLogo(logos, fileName, ownerAvatar) {
 }
 
 // init
-fetch('/category/category_info.json')
+fetch(`${window.config.baseUrl}/category/category_info.json`)
   .then((res) => res.json())
   .then((json) => {
     const catData = Object.values(json.data).sort((a, b) => {
@@ -43,7 +43,7 @@ fetch('/category/category_info.json')
       const y = b['title'].toLowerCase();
       return x < y ? -1 : x > y ? 1 : 0;
     });
-    fetch('/explore/github-data/intRepos_Topics.json')
+    fetch(`${window.config.baseUrl}/explore/github-data/intRepos_Topics.json`)
       .then((res) => res.json())
       .then((topicJson) => {
         const reposObj = topicJson.data;
@@ -63,11 +63,11 @@ fetch('/category/category_info.json')
           }
           return catRepos;
         });
-        fetch('/assets/images/logos/repo_logos.json')
+        fetch(`${window.config.baseUrl}/assets/images/logos/repo_logos.json`)
           .then((res) => res.json())
           .then((logosJson) => {
             const logos = logosJson.data;
-            fetch('/explore/github-data/intReposInfo.json')
+            fetch(`${window.config.baseUrl}/explore/github-data/intReposInfo.json`)
               .then((res) => res.json())
               .then((infoJson) => {
                 const reposInfoObj = infoJson.data;
@@ -107,8 +107,8 @@ fetch('/category/category_info.json')
                 document.getElementById('categories').innerHTML = catData
                   .map((category, categoryIdx) => `
                   <div class="flex-category dynamic">
-                    <a class="dynamic-link" href="/category/?name=${categoryToUrl(category.title)}">
-                      <img src="${category.icon.path}" height="150" width="150" alt="${category.icon.alt}" loading="lazy" />
+                    <a class="dynamic-link" href="${window.config.baseUrl}/category/?name=${categoryToUrl(category.title)}">
+                      <img src="${window.config.baseUrl}${category.icon.path}" height="150" width="150" alt="${category.icon.alt}" loading="lazy" />
                       <h2>${sanitizeHTML(category.title)}</h2>
                       <p class="text-center">${sanitizeHTML(category.description.short)}</p>
                     </a>
@@ -136,14 +136,14 @@ fetch('/category/category_info.json')
                         </span>
 
                         <span>
-                          <a href="/repo/?name=${encodeURIComponent(repo.nameWithOwner)}" title="Repo Info">
+                          <a href="${window.config.baseUrl}/repo/?name=${encodeURIComponent(repo.nameWithOwner)}" title="Repo Info">
                             <span class="fa fa-info-circle"></span>
                           </a>
                         </span>
                       </p>
                     `).join('')}
                     </div>
-                    ${topicRepos[categoryIdx].length > MAX_REPOS_TO_SHOW ? `<a href="/category/?name=${categoryToUrl(category.title)}" class="more">MORE...</a>` : ''}
+                    ${topicRepos[categoryIdx].length > MAX_REPOS_TO_SHOW ? `<a href="${window.config.baseUrl}/category/?name=${categoryToUrl(category.title)}" class="more">MORE...</a>` : ''}
                   </div>
                 `).join('');
               });
