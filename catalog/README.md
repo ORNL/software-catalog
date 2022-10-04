@@ -6,9 +6,6 @@ A repository can have up to 20 tags. The list below also contains each category'
 
 For each category, this file contains its title, [icon][icon dir] filepath, and category description. This data is read by the [category info javascript][js dir].
 
-[icon dir]: ../assets/images/categories/
-[js dir]: ../js/homepage.js
-
 -   **App Infrastructure**: Browse tools for basic functionality common in HPC codes - `app-infrastructure`
 -   **Applications**: Browse scientific simulation codes and IT management tools - `application`
 -   **Build Tools**: Automate and simplify complex dependencies and deployments - `build-tools`
@@ -26,6 +23,9 @@ In general, topic tags raise a repo's visibility on GitHub and help users find r
 To add a new category to the catalog:
 
 1. Update this README with the category name (in alphabetical order), description, and tag.
-2. Add the new icon (.svg) to [Assets > Images > Categories](../assets/images/categories).
+2. Add the new icon (.svg) to [Assets > Images > Categories][icon dir].
 3. Update [`category_info.json`](category_info.json) with category metadata such as image file path, descriptive blurb, and corresponding topic(s).
 4. Tag repos with the new topic as appropriate.
+
+[icon dir]: ../assets/images/categories/
+[js dir]: ../js/homepage.js

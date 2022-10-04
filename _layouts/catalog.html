@@ -11,20 +11,24 @@ layout: compress
   <body>
     {% include header.html %}
 
-    <div id="category-hamburger-container">
+    <div id="category-hamburger-container" class="catalog-list-only hidden">
       <button id="category-hamburger-btn" class="fa fa-bars fa-2x"></button>
       <div id="category-hamburger-nav" class="hidden">
         <noscript>&nbsp;</noscript>
       </div>
     </div>
     <main class="main">
-      <div class="nav-container">
+      <div class="nav-container-list catalog-list-only hidden">
         <nav id="category-nav" class="stickynav">
           <noscript>&nbsp;</noscript>
         </nav>
       </div>
+      
+      <div class="nav-container-single catalog-single-only hidden">
+        <button id="category-list-btn" class="btn btn-primary nav-button">Back to Category List</button>
+      </div>
 
-      <div id="inner-content" class="wrapper">
+      <div class="wrapper catalog-list-only hidden">
         <div id="category-header" class="title-container page-header">
           <noscript>You need Javascript enabled to view this page.</noscript>
         </div>
@@ -45,8 +49,13 @@ layout: compress
             </select>
           </p>
         </div>
+        <section id="repositories" class="catalog-grid">
+          <noscript>&nbsp;</noscript>
+        </section>
+      </div>
 
-        <section class="flex-container-category" id="repositories">
+      <div class="wrapper catalog-single-only hidden">
+        <section id="catalog-repo-single">
           <noscript>&nbsp;</noscript>
         </section>
       </div>
@@ -56,6 +65,6 @@ layout: compress
     <!-- prettier-ignore -->
     {% include scripts.html %}
     <script src="{{'js/utils.js' | relative_url}}"></script>
-    <script src="{{ 'js/by-category.js' | relative_url}}"></script>
+    <script src="{{ 'js/catalog.js' | relative_url}}"></script>
   </body>
 </html>

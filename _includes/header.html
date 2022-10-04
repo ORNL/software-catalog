@@ -37,6 +37,11 @@
             <p><a class="navbar-normal" href="{{ 'about/licenses' | relative_url }}">Licenses Guide</a></p>
           </div>
         </li>
+        <li id="catalog"
+            {% if page.url == "/catalog/" %} class="active dropdown"
+            {% else %} class="dropdown"
+            {% endif %}><a class="navbar-normal" href="{{ 'catalog' | relative_url }}">Catalog</a>
+        </li>
         <li id="explore"
             {% if page.url == "/explore/" %} class="active dropdown"
             {% else %} class="dropdown"

@@ -265,7 +265,7 @@ function draw_line_repoActivity(areaID, repoNameWOwner) {
         .on('mouseover', pieTip.show)
         .on('mouseout', pieTip.hide)
         .on('click', (d) => {
-          const win = window.open(`${window.location['origin']}/repo/?name=${encodeURIComponent(d.data.name.split('/').slice(0, 2).join('/'))}`);
+          const win = window.open(`${window.location['origin']}/catalog/?repo=${encodeURIComponent(d.data.name.split('/').slice(0, 2).join('/'))}`);
           win.focus();
         });
 
