@@ -1,5 +1,5 @@
 ---
-title: LLNL Software Licensing
+title: ORNL Software Licensing
 layout: default
 ---
 
@@ -10,20 +10,20 @@ layout: default
 -   Table of Contents
     {:toc}
 
-_This page contains information meant for LLNL Employees with instructions for
+_This page contains information meant for ORNL Employees with instructions for
 how to mark their source code projects. It is not intended to serve as legal
 advice._
 
 ### Required Files
 
-All LLNL software must contain the following files at the root of the source
+All ORNL software must contain the following files at the root of the source
 code repository:
 
 #### 1. README file
 
 All projects shall have a `README.md` file at the root of the repository.
-The `README.md` must contain the LLNL release number
-(`LLNL-CODE-XXXXXX`). We recommend putting it at the bottom in a section
+The `README.md` must contain the ORNL release number
+(`ORNL-CODE-XXXXXX`). We recommend putting it at the bottom in a section
 called "Release". See
 [this example](https://github.com/spack/spack#release).
 
@@ -43,7 +43,7 @@ formatting and links so that your `README.md` will render nicely on
 GitHub. Take a look at GitHub's
 [markdown guide](https://guides.github.com/features/mastering-markdown/)
 for the basics. For inspiration, look at other projects' `README.md`
-files at [software.ornl.gov/catalog/](/), or take a look
+files in our [catalog]({{ '/' | relative_url }}), or take a look
 at this
 [simple README.md template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
 
@@ -64,13 +64,13 @@ One of the following files must be included at the top level of your repository
 with the file name `LICENSE`. The only content which may be changed in the file
 is the copyright year.
 
--   [Apache 2.0 License with LLVM Exception](/about/licenses/apache-2.0-llvm-exception.txt)
--   [Apache 2.0 License](/about/licenses/apache-2.0.txt)
--   [BSD-3 License](/about/licenses/bsd-3-clause.txt)
--   [GPL-2.0 License](/about/licenses/gpl-2.0.txt)
--   [GPL-3.0 License](/about/licenses/gpl-3.0.txt)
--   [LGPL-2.1 License](/about/licenses/lgpl-2.1.txt)
--   [MIT License](/about/licenses/mit.txt)
+-   [Apache 2.0 License with LLVM Exception]({{'about/licenses/apache-2.0-llvm-exception.txt' | relative_url}})
+-   [Apache 2.0 License]({{'about/licenses/apache-2.0.txt' | relative_url}})
+-   [BSD-3 License]({{'about/licenses/bsd-3-clause.txt' | relative_url}})
+-   [GPL-2.0 License]({{'about/licenses/gpl-2.0.txt' | relative_url}})
+-   [GPL-3.0 License]({{'about/licenses/gpl-3.0.txt' | relative_url}})
+-   [LGPL-2.1 License]({{'about/licenses/lgpl-2.1.txt' | relative_url}})
+-   [MIT License]({{'about/licenses/mit.txt' | relative_url}})
 
 If your repository was approved for release under a different open source
 license, the text of that license will be provided by the Innovation and

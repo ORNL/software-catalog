@@ -17,5 +17,8 @@
 {% endif %}
 <!-- Transfer lab-specific variables from site-generator config file to Javascript via window definitions here -->
 <script>
-  window.labName = '{{site.lab_name}}';
+  window.config = {
+    'labName': '{{site.lab_name}}',
+    'baseUrl': '{{site.baseurl}}',
+  }
 </script>
