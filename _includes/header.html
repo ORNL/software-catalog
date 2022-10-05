@@ -20,12 +20,18 @@
             {% else %} class="dropdown"
             {% endif %}><a class="navbar-normal" href="{{ '/' | relative_url }}">Home</a>
         </li>
-        <li id="news"
-            {% if page.url == "/news/" %} class="active dropdown"
+        <li id="catalog"
+            {% if page.url == "/catalog/" %} class="active dropdown"
             {% else %} class="dropdown"
-            {% endif %}><a class="navbar-normal" href="{{ 'news' | relative_url }}">News</a>
+            {% endif %}><a class="navbar-normal" href="{{ 'catalog' | relative_url }}">Catalog</a>
+        </li>
+        <li id="explore"
+            {% if page.url == "/explore/" %} class="active dropdown"
+            {% else %} class="dropdown"
+            {% endif %}><a class="navbar-normal" href="{{ 'explore' | relative_url }}">Explore</a>
           <div class="dropdown-content">
-            <p><a class="navbar-normal" href="{{ 'news/archive' | relative_url }}">Archive</a></p>
+            <p><a class="navbar-normal" href="{{ 'explore/dependencies' | relative_url }}">Dependencies</a></p>
+            <p><a class="navbar-normal" href="{{ 'explore/popular-repos' | relative_url }}">Popular Repositories</a></p>
           </div>
         </li>
         <li id="about"
@@ -36,14 +42,13 @@
             <p><a class="navbar-normal" href="{{ 'about/faq' | relative_url }}">FAQ</a></p>
             <p><a class="navbar-normal" href="{{ 'about/licenses' | relative_url }}">Licenses Guide</a></p>
           </div>
-        </li>
-        <li id="explore"
-            {% if page.url == "/explore/" %} class="active dropdown"
+        </li>                
+        <li id="news"
+            {% if page.url == "/news/" %} class="active dropdown"
             {% else %} class="dropdown"
-            {% endif %}><a class="navbar-normal" href="{{ 'explore' | relative_url }}">Explore</a>
+            {% endif %}><a class="navbar-normal" href="{{ 'news' | relative_url }}">News</a>
           <div class="dropdown-content">
-            <p><a class="navbar-normal" href="{{ 'explore/dependencies' | relative_url }}">Dependencies</a></p>
-            <p><a class="navbar-normal" href="{{ 'explore/popular-repos' | relative_url }}">Popular Repositories</a></p>
+            <p><a class="navbar-normal" href="{{ 'news/archive' | relative_url }}">Archive</a></p>
           </div>
         </li>
         <li id="github-button"><a href="https://github.com/ornl"><span class="fa fa-github fa-lg"></span></a></li>

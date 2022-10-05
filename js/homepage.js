@@ -17,25 +17,23 @@ function containsTopics(catTopics, repoTopics) {
 }
 
 function uniqueLogo(logos, fileName, ownerAvatar) {
-  let match = false;
-  let file;
+  let file = '';
   for (let f in logos) {
     if (logos[f] === fileName) {
-      match = true;
       file = logos[f];
       break;
     }
   }
   // if repo has unique logo use it
-  if (match) {
-    return '/assets/images/logos/' + file;
+  if (file) {
+    return `${window.config.baseUrl}/assets/images/logos/${file}`;
   }
   // if repo does not have unique logo use org logo
   return ownerAvatar;
 }
 
 // init
-fetch(`${window.config.baseUrl}/category/category_info.json`)
+fetch(`${window.config.baseUrl}/catalog/category_info.json`)
   .then((res) => res.json())
   .then((json) => {
     const catData = Object.values(json.data).sort((a, b) => {
@@ -97,17 +95,19 @@ fetch(`${window.config.baseUrl}/category/category_info.json`)
                   }
                 }
                 //sort categories by stars descending
-                topicRepos = topicRepos.sort((a, b) => {
-                  const x = a['stars'];
-                  const y = b['stars'];
-                  return x > y ? -1 : x < y ? 1 : 0;
+                topicRepos.forEach((repo) => {
+                  repo.sort((a, b) => {
+                    const x = a['stars'];
+                    const y = b['stars'];
+                    return x > y ? -1 : x < y ? 1 : 0;
+                  });
                 });
 
                 // BUILD HTML
                 document.getElementById('categories').innerHTML = catData
                   .map((category, categoryIdx) => `
                   <div class="flex-category dynamic">
-                    <a class="dynamic-link" href="${window.config.baseUrl}/category/?name=${categoryToUrl(category.title)}">
+                    <a class="dynamic-link" href="${window.config.baseUrl}/catalog/?category=${categoryToUrl(category.title)}">
                       <img src="${window.config.baseUrl}${category.icon.path}" height="150" width="150" alt="${category.icon.alt}" loading="lazy" />
                       <h2>${sanitizeHTML(category.title)}</h2>
                       <p class="text-center">${sanitizeHTML(category.description.short)}</p>
@@ -136,14 +136,14 @@ fetch(`${window.config.baseUrl}/category/category_info.json`)
                         </span>
 
                         <span>
-                          <a href="${window.config.baseUrl}/repo/?name=${encodeURIComponent(repo.nameWithOwner)}" title="Repo Info">
+                          <a href="${window.config.baseUrl}/catalog/?repo=${encodeURIComponent(repo.nameWithOwner)}" title="Repo Info">
                             <span class="fa fa-info-circle"></span>
                           </a>
                         </span>
                       </p>
                     `).join('')}
                     </div>
-                    ${topicRepos[categoryIdx].length > MAX_REPOS_TO_SHOW ? `<a href="${window.config.baseUrl}/category/?name=${categoryToUrl(category.title)}" class="more">MORE...</a>` : ''}
+                    ${topicRepos[categoryIdx].length > MAX_REPOS_TO_SHOW ? `<a href="${window.config.baseUrl}/catalog/?category=${categoryToUrl(category.title)}" class="more">MORE...</a>` : ''}
                   </div>
                 `).join('');
               });
