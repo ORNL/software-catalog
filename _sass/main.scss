@@ -61,11 +61,10 @@ a:visited {
 }
 
 .catalog-grid {
-  margin: 0 auto;
+  margin: 0 1rem;
   display: grid;
-  gap: 1rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  max-width: 1500px;
 }
 
 .catalog-grid-item {
