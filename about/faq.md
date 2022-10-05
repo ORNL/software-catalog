@@ -78,7 +78,7 @@ Now that your project is on GitHub, make sure users and contributors can find it
 
 1. Include meaningful metadata (description and topic tags) in your repository. Example: [Spack](https://github.com/spack/spack) lists several topic tags below a one-sentence description.
 
-    - Start with our [list]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/category/README.md) of recommended, standardized topics.
+    - Start with our [list]({{site.repo_url}}/{{site.repo_blob_path}}/{{site.repo_branch}}/catalog/README.md) of recommended, standardized topics.
 
     - See helpful hints on [GitHub's topic help page](https://help.github.com/articles/about-topics/). Add tags relevant to your project's programming language, platforms, and more (e.g., Python, HPC, Linux).
 
