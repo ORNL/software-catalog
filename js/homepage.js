@@ -16,19 +16,20 @@ function containsTopics(catTopics, repoTopics) {
   return false;
 }
 
+/**
+ * 
+ * @param {Array<string>} logos full list of logos
+ * @param {string} fileName name of logo we're looking for
+ * @param {string} ownerAvatar path of org avatar 
+ * @returns 
+ */
 function uniqueLogo(logos, fileName, ownerAvatar) {
-  let file = '';
-  for (let f in logos) {
-    if (logos[f] === fileName) {
-      file = logos[f];
-      break;
-    }
-  }
-  // if repo has unique logo use it
+  const file = logos.find((logo) => logo === fileName);
+  // if repo has unique logo use it, it will be saved in our repository
   if (file) {
     return `${window.config.baseUrl}/assets/images/logos/${file}`;
   }
-  // if repo does not have unique logo use org logo
+  // if repo does not have unique logo use org logo, it's an absolute path to a github URL
   return ownerAvatar;
 }
 
@@ -83,7 +84,7 @@ fetch(`${window.config.baseUrl}/catalog/category_info.json`)
                         // call unique logo function to get repo logo uniqueLogo(logos, filename, ownerAvatar)
                         category[count]['ownerAvatar'] = uniqueLogo(
                           logos,
-                          category[count].nameWithOwner.toLowerCase() + '.png',
+                          `${category[count].nameWithOwner.toLowerCase()}.png`,
                           reposInfoObj[repo].owner.avatarUrl,
                         );
                         category[count]['ownerLogin'] = reposInfoObj[repo].owner.login;

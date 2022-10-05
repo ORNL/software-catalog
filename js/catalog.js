@@ -60,7 +60,7 @@ const catData = [
   {
     title: 'ALL SOFTWARE',
     icon: {
-      path: `${window.config.baseUrl}/assets/images/categories/catalog.svg`,
+      path: '/assets/images/categories/catalog.svg', // don't use baseUrl here, we'll add it in the src of the img tag
       alt: 'All Software',
     },
     description: {
@@ -256,7 +256,7 @@ function renderRepoListHeaderHtml() {
   const category = catData[selectedCategoryIndex];
   REPO_HEADER_ELEMENT.innerHTML = `
     <img
-      src="${category.icon.path}"
+      src="${window.config.baseUrl}${category.icon.path}"
       width="125"
       height="125"
       alt="${category.icon.alt}"
@@ -417,7 +417,7 @@ function setVisibleRepo(newValue, fromPopstate) {
               (category, idx) => `
             <button id="btn__${idx}" class="tab${idx === selectedCategoryIndex ? ' selected-tab' : ''}">
               <img
-                src="${category.icon.path}"
+                src="${window.config.baseUrl}${category.icon.path}"
                 height="40"
                 width="40"
                 alt="${category.icon.alt}"
