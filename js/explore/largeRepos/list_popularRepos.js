@@ -57,7 +57,7 @@ function draw_popularRepos(areaID, columns = 2, orthogonalOrdering = false) {
       .attr('y', (d, i) => (fontSize + rowSpacing) * i)
       .html(
         (d) =>
-          `<tspan style="font-weight: bold">${d.position}.</tspan> <a xlink:href=${window.config.baseUrl}/repo/?name=${encodeURIComponent(`${d.entry.owner}/${d.entry.name}`)}>${d.entry.owner}/${d.entry.name}</a>`,
+          `<tspan style="font-weight: bold">${d.position}. </tspan><a xlink:href=${window.config.baseUrl}/catalog/?repo=${encodeURIComponent(`${d.entry.owner}/${d.entry.name}`)}>${d.entry.owner}/${d.entry.name}</a>`,
       );
 
     chart
