@@ -362,11 +362,13 @@ function onCategoryUpdate(categoryIdx) {
 ////////////////////////////////////////////////
 
 function showCategoryList() {
+  setTimeout(() => window.scrollTo({ top: 0, behavior: 'auto' }), 0);
   ELEMENTS_ONLY_LIST.forEach((ele) => ele.classList.remove(HIDDEN_CLASS));
   ELEMENTS_ONLY_SINGLE_REPO.forEach((ele) => ele.classList.add(HIDDEN_CLASS));
 }
 
 function showSingleRepo() {
+  setTimeout(() => window.scrollTo({ top: 0, behavior: 'auto' }), 0);
   ELEMENTS_ONLY_SINGLE_REPO.forEach((ele) => ele.classList.remove(HIDDEN_CLASS));
   ELEMENTS_ONLY_LIST.forEach((ele) => ele.classList.add(HIDDEN_CLASS));
 }
@@ -376,10 +378,11 @@ function showSingleRepo() {
  * User has selected a visible repository. If user selects empty repository, render category list instead.
  *
  * @param {string} newValue the next repo to change
- * @param {boolean} fromPopstate true if from window event, false otherwise
+ * @param {boolean} shouldPushState Set to true the first time the user navigates to the catalog, or navigates from history. 
+ *   Leave as false or undefined if the user triggers a click event.
  *
  */
-function setVisibleRepo(newValue, fromPopstate) {
+function setVisibleRepo(newValue, shouldPushState) {
   visibleRepo = newValue;
   if (!visibleRepo) {
     if (!hasUserVisitedCategoryListPageYet) {
@@ -514,7 +517,7 @@ function setVisibleRepo(newValue, fromPopstate) {
     renderSingleRepo(decodeURIComponent(visibleRepo));
     showSingleRepo();
   }
-  if (!fromPopstate) {
+  if (!shouldPushState) {
     window.history.pushState(
       { categoryIndex: selectedCategoryIndex, repo: visibleRepo },
       '',
@@ -529,7 +532,7 @@ function setVisibleRepo(newValue, fromPopstate) {
 
 // Sets initial category page
 const repoFromUrl = new URLSearchParams(window.location.search).get('repo') || '';
-setVisibleRepo(repoFromUrl);
+setVisibleRepo(repoFromUrl, true);
 
 ////////////////////////////////////////////////////////////////
 //////////////////////// EVENT LISTENERS ///////////////////////
