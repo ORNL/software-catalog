@@ -604,7 +604,10 @@
     "ORNL/COVID19Vis": {
         "description": "Visualizations of COVID-19 case data",
         "name": "ORNL/COVID19Vis",
-        "topics": null,
+        "topics": [
+            "data-visualization",
+            "scientific-visualization"
+        ],
         "website": "https://ornl.github.io/COVID19Vis/"
     },
     "ORNL/CabanaPD": {
@@ -628,7 +631,11 @@
     "ORNL/DataFed": {
         "description": "A Federated Scientific Data Management System",
         "name": "ORNL/DataFed",
-        "topics": null,
+        "topics": [
+            "data-lifecycle-management",
+            "portals",
+            "in-situ-and-in-transit-workflows"
+        ],
         "website": "https://ornl.github.io/DataFed/"
     },
     "ORNL/DataFed2": {
@@ -708,8 +715,10 @@
     "ORNL/RIOPA.jl": {
         "description": "Proxy app for input/output pattern generation in the Exascale Computing Project using Julia",
         "name": "ORNL/RIOPA.jl",
-        "topics": null,
-        "website": null
+        "topics": [
+            "performance-modeling-and-analysis"
+        ],
+        "website": ""
     },
     "ORNL/SchemaAnalyzer": {
         "description": "Analyzes populations of raw metadata to find / create common schemas",
@@ -755,8 +764,10 @@
     "ORNL/TASQC": {
         "description": "The Timing Authentication Secured by Quantum Correlations project will develop and demonstrate a transformative system of ground-based timing and communication beacons featuring security that is enhanced by geographically distributed quantum correlations and that takes full advantage of the direction of information flow for power systems management.",
         "name": "ORNL/TASQC",
-        "topics": null,
-        "website": null
+        "topics": [
+            "quantum-computing"
+        ],
+        "website": ""
     },
     "ORNL/Thermo4PFM": {
         "description": "Library to evaluate alloy compositions in Phase-Field models",
@@ -775,6 +786,16 @@
         "name": "ORNL/WeldPredictor",
         "topics": null,
         "website": null
+    },
+    "ORNL/affinity_pred": {
+        "description": "Protein-ligand affinity prediction using NLP",
+        "name": "ORNL/affinity_pred",
+        "topics": [
+            "artificial-intelligence",
+            "machine-learning",
+            "nlp"
+        ],
+        "website": ""
     },
     "ORNL/briar-api": {
         "description": "The open-source biometrics API and SDK for the IARPA BRIAR program",
@@ -809,8 +830,11 @@
     "ORNL/faro": {
         "description": "Face Recognition from Oak Ridge (FaRO) provides a well-defined server-client interface to a some of the best open source face recognition projects on the web. ",
         "name": "ORNL/faro",
-        "topics": null,
-        "website": null
+        "topics": [
+            "artificial-intelligence",
+            "machine-learning"
+        ],
+        "website": ""
     },
     "ORNL/icat": {
         "description": null,
@@ -836,7 +860,10 @@
     "ORNL/kelvin": {
         "description": "This is a repository for Kelvin, a multiphysics sintering simulation code.",
         "name": "ORNL/kelvin",
-        "topics": null,
+        "topics": [
+            "discrete-simulation",
+            "multi-physics-and-multiscale"
+        ],
         "website": ""
     },
     "ORNL/mario": {
@@ -878,7 +905,8 @@
             "mpi",
             "pgas",
             "memory-hierarchy",
-            "non-volatile-memory"
+            "non-volatile-memory",
+            "programming-models"
         ],
         "website": ""
     },
@@ -951,7 +979,9 @@
     "ORNL/zambeze": {
         "description": null,
         "name": "ORNL/zambeze",
-        "topics": null,
+        "topics": [
+            "resource-management"
+        ],
         "website": "https://zambeze.org"
     },
     "QMCPACK/qmcpack": {
