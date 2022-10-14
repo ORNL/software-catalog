@@ -7686,6 +7686,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "datetime",
+                                    "repository": {
+                                        "nameWithOwner": "zopefoundation/DateTime"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "globus-sdk",
                                     "repository": {
                                         "nameWithOwner": "globus/globus-sdk-python"
@@ -10225,7 +10232,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/core"
+                                        "nameWithOwner": "vuejs/vue"
                                     }
                                 },
                                 {
@@ -12161,7 +12168,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/core"
+                                        "nameWithOwner": "vuejs/vue"
                                     }
                                 },
                                 {
@@ -12501,7 +12508,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "vue",
                                     "repository": {
-                                        "nameWithOwner": "vuejs/core"
+                                        "nameWithOwner": "vuejs/vue"
                                     }
                                 },
                                 {
