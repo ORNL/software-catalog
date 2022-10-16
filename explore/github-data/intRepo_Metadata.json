@@ -1,4 +1,13 @@
 {
+    "CODARcode/MGARD": {
+        "description": "MGARD: MultiGrid Adaptive Reduction of Data",
+        "name": "CODARcode/MGARD",
+        "topics": [
+            "reduction",
+            "compression"
+        ],
+        "website": null
+    },
     "ORNL-BTRIC/AirflowNetwork": {
         "description": null,
         "name": "ORNL-BTRIC/AirflowNetwork",
@@ -1540,6 +1549,21 @@
         "topics": null,
         "website": ""
     },
+    "ornladios/ADIOS2": {
+        "description": "Next generation of ADIOS developed in the Exascale Computing Program",
+        "name": "ornladios/ADIOS2",
+        "topics": [
+            "adios",
+            "cmake",
+            "exascale-computing",
+            "hdf5",
+            "hpc",
+            "io",
+            "ecp",
+            "exascale"
+        ],
+        "website": "https://adios2.readthedocs.io/en/latest/index.html"
+    },
     "ornlcda/MLHPC2015": {
         "description": "MLHPC2015 Conference website",
         "name": "ornlcda/MLHPC2015",
@@ -1635,5 +1659,11 @@
         "name": "ornlcda/ornlcda.github.io",
         "topics": null,
         "website": "http://cda.ornl.gov"
+    },
+    "wdmapp/effis": {
+        "description": null,
+        "name": "wdmapp/effis",
+        "topics": null,
+        "website": null
     }
 }
