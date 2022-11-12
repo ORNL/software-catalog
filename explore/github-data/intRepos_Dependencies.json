@@ -7908,6 +7908,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "sqlalchemy",
+                                    "repository": {
+                                        "nameWithOwner": "sqlalchemy/sqlalchemy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "typer",
                                     "repository": {
                                         "nameWithOwner": "tiangolo/typer"
@@ -7918,22 +7925,7 @@
                     },
                     {
                         "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "nats-py",
-                                    "repository": {
-                                        "nameWithOwner": "nats-io/nats.py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
-                                    }
-                                }
-                            ]
+                            "nodes": []
                         }
                     },
                     {
