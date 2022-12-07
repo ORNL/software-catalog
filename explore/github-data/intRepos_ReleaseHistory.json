@@ -168,6 +168,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "runtime options",
+                        "publishedAt": "2022-12-06T19:32:45Z",
+                        "tagName": "v1.3.0"
+                    },
+                    {
                         "name": "Multi-platform with tests",
                         "publishedAt": "2021-08-26T14:41:50Z",
                         "tagName": "v1.2.0"
@@ -813,6 +818,11 @@
                 ]
             }
         },
+        "ORNL/CrossVis2": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL/DD-AADL": {
             "releases": {
                 "nodes": []
@@ -1407,12 +1417,17 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "Kokkos v. 3.7.1",
+                        "publishedAt": "2022-12-06T22:48:34Z",
+                        "tagName": "3.7.01"
+                    },
+                    {
                         "name": "Kokkos v. 3.7.0",
                         "publishedAt": "2022-09-20T23:58:12Z",
                         "tagName": "3.7.00"
                     },
                     {
-                        "name": "Kokkos v. 3.6.01",
+                        "name": "Kokkos v. 3.6.1",
                         "publishedAt": "2022-06-22T19:49:23Z",
                         "tagName": "3.6.01"
                     },
