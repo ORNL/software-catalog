@@ -2413,6 +2413,22 @@
                 "login": "descarteslabs"
             }
         },
+        "disqus/channels": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "channels",
+            "nameWithOwner": "disqus/channels",
+            "owner": {
+                "isVerified": false,
+                "login": "disqus"
+            }
+        },
         "django-crispy-forms/django-crispy-forms": {
             "languages": {
                 "nodes": [
@@ -2443,22 +2459,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "django-webpack"
-            }
-        },
-        "django/channels": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "channels",
-            "nameWithOwner": "django/channels",
-            "owner": {
-                "isVerified": true,
-                "login": "django"
             }
         },
         "django/channels_redis": {
