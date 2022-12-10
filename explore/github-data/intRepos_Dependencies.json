@@ -5338,6 +5338,14 @@
                 ]
             }
         },
+        "ORNL/VDiSC": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "ORNL/VitalVis": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -5983,7 +5991,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "zeroconf",
                                     "repository": {
-                                        "nameWithOwner": "jstasiak/python-zeroconf"
+                                        "nameWithOwner": "python-zeroconf/python-zeroconf"
                                     }
                                 }
                             ]
