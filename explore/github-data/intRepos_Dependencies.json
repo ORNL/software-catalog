@@ -5628,6 +5628,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "black",
+                                    "repository": {
+                                        "nameWithOwner": "psf/black"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "build",
                                     "repository": {
                                         "nameWithOwner": "pypa/build"
@@ -5635,9 +5642,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "dataclasses",
+                                    "packageName": "flake8",
                                     "repository": {
-                                        "nameWithOwner": "ericvsmith/dataclasses"
+                                        "nameWithOwner": "PyCQA/flake8"
                                     }
                                 },
                                 {
@@ -5651,6 +5658,13 @@
                                     "packageManager": "PIP",
                                     "packageName": "ipynb-py-convert",
                                     "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "isort",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/isort"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -5742,13 +5756,6 @@
                     {
                         "dependencies": {
                             "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "dataclasses",
-                                    "repository": {
-                                        "nameWithOwner": "ericvsmith/dataclasses"
-                                    }
-                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "graphviz",
