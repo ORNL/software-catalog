@@ -5353,63 +5353,10 @@
         },
         "ORNL/VDiSC": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "grpcio",
-                                    "repository": {
-                                        "nameWithOwner": "grpc/grpc"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pynput",
-                                    "repository": {
-                                        "nameWithOwner": "moses-palmer/pynput"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "insightface",
-                                    "repository": {
-                                        "nameWithOwner": "deepinsight/insightface"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "onnxruntime",
-                                    "repository": {
-                                        "nameWithOwner": "microsoft/onnxruntime"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
+                "nodes": []
             }
         },
         "ORNL/VitalVis": {
