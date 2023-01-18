@@ -1566,6 +1566,11 @@
                 ]
             }
         },
+        "mcvine/dgsres-test-data": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "mcvine/docker": {
             "releases": {
                 "nodes": []
@@ -2006,6 +2011,11 @@
         "neutrons/data_workflow": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "3.0.2rc4",
+                        "publishedAt": "2023-01-17T20:40:13Z",
+                        "tagName": "3.0.2rc4"
+                    },
                     {
                         "name": "3.0.2rc1",
                         "publishedAt": "2022-09-07T15:21:21Z",
