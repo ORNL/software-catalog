@@ -8720,6 +8720,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "dill",
+                                    "repository": {
+                                        "nameWithOwner": "uqfoundation/dill"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "globus-sdk",
                                     "repository": {
                                         "nameWithOwner": "globus/globus-sdk-python"
@@ -8730,6 +8737,13 @@
                                     "packageName": "nats-py",
                                     "repository": {
                                         "nameWithOwner": "nats-io/nats.py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pika",
+                                    "repository": {
+                                        "nameWithOwner": "forgerpl/pika"
                                     }
                                 },
                                 {
@@ -8892,19 +8906,18 @@
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
                                     }
-                                },
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "codecov/codecov-action",
+                                    "packageName": "actions/checkout",
                                     "repository": {
-                                        "nameWithOwner": "codecov/codecov-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "JoshuaSBrown/cpp-py-formatter/check",
-                                    "repository": {
-                                        "nameWithOwner": "JoshuaSBrown/cpp-py-formatter"
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
@@ -8925,6 +8938,46 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
                                     }
                                 }
                             ]
