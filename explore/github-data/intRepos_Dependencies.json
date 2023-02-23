@@ -2287,23 +2287,17 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.apache.commons:commons-math3",
-                                    "repository": {
-                                        "nameWithOwner": "haidaros/defects4j-math"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "apache/maven-plugins"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.codehaus.mojo:exec-maven-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "mojohaus/exec-maven-plugin"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -2315,9 +2309,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.openjfx:javafx-controls",
-                                    "repository": {
-                                        "nameWithOwner": "TonyFPY/Frogger_G52SWM"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -2327,9 +2319,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.openjfx:javafx-maven-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "openjfx/javafx-maven-plugin"
-                                    }
+                                    "repository": null
                                 }
                             ]
                         }
@@ -5301,51 +5291,37 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "com.sun.xml.bind:jaxb-impl",
-                                    "repository": {
-                                        "nameWithOwner": "javagems/jaxb-impl"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "javax.xml.bind:jaxb-api",
-                                    "repository": {
-                                        "nameWithOwner": "javaee/jaxb-spec"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "junit:junit",
-                                    "repository": {
-                                        "nameWithOwner": "junit-team/junit4"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "apache/maven-plugins"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.apache.maven.plugins:maven-jar-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "apache/maven-plugins"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.apache.maven.plugins:maven-shade-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "apache/maven-plugins"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.apache.maven.plugins:maven-site-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "apache/maven-plugins"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -5364,9 +5340,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.glassfish.jersey:jersey-bom",
-                                    "repository": {
-                                        "nameWithOwner": "javaee/jersey"
-                                    }
+                                    "repository": null
                                 }
                             ]
                         }
@@ -10270,6 +10244,13 @@
                                     "packageName": "h5py",
                                     "repository": {
                                         "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
                                     }
                                 },
                                 {
