@@ -8434,6 +8434,41 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/bluele/psort",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/bluele/randutil",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/james-bowman/sparse",
+                                    "repository": {
+                                        "nameWithOwner": "james-bowman/sparse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "golang.org/x/exp",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "gonum.org/v1/gonum",
+                                    "repository": {
+                                        "nameWithOwner": "gonum/gonum"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
