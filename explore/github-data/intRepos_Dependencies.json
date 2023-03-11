@@ -5672,23 +5672,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "black",
-                                    "repository": {
-                                        "nameWithOwner": "psf/black"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "build",
                                     "repository": {
                                         "nameWithOwner": "pypa/build"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flake8",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/flake8"
                                     }
                                 },
                                 {
@@ -5702,13 +5688,6 @@
                                     "packageManager": "PIP",
                                     "packageName": "ipynb-py-convert",
                                     "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "isort",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/isort"
-                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -5736,6 +5715,13 @@
                                     "packageName": "pandas",
                                     "repository": {
                                         "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pre-commit",
+                                    "repository": {
+                                        "nameWithOwner": "pre-commit/pre-commit"
                                     }
                                 },
                                 {
