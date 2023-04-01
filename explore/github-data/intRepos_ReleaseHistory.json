@@ -4,6 +4,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "",
+                        "publishedAt": "2023-04-01T04:00:37Z",
+                        "tagName": "1.5.0"
+                    },
+                    {
                         "name": "MGARD 1.4.0",
                         "publishedAt": "2023-01-10T22:10:05Z",
                         "tagName": "1.4.0"
@@ -1213,7 +1218,13 @@
         },
         "ORNL/hykkt": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "First Release",
+                        "publishedAt": "2023-03-31T15:11:02Z",
+                        "tagName": "v0.1.0"
+                    }
+                ]
             }
         },
         "ORNL/icat": {
