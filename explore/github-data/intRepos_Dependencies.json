@@ -10958,6 +10958,31 @@
                 ]
             }
         },
+        "neutrons/SNAPRed": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mantidworkbench",
+                                    "repository": null
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "neutrons/Shiver": {
             "dependencyGraphManifests": {
                 "nodes": [
