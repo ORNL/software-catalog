@@ -1229,7 +1229,18 @@
         },
         "ORNL/icat": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v0.1.2",
+                        "publishedAt": "2023-04-17T19:50:35Z",
+                        "tagName": "v0.1.2"
+                    },
+                    {
+                        "name": "v0.1.1",
+                        "publishedAt": "2023-04-17T19:39:57Z",
+                        "tagName": "v0.1.1"
+                    }
+                ]
             }
         },
         "ORNL/ipyanchorviz": {
@@ -1596,11 +1607,6 @@
                         "name": "Kokkos v. 3.5.0",
                         "publishedAt": "2021-11-24T04:20:54Z",
                         "tagName": "3.5.00"
-                    },
-                    {
-                        "name": "Kokkos v. 3.4.1",
-                        "publishedAt": "2021-05-26T16:24:47Z",
-                        "tagName": "3.4.01"
                     },
                     {
                         "name": "Kokkos v. 3.4.0",
