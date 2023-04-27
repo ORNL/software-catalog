@@ -1371,6 +1371,17 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "ips-component-utilities",
+                                    "repository": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "ipsframework",
                                     "repository": {
                                         "nameWithOwner": "HPC-SimTools/IPS-framework"
