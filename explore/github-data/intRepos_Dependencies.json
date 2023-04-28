@@ -7896,6 +7896,33 @@
                 ]
             }
         },
+        "ORNL/slurmfs": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "GO",
+                                    "packageName": "github.com/frobnitzem/go-p9p",
+                                    "repository": {
+                                        "nameWithOwner": "frobnitzem/go-p9p"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#00ADD8",
+                        "name": "Go"
+                    }
+                ]
+            }
+        },
         "ORNL/smcdc-2021-covid-kg": {
             "dependencyGraphManifests": {
                 "nodes": []
