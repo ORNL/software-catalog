@@ -6590,6 +6590,19 @@
                 ]
             }
         },
+        "ORNL/grit": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "ORNL/hykkt": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -12527,7 +12540,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ]
             }
         },
         "neutrons/branch-mapper": {
