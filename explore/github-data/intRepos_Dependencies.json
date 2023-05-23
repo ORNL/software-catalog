@@ -11531,6 +11531,11 @@
                                     "packageManager": "PIP",
                                     "packageName": "mantidworkbench",
                                     "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyoncat",
+                                    "repository": null
                                 }
                             ]
                         }
@@ -12812,6 +12817,88 @@
                                     "packageName": "pytest-cov",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tox",
+                                    "repository": {
+                                        "nameWithOwner": "tox-dev/tox"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tox-conda",
+                                    "repository": {
+                                        "nameWithOwner": "drdavella/tox-conda"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-learn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bandit",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/bandit"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flake8",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/flake8"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-learn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
                                     }
                                 },
                                 {
