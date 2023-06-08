@@ -1225,21 +1225,6 @@
                 "login": "alfhen"
             }
         },
-        "almet/django-auth-ldap": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "django-auth-ldap",
-            "nameWithOwner": "almet/django-auth-ldap",
-            "owner": {
-                "login": "almet"
-            }
-        },
         "altair-viz/altair": {
             "languages": {
                 "nodes": [
@@ -2748,6 +2733,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "disqus"
+            }
+        },
+        "django-auth-ldap/django-auth-ldap": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "django-auth-ldap",
+            "nameWithOwner": "django-auth-ldap/django-auth-ldap",
+            "owner": {
+                "isVerified": false,
+                "login": "django-auth-ldap"
             }
         },
         "django-crispy-forms/django-crispy-forms": {
