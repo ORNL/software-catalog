@@ -849,6 +849,19 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
@@ -2424,7 +2437,34 @@
         },
         "ORNL/COVID19Vis": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3-array",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3-array"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -2653,6 +2693,58 @@
                                     "packageName": "zeromq",
                                     "repository": {
                                         "nameWithOwner": "zeromq/zeromq.js"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "underscore",
+                                    "repository": {
+                                        "nameWithOwner": "jashkenas/underscore"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "underscore",
+                                    "repository": {
+                                        "nameWithOwner": "jashkenas/underscore"
                                     }
                                 }
                             ]
@@ -4616,7 +4708,21 @@
         },
         "ORNL/Jekyll-ORNL-Theme": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "anchor-js",
+                                    "repository": {
+                                        "nameWithOwner": "bryanbraun/anchorjs"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -4658,7 +4764,34 @@
         },
         "ORNL/ORAgendaVis": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3-array",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3-array"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -5441,7 +5574,47 @@
         },
         "ORNL/SnapshotVis": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3-array",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3-array"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3-sankey",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3-sankey"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -5634,6 +5807,19 @@
         "ORNL/VitalVis": {
             "dependencyGraphManifests": {
                 "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3"
+                                    }
+                                }
+                            ]
+                        }
+                    },
                     {
                         "dependencies": {
                             "nodes": [
@@ -9252,6 +9438,45 @@
                         "dependencies": {
                             "nodes": [
                                 {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "underscore",
+                                    "repository": {
+                                        "nameWithOwner": "jashkenas/underscore"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "underscore",
+                                    "repository": {
+                                        "nameWithOwner": "jashkenas/underscore"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
                                     "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
@@ -12398,6 +12623,19 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -12586,6 +12824,71 @@
                                     "packageName": "conda-incubator/setup-miniconda",
                                     "repository": {
                                         "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
                                     }
                                 }
                             ]
@@ -14912,6 +15215,58 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery-migrate",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery-migrate"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -15074,6 +15429,45 @@
                                     "packageName": "node-static",
                                     "repository": {
                                         "nameWithOwner": "cloudhead/node-static"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "jquery",
+                                    "repository": {
+                                        "nameWithOwner": "jquery/jquery"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "d3",
+                                    "repository": {
+                                        "nameWithOwner": "d3/d3"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "lodash",
+                                    "repository": {
+                                        "nameWithOwner": "lodash/lodash"
                                     }
                                 }
                             ]
@@ -16692,13 +17086,6 @@
                     {
                         "dependencies": {
                             "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
                                 {
                                     "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
