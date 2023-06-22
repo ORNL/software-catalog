@@ -157,7 +157,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "wxpython",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "lebao3105/wxPython-deb"
+                                    }
                                 }
                             ]
                         }
@@ -9535,9 +9537,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "globus-sdk",
-                                    "repository": {
-                                        "nameWithOwner": "globus/globus-sdk-python"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -9635,9 +9635,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "globus-sdk",
-                                    "repository": {
-                                        "nameWithOwner": "globus/globus-sdk-python"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
