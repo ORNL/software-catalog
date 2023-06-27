@@ -297,6 +297,11 @@
                 "nodes": []
             }
         },
+        "ORNL-Fusion/PENTA": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL-Fusion/PICOS": {
             "releases": {
                 "nodes": [
@@ -1309,6 +1314,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v0.2.0",
+                        "publishedAt": "2023-06-26T19:06:19Z",
+                        "tagName": "v0.2.0"
+                    },
+                    {
                         "name": "v0.1.0",
                         "publishedAt": "2023-01-26T14:40:02Z",
                         "tagName": "v0.1.0"
@@ -1446,7 +1456,13 @@
         },
         "ORNL/superneuroabm": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v0.1.0",
+                        "publishedAt": "2023-06-26T19:12:37Z",
+                        "tagName": "v0.1.0"
+                    }
+                ]
             }
         },
         "ORNL/superneuromat": {
