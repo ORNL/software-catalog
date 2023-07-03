@@ -247,22 +247,6 @@
                 "login": "ChrisAichinger"
             }
         },
-        "CoCreate-app/CoCreate-clone": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "CoCreate-clone",
-            "nameWithOwner": "CoCreate-app/CoCreate-clone",
-            "owner": {
-                "isVerified": true,
-                "login": "CoCreate-app"
-            }
-        },
         "DefinitelyTyped/DefinitelyTyped": {
             "languages": {
                 "nodes": [
@@ -1454,6 +1438,22 @@
             },
             "name": "babel-eslint",
             "nameWithOwner": "babel/babel-eslint",
+            "owner": {
+                "isVerified": true,
+                "login": "babel"
+            }
+        },
+        "babel/babel-loader": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "babel-loader",
+            "nameWithOwner": "babel/babel-loader",
             "owner": {
                 "isVerified": true,
                 "login": "babel"
@@ -6287,6 +6287,22 @@
                 "login": "jupyterlab"
             }
         },
+        "karma-runner/karma": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "karma",
+            "nameWithOwner": "karma-runner/karma",
+            "owner": {
+                "isVerified": false,
+                "login": "karma-runner"
+            }
+        },
         "karma-runner/karma-chrome-launcher": {
             "languages": {
                 "nodes": [
@@ -6516,21 +6532,6 @@
             "nameWithOwner": "knu/ruby-unf_ext",
             "owner": {
                 "login": "knu"
-            }
-        },
-        "kosatyi/ejs": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "ejs",
-            "nameWithOwner": "kosatyi/ejs",
-            "owner": {
-                "login": "kosatyi"
             }
         },
         "krakenjs/lusca": {
@@ -7086,6 +7087,21 @@
                 "login": "mcollina"
             }
         },
+        "mde/ejs": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "ejs",
+            "nameWithOwner": "mde/ejs",
+            "owner": {
+                "login": "mde"
+            }
+        },
         "mde/filelist": {
             "languages": {
                 "nodes": [
@@ -7269,6 +7285,22 @@
             "nameWithOwner": "mobilewebup/lockfile-0.9.1-py3k",
             "owner": {
                 "login": "mobilewebup"
+            }
+        },
+        "mochajs/mocha": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "mocha",
+            "nameWithOwner": "mochajs/mocha",
+            "owner": {
+                "isVerified": false,
+                "login": "mochajs"
             }
         },
         "moment/moment": {
@@ -8529,6 +8561,21 @@
                 "login": "psycopg"
             }
         },
+        "pvorb/clone": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "clone",
+            "nameWithOwner": "pvorb/clone",
+            "owner": {
+                "login": "pvorb"
+            }
+        },
         "pvorb/node-charenc": {
             "languages": {
                 "nodes": [
@@ -9119,22 +9166,6 @@
                 "login": "remix-run"
             }
         },
-        "remotion-dev/remotion": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "remotion",
-            "nameWithOwner": "remotion-dev/remotion",
-            "owner": {
-                "isVerified": true,
-                "login": "remotion-dev"
-            }
-        },
         "requests/requests-oauthlib": {
             "languages": {
                 "nodes": [
@@ -9524,22 +9555,6 @@
             "nameWithOwner": "sehmaschine/django-grappelli",
             "owner": {
                 "login": "sehmaschine"
-            }
-        },
-        "serenity-js/serenity-js": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "serenity-js",
-            "nameWithOwner": "serenity-js/serenity-js",
-            "owner": {
-                "isVerified": true,
-                "login": "serenity-js"
             }
         },
         "serviejs/events": {
@@ -10102,22 +10117,6 @@
             "nameWithOwner": "sobolevn/django-test-plus",
             "owner": {
                 "login": "sobolevn"
-            }
-        },
-        "socialbaking/karma": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "karma",
-            "nameWithOwner": "socialbaking/karma",
-            "owner": {
-                "isVerified": false,
-                "login": "socialbaking"
             }
         },
         "socketio/socket.io": {
@@ -11414,19 +11413,20 @@
                 "login": "vuejs"
             }
         },
-        "w3cj/intro-feathers": {
+        "vuetifyjs/vuetify": {
             "languages": {
                 "nodes": [
                     {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
+                        "color": "#3178c6",
+                        "name": "TypeScript"
                     }
                 ]
             },
-            "name": "intro-feathers",
-            "nameWithOwner": "w3cj/intro-feathers",
+            "name": "vuetify",
+            "nameWithOwner": "vuetifyjs/vuetify",
             "owner": {
-                "login": "w3cj"
+                "isVerified": true,
+                "login": "vuetifyjs"
             }
         },
         "wazeHQ/backbone-types": {
