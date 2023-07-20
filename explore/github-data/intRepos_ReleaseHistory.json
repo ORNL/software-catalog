@@ -1020,6 +1020,11 @@
                 ]
             }
         },
+        "ORNL/ReSolve": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL/SYCLhash": {
             "releases": {
                 "nodes": []
@@ -1171,6 +1176,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v0.14.0",
+                        "publishedAt": "2023-07-19T15:00:26Z",
+                        "tagName": "v0.14.0"
+                    },
+                    {
                         "name": "v0.13.2",
                         "publishedAt": "2023-05-05T18:47:20Z",
                         "tagName": "v0.13.2"
@@ -1294,6 +1304,11 @@
             }
         },
         "ORNL/faro": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL/fdms_proto": {
             "releases": {
                 "nodes": []
             }
@@ -1508,7 +1523,13 @@
         },
         "ORNL/superneuromat": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "SuperNeuroMAT Version 0.1",
+                        "publishedAt": "2023-07-20T00:19:12Z",
+                        "tagName": "v_01"
+                    }
+                ]
             }
         },
         "ORNL/syclreduce": {
