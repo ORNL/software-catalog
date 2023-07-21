@@ -4741,7 +4741,10 @@
                         "size": 466637
                     },
                     {
-                        "size": 1906
+                        "size": 2201
+                    },
+                    {
+                        "size": 2109
                     },
                     {
                         "size": 1313
@@ -4757,6 +4760,10 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    },
+                    {
+                        "color": "#3D6117",
+                        "name": "TeX"
                     },
                     {
                         "color": "#427819",
@@ -4775,8 +4782,8 @@
                         "name": "Shell"
                     }
                 ],
-                "totalCount": 5,
-                "totalSize": 470973
+                "totalCount": 6,
+                "totalSize": 473377
             }
         },
         "ORNL/eden": {
@@ -5714,10 +5721,19 @@
         },
         "ORNL/superneuro": {
             "languages": {
-                "edges": [],
-                "nodes": [],
-                "totalCount": 0,
-                "totalSize": 0
+                "edges": [
+                    {
+                        "size": 52468
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ],
+                "totalCount": 1,
+                "totalSize": 52468
             }
         },
         "ORNL/superneuroabm": {
@@ -5895,7 +5911,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 17758317
+                        "size": 17752004
                     },
                     {
                         "size": 4660315
@@ -5904,7 +5920,7 @@
                         "size": 4546458
                     },
                     {
-                        "size": 841389
+                        "size": 839981
                     },
                     {
                         "size": 440991
@@ -6031,7 +6047,7 @@
                     }
                 ],
                 "totalCount": 19,
-                "totalSize": 29012131
+                "totalSize": 29004410
             }
         },
         "arborx/ArborX": {
@@ -7678,7 +7694,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 326755
+                        "size": 331572
                     }
                 ],
                 "nodes": [
@@ -7688,7 +7704,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 326755
+                "totalSize": 331572
             }
         },
         "neutrons/Shiver": {
@@ -8806,7 +8822,7 @@
                         "size": 879990
                     },
                     {
-                        "size": 769904
+                        "size": 733134
                     },
                     {
                         "size": 627775
@@ -8815,22 +8831,22 @@
                         "size": 265005
                     },
                     {
-                        "size": 80762
-                    },
-                    {
-                        "size": 27806
+                        "size": 62882
                     },
                     {
                         "size": 26685
                     },
                     {
-                        "size": 8925
+                        "size": 11531
                     },
                     {
                         "size": 8100
                     },
                     {
                         "size": 2761
+                    },
+                    {
+                        "size": 1974
                     },
                     {
                         "size": 1214
@@ -8862,16 +8878,12 @@
                         "name": "Shell"
                     },
                     {
-                        "color": "#384d54",
-                        "name": "Dockerfile"
-                    },
-                    {
                         "color": "#e16737",
                         "name": "MATLAB"
                     },
                     {
-                        "color": "#012456",
-                        "name": "PowerShell"
+                        "color": "#384d54",
+                        "name": "Dockerfile"
                     },
                     {
                         "color": "#427819",
@@ -8882,12 +8894,16 @@
                         "name": "Cuda"
                     },
                     {
+                        "color": "#012456",
+                        "name": "PowerShell"
+                    },
+                    {
                         "color": "#ecdebe",
                         "name": "Roff"
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 9535657
+                "totalSize": 9457781
             }
         },
         "ornlcda/MLHPC2015": {
