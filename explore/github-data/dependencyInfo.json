@@ -1559,6 +1559,22 @@
                 "login": "babel"
             }
         },
+        "babel/babel-loader": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "babel-loader",
+            "nameWithOwner": "babel/babel-loader",
+            "owner": {
+                "isVerified": true,
+                "login": "babel"
+            }
+        },
         "babel/babel-preset-env": {
             "languages": {
                 "nodes": [
@@ -2429,6 +2445,21 @@
             "nameWithOwner": "chrismattmann/tika-python",
             "owner": {
                 "login": "chrismattmann"
+            }
+        },
+        "cjddny/eslint-config-airbnb": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-config-airbnb",
+            "nameWithOwner": "cjddny/eslint-config-airbnb",
+            "owner": {
+                "login": "cjddny"
             }
         },
         "cloudhead/node-static": {
@@ -10241,22 +10272,6 @@
                 "login": "remix-run"
             }
         },
-        "remotion-dev/remotion": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "remotion",
-            "nameWithOwner": "remotion-dev/remotion",
-            "owner": {
-                "isVerified": true,
-                "login": "remotion-dev"
-            }
-        },
         "requests/requests-oauthlib": {
             "languages": {
                 "nodes": [
@@ -12340,22 +12355,6 @@
             },
             "name": "vue",
             "nameWithOwner": "vuejs/vue",
-            "owner": {
-                "isVerified": true,
-                "login": "vuejs"
-            }
-        },
-        "vuejs/vue-cli": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "vue-cli",
-            "nameWithOwner": "vuejs/vue-cli",
             "owner": {
                 "isVerified": true,
                 "login": "vuejs"
