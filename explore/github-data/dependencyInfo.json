@@ -1776,21 +1776,6 @@
                 "login": "beatgammit"
             }
         },
-        "ben-eb/atom-cssnano": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "atom-cssnano",
-            "nameWithOwner": "ben-eb/atom-cssnano",
-            "owner": {
-                "login": "ben-eb"
-            }
-        },
         "ben-eb/gulp-csso": {
             "languages": {
                 "nodes": [
@@ -2734,20 +2719,20 @@
                 "login": "crazy-max"
             }
         },
-        "cssninjaStudio/fresh": {
+        "cssnano/cssnano": {
             "languages": {
                 "nodes": [
                     {
-                        "color": "#ff5a03",
-                        "name": "Astro"
+                        "color": "#563d7c",
+                        "name": "CSS"
                     }
                 ]
             },
-            "name": "fresh",
-            "nameWithOwner": "cssninjaStudio/fresh",
+            "name": "cssnano",
+            "nameWithOwner": "cssnano/cssnano",
             "owner": {
-                "isVerified": true,
-                "login": "cssninjaStudio"
+                "isVerified": false,
+                "login": "cssnano"
             }
         },
         "cvent/json-schema-deref-sync": {
@@ -6847,6 +6832,22 @@
                 "login": "jshttp"
             }
         },
+        "jshttp/fresh": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "fresh",
+            "nameWithOwner": "jshttp/fresh",
+            "owner": {
+                "isVerified": false,
+                "login": "jshttp"
+            }
+        },
         "jshttp/http-errors": {
             "languages": {
                 "nodes": [
@@ -9403,6 +9404,22 @@
                 "login": "pillarjs"
             }
         },
+        "pillarjs/send": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "send",
+            "nameWithOwner": "pillarjs/send",
+            "owner": {
+                "isVerified": false,
+                "login": "pillarjs"
+            }
+        },
         "pimterry/grunt-coveralls": {
             "languages": {
                 "nodes": [
@@ -11936,21 +11953,6 @@
                 "login": "tiangolo"
             }
         },
-        "timvisee/send": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "send",
-            "nameWithOwner": "timvisee/send",
-            "owner": {
-                "login": "timvisee"
-            }
-        },
         "tj/commander.js": {
             "languages": {
                 "nodes": [
@@ -12435,6 +12437,22 @@
                 "login": "vue-generators"
             }
         },
+        "vuejs/router": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "router",
+            "nameWithOwner": "vuejs/router",
+            "owner": {
+                "isVerified": true,
+                "login": "vuejs"
+            }
+        },
         "vuejs/vue": {
             "languages": {
                 "nodes": [
@@ -12494,22 +12512,6 @@
             },
             "name": "vue-loader",
             "nameWithOwner": "vuejs/vue-loader",
-            "owner": {
-                "isVerified": true,
-                "login": "vuejs"
-            }
-        },
-        "vuejs/vue-router": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "vue-router",
-            "nameWithOwner": "vuejs/vue-router",
             "owner": {
                 "isVerified": true,
                 "login": "vuejs"
