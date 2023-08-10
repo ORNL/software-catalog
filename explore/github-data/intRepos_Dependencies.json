@@ -921,7 +921,7 @@
                 ]
             }
         },
-        "ORNL-Fusion/MPEX-GITR-WallDYN": {
+        "ORNL-Fusion/MPEX-WallDYN": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -2545,9 +2545,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.controlsfx:controlsfx",
-                                    "repository": {
-                                        "nameWithOwner": "controlsfx/controlsfx"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
