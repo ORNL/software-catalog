@@ -575,6 +575,47 @@
                 ]
             }
         },
+        "ORNL-Fusion/GITR-docs": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "readthedocs-sphinx-search",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/readthedocs-sphinx-search"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL-Fusion/GITR_legacy": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -2933,9 +2974,7 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "concat-map",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/concat-map"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -3874,9 +3913,7 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "concat-map",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/concat-map"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -7216,9 +7253,7 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "concat-map",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/concat-map"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -9218,7 +9253,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "lodash.merge",
                                     "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                        "nameWithOwner": "lodash/lodash"
                                     }
                                 },
                                 {
@@ -10768,9 +10803,7 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "concat-map",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/concat-map"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -13665,7 +13698,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "qtpy",
                                     "repository": {
-                                        "nameWithOwner": "spyder-ide/qtpy"
+                                        "nameWithOwner": "avalentino/qtpy"
                                     }
                                 },
                                 {
@@ -13795,7 +13828,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "qtpy",
                                     "repository": {
-                                        "nameWithOwner": "spyder-ide/qtpy"
+                                        "nameWithOwner": "avalentino/qtpy"
                                     }
                                 },
                                 {
@@ -13885,7 +13918,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "qtpy",
                                     "repository": {
-                                        "nameWithOwner": "spyder-ide/qtpy"
+                                        "nameWithOwner": "avalentino/qtpy"
                                     }
                                 },
                                 {
@@ -14039,7 +14072,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "qtpy",
                                     "repository": {
-                                        "nameWithOwner": "spyder-ide/qtpy"
+                                        "nameWithOwner": "avalentino/qtpy"
                                     }
                                 },
                                 {
@@ -14201,7 +14234,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "qtpy",
                                     "repository": {
-                                        "nameWithOwner": "spyder-ide/qtpy"
+                                        "nameWithOwner": "avalentino/qtpy"
                                     }
                                 },
                                 {
