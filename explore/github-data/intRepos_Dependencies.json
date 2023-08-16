@@ -2501,6 +2501,26 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
                                 }
                             ]
                         }
@@ -9964,9 +9984,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "sphinxcontrib-napoleon",
+                                    "packageName": "sphinx-favicon",
                                     "repository": {
-                                        "nameWithOwner": "sphinx-contrib/napoleon"
+                                        "nameWithOwner": "tcmetzger/sphinx-favicon"
                                     }
                                 },
                                 {
@@ -12727,6 +12747,26 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "johnwason/vcpkg-action",
+                                    "repository": {
+                                        "nameWithOwner": "johnwason/vcpkg-action"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -14807,7 +14847,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "fs",
                                     "repository": {
-                                        "nameWithOwner": "bogadrian/fatstify-t-stories"
+                                        "nameWithOwner": "npm/security-holder"
                                     }
                                 },
                                 {
