@@ -2727,6 +2727,13 @@
                                 },
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "sanitize-html",
+                                    "repository": {
+                                        "nameWithOwner": "apostrophecms/sanitize-html"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "zeromq",
                                     "repository": {
                                         "nameWithOwner": "zeromq/zeromq.js"
@@ -5511,7 +5518,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "validator",
                                     "repository": {
-                                        "nameWithOwner": "jfstn/Validator"
+                                        "nameWithOwner": "validatorjs/validator.js"
                                     }
                                 },
                                 {
@@ -19426,6 +19433,20 @@
                                     "packageName": "actions/upload-artifact",
                                     "repository": {
                                         "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/analyze",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/init",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
                                     }
                                 }
                             ]
