@@ -6181,10 +6181,36 @@
         },
         "ORNL/al-asmr": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "parsl",
+                                    "repository": {
+                                        "nameWithOwner": "Parsl/parsl"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sh",
+                                    "repository": {
+                                        "nameWithOwner": "amoffat/sh"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
             }
         },
         "ORNL/briar-api": {
