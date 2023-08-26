@@ -1947,7 +1947,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "ibm-db",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "ibmdb/python-ibmdb"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -10532,7 +10534,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "@types/sizzle",
                                     "repository": {
-                                        "nameWithOwner": "baberthal/at-types--sizzle"
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
                                     }
                                 },
                                 {
@@ -17279,7 +17281,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "django-redis",
                                     "repository": {
-                                        "nameWithOwner": "jazzband/django-redis"
+                                        "nameWithOwner": "jianglb-alibaba/django-redis"
                                     }
                                 },
                                 {
