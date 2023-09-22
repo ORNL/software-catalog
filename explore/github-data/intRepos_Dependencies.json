@@ -6885,7 +6885,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "keras",
                                     "repository": {
-                                        "nameWithOwner": "dmlc/keras"
+                                        "nameWithOwner": "keras-team/keras"
                                     }
                                 },
                                 {
@@ -11274,40 +11274,6 @@
             },
             "languages": {
                 "nodes": []
-            }
-        },
-        "ORNL/pyvnc_client": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "des",
-                                    "repository": {
-                                        "nameWithOwner": "0x10001/des"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pillow",
-                                    "repository": {
-                                        "nameWithOwner": "python-pillow/Pillow"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
             }
         },
         "ORNL/sdproc": {
