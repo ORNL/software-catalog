@@ -393,7 +393,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 },
                                 {
@@ -748,7 +748,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 }
                             ]
@@ -859,7 +859,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 },
                                 {
@@ -6823,7 +6823,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 },
                                 {
@@ -6948,7 +6948,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 }
                             ]
@@ -7160,7 +7160,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 },
                                 {
@@ -10652,7 +10652,9 @@
                                 {
                                     "packageManager": "NPM",
                                     "packageName": "@types/source-list-map",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
                                 },
                                 {
                                     "packageManager": "NPM",
@@ -11499,7 +11501,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 },
                                 {
@@ -12961,113 +12963,6 @@
                 ]
             }
         },
-        "kokkos/kokkos": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "dmnemec/copy_file_to_another_repo_action",
-                                    "repository": {
-                                        "nameWithOwner": "dmnemec/copy_file_to_another_repo_action"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
         "mcvine/McVineGPU": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -13661,7 +13556,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 },
                                 {
@@ -13939,7 +13834,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 },
                                 {
@@ -14069,7 +13964,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 },
                                 {
@@ -14313,7 +14208,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 },
                                 {
@@ -17788,7 +17683,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 }
                             ]
@@ -17883,7 +17778,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "scipy",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
+                                        "nameWithOwner": "jasonmccampbell/scipy-refactor"
                                     }
                                 },
                                 {
