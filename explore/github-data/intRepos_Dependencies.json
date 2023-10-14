@@ -4984,6 +4984,19 @@
                 ]
             }
         },
+        "ORNL/ReSolve": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "ORNL/SYCLhash": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -6946,7 +6959,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "cloudpickle",
                                     "repository": {
-                                        "nameWithOwner": "cloudpipe/cloudpickle"
+                                        "nameWithOwner": "acidburn0zzz/cloudpickle"
                                     }
                                 },
                                 {
