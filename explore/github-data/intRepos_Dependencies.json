@@ -4598,9 +4598,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "ase",
-                                    "repository": {
-                                        "nameWithOwner": "rosswhitfield/ase"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -14943,13 +14941,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache/restore",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
@@ -14964,16 +14955,16 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "packageName": "eic/trigger-gitlab-ci",
                                     "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                        "nameWithOwner": "eic/trigger-gitlab-ci"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "packageName": "mamba-org/setup-micromamba",
                                     "repository": {
-                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                        "nameWithOwner": "mamba-org/setup-micromamba"
                                     }
                                 },
                                 {
