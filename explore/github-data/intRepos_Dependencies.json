@@ -4606,7 +4606,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "ase",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "jfalken/aws_enumeration_lib"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -6947,7 +6949,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "keras",
                                     "repository": {
-                                        "nameWithOwner": "keras-team/keras"
+                                        "nameWithOwner": "dmlc/keras"
                                     }
                                 },
                                 {
