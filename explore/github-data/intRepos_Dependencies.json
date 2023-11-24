@@ -5136,6 +5136,19 @@
                 ]
             }
         },
+        "ORNL/ScalableWorkflow_VASP_Calculations": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL/SensorVisFC": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -7077,7 +7090,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "cloudpickle",
                                     "repository": {
-                                        "nameWithOwner": "cloudpipe/cloudpickle"
+                                        "nameWithOwner": "acidburn0zzz/cloudpickle"
                                     }
                                 },
                                 {
@@ -15570,7 +15583,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "karma-sinon-chai",
                                     "repository": {
-                                        "nameWithOwner": "kmees/karma-sinon-chai"
+                                        "nameWithOwner": "kevicency/karma-sinon-chai"
                                     }
                                 },
                                 {
@@ -15891,7 +15904,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "channels",
                                     "repository": {
-                                        "nameWithOwner": "django/channels"
+                                        "nameWithOwner": "disqus/channels"
                                     }
                                 },
                                 {
@@ -17543,7 +17556,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "karma-sinon-chai",
                                     "repository": {
-                                        "nameWithOwner": "kmees/karma-sinon-chai"
+                                        "nameWithOwner": "kevicency/karma-sinon-chai"
                                     }
                                 },
                                 {
@@ -18679,6 +18692,89 @@
                 ]
             }
         },
+        "ornl-sava/nv": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "grunt",
+                                    "repository": {
+                                        "nameWithOwner": "gruntjs/grunt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "grunt-cli",
+                                    "repository": {
+                                        "nameWithOwner": "gruntjs/grunt-cli"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "grunt-contrib-copy",
+                                    "repository": {
+                                        "nameWithOwner": "gruntjs/grunt-contrib-copy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "grunt-contrib-cssmin",
+                                    "repository": {
+                                        "nameWithOwner": "gruntjs/grunt-contrib-cssmin"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "grunt-contrib-jshint",
+                                    "repository": {
+                                        "nameWithOwner": "gruntjs/grunt-contrib-jshint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "grunt-contrib-mincss",
+                                    "repository": {
+                                        "nameWithOwner": "gruntjs/grunt-contrib-mincss"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "grunt-contrib-uglify",
+                                    "repository": {
+                                        "nameWithOwner": "gruntjs/grunt-contrib-uglify"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "launchpad",
+                                    "repository": {
+                                        "nameWithOwner": "bitovi/launchpad"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "node-static",
+                                    "repository": {
+                                        "nameWithOwner": "cloudhead/node-static"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            }
+        },
         "ornl-sava/redis-pubsub-stream": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -18725,6 +18821,74 @@
                                     "packageName": "stream-tester",
                                     "repository": {
                                         "nameWithOwner": "dominictarr/stream-tester"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            }
+        },
+        "ornl-sava/redis-row-stream": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "mocha",
+                                    "repository": {
+                                        "nameWithOwner": "mochajs/mocha"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "redis",
+                                    "repository": {
+                                        "nameWithOwner": "redis/node-redis"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "should",
+                                    "repository": {
+                                        "nameWithOwner": "shouldjs/should.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "stream-spec",
+                                    "repository": {
+                                        "nameWithOwner": "dominictarr/stream-spec"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "stream-tester",
+                                    "repository": {
+                                        "nameWithOwner": "dominictarr/stream-tester"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "regex-stream",
+                                    "repository": {
+                                        "nameWithOwner": "ornl-sava/regex-stream"
                                     }
                                 }
                             ]
