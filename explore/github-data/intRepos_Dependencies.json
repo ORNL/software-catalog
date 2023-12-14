@@ -2665,7 +2665,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.codehaus.mojo:exec-maven-plugin",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "mojohaus/exec-maven-plugin"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -6154,7 +6156,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pytest-asyncio",
                                     "repository": {
-                                        "nameWithOwner": "brettcannon/pytest-asyncio"
+                                        "nameWithOwner": "pytest-dev/pytest-asyncio"
                                     }
                                 },
                                 {
@@ -16468,13 +16470,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "h5py",
-                                    "repository": {
-                                        "nameWithOwner": "h5py/h5py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "plotly",
                                     "repository": {
                                         "nameWithOwner": "plotly/plotly.py"
@@ -16489,50 +16484,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "stompest",
+                                    "packageName": "stomp-py",
                                     "repository": {
-                                        "nameWithOwner": "nikipore/stompest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "twisted",
-                                    "repository": {
-                                        "nameWithOwner": "twisted/twisted"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "build",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/build"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flake8",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/flake8"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
+                                        "nameWithOwner": "induane/stomp.py3"
                                     }
                                 }
                             ]
