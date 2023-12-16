@@ -1446,11 +1446,6 @@
                 "nodes": []
             }
         },
-        "ORNL/fdms_poc": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "ORNL/grit": {
             "releases": {
                 "nodes": [
@@ -2651,7 +2646,13 @@
         },
         "neutrons/gsas-stitch": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "Version 0.1.0",
+                        "publishedAt": "2015-04-28T20:09:09Z",
+                        "tagName": "v0.1.0"
+                    }
+                ]
             }
         },
         "neutrons/imaging_tools": {
