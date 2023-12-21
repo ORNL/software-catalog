@@ -238,6 +238,12 @@
         "topics": null,
         "website": null
     },
+    "ORNL-Fusion/MAFOT": {
+        "description": "DIII-D (and other machines) field line and particle orbit tracer",
+        "name": "ORNL-Fusion/MAFOT",
+        "topics": null,
+        "website": ""
+    },
     "ORNL-Fusion/MAKEGRID": {
         "description": "Precompute vacuum fields.",
         "name": "ORNL-Fusion/MAKEGRID",
@@ -1437,12 +1443,6 @@
         "topics": null,
         "website": null
     },
-    "neutrons/CIS_documentation": {
-        "description": "Any documentation related to CIS work (autoreduction, jupyter notebooks, etc)",
-        "name": "neutrons/CIS_documentation",
-        "topics": null,
-        "website": null
-    },
     "neutrons/CrystalPlan": {
         "description": null,
         "name": "neutrons/CrystalPlan",
@@ -1611,12 +1611,6 @@
         "topics": null,
         "website": null
     },
-    "neutrons/imaging_tools": {
-        "description": null,
-        "name": "neutrons/imaging_tools",
-        "topics": null,
-        "website": null
-    },
     "neutrons/live_data_server": {
         "description": "Data server for data plots",
         "name": "neutrons/live_data_server",
@@ -1630,12 +1624,15 @@
         "website": null
     },
     "neutrons/mantid_total_scattering": {
-        "description": "Neutron total scattering data reduction package based on Mantid framework",
+        "description": "Implementing total neutron scattering data reduction using the Mantid Framework",
         "name": "neutrons/mantid_total_scattering",
         "topics": [
-            "total-scattering"
+            "neutron-scattering",
+            "pair-distance-distribution-function",
+            "diffraction",
+            "mantid-framework"
         ],
-        "website": "https://powder.ornl.gov"
+        "website": null
     },
     "neutrons/mslice_2.0": {
         "description": "New MSlice written in PyQt",

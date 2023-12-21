@@ -347,6 +347,12 @@
                 "totalCount": 0
             }
         },
+        "ORNL-Fusion/MAFOT": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "ORNL-Fusion/MAKEGRID": {
             "repositoryTopics": {
                 "nodes": [],
@@ -2002,12 +2008,6 @@
                 "totalCount": 0
             }
         },
-        "neutrons/CIS_documentation": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
         "neutrons/CrystalPlan": {
             "repositoryTopics": {
                 "nodes": [],
@@ -2236,12 +2236,6 @@
                 "totalCount": 0
             }
         },
-        "neutrons/imaging_tools": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
         "neutrons/live_data_server": {
             "repositoryTopics": {
                 "nodes": [],
@@ -2258,14 +2252,35 @@
             "repositoryTopics": {
                 "nodes": [
                     {
-                        "resourcePath": "/topics/total-scattering",
+                        "resourcePath": "/topics/neutron-scattering",
                         "topic": {
-                            "name": "total-scattering"
+                            "name": "neutron-scattering"
                         },
-                        "url": "https://github.com/topics/total-scattering"
+                        "url": "https://github.com/topics/neutron-scattering"
+                    },
+                    {
+                        "resourcePath": "/topics/pair-distance-distribution-function",
+                        "topic": {
+                            "name": "pair-distance-distribution-function"
+                        },
+                        "url": "https://github.com/topics/pair-distance-distribution-function"
+                    },
+                    {
+                        "resourcePath": "/topics/diffraction",
+                        "topic": {
+                            "name": "diffraction"
+                        },
+                        "url": "https://github.com/topics/diffraction"
+                    },
+                    {
+                        "resourcePath": "/topics/mantid-framework",
+                        "topic": {
+                            "name": "mantid-framework"
+                        },
+                        "url": "https://github.com/topics/mantid-framework"
                     }
                 ],
-                "totalCount": 1
+                "totalCount": 4
             }
         },
         "neutrons/mslice_2.0": {
