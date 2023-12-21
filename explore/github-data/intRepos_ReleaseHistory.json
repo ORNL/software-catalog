@@ -297,6 +297,11 @@
                 "nodes": []
             }
         },
+        "ORNL-Fusion/MAFOT": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL-Fusion/MAKEGRID": {
             "releases": {
                 "nodes": []
@@ -1094,7 +1099,13 @@
         },
         "ORNL/ReSolve": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "First ReSolve release",
+                        "publishedAt": "2023-12-20T18:37:09Z",
+                        "tagName": "v0.99.1"
+                    }
+                ]
             }
         },
         "ORNL/SYCLhash": {
@@ -2278,11 +2289,6 @@
                 "nodes": []
             }
         },
-        "neutrons/CIS_documentation": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "neutrons/CrystalPlan": {
             "releases": {
                 "nodes": []
@@ -2660,11 +2666,6 @@
                 ]
             }
         },
-        "neutrons/imaging_tools": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "neutrons/live_data_server": {
             "releases": {
                 "nodes": []
@@ -2677,7 +2678,93 @@
         },
         "neutrons/mantid_total_scattering": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "Version 1.0.2",
+                        "publishedAt": "2022-11-22T15:48:53Z",
+                        "tagName": "v1.0.2"
+                    },
+                    {
+                        "name": "Version 1.0.0",
+                        "publishedAt": "2022-05-09T18:37:11Z",
+                        "tagName": "v1.0.0"
+                    },
+                    {
+                        "name": "Version 0.2.13",
+                        "publishedAt": "2021-09-21T16:07:42Z",
+                        "tagName": "v0.2.13"
+                    },
+                    {
+                        "name": "Version 0.2.12",
+                        "publishedAt": "2021-06-10T13:59:13Z",
+                        "tagName": "v0.2.12"
+                    },
+                    {
+                        "name": "Version 0.2.11",
+                        "publishedAt": "2021-01-26T19:57:27Z",
+                        "tagName": "v0.2.11"
+                    },
+                    {
+                        "name": "v0.2.10",
+                        "publishedAt": "2019-10-03T17:58:55Z",
+                        "tagName": "v0.2.10"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:10:44Z",
+                        "tagName": "v0.2.9"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:11:33Z",
+                        "tagName": "v0.2.8"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:13:44Z",
+                        "tagName": "v0.2.7"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:15:39Z",
+                        "tagName": "v0.2.6"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:17:13Z",
+                        "tagName": "v0.2.5"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:18:12Z",
+                        "tagName": "v0.2.4"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:23:25Z",
+                        "tagName": "v0.2.3"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:25:02Z",
+                        "tagName": "v0.2.2"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:25:37Z",
+                        "tagName": "v0.2.1"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:21:16Z",
+                        "tagName": "v0.2.0"
+                    },
+                    {
+                        "name": "",
+                        "publishedAt": "2019-07-16T18:19:11Z",
+                        "tagName": "v0.1"
+                    }
+                ]
             }
         },
         "neutrons/mslice_2.0": {
