@@ -10812,16 +10812,16 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "octokit/request-action",
+                                    "packageName": "guibranco/github-status-action-v2",
                                     "repository": {
-                                        "nameWithOwner": "octokit/request-action"
+                                        "nameWithOwner": "guibranco/github-status-action-v2"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "Sibz/github-status-action",
+                                    "packageName": "octokit/request-action",
                                     "repository": {
-                                        "nameWithOwner": "Sibz/github-status-action"
+                                        "nameWithOwner": "octokit/request-action"
                                     }
                                 }
                             ]
@@ -11159,26 +11159,6 @@
                                     "packageName": "numpy",
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "masterleinad/gitlab-mirror-and-ci-action",
-                                    "repository": {
-                                        "nameWithOwner": "masterleinad/gitlab-mirror-and-ci-action"
                                     }
                                 }
                             ]
