@@ -6397,6 +6397,22 @@
                 "login": "jupyter"
             }
         },
+        "jupyter/notebook": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ]
+            },
+            "name": "notebook",
+            "nameWithOwner": "jupyter/notebook",
+            "owner": {
+                "isVerified": false,
+                "login": "jupyter"
+            }
+        },
         "jupyter/qtconsole": {
             "languages": {
                 "nodes": [
@@ -7368,21 +7384,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "minitest"
-            }
-        },
-        "mirobeka/notebook": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "notebook",
-            "nameWithOwner": "mirobeka/notebook",
-            "owner": {
-                "login": "mirobeka"
             }
         },
         "mljs/levenberg-marquardt": {
