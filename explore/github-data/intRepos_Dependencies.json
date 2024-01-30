@@ -1048,6 +1048,26 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/cache",
+                                    "repository": {
+                                        "nameWithOwner": "actions/cache"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -12908,30 +12928,9 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "eic/trigger-gitlab-ci",
-                                    "repository": {
-                                        "nameWithOwner": "eic/trigger-gitlab-ci"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "mamba-org/setup-micromamba",
                                     "repository": {
                                         "nameWithOwner": "mamba-org/setup-micromamba"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/commit-comment",
-                                    "repository": {
-                                        "nameWithOwner": "peter-evans/commit-comment"
                                     }
                                 }
                             ]
