@@ -2744,6 +2744,22 @@
                 "login": "discoveryjs"
             }
         },
+        "disqus/channels": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "channels",
+            "nameWithOwner": "disqus/channels",
+            "owner": {
+                "isVerified": false,
+                "login": "disqus"
+            }
+        },
         "django-auth-ldap/django-auth-ldap": {
             "languages": {
                 "nodes": [
@@ -2792,22 +2808,6 @@
                 "login": "django-webpack"
             }
         },
-        "django/channels": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "channels",
-            "nameWithOwner": "django/channels",
-            "owner": {
-                "isVerified": true,
-                "login": "django"
-            }
-        },
         "django/channels_redis": {
             "languages": {
                 "nodes": [
@@ -2853,6 +2853,22 @@
             "nameWithOwner": "dlmanning/gulp-sass",
             "owner": {
                 "login": "dlmanning"
+            }
+        },
+        "dmlc/keras": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "keras",
+            "nameWithOwner": "dmlc/keras",
+            "owner": {
+                "isVerified": false,
+                "login": "dmlc"
             }
         },
         "dmnemec/copy_file_to_another_repo_action": {
@@ -6575,22 +6591,6 @@
             "nameWithOwner": "kentcdodds/cross-env",
             "owner": {
                 "login": "kentcdodds"
-            }
-        },
-        "keras-team/keras": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "keras",
-            "nameWithOwner": "keras-team/keras",
-            "owner": {
-                "isVerified": false,
-                "login": "keras-team"
             }
         },
         "kevicency/karma-sinon-chai": {
