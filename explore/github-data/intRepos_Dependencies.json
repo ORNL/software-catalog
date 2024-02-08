@@ -2768,12 +2768,38 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
                                     "packageName": "jidicula/clang-format-action",
                                     "repository": {
                                         "nameWithOwner": "jidicula/clang-format-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
@@ -6326,6 +6352,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "networkx",
+                                    "repository": {
+                                        "nameWithOwner": "networkx/networkx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pika",
                                     "repository": {
                                         "nameWithOwner": "pika/pika"
@@ -6505,6 +6538,26 @@
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
                                     }
                                 }
                             ]
