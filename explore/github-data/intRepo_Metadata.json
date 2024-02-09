@@ -653,10 +653,14 @@
         "website": null
     },
     "ORNL/AdditiveFOAM": {
-        "description": null,
+        "description": "Heat and mass transfer software for simulation of additive manufacturing, based on OpenFOAM",
         "name": "ORNL/AdditiveFOAM",
-        "topics": null,
-        "website": null
+        "topics": [
+            "additive-manufacturing",
+            "heat-transfer",
+            "openfoam"
+        ],
+        "website": ""
     },
     "ORNL/Analysis-of-Large-Scale-Molecular-Datasets-with-Python": {
         "description": "Distributed computing workflow for generation and analysis of large scale molecular datasets obtained running multi-source multi-fidelity quantum chemical calculations of ground-state and excited-state properties",
