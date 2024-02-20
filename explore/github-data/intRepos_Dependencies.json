@@ -12140,13 +12140,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache/restore",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
@@ -14160,15 +14153,7 @@
                 "nodes": [
                     {
                         "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python",
-                                    "repository": {
-                                        "nameWithOwner": "python/cpython"
-                                    }
-                                }
-                            ]
+                            "nodes": []
                         }
                     },
                     {
@@ -14844,15 +14829,7 @@
                 "nodes": [
                     {
                         "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python",
-                                    "repository": {
-                                        "nameWithOwner": "python/cpython"
-                                    }
-                                }
-                            ]
+                            "nodes": []
                         }
                     },
                     {
