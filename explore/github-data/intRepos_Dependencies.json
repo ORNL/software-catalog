@@ -1625,7 +1625,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "uncertainties",
                                     "repository": {
-                                        "nameWithOwner": "lebigot/uncertainties"
+                                        "nameWithOwner": "lmfit/uncertainties"
                                     }
                                 }
                             ]
@@ -2876,7 +2876,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.openjfx:javafx-controls",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "openjdk/jfx"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -4764,6 +4766,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "mpi4py",
+                                    "repository": {
+                                        "nameWithOwner": "mpi4py/mpi4py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pre-commit",
                                     "repository": {
                                         "nameWithOwner": "pre-commit/pre-commit"
@@ -4804,6 +4813,11 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pyg-lib",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "torch-cluster",
                                     "repository": {
                                         "nameWithOwner": "rusty1s/pytorch_cluster"
@@ -4828,6 +4842,40 @@
                                     "packageName": "torch-sparse",
                                     "repository": {
                                         "nameWithOwner": "rusty1s/pytorch_sparse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch-spline-conv",
+                                    "repository": {
+                                        "nameWithOwner": "rusty1s/pytorch_spline_conv"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/pytorch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torchaudio",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/audio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torchvision",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/vision"
                                     }
                                 }
                             ]
@@ -4859,13 +4907,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pickle5",
-                                    "repository": {
-                                        "nameWithOwner": "pitrou/pickle5-backport"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "psutil",
                                     "repository": {
                                         "nameWithOwner": "giampaolo/psutil"
@@ -4883,13 +4924,6 @@
                                     "packageName": "tensorboard",
                                     "repository": {
                                         "nameWithOwner": "tensorflow/tensorboard"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch",
-                                    "repository": {
-                                        "nameWithOwner": "pytorch/pytorch"
                                     }
                                 },
                                 {
@@ -6171,7 +6205,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.apache.maven.plugins:maven-site-plugin",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "apache/maven-site-plugin"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -6404,7 +6440,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pytest-asyncio",
                                     "repository": {
-                                        "nameWithOwner": "brettcannon/pytest-asyncio"
+                                        "nameWithOwner": "pytest-dev/pytest-asyncio"
                                     }
                                 },
                                 {
@@ -6678,7 +6714,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "grpcio-tools",
                                     "repository": {
-                                        "nameWithOwner": "gennadiryan/py-grpc-compiler"
+                                        "nameWithOwner": "grpc/grpc"
                                     }
                                 },
                                 {
@@ -7437,7 +7473,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "grpcio-tools",
                                     "repository": {
-                                        "nameWithOwner": "gennadiryan/py-grpc-compiler"
+                                        "nameWithOwner": "grpc/grpc"
                                     }
                                 },
                                 {
@@ -7562,7 +7598,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "grpcio-tools",
                                     "repository": {
-                                        "nameWithOwner": "gennadiryan/py-grpc-compiler"
+                                        "nameWithOwner": "grpc/grpc"
                                     }
                                 },
                                 {
@@ -7644,7 +7680,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "backports-functools-lru-cache",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "jaraco/backports.functools_lru_cache"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -7732,7 +7770,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "grpcio-tools",
                                     "repository": {
-                                        "nameWithOwner": "gennadiryan/py-grpc-compiler"
+                                        "nameWithOwner": "grpc/grpc"
                                     }
                                 },
                                 {
@@ -12276,7 +12314,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "uncertainties",
                                     "repository": {
-                                        "nameWithOwner": "lebigot/uncertainties"
+                                        "nameWithOwner": "lmfit/uncertainties"
                                     }
                                 },
                                 {
@@ -12406,7 +12444,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "uncertainties",
                                     "repository": {
-                                        "nameWithOwner": "lebigot/uncertainties"
+                                        "nameWithOwner": "lmfit/uncertainties"
                                     }
                                 },
                                 {
@@ -12645,7 +12683,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "uncertainties",
                                     "repository": {
-                                        "nameWithOwner": "lebigot/uncertainties"
+                                        "nameWithOwner": "lmfit/uncertainties"
                                     }
                                 }
                             ]
