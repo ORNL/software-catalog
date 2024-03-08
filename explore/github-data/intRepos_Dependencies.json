@@ -5049,6 +5049,949 @@
                 ]
             }
         },
+        "ORNL/HydroFleetIntel": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@aashutoshrathi/word-wrap",
+                                    "repository": {
+                                        "nameWithOwner": "jonschlinkert/word-wrap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/code-frame",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/helper-module-imports",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/helper-validator-identifier",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/highlight",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/runtime",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@babel/types",
+                                    "repository": {
+                                        "nameWithOwner": "babel/babel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/accordion",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/alert",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/anatomy",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/avatar",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/breadcrumb",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/breakpoint-utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/button",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/card",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/checkbox",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/clickable",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/close-button",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/color-mode",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/control-box",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/counter",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/css-reset",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/descendant",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/dom-utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/editable",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/event-utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/focus-lock",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/form-control",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/hooks",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/icon",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/image",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/input",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/layout",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/lazy-utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/live-region",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/media-query",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/menu",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/modal",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/number-input",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/number-utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/object-utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/pin-input",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/popover",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/popper",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/portal",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/progress",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/provider",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/radio",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-children-utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-context",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-env",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-types",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-animation-state",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-callback-ref",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-controllable-state",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-disclosure",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-event-listener",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-focus-effect",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-focus-on-pointer-down",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-interval",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-latest-ref",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-merge-refs",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-outside-click",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-pan-event",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-previous",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-safe-layout-effect",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-size",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-timeout",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-use-update-effect",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react-utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/select",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/shared-utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/skeleton",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/skip-nav",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/slider",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/spinner",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/stat",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/stepper",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/styled-system",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/switch",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/system",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/table",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/tabs",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/tag",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/textarea",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/theme",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/theme-tools",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/theme-utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/toast",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/tooltip",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/transition",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/utils",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/visually-hidden",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emotion/babel-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "emotion-js/emotion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emotion/cache",
+                                    "repository": {
+                                        "nameWithOwner": "emotion-js/emotion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emotion/hash",
+                                    "repository": {
+                                        "nameWithOwner": "emotion-js/next"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emotion/is-prop-valid",
+                                    "repository": {
+                                        "nameWithOwner": "emotion-js/emotion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emotion/is-prop-valid",
+                                    "repository": {
+                                        "nameWithOwner": "emotion-js/emotion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emotion/memoize",
+                                    "repository": {
+                                        "nameWithOwner": "emotion-js/emotion"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emotion/react",
+                                    "repository": {
+                                        "nameWithOwner": "emotion-js/emotion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emotion/styled",
+                                    "repository": {
+                                        "nameWithOwner": "emotion-js/emotion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/node",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/react",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@typescript-eslint/eslint-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "typescript-eslint/typescript-eslint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@typescript-eslint/parser",
+                                    "repository": {
+                                        "nameWithOwner": "typescript-eslint/typescript-eslint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "bootstrap",
+                                    "repository": {
+                                        "nameWithOwner": "twbs/bootstrap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chart.js",
+                                    "repository": {
+                                        "nameWithOwner": "chartjs/Chart.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chartjs-adapter-date-fns",
+                                    "repository": {
+                                        "nameWithOwner": "chartjs/chartjs-adapter-date-fns"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chartjs-plugin-crosshair",
+                                    "repository": {
+                                        "nameWithOwner": "AbelHeinsbroek/chartjs-plugin-crosshair"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chartjs-plugin-zoom",
+                                    "repository": {
+                                        "nameWithOwner": "chartjs/chartjs-plugin-zoom"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "date-fns",
+                                    "repository": {
+                                        "nameWithOwner": "date-fns/date-fns"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "eslint",
+                                    "repository": {
+                                        "nameWithOwner": "eslint/eslint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "eslint-config-next",
+                                    "repository": {
+                                        "nameWithOwner": "vercel/next.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "framer-motion",
+                                    "repository": {
+                                        "nameWithOwner": "framer/motion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "next",
+                                    "repository": {
+                                        "nameWithOwner": "vercel/next.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "papaparse",
+                                    "repository": {
+                                        "nameWithOwner": "mholt/PapaParse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "prettier",
+                                    "repository": {
+                                        "nameWithOwner": "prettier/prettier"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "prop-types",
+                                    "repository": {
+                                        "nameWithOwner": "facebook/prop-types"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react",
+                                    "repository": {
+                                        "nameWithOwner": "facebook/react"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-bootstrap",
+                                    "repository": {
+                                        "nameWithOwner": "react-bootstrap/react-bootstrap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-bootstrap-table-next",
+                                    "repository": {
+                                        "nameWithOwner": "react-bootstrap-table/react-bootstrap-table2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-bootstrap-table2-filter",
+                                    "repository": {
+                                        "nameWithOwner": "react-bootstrap-table/react-bootstrap-table2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-bootstrap-table2-paginator",
+                                    "repository": {
+                                        "nameWithOwner": "react-bootstrap-table/react-bootstrap-table2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-chartjs-2",
+                                    "repository": {
+                                        "nameWithOwner": "reactchartjs/react-chartjs-2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-datepicker",
+                                    "repository": {
+                                        "nameWithOwner": "Hacker0x01/react-datepicker"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-dom",
+                                    "repository": {
+                                        "nameWithOwner": "facebook/react"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-icons",
+                                    "repository": {
+                                        "nameWithOwner": "react-icons/react-icons"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-table",
+                                    "repository": {
+                                        "nameWithOwner": "TanStack/table"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "typescript",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/TypeScript"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            }
+        },
         "ORNL/Jekyll-ORNL-Theme": {
             "dependencyGraphManifests": {
                 "nodes": []
