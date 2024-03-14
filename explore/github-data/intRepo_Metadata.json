@@ -758,10 +758,13 @@
         "website": null
     },
     "ORNL/Equilipy": {
-        "description": null,
+        "description": "Open-source python package for multicomponent multiphase equilibrium CALPHAD calculations",
         "name": "ORNL/Equilipy",
-        "topics": null,
-        "website": null
+        "topics": [
+            "calphad",
+            "python"
+        ],
+        "website": ""
     },
     "ORNL/GridKit": {
         "description": "Experimental code for prototyping interfaces betwen numerical libraries and network models.",
@@ -966,12 +969,13 @@
         "website": null
     },
     "ORNL/Zambeze": {
-        "description": null,
+        "description": "Zambeze is a distributed task orchestration system to manage science application tasks across large-scale and edge computing systems.",
         "name": "ORNL/Zambeze",
         "topics": [
-            "resource-management"
+            "resource-management",
+            "python"
         ],
-        "website": "https://zambeze.org"
+        "website": "https://docs.zambeze.org"
     },
     "ORNL/affinity_pred": {
         "description": "Protein-ligand affinity prediction using NLP",
