@@ -4686,10 +4686,97 @@
         },
         "ORNL/Equilipy": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "dataclasses",
+                                    "repository": {
+                                        "nameWithOwner": "ericvsmith/dataclasses"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "glob2",
+                                    "repository": {
+                                        "nameWithOwner": "miracle2k/python-glob2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "meson",
+                                    "repository": {
+                                        "nameWithOwner": "mesonbuild/meson"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ninja",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-build/ninja-python-distributions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numba",
+                                    "repository": {
+                                        "nameWithOwner": "numba/numba"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "polars",
+                                    "repository": {
+                                        "nameWithOwner": "pola-rs/polars"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "regex",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "xlsx2csv",
+                                    "repository": {
+                                        "nameWithOwner": "dilshod/xlsx2csv"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
             }
         },
         "ORNL/GridKit": {
@@ -7169,7 +7256,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.glassfish.jersey:jersey-bom",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "eclipse-ee4j/jersey"
+                                    }
                                 }
                             ]
                         }
@@ -7414,13 +7503,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "nats-py",
-                                    "repository": {
-                                        "nameWithOwner": "nats-io/nats.py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "networkx",
                                     "repository": {
                                         "nameWithOwner": "networkx/networkx"
@@ -7532,19 +7614,6 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
