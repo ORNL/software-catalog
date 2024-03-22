@@ -8179,8 +8179,10 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "ipywidget",
-                                    "repository": null
+                                    "packageName": "ipywidgets",
+                                    "repository": {
+                                        "nameWithOwner": "jakevdp/ipywidgets-static"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
