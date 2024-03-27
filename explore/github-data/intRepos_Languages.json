@@ -746,7 +746,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 204429
+                        "size": 204454
                     }
                 ],
                 "nodes": [
@@ -756,7 +756,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 204429
+                "totalSize": 204454
             }
         },
         "ORNL-Fusion/GITR": {
@@ -4018,17 +4018,24 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 376746
+                        "size": 376850
+                    },
+                    {
+                        "size": 1673
                     }
                 ],
                 "nodes": [
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    },
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
                     }
                 ],
-                "totalCount": 1,
-                "totalSize": 376746
+                "totalCount": 2,
+                "totalSize": 378523
             }
         },
         "ORNL/HydroFleetIntel": {
@@ -4171,10 +4178,19 @@
         },
         "ORNL/MultiDistTorch": {
             "languages": {
-                "edges": [],
-                "nodes": [],
-                "totalCount": 0,
-                "totalSize": 0
+                "edges": [
+                    {
+                        "size": 13629
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ],
+                "totalCount": 1,
+                "totalSize": 13629
             }
         },
         "ORNL/ORAgendaVis": {
@@ -7799,10 +7815,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1796326
+                        "size": 2170790
                     },
                     {
-                        "size": 283510
+                        "size": 283643
                     },
                     {
                         "size": 1685
@@ -7830,7 +7846,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 2081643
+                "totalSize": 2456240
             }
         },
         "neutrons/MWS-Front-End": {
@@ -7854,7 +7870,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 162286
+                        "size": 162233
                     },
                     {
                         "size": 665
@@ -7871,7 +7887,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 162951
+                "totalSize": 162898
             }
         },
         "neutrons/MantidRemote": {
@@ -8036,7 +8052,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 771995
+                        "size": 772199
                     },
                     {
                         "size": 6766
@@ -8060,14 +8076,14 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 778888
+                "totalSize": 779092
             }
         },
         "neutrons/SNAPRed": {
             "languages": {
                 "edges": [
                     {
-                        "size": 1236158
+                        "size": 1237175
                     }
                 ],
                 "nodes": [
@@ -8077,7 +8093,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 1236158
+                "totalSize": 1237175
             }
         },
         "neutrons/Shiver": {
@@ -8371,7 +8387,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 30965
+                        "size": 34050
                     },
                     {
                         "size": 469
@@ -8388,7 +8404,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 31434
+                "totalSize": 34519
             }
         },
         "neutrons/gsas-stitch": {
@@ -9246,7 +9262,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 7122822
+                        "size": 7122825
                     },
                     {
                         "size": 897055
@@ -9258,7 +9274,7 @@
                         "size": 650772
                     },
                     {
-                        "size": 323377
+                        "size": 326490
                     },
                     {
                         "size": 65666
@@ -9347,7 +9363,7 @@
                     }
                 ],
                 "totalCount": 14,
-                "totalSize": 9889572
+                "totalSize": 9892688
             }
         },
         "ornlcda/MLHPC2015": {
