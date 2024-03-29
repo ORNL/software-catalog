@@ -2478,8 +2478,23 @@
         },
         "neutrons/usansred": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/reduction",
+                        "topic": {
+                            "name": "reduction"
+                        },
+                        "url": "https://github.com/topics/reduction"
+                    },
+                    {
+                        "resourcePath": "/topics/usans",
+                        "topic": {
+                            "name": "usans"
+                        },
+                        "url": "https://github.com/topics/usans"
+                    }
+                ],
+                "totalCount": 2
             }
         },
         "neutrons/web_reflectivity": {
