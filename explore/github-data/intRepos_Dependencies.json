@@ -1032,45 +1032,19 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
+                                },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
+                                    "packageName": "geekdude/github-status-action-v2",
                                     "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
+                                        "nameWithOwner": "Geekdude/github-status-action-v2"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
+                                    "packageName": "octokit/request-action",
                                     "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
+                                        "nameWithOwner": "octokit/request-action"
                                     }
                                 }
                             ]
