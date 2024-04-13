@@ -7570,13 +7570,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "datetime",
-                                    "repository": {
-                                        "nameWithOwner": "zopefoundation/DateTime"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "dill",
                                     "repository": {
                                         "nameWithOwner": "uqfoundation/dill"
@@ -7605,20 +7598,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-asyncio",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-asyncio"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "pyyaml",
                                     "repository": {
                                         "nameWithOwner": "yaml/pyyaml"
@@ -7640,13 +7619,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "setuptools",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "sqlalchemy",
                                     "repository": {
                                         "nameWithOwner": "sqlalchemy/sqlalchemy"
@@ -7660,11 +7632,6 @@
                                     }
                                 }
                             ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": []
                         }
                     },
                     {
@@ -9140,7 +9107,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "altair",
                                     "repository": {
-                                        "nameWithOwner": "altair-viz/altair"
+                                        "nameWithOwner": "vega/altair"
                                     }
                                 },
                                 {
@@ -9258,7 +9225,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "altair",
                                     "repository": {
-                                        "nameWithOwner": "altair-viz/altair"
+                                        "nameWithOwner": "vega/altair"
                                     }
                                 },
                                 {
@@ -15898,26 +15865,6 @@
         "neutrons/pyoncatqt": {
             "dependencyGraphManifests": {
                 "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                }
-                            ]
-                        }
-                    },
                     {
                         "dependencies": {
                             "nodes": [
