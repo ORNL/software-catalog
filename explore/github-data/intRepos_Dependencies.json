@@ -4877,9 +4877,44 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "deephyper",
+                                    "repository": {
+                                        "nameWithOwner": "deephyper/deephyper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "deepspeed",
                                     "repository": {
                                         "nameWithOwner": "microsoft/DeepSpeed"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jarvis-tools",
+                                    "repository": {
+                                        "nameWithOwner": "usnistgov/jarvis"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "optuna",
+                                    "repository": {
+                                        "nameWithOwner": "optuna/optuna"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pymatgen",
+                                    "repository": {
+                                        "nameWithOwner": "materialsproject/pymatgen"
                                     }
                                 }
                             ]
