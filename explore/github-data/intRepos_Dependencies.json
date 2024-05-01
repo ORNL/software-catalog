@@ -1370,46 +1370,6 @@
                 "nodes": []
             }
         },
-        "ORNL-Fusion/aorsa": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#4d41b1",
-                        "name": "Fortran"
-                    }
-                ]
-            }
-        },
         "ORNL-Fusion/aorsa2d": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -15531,55 +15491,7 @@
         },
         "neutrons/live_data_server": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "django",
-                                    "repository": {
-                                        "nameWithOwner": "django/django"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "django-cors-headers",
-                                    "repository": {
-                                        "nameWithOwner": "adamchainz/django-cors-headers"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "gunicorn",
-                                    "repository": {
-                                        "nameWithOwner": "benoitc/gunicorn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "psycopg2",
-                                    "repository": {
-                                        "nameWithOwner": "psycopg/psycopg2"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
                 "nodes": [
