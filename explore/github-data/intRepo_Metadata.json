@@ -110,13 +110,14 @@
         "website": "https://mfmg.readthedocs.io"
     },
     "ORNL-CEES/thermochimica": {
-        "description": "THERMOCHIMICA is a computational library for chemical thermodynamics. It determines a unique combination of phases and their compositions for a prescribed chemical composition, temperature and pressure. The solver and the underlying thermodynamic models can be used to estimate the chemical state and various constitutive and transport properties necessary for various materials and process models.",
+        "description": "Computational library for chemical thermodynamics and phase equilibrium calculation. Multiphysics and standalone estimations of chemical state and constitutive and transport properties.",
         "name": "ORNL-CEES/thermochimica",
         "topics": [
             "chemistry",
             "thermodynamics",
             "equilibrium",
-            "fortran"
+            "fortran",
+            "calphad"
         ],
         "website": ""
     },
