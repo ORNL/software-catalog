@@ -217,6 +217,12 @@
         "topics": null,
         "website": null
     },
+    "ORNL-Fusion/ITPA-IOS-JA1": {
+        "description": null,
+        "name": "ORNL-Fusion/ITPA-IOS-JA1",
+        "topics": null,
+        "website": null
+    },
     "ORNL-Fusion/KORC": {
         "description": "Kinetic Orbit Runaway Code (KORC)",
         "name": "ORNL-Fusion/KORC",
@@ -702,17 +708,23 @@
         "topics": [
             "cabana",
             "high-performance-computing",
-            "hpc",
             "kokkos",
-            "peridynamics"
+            "peridynamics",
+            "computational-materials-science",
+            "computational-mechanics"
         ],
         "website": ""
     },
     "ORNL/CabanaPF": {
         "description": "Phase-field with Cabana",
         "name": "ORNL/CabanaPF",
-        "topics": null,
-        "website": null
+        "topics": [
+            "cabana",
+            "computational-materials-science",
+            "kokkos",
+            "phase-field"
+        ],
+        "website": ""
     },
     "ORNL/CrossVis": {
         "description": "CrossVis Repository",
@@ -1617,6 +1629,12 @@
     "neutrons/SysMon": {
         "description": "Python qt system monitor",
         "name": "neutrons/SysMon",
+        "topics": null,
+        "website": null
+    },
+    "neutrons/TAVI": {
+        "description": "Triple axis visualization Toolkit",
+        "name": "neutrons/TAVI",
         "topics": null,
         "website": null
     },
