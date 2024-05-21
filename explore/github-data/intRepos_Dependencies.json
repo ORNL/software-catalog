@@ -4718,6 +4718,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "mpi4py",
+                                    "repository": {
+                                        "nameWithOwner": "mpi4py/mpi4py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "ninja",
                                     "repository": {
                                         "nameWithOwner": "scikit-build/ninja-python-distributions"
@@ -6632,7 +6639,56 @@
         },
         "ORNL/ScalableWorkflow_VASP_Calculations": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ase",
+                                    "repository": {
+                                        "nameWithOwner": "jfalken/aws_enumeration_lib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/pytorch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torchaudio",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/audio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torchvision",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/vision"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -11968,7 +12024,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "charset-normalizer",
                                     "repository": {
-                                        "nameWithOwner": "Ousret/charset_normalizer"
+                                        "nameWithOwner": "jawah/charset_normalizer"
                                     }
                                 },
                                 {
@@ -12263,7 +12319,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "charset-normalizer",
                                     "repository": {
-                                        "nameWithOwner": "Ousret/charset_normalizer"
+                                        "nameWithOwner": "jawah/charset_normalizer"
                                     }
                                 },
                                 {
