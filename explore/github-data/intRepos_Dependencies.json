@@ -4718,13 +4718,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "mpi4py",
-                                    "repository": {
-                                        "nameWithOwner": "mpi4py/mpi4py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "ninja",
                                     "repository": {
                                         "nameWithOwner": "scikit-build/ninja-python-distributions"
@@ -4768,6 +4761,311 @@
                                     "packageName": "xlsx2csv",
                                     "repository": {
                                         "nameWithOwner": "dilshod/xlsx2csv"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "just-the-docs",
+                                    "repository": {
+                                        "nameWithOwner": "just-the-docs/just-the-docs"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "addressable",
+                                    "repository": {
+                                        "nameWithOwner": "sporkmonger/addressable"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "colorator",
+                                    "repository": {
+                                        "nameWithOwner": "octopress/colorator"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "concurrent-ruby",
+                                    "repository": {
+                                        "nameWithOwner": "ruby-concurrency/concurrent-ruby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "em-websocket",
+                                    "repository": {
+                                        "nameWithOwner": "igrigorik/em-websocket"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "eventmachine",
+                                    "repository": {
+                                        "nameWithOwner": "eventmachine/eventmachine"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "ffi",
+                                    "repository": {
+                                        "nameWithOwner": "ffi/ffi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "forwardable-extended",
+                                    "repository": {
+                                        "nameWithOwner": "envygeeks/forwardable-extended"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "google-protobuf",
+                                    "repository": {
+                                        "nameWithOwner": "protocolbuffers/protobuf"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "http_parser.rb",
+                                    "repository": {
+                                        "nameWithOwner": "tmm1/http_parser.rb"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "i18n",
+                                    "repository": {
+                                        "nameWithOwner": "ruby-i18n/i18n"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-include-cache",
+                                    "repository": {
+                                        "nameWithOwner": "benbalter/jekyll-include-cache"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-sass-converter",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-sass-converter"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-seo-tag",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-seo-tag"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "jekyll-watch",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/jekyll-watch"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "just-the-docs",
+                                    "repository": {
+                                        "nameWithOwner": "just-the-docs/just-the-docs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "kramdown",
+                                    "repository": {
+                                        "nameWithOwner": "gettalong/kramdown"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "kramdown-parser-gfm",
+                                    "repository": {
+                                        "nameWithOwner": "kramdown/parser-gfm"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "liquid",
+                                    "repository": {
+                                        "nameWithOwner": "Shopify/liquid"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "listen",
+                                    "repository": {
+                                        "nameWithOwner": "guard/listen"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "mercenary",
+                                    "repository": {
+                                        "nameWithOwner": "jekyll/mercenary"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "pathutil",
+                                    "repository": {
+                                        "nameWithOwner": "envygeeks/pathutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "public_suffix",
+                                    "repository": {
+                                        "nameWithOwner": "weppos/publicsuffix-ruby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "rake",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/rake"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "rb-fsevent",
+                                    "repository": {
+                                        "nameWithOwner": "guard/rb-fsevent"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "rb-inotify",
+                                    "repository": {
+                                        "nameWithOwner": "guard/rb-inotify"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "rexml",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/rexml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "rouge",
+                                    "repository": {
+                                        "nameWithOwner": "rouge-ruby/rouge"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "safe_yaml",
+                                    "repository": {
+                                        "nameWithOwner": "dtao/safe_yaml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "sass-embedded",
+                                    "repository": {
+                                        "nameWithOwner": "sass-contrib/sass-embedded-host-ruby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "sass-embedded",
+                                    "repository": {
+                                        "nameWithOwner": "sass-contrib/sass-embedded-host-ruby"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "terminal-table",
+                                    "repository": {
+                                        "nameWithOwner": "tj/terminal-table"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "unicode-display_width",
+                                    "repository": {
+                                        "nameWithOwner": "janlelis/unicode-display_width"
+                                    }
+                                },
+                                {
+                                    "packageManager": "RUBYGEMS",
+                                    "packageName": "webrick",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/webrick"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/configure-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/configure-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/deploy-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/deploy-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-pages-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-pages-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "ruby/setup-ruby",
+                                    "repository": {
+                                        "nameWithOwner": "ruby/setup-ruby"
                                     }
                                 }
                             ]
