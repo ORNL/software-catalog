@@ -3501,7 +3501,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "inflight",
                                     "repository": {
-                                        "nameWithOwner": "isaacs/inflight"
+                                        "nameWithOwner": "isaacs/inflight-DEPRECATED-DO-NOT-USE"
                                     }
                                 },
                                 {
@@ -15997,6 +15997,36 @@
                                     "repository": {
                                         "nameWithOwner": "mamba-org/setup-micromamba"
                                     }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "neutrons/garnet_reduction": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mantidworkbench",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyoncat",
+                                    "repository": null
                                 }
                             ]
                         }
