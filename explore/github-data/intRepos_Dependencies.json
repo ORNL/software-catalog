@@ -2869,7 +2869,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.controlsfx:controlsfx",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "controlsfx/controlsfx"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -16650,142 +16652,20 @@
                         "dependencies": {
                             "nodes": [
                                 {
-                                    "packageManager": "PIP",
-                                    "packageName": "autopep8",
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
                                     "repository": {
-                                        "nameWithOwner": "hhatto/autopep8"
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 },
                                 {
-                                    "packageManager": "PIP",
-                                    "packageName": "bandit",
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
                                     "repository": {
-                                        "nameWithOwner": "PyCQA/bandit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flake8",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/flake8"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "ipython",
-                                    "repository": {
-                                        "nameWithOwner": "ipython/ipython"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "notebook",
-                                    "repository": {
-                                        "nameWithOwner": "jupyter/notebook"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-rtd-theme",
-                                    "repository": {
-                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tox",
-                                    "repository": {
-                                        "nameWithOwner": "tox-dev/tox"
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
                                     }
                                 }
                             ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "bandit",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/bandit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flake8",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/flake8"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "mock",
-                                    "repository": {
-                                        "nameWithOwner": "calvinchengx/python-mock"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-rtd-theme",
-                                    "repository": {
-                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tox",
-                                    "repository": {
-                                        "nameWithOwner": "tox-dev/tox"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "h5py",
-                                    "repository": {
-                                        "nameWithOwner": "h5py/h5py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": []
                         }
                     },
                     {
@@ -16796,6 +16676,13 @@
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
                                     }
                                 },
                                 {
