@@ -3734,7 +3734,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "path-to-regexp",
                                     "repository": {
-                                        "nameWithOwner": "component/path-to-regexp"
+                                        "nameWithOwner": "pillarjs/path-to-regexp"
                                     }
                                 },
                                 {
@@ -16165,6 +16165,33 @@
                                     "packageManager": "PIP",
                                     "packageName": "pyoncat",
                                     "repository": null
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "mamba-org/setup-micromamba",
+                                    "repository": {
+                                        "nameWithOwner": "mamba-org/setup-micromamba"
+                                    }
                                 }
                             ]
                         }
