@@ -1043,16 +1043,16 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "geekdude/github-status-action-v2",
+                                    "packageName": "octokit/request-action",
                                     "repository": {
-                                        "nameWithOwner": "Geekdude/github-status-action-v2"
+                                        "nameWithOwner": "octokit/request-action"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "octokit/request-action",
+                                    "packageName": "SimenB/github-actions-cpu-cores",
                                     "repository": {
-                                        "nameWithOwner": "octokit/request-action"
+                                        "nameWithOwner": "SimenB/github-actions-cpu-cores"
                                     }
                                 }
                             ]
@@ -2102,7 +2102,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "mock",
                                     "repository": {
-                                        "nameWithOwner": "calvinchengx/python-mock"
+                                        "nameWithOwner": "testing-cabal/mock"
                                     }
                                 },
                                 {
@@ -2171,7 +2171,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "mock",
                                     "repository": {
-                                        "nameWithOwner": "calvinchengx/python-mock"
+                                        "nameWithOwner": "testing-cabal/mock"
                                     }
                                 },
                                 {
@@ -14129,7 +14129,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "mock",
                                     "repository": {
-                                        "nameWithOwner": "calvinchengx/python-mock"
+                                        "nameWithOwner": "testing-cabal/mock"
                                     }
                                 },
                                 {
@@ -14654,7 +14654,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "mock",
                                     "repository": {
-                                        "nameWithOwner": "calvinchengx/python-mock"
+                                        "nameWithOwner": "testing-cabal/mock"
                                     }
                                 },
                                 {
@@ -16160,11 +16160,6 @@
                                     "packageManager": "PIP",
                                     "packageName": "mantidworkbench",
                                     "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyoncat",
-                                    "repository": null
                                 }
                             ]
                         }
@@ -16222,7 +16217,28 @@
         },
         "neutrons/live_data_server": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "repository": {
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
