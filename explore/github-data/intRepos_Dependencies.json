@@ -9683,6 +9683,20 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "ipywidgets-bokeh",
+                                    "repository": {
+                                        "nameWithOwner": "bokeh/ipywidgets_bokeh"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jupyter-bokeh",
+                                    "repository": {
+                                        "nameWithOwner": "bokeh/jupyter_bokeh"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "jupyterlab",
                                     "repository": {
                                         "nameWithOwner": "jupyterlab/jupyterlab"
