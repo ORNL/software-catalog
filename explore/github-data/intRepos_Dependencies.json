@@ -1940,6 +1940,19 @@
                 ]
             }
         },
+        "ORNL-Fusion/util-library-fortran": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    }
+                ]
+            }
+        },
         "ORNL-Fusion/utk-fusion": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -4727,7 +4740,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "ninja",
                                     "repository": {
-                                        "nameWithOwner": "ninja-build/ninja"
+                                        "nameWithOwner": "scikit-build/ninja-python-distributions"
                                     }
                                 },
                                 {
@@ -10793,7 +10806,28 @@
         },
         "ORNL/iris": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
