@@ -9564,6 +9564,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "jupyterlab-widgets",
+                                    "repository": {
+                                        "nameWithOwner": "jupyter-widgets/ipywidgets"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "numpy",
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
@@ -9661,13 +9668,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "bokeh",
-                                    "repository": {
-                                        "nameWithOwner": "bokeh/bokeh"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "ipyanchorviz",
                                     "repository": {
                                         "nameWithOwner": "ORNL/ipyanchorviz"
@@ -9710,18 +9710,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "jupyterlab",
-                                    "repository": {
-                                        "nameWithOwner": "jupyterlab/jupyterlab"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "jupyterlab-server",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "jupyterlab-widgets",
                                     "repository": {
                                         "nameWithOwner": "jupyter-widgets/ipywidgets"
@@ -9750,13 +9738,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "param",
-                                    "repository": {
-                                        "nameWithOwner": "holoviz/param"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "pyviz-comms",
                                     "repository": null
                                 },
@@ -9765,13 +9746,6 @@
                                     "packageName": "scikit-learn",
                                     "repository": {
                                         "nameWithOwner": "scikit-learn/scikit-learn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "traitlets",
-                                    "repository": {
-                                        "nameWithOwner": "ipython/traitlets"
                                     }
                                 }
                             ]
@@ -9853,6 +9827,13 @@
                                     "packageName": "actions/setup-python",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
                                     }
                                 }
                             ]
@@ -16361,6 +16342,47 @@
                                     "repository": {
                                         "nameWithOwner": "conda-incubator/setup-miniconda"
                                     }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "docker/build-push-action",
+                                    "repository": {
+                                        "nameWithOwner": "docker/build-push-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "docker/login-action",
+                                    "repository": {
+                                        "nameWithOwner": "docker/login-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "repository": {
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
                                 }
                             ]
                         }
@@ -16370,8 +16392,8 @@
             "languages": {
                 "nodes": [
                     {
-                        "color": "#e34c26",
-                        "name": "HTML"
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -17054,7 +17076,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "django-test-plus",
                                     "repository": {
-                                        "nameWithOwner": "revsys/django-test-plus"
+                                        "nameWithOwner": "sobolevn/django-test-plus"
                                     }
                                 },
                                 {
