@@ -10676,6 +10676,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "build",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/build"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "flake8",
                                     "repository": {
                                         "nameWithOwner": "PyCQA/flake8"
@@ -10735,6 +10742,13 @@
                                     "packageName": "pytest",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "twine",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/twine"
                                     }
                                 }
                             ]
@@ -16407,297 +16421,6 @@
                     {
                         "color": "#DA5B0B",
                         "name": "Jupyter Notebook"
-                    }
-                ]
-            }
-        },
-        "neutrons/mantid_total_scattering": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "bandit",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/bandit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flake8",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/flake8"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-cov",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-cov"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tox",
-                                    "repository": {
-                                        "nameWithOwner": "tox-dev/tox"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tox-conda",
-                                    "repository": {
-                                        "nameWithOwner": "tox-dev/tox-conda"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyoncat",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-learn",
-                                    "repository": {
-                                        "nameWithOwner": "scikit-learn/scikit-learn"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "anaconda-client",
-                                    "repository": {
-                                        "nameWithOwner": "anaconda/anaconda-client"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "bandit",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/bandit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "boa",
-                                    "repository": {
-                                        "nameWithOwner": "beamopticsanalysis/boa"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "conda-build",
-                                    "repository": {
-                                        "nameWithOwner": "conda/conda-build"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "conda-verify",
-                                    "repository": {
-                                        "nameWithOwner": "conda/conda-verify"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flake8",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/flake8"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "libmamba",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-cov",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-cov"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-learn",
-                                    "repository": {
-                                        "nameWithOwner": "scikit-learn/scikit-learn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tox",
-                                    "repository": {
-                                        "nameWithOwner": "tox-dev/tox"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tox-conda",
-                                    "repository": {
-                                        "nameWithOwner": "tox-dev/tox-conda"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "bandit",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/bandit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flake8",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/flake8"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-cov",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-cov"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-learn",
-                                    "repository": {
-                                        "nameWithOwner": "scikit-learn/scikit-learn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tox",
-                                    "repository": {
-                                        "nameWithOwner": "tox-dev/tox"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tox-conda",
-                                    "repository": {
-                                        "nameWithOwner": "tox-dev/tox-conda"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-learn",
-                                    "repository": {
-                                        "nameWithOwner": "scikit-learn/scikit-learn"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "eic/trigger-gitlab-ci",
-                                    "repository": {
-                                        "nameWithOwner": "eic/trigger-gitlab-ci"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/commit-comment",
-                                    "repository": {
-                                        "nameWithOwner": "peter-evans/commit-comment"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     }
                 ]
             }
