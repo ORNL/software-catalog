@@ -2738,66 +2738,6 @@
                 ]
             }
         },
-        "ORNL/CabanaPD": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "jidicula/clang-format-action",
-                                    "repository": {
-                                        "nameWithOwner": "jidicula/clang-format-action"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
         "ORNL/CabanaPF": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -2854,69 +2794,6 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
-                    }
-                ]
-            }
-        },
-        "ORNL/CrossVis": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.apache.commons:commons-math3",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.apache.maven.plugins:maven-compiler-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "apache/maven-compiler-plugin"
-                                    }
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.codehaus.mojo:exec-maven-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "mojohaus/exec-maven-plugin"
-                                    }
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.controlsfx:controlsfx",
-                                    "repository": {
-                                        "nameWithOwner": "controlsfx/controlsfx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.openjfx:javafx-controls",
-                                    "repository": {
-                                        "nameWithOwner": "openjdk/jfx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.openjfx:javafx-graphics",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "MAVEN",
-                                    "packageName": "org.openjfx:javafx-maven-plugin",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
                     }
                 ]
             }
@@ -10736,6 +10613,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pydata-sphinx-theme",
+                                    "repository": {
+                                        "nameWithOwner": "pydata/pydata-sphinx-theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pylint",
                                     "repository": {
                                         "nameWithOwner": "pylint-dev/pylint"
@@ -10746,6 +10630,20 @@
                                     "packageName": "pytest",
                                     "repository": {
                                         "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-favicon",
+                                    "repository": {
+                                        "nameWithOwner": "tcmetzger/sphinx-favicon"
                                     }
                                 },
                                 {
@@ -10787,6 +10685,40 @@
                                     "packageName": "plotly",
                                     "repository": {
                                         "nameWithOwner": "plotly/plotly.py"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/configure-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/configure-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/deploy-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/deploy-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-pages-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-pages-artifact"
                                     }
                                 }
                             ]
@@ -17101,7 +17033,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "django-test-plus",
                                     "repository": {
-                                        "nameWithOwner": "sobolevn/django-test-plus"
+                                        "nameWithOwner": "revsys/django-test-plus"
                                     }
                                 },
                                 {
