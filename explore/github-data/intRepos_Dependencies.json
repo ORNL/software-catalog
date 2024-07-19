@@ -5013,6 +5013,47 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "awvwgk/setup-fortran",
+                                    "repository": {
+                                        "nameWithOwner": "fortran-lang/setup-fortran"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pypa/cibuildwheel",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/cibuildwheel"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/configure-pages",
                                     "repository": {
                                         "nameWithOwner": "actions/configure-pages"
