@@ -257,7 +257,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "numpydoc",
                                     "repository": {
-                                        "nameWithOwner": "numpy/numpydoc"
+                                        "nameWithOwner": "numpy/numpy"
                                     }
                                 }
                             ]
@@ -11870,7 +11870,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "numpydoc",
                                     "repository": {
-                                        "nameWithOwner": "numpy/numpydoc"
+                                        "nameWithOwner": "numpy/numpy"
                                     }
                                 }
                             ]
@@ -14948,7 +14948,34 @@
                 "nodes": [
                     {
                         "dependencies": {
-                            "nodes": []
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "lmfit",
+                                    "repository": {
+                                        "nameWithOwner": "lmfit/lmfit-py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mantid",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
                         }
                     },
                     {

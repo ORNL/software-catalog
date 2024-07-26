@@ -2412,7 +2412,13 @@
         },
         "neutrons/CrystalPlan": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "Bug fixes for RHEL9",
+                        "publishedAt": "2024-07-25T16:21:38Z",
+                        "tagName": "v1.5"
+                    }
+                ]
             }
         },
         "neutrons/GUI_Tools": {
