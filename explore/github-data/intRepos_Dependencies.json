@@ -15852,7 +15852,18 @@
                 "nodes": [
                     {
                         "dependencies": {
-                            "nodes": []
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mantidworkbench",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyoncat",
+                                    "repository": null
+                                }
+                            ]
                         }
                     },
                     {
