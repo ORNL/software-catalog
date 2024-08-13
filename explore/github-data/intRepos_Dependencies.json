@@ -8683,6 +8683,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "bigtree",
+                                    "repository": {
+                                        "nameWithOwner": "kayjan/bigtree"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "black",
                                     "repository": {
                                         "nameWithOwner": "psf/black"
@@ -9323,11 +9330,6 @@
                                     "repository": {
                                         "nameWithOwner": "benfred/py-spy"
                                     }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyarrow",
-                                    "repository": null
                                 }
                             ]
                         }
@@ -9335,6 +9337,13 @@
                     {
                         "dependencies": {
                             "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "bigtree",
+                                    "repository": {
+                                        "nameWithOwner": "kayjan/bigtree"
+                                    }
+                                },
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "dash",
