@@ -7638,7 +7638,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
             }
         },
         "ORNL/TASMANIAN": {
@@ -17359,6 +17364,19 @@
             }
         },
         "neutrons/gsas-stitch": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "neutrons/inspired": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
