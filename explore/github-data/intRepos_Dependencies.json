@@ -21606,7 +21606,35 @@
         },
         "wdmapp/effis": {
             "dependencyGraphManifests": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cheetah",
+                                    "repository": {
+                                        "nameWithOwner": "CODARcode/cheetah"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "dill",
+                                    "repository": {
+                                        "nameWithOwner": "uqfoundation/dill"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "globus-sdk",
+                                    "repository": {
+                                        "nameWithOwner": "globus/globus-sdk-python"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
