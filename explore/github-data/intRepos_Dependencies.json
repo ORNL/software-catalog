@@ -983,16 +983,16 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
+                                    "packageName": "actions/cache",
                                     "repository": {
-                                        "nameWithOwner": "actions/checkout"
+                                        "nameWithOwner": "actions/cache"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "octokit/request-action",
+                                    "packageName": "actions/checkout",
                                     "repository": {
-                                        "nameWithOwner": "octokit/request-action"
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 },
                                 {
@@ -1010,16 +1010,16 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache",
+                                    "packageName": "actions/checkout",
                                     "repository": {
-                                        "nameWithOwner": "actions/cache"
+                                        "nameWithOwner": "actions/checkout"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
+                                    "packageName": "octokit/request-action",
                                     "repository": {
-                                        "nameWithOwner": "actions/checkout"
+                                        "nameWithOwner": "octokit/request-action"
                                     }
                                 },
                                 {
@@ -3710,7 +3710,7 @@
                                     "packageManager": "NPM",
                                     "packageName": "path-to-regexp",
                                     "repository": {
-                                        "nameWithOwner": "component/path-to-regexp"
+                                        "nameWithOwner": "pillarjs/path-to-regexp"
                                     }
                                 },
                                 {
