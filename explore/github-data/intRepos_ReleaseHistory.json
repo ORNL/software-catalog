@@ -2150,6 +2150,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "Kokkos v. 4.5.0",
+                        "publishedAt": "2024-11-25T19:23:06Z",
+                        "tagName": "4.5.00"
+                    },
+                    {
                         "name": "Kokkos v. 4.4.1",
                         "publishedAt": "2024-09-13T04:10:29Z",
                         "tagName": "4.4.01"
@@ -2538,11 +2543,6 @@
             }
         },
         "neutrons/GUI_Tools": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "neutrons/HyspecPlanningTools": {
             "releases": {
                 "nodes": []
             }
@@ -3104,6 +3104,11 @@
                         "tagName": "v0.1.0"
                     }
                 ]
+            }
+        },
+        "neutrons/hyspecppt": {
+            "releases": {
+                "nodes": []
             }
         },
         "neutrons/inspired": {
