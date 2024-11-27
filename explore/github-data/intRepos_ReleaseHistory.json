@@ -1575,7 +1575,13 @@
         },
         "ORNL/dasp-stacker": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v0.1.2",
+                        "publishedAt": "2024-11-26T21:12:33Z",
+                        "tagName": "v0.1.2"
+                    }
+                ]
             }
         },
         "ORNL/developer.ornl.gov": {
@@ -2886,6 +2892,11 @@
                         "tagName": "v1.0.0"
                     }
                 ]
+            }
+        },
+        "neutrons/artemis_data_collector": {
+            "releases": {
+                "nodes": []
             }
         },
         "neutrons/asm_2023": {
