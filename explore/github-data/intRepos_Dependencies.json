@@ -11068,6 +11068,19 @@
                 ]
             }
         },
+        "ORNL/flowcept": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ]
+            }
+        },
         "ORNL/grit": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -15130,6 +15143,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/cache",
                                     "repository": {
                                         "nameWithOwner": "actions/cache"
@@ -15222,19 +15248,6 @@
                                     "packageName": "ossf/scorecard-action",
                                     "repository": {
                                         "nameWithOwner": "ossf/scorecard-action"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
                                     }
                                 }
                             ]
@@ -20528,7 +20541,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "periodictable",
                                     "repository": {
-                                        "nameWithOwner": "pkienzle/periodictable"
+                                        "nameWithOwner": "python-periodictable/periodictable"
                                     }
                                 },
                                 {
@@ -20632,7 +20645,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "periodictable",
                                     "repository": {
-                                        "nameWithOwner": "pkienzle/periodictable"
+                                        "nameWithOwner": "python-periodictable/periodictable"
                                     }
                                 },
                                 {
