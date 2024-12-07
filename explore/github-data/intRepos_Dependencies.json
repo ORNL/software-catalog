@@ -3070,9 +3070,110 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "wget",
                                     "repository": {
                                         "nameWithOwner": "steveej/python-wget"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": []
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@playwright/test",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/playwright"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/node",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "dotenv",
+                                    "repository": {
+                                        "nameWithOwner": "motdotla/dotenv"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "fsevents",
+                                    "repository": {
+                                        "nameWithOwner": "fsevents/fsevents"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "playwright",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/playwright"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "playwright-core",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/playwright"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "undici-types",
+                                    "repository": {
+                                        "nameWithOwner": "nodejs/undici"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@playwright/test",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/playwright"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/node",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "dotenv",
+                                    "repository": {
+                                        "nameWithOwner": "motdotla/dotenv"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "playwright",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/playwright"
                                     }
                                 }
                             ]
@@ -22536,26 +22637,6 @@
                                     "packageName": "pypa/gh-action-pypi-publish",
                                     "repository": {
                                         "nameWithOwner": "pypa/gh-action-pypi-publish"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
                                     }
                                 }
                             ]
