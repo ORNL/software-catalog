@@ -14951,6 +14951,88 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "cif2cell",
+                                    "repository": {
+                                        "nameWithOwner": "torbjornbjorkman/cif2cell"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h5py",
+                                    "repository": {
+                                        "nameWithOwner": "h5py/h5py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pycifrw",
+                                    "repository": {
+                                        "nameWithOwner": "jamesrhester/pycifrw"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydot",
+                                    "repository": {
+                                        "nameWithOwner": "pydot/pydot"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "seekpath",
+                                    "repository": {
+                                        "nameWithOwner": "giovannipizzi/seekpath"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "spglib",
+                                    "repository": {
+                                        "nameWithOwner": "spglib/spglib"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "sphinxcontrib-bibtex",
                                     "repository": {
                                         "nameWithOwner": "mcmtroffaes/sphinxcontrib-bibtex"
