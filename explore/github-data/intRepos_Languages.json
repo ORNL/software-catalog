@@ -1690,7 +1690,7 @@
                         "size": 824386
                     },
                     {
-                        "size": 110182
+                        "size": 110188
                     },
                     {
                         "size": 16501
@@ -1718,7 +1718,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 953789
+                "totalSize": 953795
             }
         },
         "ORNL-Fusion/RFSciDAC-testing": {
@@ -5068,7 +5068,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1197818
+                        "size": 1197966
                     },
                     {
                         "size": 29839
@@ -5113,7 +5113,7 @@
                     }
                 ],
                 "totalCount": 6,
-                "totalSize": 1236374
+                "totalSize": 1236522
             }
         },
         "ORNL/TwoFold_DL": {
@@ -5159,7 +5159,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2277850
+                        "size": 2307848
                     },
                     {
                         "size": 118676
@@ -5168,7 +5168,7 @@
                         "size": 62192
                     },
                     {
-                        "size": 61042
+                        "size": 62081
                     }
                 ],
                 "nodes": [
@@ -5190,7 +5190,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 2519760
+                "totalSize": 2550797
             }
         },
         "ORNL/VitalVis": {
@@ -5800,7 +5800,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 231276
+                        "size": 234993
                     },
                     {
                         "size": 193810
@@ -5852,7 +5852,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 454228
+                "totalSize": 457945
             }
         },
         "ORNL/intersect-architecture": {
@@ -6847,7 +6847,7 @@
                         "size": 18554080
                     },
                     {
-                        "size": 4830136
+                        "size": 4832860
                     },
                     {
                         "size": 4546458
@@ -6859,7 +6859,7 @@
                         "size": 573919
                     },
                     {
-                        "size": 221945
+                        "size": 221336
                     },
                     {
                         "size": 216263
@@ -6987,7 +6987,7 @@
                     }
                 ],
                 "totalCount": 20,
-                "totalSize": 30174883
+                "totalSize": 30176998
             }
         },
         "arborx/ArborX": {
@@ -7046,7 +7046,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11181664
+                        "size": 11181690
                     },
                     {
                         "size": 325991
@@ -7105,7 +7105,7 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 11853950
+                "totalSize": 11853976
             }
         },
         "mcvine/McVineGPU": {
@@ -8723,10 +8723,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 3856520
+                        "size": 5616247
                     },
                     {
-                        "size": 271070
+                        "size": 297881
                     },
                     {
                         "size": 126311
@@ -8754,7 +8754,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 4254171
+                "totalSize": 6040709
             }
         },
         "neutrons/WebAnalysis": {
@@ -9478,6 +9478,37 @@
                 "totalSize": 9925
             }
         },
+        "neutrons/quicknxs": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 13409976
+                    },
+                    {
+                        "size": 633156
+                    },
+                    {
+                        "size": 331
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    },
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
+                        "color": "#427819",
+                        "name": "Makefile"
+                    }
+                ],
+                "totalCount": 3,
+                "totalSize": 14043463
+            }
+        },
         "neutrons/reduction_service": {
             "languages": {
                 "edges": [
@@ -9521,37 +9552,6 @@
                 ],
                 "totalCount": 5,
                 "totalSize": 473831
-            }
-        },
-        "neutrons/reflectivity_ui": {
-            "languages": {
-                "edges": [
-                    {
-                        "size": 13409976
-                    },
-                    {
-                        "size": 633156
-                    },
-                    {
-                        "size": 331
-                    }
-                ],
-                "nodes": [
-                    {
-                        "color": "#DA5B0B",
-                        "name": "Jupyter Notebook"
-                    },
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    },
-                    {
-                        "color": "#427819",
-                        "name": "Makefile"
-                    }
-                ],
-                "totalCount": 3,
-                "totalSize": 14043463
             }
         },
         "neutrons/shrinkeventfile": {
