@@ -1899,21 +1899,6 @@
                 "login": "auth0"
             }
         },
-        "avalentino/qtpy": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "qtpy",
-            "nameWithOwner": "avalentino/qtpy",
-            "owner": {
-                "login": "avalentino"
-            }
-        },
         "awalsh128/cache-apt-pkgs-action": {
             "languages": {
                 "nodes": [
@@ -2100,6 +2085,21 @@
             },
             "name": "c8",
             "nameWithOwner": "bcoe/c8",
+            "owner": {
+                "login": "bcoe"
+            }
+        },
+        "bcoe/v8-coverage": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "v8-coverage",
+            "nameWithOwner": "bcoe/v8-coverage",
             "owner": {
                 "login": "bcoe"
             }
@@ -3432,21 +3432,6 @@
             },
             "name": "furi",
             "nameWithOwner": "demurgos/furi",
-            "owner": {
-                "login": "demurgos"
-            }
-        },
-        "demurgos/v8-coverage": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#dea584",
-                        "name": "Rust"
-                    }
-                ]
-            },
-            "name": "v8-coverage",
-            "nameWithOwner": "demurgos/v8-coverage",
             "owner": {
                 "login": "demurgos"
             }
@@ -12886,7 +12871,7 @@
             "name": "alabaster",
             "nameWithOwner": "sphinx-doc/alabaster",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "sphinx-doc"
             }
         },
@@ -12902,7 +12887,7 @@
             "name": "sphinx",
             "nameWithOwner": "sphinx-doc/sphinx",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "sphinx-doc"
             }
         },
@@ -12918,7 +12903,7 @@
             "name": "sphinxcontrib-applehelp",
             "nameWithOwner": "sphinx-doc/sphinxcontrib-applehelp",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "sphinx-doc"
             }
         },
@@ -12934,7 +12919,7 @@
             "name": "sphinxcontrib-devhelp",
             "nameWithOwner": "sphinx-doc/sphinxcontrib-devhelp",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "sphinx-doc"
             }
         },
@@ -12950,7 +12935,7 @@
             "name": "sphinxcontrib-htmlhelp",
             "nameWithOwner": "sphinx-doc/sphinxcontrib-htmlhelp",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "sphinx-doc"
             }
         },
@@ -12966,7 +12951,7 @@
             "name": "sphinxcontrib-jsmath",
             "nameWithOwner": "sphinx-doc/sphinxcontrib-jsmath",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "sphinx-doc"
             }
         },
@@ -12982,7 +12967,7 @@
             "name": "sphinxcontrib-qthelp",
             "nameWithOwner": "sphinx-doc/sphinxcontrib-qthelp",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "sphinx-doc"
             }
         },
@@ -12998,7 +12983,7 @@
             "name": "sphinxcontrib-serializinghtml",
             "nameWithOwner": "sphinx-doc/sphinxcontrib-serializinghtml",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "sphinx-doc"
             }
         },
@@ -13015,6 +13000,22 @@
             "nameWithOwner": "sporkmonger/addressable",
             "owner": {
                 "login": "sporkmonger"
+            }
+        },
+        "spyder-ide/qtpy": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "qtpy",
+            "nameWithOwner": "spyder-ide/qtpy",
+            "owner": {
+                "isVerified": false,
+                "login": "spyder-ide"
             }
         },
         "sqlalchemy/sqlalchemy": {
