@@ -81,9 +81,6 @@ runScript get_repos_starhistory.py
 runScript get_repos_releases.py
 runScript get_repos_creationhistory.py
 
-# --- SPACK DEPENDENCY INFO ---
-runSpackScript get_spack_dependencies.py --input-list ../input_lists.json
-
 # RUN THIS LAST
 runScript build_yearlist.py  # Used in case of long term cumulative data
 
