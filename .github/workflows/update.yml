@@ -1,0 +1,40 @@
+name: Run data update
+
+on:
+   workflow_dispatch:
+  
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4 
+        with:
+          ref: ${{ vars.UPDATE_BRANCH }}
+          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: pip install -r _explore/scripts/requirements.txt
+      - name: Run update script
+        run:
+          ./_explore/scripts/UPDATE.sh
+        env:
+          GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit changes
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add .
+          git commit --allow-empty -m "Ran collection scripts [AUTO-GENERATED]"
+          git push
+      - name: Merge changes into main branch
+        run: |
+          git fetch origin "${DEPLOY_BRANCH}:${DEPLOY_BRANCH}"
+          git checkout "${DEPLOY_BRANCH}"
+          git branch --set-upstream-to=origin/"${DEPLOY_BRANCH}" "${DEPLOY_BRANCH}"
+          git pull
+          git merge "${UPDATE_BRANCH}"
+          git push --set-upstream origin "${DEPLOY_BRANCH}"
+        env:
+          DEPLOY_BRANCH: ${{ vars.DEPLOY_BRANCH }}
+          UPDATE_BRANCH: ${{ vars.UPDATE_BRANCH }}
