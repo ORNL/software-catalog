@@ -43,7 +43,7 @@ for hostUrl, hostInfo in inputLists.data.items():
         try:
             outObj = queryMan.queryGitHubFromFile(
                 queryPath,
-                {"orgName": org, "numRepos": 50, "pgCursor": None},
+                {"orgName": org, "numRepos": 20, "pgCursor": None},
                 paginate=True,
                 cursorVar="pgCursor",
                 keysToList=["data", "organization", "repositories", "nodes"],
