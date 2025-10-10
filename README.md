@@ -1,4 +1,5 @@
 # ORNL Software Catalog
+[![Nightly Update](https://github.com/ORNL/software-catalog/actions/workflows/update.yml/badge.svg?event=schedule)](https://github.com/ORNL/software-catalog/actions/workflows/update.yml)
 
 Original Author: Ian Lee <lee1001@llnl.gov>
 
