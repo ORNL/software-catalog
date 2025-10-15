@@ -12221,7 +12221,9 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "sphinxcontrib-plantuml",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-contrib/plantuml"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -13922,7 +13924,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#dea584",
+                        "name": "Rust"
+                    }
+                ]
             }
         },
         "ORNL/siena-mem": {
