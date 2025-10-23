@@ -21772,26 +21772,6 @@
                         "dependencies": {
                             "nodes": [
                                 {
-                                    "packageManager": "PIP",
-                                    "packageName": "mpi4py",
-                                    "repository": {
-                                        "nameWithOwner": "mpi4py/mpi4py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
                                     "packageManager": "ACTIONS",
                                     "packageName": "actions/cache/restore",
                                     "repository": {
