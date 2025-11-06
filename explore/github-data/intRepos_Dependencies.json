@@ -1249,7 +1249,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
             }
         },
         "ORNL-Fusion/PARVMEC": {
@@ -6466,6 +6471,14 @@
                         "name": "Julia"
                     }
                 ]
+            }
+        },
+        "ORNL/QuantumChains": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
             }
         },
         "ORNL/RIOPA.jl": {
