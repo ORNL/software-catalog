@@ -18337,34 +18337,7 @@
                 "nodes": [
                     {
                         "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyside6",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "qtpy",
-                                    "repository": {
-                                        "nameWithOwner": "spyder-ide/qtpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                }
-                            ]
+                            "nodes": []
                         }
                     },
                     {
@@ -18399,9 +18372,37 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "actions/download-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/download-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "mamba-org/setup-micromamba",
                                     "repository": {
                                         "nameWithOwner": "mamba-org/setup-micromamba"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "prefix-dev/setup-pixi",
+                                    "repository": {
+                                        "nameWithOwner": "prefix-dev/setup-pixi"
                                     }
                                 }
                             ]
@@ -18419,16 +18420,16 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "codecov/codecov-action",
+                                    "packageName": "peter-evans/create-pull-request",
                                     "repository": {
-                                        "nameWithOwner": "codecov/codecov-action"
+                                        "nameWithOwner": "peter-evans/create-pull-request"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "mamba-org/setup-micromamba",
+                                    "packageName": "prefix-dev/setup-pixi",
                                     "repository": {
-                                        "nameWithOwner": "mamba-org/setup-micromamba"
+                                        "nameWithOwner": "prefix-dev/setup-pixi"
                                     }
                                 }
                             ]
