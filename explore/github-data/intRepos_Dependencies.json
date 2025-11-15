@@ -21009,6 +21009,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "regex-stream",
+                                    "repository": {
+                                        "nameWithOwner": "ornl-sava/regex-stream"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "mocha",
                                     "repository": {
                                         "nameWithOwner": "mochajs/mocha"
@@ -21040,19 +21053,6 @@
                                     "packageName": "stream-tester",
                                     "repository": {
                                         "nameWithOwner": "dominictarr/stream-tester"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "regex-stream",
-                                    "repository": {
-                                        "nameWithOwner": "ornl-sava/regex-stream"
                                     }
                                 }
                             ]
