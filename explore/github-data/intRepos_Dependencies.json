@@ -1119,19 +1119,6 @@
                 ]
             }
         },
-        "ORNL-Fusion/LGRID": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
         "ORNL-Fusion/LIBSTELL": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -1370,19 +1357,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "ORNL-Fusion/SURFACE": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#4d41b1",
-                        "name": "Fortran"
                     }
                 ]
             }
@@ -2864,7 +2838,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pydantic-settings",
                                     "repository": {
-                                        "nameWithOwner": "danields761/pydantic-settings"
+                                        "nameWithOwner": "pydantic/pydantic-settings"
                                     }
                                 },
                                 {
@@ -6119,7 +6093,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "pydantic-settings",
                                     "repository": {
-                                        "nameWithOwner": "danields761/pydantic-settings"
+                                        "nameWithOwner": "pydantic/pydantic-settings"
                                     }
                                 },
                                 {
@@ -20774,6 +20748,19 @@
                 ]
             }
         },
+        "neutrons/vnext": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "neutrons/web_reflectivity": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -21009,6 +20996,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "regex-stream",
+                                    "repository": {
+                                        "nameWithOwner": "ornl-sava/regex-stream"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "mocha",
                                     "repository": {
                                         "nameWithOwner": "mochajs/mocha"
@@ -21040,19 +21040,6 @@
                                     "packageName": "stream-tester",
                                     "repository": {
                                         "nameWithOwner": "dominictarr/stream-tester"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "regex-stream",
-                                    "repository": {
-                                        "nameWithOwner": "ornl-sava/regex-stream"
                                     }
                                 }
                             ]
