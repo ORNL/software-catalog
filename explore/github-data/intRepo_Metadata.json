@@ -463,10 +463,15 @@
         "website": null
     },
     "ORNL-Fusion/graph_framework": {
-        "description": null,
+        "description": "A domain specific compiler for translating physics equations to GPU kernels",
         "name": "ORNL-Fusion/graph_framework",
-        "topics": null,
-        "website": null
+        "topics": [
+            "energetic-particles",
+            "plasma-physics",
+            "raytracing",
+            "rf"
+        ],
+        "website": "https://ornl-fusion.github.io/graph_framework-docs/"
     },
     "ORNL-Fusion/graph_framework-docs": {
         "description": "Generated Documentation for the graph_framework",
