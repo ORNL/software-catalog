@@ -1179,6 +1179,19 @@
                 ]
             }
         },
+        "ORNL-Fusion/MPEX-Homographic-Reconstruction": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    }
+                ]
+            }
+        },
         "ORNL-Fusion/MPEX-WallDYN": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -1378,6 +1391,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "ORNL-Fusion/STRIPE-Analysis": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
                     }
                 ]
             }
@@ -15579,46 +15605,6 @@
         "kokkos/kokkos": {
             "dependencyGraphManifests": {
                 "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "DoozyX/clang-format-lint-action",
-                                    "repository": {
-                                        "nameWithOwner": "DoozyX/clang-format-lint-action"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "PuneetMatharu/cmake-format-lint-action",
-                                    "repository": {
-                                        "nameWithOwner": "puneetmatharu/cmake-format-lint-action"
-                                    }
-                                }
-                            ]
-                        }
-                    },
                     {
                         "dependencies": {
                             "nodes": [
