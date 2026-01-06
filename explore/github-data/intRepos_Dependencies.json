@@ -3647,7 +3647,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.openjfx:javafx-maven-plugin",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "openjfx/javafx-maven-plugin"
+                                    }
                                 }
                             ]
                         }
