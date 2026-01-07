@@ -13326,6 +13326,14 @@
                 ]
             }
         },
+        "ORNL/s3m-sdk-python": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "ORNL/sdproc": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -15040,6 +15048,26 @@
                                     "packageName": "ilammy/msvc-dev-cmd",
                                     "repository": {
                                         "nameWithOwner": "ilammy/msvc-dev-cmd"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
                                     }
                                 }
                             ]
