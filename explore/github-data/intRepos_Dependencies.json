@@ -5649,6 +5649,19 @@
                 ]
             }
         },
+        "ORNL/MATEY": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ]
+            }
+        },
         "ORNL/MLG": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -18943,116 +18956,6 @@
                 ]
             }
         },
-        "neutrons/addie": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/download-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/download-artifact"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/upload-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/upload-artifact"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "eic/trigger-gitlab-ci",
-                                    "repository": {
-                                        "nameWithOwner": "eic/trigger-gitlab-ci"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "mamba-org/setup-micromamba",
-                                    "repository": {
-                                        "nameWithOwner": "mamba-org/setup-micromamba"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/commit-comment",
-                                    "repository": {
-                                        "nameWithOwner": "peter-evans/commit-comment"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "prefix-dev/setup-pixi",
-                                    "repository": {
-                                        "nameWithOwner": "prefix-dev/setup-pixi"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/create-pull-request",
-                                    "repository": {
-                                        "nameWithOwner": "peter-evans/create-pull-request"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "prefix-dev/setup-pixi",
-                                    "repository": {
-                                        "nameWithOwner": "prefix-dev/setup-pixi"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "neutrons/artemis_data_collector": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -20261,27 +20164,6 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "eic/trigger-gitlab-ci",
-                                    "repository": {
-                                        "nameWithOwner": "eic/trigger-gitlab-ci"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/commit-comment",
-                                    "repository": {
-                                        "nameWithOwner": "peter-evans/commit-comment"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "prefix-dev/setup-pixi",
                                     "repository": {
                                         "nameWithOwner": "prefix-dev/setup-pixi"
@@ -20305,6 +20187,27 @@
                                     "packageName": "codecov/codecov-action",
                                     "repository": {
                                         "nameWithOwner": "codecov/codecov-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "repository": {
+                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/branch-mapper",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/branch-mapper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peter-evans/commit-comment",
+                                    "repository": {
+                                        "nameWithOwner": "peter-evans/commit-comment"
                                     }
                                 },
                                 {
