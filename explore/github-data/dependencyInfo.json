@@ -1532,6 +1532,22 @@
                 "login": "babel"
             }
         },
+        "babel/babel-loader": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "babel-loader",
+            "nameWithOwner": "babel/babel-loader",
+            "owner": {
+                "isVerified": true,
+                "login": "babel"
+            }
+        },
         "benfred/py-spy": {
             "languages": {
                 "nodes": [
@@ -2863,6 +2879,22 @@
                 "login": "ericgazoni"
             }
         },
+        "eslint-community/eslint-plugin-promise": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-plugin-promise",
+            "nameWithOwner": "eslint-community/eslint-plugin-promise",
+            "owner": {
+                "isVerified": false,
+                "login": "eslint-community"
+            }
+        },
         "eslint/eslint": {
             "languages": {
                 "nodes": [
@@ -3868,6 +3900,22 @@
                 "login": "imageio"
             }
         },
+        "import-js/eslint-plugin-import": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-plugin-import",
+            "nameWithOwner": "import-js/eslint-plugin-import",
+            "owner": {
+                "isVerified": false,
+                "login": "import-js"
+            }
+        },
         "ipython/comm": {
             "languages": {
                 "nodes": [
@@ -4005,6 +4053,21 @@
             "nameWithOwner": "jamesrhester/pycifrw",
             "owner": {
                 "login": "jamesrhester"
+            }
+        },
+        "jantimon/html-webpack-plugin": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "html-webpack-plugin",
+            "nameWithOwner": "jantimon/html-webpack-plugin",
+            "owner": {
+                "login": "jantimon"
             }
         },
         "jaraco/backports.functools_lru_cache": {
@@ -4349,12 +4412,28 @@
                 "login": "jsonpickle"
             }
         },
-        "juliangruber/balanced-match": {
+        "jsx-eslint/eslint-plugin-react": {
             "languages": {
                 "nodes": [
                     {
                         "color": "#f1e05a",
                         "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-plugin-react",
+            "nameWithOwner": "jsx-eslint/eslint-plugin-react",
+            "owner": {
+                "isVerified": false,
+                "login": "jsx-eslint"
+            }
+        },
+        "juliangruber/balanced-match": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
                     }
                 ]
             },
@@ -5425,6 +5504,21 @@
             "nameWithOwner": "mwaskom/seaborn",
             "owner": {
                 "login": "mwaskom"
+            }
+        },
+        "mysticatea/eslint-plugin-node": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-plugin-node",
+            "nameWithOwner": "mysticatea/eslint-plugin-node",
+            "owner": {
+                "login": "mysticatea"
             }
         },
         "networkx/networkx": {
@@ -7112,6 +7206,22 @@
                 "login": "reactchartjs"
             }
         },
+        "reactjs/react-transition-group": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "react-transition-group",
+            "nameWithOwner": "reactjs/react-transition-group",
+            "owner": {
+                "isVerified": true,
+                "login": "reactjs"
+            }
+        },
         "readthedocs/commonmark.py": {
             "languages": {
                 "nodes": [
@@ -7190,6 +7300,22 @@
             "owner": {
                 "isVerified": true,
                 "login": "redis"
+            }
+        },
+        "remix-run/react-router": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "react-router",
+            "nameWithOwner": "remix-run/react-router",
+            "owner": {
+                "isVerified": true,
+                "login": "remix-run"
             }
         },
         "requests/requests-oauthlib": {
@@ -7889,6 +8015,54 @@
                 "login": "sqlalchemy"
             }
         },
+        "standard/eslint-config-standard": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "eslint-config-standard",
+            "nameWithOwner": "standard/eslint-config-standard",
+            "owner": {
+                "isVerified": true,
+                "login": "standard"
+            }
+        },
+        "standard/eslint-config-standard-react": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-config-standard-react",
+            "nameWithOwner": "standard/eslint-config-standard-react",
+            "owner": {
+                "isVerified": true,
+                "login": "standard"
+            }
+        },
+        "standard/eslint-plugin-standard": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-plugin-standard",
+            "nameWithOwner": "standard/eslint-plugin-standard",
+            "owner": {
+                "isVerified": true,
+                "login": "standard"
+            }
+        },
         "stefankoegl/python-json-pointer": {
             "languages": {
                 "nodes": [
@@ -7932,6 +8106,22 @@
             "nameWithOwner": "stub42/pytz",
             "owner": {
                 "login": "stub42"
+            }
+        },
+        "survivejs/webpack-merge": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "webpack-merge",
+            "nameWithOwner": "survivejs/webpack-merge",
+            "owner": {
+                "isVerified": true,
+                "login": "survivejs"
             }
         },
         "sympy/sympy": {
@@ -8085,6 +8275,22 @@
             "nameWithOwner": "tobgu/pyrsistent",
             "owner": {
                 "login": "tobgu"
+            }
+        },
+        "topojson/topojson": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "topojson",
+            "nameWithOwner": "topojson/topojson",
+            "owner": {
+                "isVerified": false,
+                "login": "topojson"
             }
         },
         "torbjornbjorkman/cif2cell": {
@@ -8417,6 +8623,54 @@
                 "login": "warjiang"
             }
         },
+        "webpack-contrib/eslint-loader": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-loader",
+            "nameWithOwner": "webpack-contrib/eslint-loader",
+            "owner": {
+                "isVerified": false,
+                "login": "webpack-contrib"
+            }
+        },
+        "webpack-contrib/file-loader": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "file-loader",
+            "nameWithOwner": "webpack-contrib/file-loader",
+            "owner": {
+                "isVerified": false,
+                "login": "webpack-contrib"
+            }
+        },
+        "webpack-contrib/json-loader": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "json-loader",
+            "nameWithOwner": "webpack-contrib/json-loader",
+            "owner": {
+                "isVerified": false,
+                "login": "webpack-contrib"
+            }
+        },
         "webpack-contrib/source-map-loader": {
             "languages": {
                 "nodes": [
@@ -8428,6 +8682,22 @@
             },
             "name": "source-map-loader",
             "nameWithOwner": "webpack-contrib/source-map-loader",
+            "owner": {
+                "isVerified": false,
+                "login": "webpack-contrib"
+            }
+        },
+        "webpack-contrib/url-loader": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "url-loader",
+            "nameWithOwner": "webpack-contrib/url-loader",
             "owner": {
                 "isVerified": false,
                 "login": "webpack-contrib"
@@ -8481,6 +8751,22 @@
                 "login": "webpack"
             }
         },
+        "webpack/webpack-bundle-analyzer": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "webpack-bundle-analyzer",
+            "nameWithOwner": "webpack/webpack-bundle-analyzer",
+            "owner": {
+                "isVerified": true,
+                "login": "webpack"
+            }
+        },
         "webpack/webpack-cli": {
             "languages": {
                 "nodes": [
@@ -8492,6 +8778,22 @@
             },
             "name": "webpack-cli",
             "nameWithOwner": "webpack/webpack-cli",
+            "owner": {
+                "isVerified": true,
+                "login": "webpack"
+            }
+        },
+        "webpack/webpack-dev-server": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "webpack-dev-server",
+            "nameWithOwner": "webpack/webpack-dev-server",
             "owner": {
                 "isVerified": true,
                 "login": "webpack"
