@@ -248,6 +248,22 @@
                 "login": "Farama-Foundation"
             }
         },
+        "FormidableLabs/prism-react-renderer": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "prism-react-renderer",
+            "nameWithOwner": "FormidableLabs/prism-react-renderer",
+            "owner": {
+                "isVerified": false,
+                "login": "FormidableLabs"
+            }
+        },
         "GreyZmeem/python-logging-loki": {
             "languages": {
                 "nodes": [
@@ -339,21 +355,6 @@
             "nameWithOwner": "JohannesBuchner/imagehash",
             "owner": {
                 "login": "JohannesBuchner"
-            }
-        },
-        "JoshuaSBrown/cpp-py-formatter": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#dea584",
-                        "name": "Rust"
-                    }
-                ]
-            },
-            "name": "cpp-py-formatter",
-            "nameWithOwner": "JoshuaSBrown/cpp-py-formatter",
-            "owner": {
-                "login": "JoshuaSBrown"
             }
         },
         "Kitware/cdash-status": {
@@ -921,6 +922,22 @@
                 "login": "actions"
             }
         },
+        "actions/create-release": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "create-release",
+            "nameWithOwner": "actions/create-release",
+            "owner": {
+                "isVerified": true,
+                "login": "actions"
+            }
+        },
         "actions/deploy-pages": {
             "languages": {
                 "nodes": [
@@ -980,22 +997,6 @@
             },
             "name": "jekyll-build-pages",
             "nameWithOwner": "actions/jekyll-build-pages",
-            "owner": {
-                "isVerified": true,
-                "login": "actions"
-            }
-        },
-        "actions/setup-node": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "setup-node",
-            "nameWithOwner": "actions/setup-node",
             "owner": {
                 "isVerified": true,
                 "login": "actions"
@@ -1300,6 +1301,54 @@
                 "login": "alexmojaki"
             }
         },
+        "algolia/algoliasearch-client-javascript": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "algoliasearch-client-javascript",
+            "nameWithOwner": "algolia/algoliasearch-client-javascript",
+            "owner": {
+                "isVerified": true,
+                "login": "algolia"
+            }
+        },
+        "algolia/autocomplete": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "autocomplete",
+            "nameWithOwner": "algolia/autocomplete",
+            "owner": {
+                "isVerified": true,
+                "login": "algolia"
+            }
+        },
+        "algolia/events": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "events",
+            "nameWithOwner": "algolia/events",
+            "owner": {
+                "isVerified": true,
+                "login": "algolia"
+            }
+        },
         "amoffat/sh": {
             "languages": {
                 "nodes": [
@@ -1313,6 +1362,22 @@
             "nameWithOwner": "amoffat/sh",
             "owner": {
                 "login": "amoffat"
+            }
+        },
+        "ampproject/remapping": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "remapping",
+            "nameWithOwner": "ampproject/remapping",
+            "owner": {
+                "isVerified": false,
+                "login": "ampproject"
             }
         },
         "amueller/word_cloud": {
@@ -1527,6 +1592,22 @@
             },
             "name": "babel",
             "nameWithOwner": "babel/babel",
+            "owner": {
+                "isVerified": true,
+                "login": "babel"
+            }
+        },
+        "babel/babel-polyfills": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "babel-polyfills",
+            "nameWithOwner": "babel/babel-polyfills",
             "owner": {
                 "isVerified": true,
                 "login": "babel"
@@ -2619,6 +2700,22 @@
                 "login": "docker"
             }
         },
+        "docker/setup-qemu-action": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "setup-qemu-action",
+            "nameWithOwner": "docker/setup-qemu-action",
+            "owner": {
+                "isVerified": true,
+                "login": "docker"
+            }
+        },
         "docopt/docopt": {
             "languages": {
                 "nodes": [
@@ -2943,6 +3040,22 @@
                 "login": "expressjs"
             }
         },
+        "facebook/docusaurus": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "docusaurus",
+            "nameWithOwner": "facebook/docusaurus",
+            "owner": {
+                "isVerified": true,
+                "login": "facebook"
+            }
+        },
         "facebook/prop-types": {
             "languages": {
                 "nodes": [
@@ -3081,22 +3194,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "fonttools"
-            }
-        },
-        "fsevents/fsevents": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
-                    }
-                ]
-            },
-            "name": "fsevents",
-            "nameWithOwner": "fsevents/fsevents",
-            "owner": {
-                "isVerified": false,
-                "login": "fsevents"
             }
         },
         "fsspec/filesystem_spec": {
@@ -4368,8 +4465,8 @@
             "languages": {
                 "nodes": [
                     {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
+                        "color": "#3178c6",
+                        "name": "TypeScript"
                     }
                 ]
             },
@@ -4866,6 +4963,21 @@
                 "login": "ludwigschwardt"
             }
         },
+        "lukeed/clsx": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "clsx",
+            "nameWithOwner": "lukeed/clsx",
+            "owner": {
+                "login": "lukeed"
+            }
+        },
         "makinacorpus/easydict": {
             "languages": {
                 "nodes": [
@@ -5069,6 +5181,22 @@
                 "login": "mcmtroffaes"
             }
         },
+        "mdx-js/mdx": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "mdx",
+            "nameWithOwner": "mdx-js/mdx",
+            "owner": {
+                "isVerified": true,
+                "login": "mdx-js"
+            }
+        },
         "mgaitan/sphinxcontrib-mermaid": {
             "languages": {
                 "nodes": [
@@ -5141,22 +5269,6 @@
             },
             "name": "debugpy",
             "nameWithOwner": "microsoft/debugpy",
-            "owner": {
-                "isVerified": true,
-                "login": "microsoft"
-            }
-        },
-        "microsoft/playwright": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "playwright",
-            "nameWithOwner": "microsoft/playwright",
             "owner": {
                 "isVerified": true,
                 "login": "microsoft"
@@ -5300,21 +5412,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "moment"
-            }
-        },
-        "motdotla/dotenv": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "dotenv",
-            "nameWithOwner": "motdotla/dotenv",
-            "owner": {
-                "login": "motdotla"
             }
         },
         "motiondivision/motion": {
@@ -5494,22 +5591,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "nodeca"
-            }
-        },
-        "nodejs/undici": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "undici",
-            "nameWithOwner": "nodejs/undici",
-            "owner": {
-                "isVerified": true,
-                "login": "nodejs"
             }
         },
         "nose-devs/nose": {
@@ -7902,21 +7983,6 @@
             "nameWithOwner": "stefankoegl/python-json-pointer",
             "owner": {
                 "login": "stefankoegl"
-            }
-        },
-        "steveej/python-wget": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "python-wget",
-            "nameWithOwner": "steveej/python-wget",
-            "owner": {
-                "login": "steveej"
             }
         },
         "stub42/pytz": {
