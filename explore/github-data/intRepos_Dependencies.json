@@ -2574,9 +2574,16 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "jidicula/clang-format-action",
+                                    "packageName": "actions/setup-python",
                                     "repository": {
-                                        "nameWithOwner": "jidicula/clang-format-action"
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pre-commit/action",
+                                    "repository": {
+                                        "nameWithOwner": "pre-commit/action"
                                     }
                                 }
                             ]
