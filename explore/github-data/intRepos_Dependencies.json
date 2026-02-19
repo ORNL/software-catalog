@@ -2031,6 +2031,33 @@
                 ]
             }
         },
+        "ORNL-Fusion/xolotl": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "ORNL-TechInt/Atlas_File_Size_Data": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -3937,54 +3964,6 @@
                                     "packageName": "actions/setup-node",
                                     "repository": {
                                         "nameWithOwner": "actions/setup-node"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "click",
-                                    "repository": {
-                                        "nameWithOwner": "pallets/click"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "prompt-toolkit",
-                                    "repository": {
-                                        "nameWithOwner": "prompt-toolkit/python-prompt-toolkit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "protobuf",
-                                    "repository": {
-                                        "nameWithOwner": "protocolbuffers/protobuf"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyzmq",
-                                    "repository": {
-                                        "nameWithOwner": "zeromq/pyzmq"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "requests",
-                                    "repository": {
-                                        "nameWithOwner": "psf/requests"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "wget",
-                                    "repository": {
-                                        "nameWithOwner": "steveej/python-wget"
                                     }
                                 }
                             ]
