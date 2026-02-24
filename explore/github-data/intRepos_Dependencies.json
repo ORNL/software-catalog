@@ -2699,7 +2699,12 @@
                 "nodes": []
             },
             "languages": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
             }
         },
         "ORNL/ChatHPC": {
@@ -13980,6 +13985,19 @@
                 ]
             }
         },
+        "ORNL/uCaspian": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DAE1C2",
+                        "name": "SystemVerilog"
+                    }
+                ]
+            }
+        },
         "ORNL/vivaldi": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -14071,6 +14089,19 @@
             }
         },
         "ORNL/wave-denoiser": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "ORNL/wave-dp": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
@@ -18549,6 +18580,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "neutrons/dgs-resolution": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
                     }
                 ]
             }

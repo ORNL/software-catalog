@@ -1069,7 +1069,13 @@
         },
         "ORNL/Caspian": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "Initial release of the Open-Source code.",
+                        "publishedAt": "2026-02-23T22:30:29Z",
+                        "tagName": "v1.0.0"
+                    }
+                ]
             }
         },
         "ORNL/ChatHPC": {
@@ -3320,12 +3326,28 @@
                 ]
             }
         },
+        "ORNL/uCaspian": {
+            "releases": {
+                "nodes": [
+                    {
+                        "name": "Initial release of the Open-Source code.",
+                        "publishedAt": "2026-02-23T22:31:21Z",
+                        "tagName": "v2.0.1"
+                    }
+                ]
+            }
+        },
         "ORNL/vivaldi": {
             "releases": {
                 "nodes": []
             }
         },
         "ORNL/wave-denoiser": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL/wave-dp": {
             "releases": {
                 "nodes": []
             }
@@ -4359,6 +4381,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v2.17.0rc2",
+                        "publishedAt": "2026-02-23T17:17:23Z",
+                        "tagName": "v2.17.0rc2"
+                    },
+                    {
                         "name": "v2.17.0rc1",
                         "publishedAt": "2026-02-03T19:51:23Z",
                         "tagName": "v2.17.0rc1"
@@ -4526,6 +4553,11 @@
         "neutrons/RefRed": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v5.10.0rc1",
+                        "publishedAt": "2026-02-23T15:39:37Z",
+                        "tagName": "v5.10.0rc1"
+                    },
                     {
                         "name": "v5.9.0",
                         "publishedAt": "2026-02-09T19:25:01Z",
@@ -5200,9 +5232,19 @@
                 ]
             }
         },
+        "neutrons/dgs-resolution": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "neutrons/drtsans": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v1.25.0",
+                        "publishedAt": "2026-02-23T18:26:00Z",
+                        "tagName": "v1.25.0"
+                    },
                     {
                         "name": "v1.25.0rc1",
                         "publishedAt": "2026-02-16T16:39:57Z",
@@ -5809,6 +5851,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v4.15.0",
+                        "publishedAt": "2026-02-23T18:32:26Z",
+                        "tagName": "v4.15.0"
+                    },
+                    {
                         "name": "v4.15.0rc4",
                         "publishedAt": "2026-02-17T15:48:43Z",
                         "tagName": "v4.15.0rc4"
@@ -5964,6 +6011,11 @@
         "neutrons/usansred": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v1.3.0",
+                        "publishedAt": "2026-02-23T22:00:10Z",
+                        "tagName": "v1.3.0"
+                    },
                     {
                         "name": "v1.3.0rc1",
                         "publishedAt": "2026-02-16T17:01:04Z",

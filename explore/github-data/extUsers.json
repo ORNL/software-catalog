@@ -105,6 +105,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -582,7 +583,8 @@
                     "ORNL/ChatHPC-ChatHPCforKokkos-SC25",
                     "ORNL/ChatHPC-app",
                     "ORNL/MatRIS",
-                    "ORNL/iris"
+                    "ORNL/iris",
+                    "ORNL/uCaspian"
                 ]
             },
             "login": "Geekdude",
@@ -871,6 +873,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -984,6 +987,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -2998,8 +3002,10 @@
                     "ORNL/test-2017-10-03",
                     "ORNL/test-2025-11-06",
                     "ORNL/tx2",
+                    "ORNL/uCaspian",
                     "ORNL/vivaldi",
                     "ORNL/wave-denoiser",
+                    "ORNL/wave-dp",
                     "ORNL/workflows"
                 ]
             },
@@ -3499,11 +3505,22 @@
             "contributedLabRepositories": {
                 "nodes": [
                     "ORNL/picker-xl",
-                    "ORNL/wave-denoiser"
+                    "ORNL/wave-denoiser",
+                    "ORNL/wave-dp"
                 ]
             },
             "login": "ccp137",
             "name": "Chengping Chai"
+        },
+        "cdschuman": {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/97612733?v=4",
+            "contributedLabRepositories": {
+                "nodes": [
+                    "ORNL/Caspian"
+                ]
+            },
+            "login": "cdschuman",
+            "name": null
         },
         "cedricchevalier19": {
             "avatarUrl": "https://avatars.githubusercontent.com/u/19407793?v=4",
@@ -3534,6 +3551,16 @@
             },
             "login": "cgcgcg",
             "name": "Christian Glusa"
+        },
+        "charizzo": {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/26065155?u=d70d74144225bd1b68941da8c79d8ec80fe67f89&v=4",
+            "contributedLabRepositories": {
+                "nodes": [
+                    "ORNL/Caspian"
+                ]
+            },
+            "login": "charizzo",
+            "name": "Charles P. Rizzo"
         },
         "chathika": {
             "avatarUrl": "https://avatars.githubusercontent.com/u/789414?u=9905471d74d8f8f7e9c18e99067732bb32ea2c03&v=4",
@@ -5141,6 +5168,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -5317,6 +5345,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -5432,6 +5461,16 @@
             },
             "login": "hahnjo",
             "name": "Jonas Hahnfeld"
+        },
+        "hambrickjc": {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/176604883?v=4",
+            "contributedLabRepositories": {
+                "nodes": [
+                    "ORNL/ExaGO"
+                ]
+            },
+            "login": "hambrickjc",
+            "name": "Joshua Hambrick"
         },
         "hanleyja": {
             "avatarUrl": "https://avatars.githubusercontent.com/u/7926693?u=9f4eb799ac85aa7f9f9f88363194cd24285efc83&v=4",
@@ -6280,8 +6319,10 @@
                     "ORNL/test-2017-10-03",
                     "ORNL/test-2025-11-06",
                     "ORNL/tx2",
+                    "ORNL/uCaspian",
                     "ORNL/vivaldi",
                     "ORNL/wave-denoiser",
+                    "ORNL/wave-dp",
                     "ORNL/workflows",
                     "neutrons/SNAPRed"
                 ]
@@ -6690,6 +6731,16 @@
             "login": "jhwohlgemuth",
             "name": "Jason Wohlgemuth"
         },
+        "jimplank": {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/25691204?u=c3a0d7694e4c1c57d233dcb9cab9a8f77d4bb9a7&v=4",
+            "contributedLabRepositories": {
+                "nodes": [
+                    "ORNL/Caspian"
+                ]
+            },
+            "login": "jimplank",
+            "name": "James S. Plank"
+        },
         "jjellio": {
             "avatarUrl": "https://avatars.githubusercontent.com/u/21248657?u=16abdd299981cc1de45884ebefe72fa382fc0af4&v=4",
             "contributedLabRepositories": {
@@ -6797,6 +6848,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -6996,7 +7048,9 @@
             "avatarUrl": "https://avatars.githubusercontent.com/u/899209?v=4",
             "contributedLabRepositories": {
                 "nodes": [
-                    "ORNL/VitalVis"
+                    "ORNL/Caspian",
+                    "ORNL/VitalVis",
+                    "ORNL/uCaspian"
                 ]
             },
             "login": "jptech",
@@ -8093,6 +8147,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -8327,6 +8382,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -9497,6 +9553,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -10290,6 +10347,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -11152,13 +11210,148 @@
             "avatarUrl": "https://avatars.githubusercontent.com/u/19293911?u=505a809cf7266972f749a6b2cafce41c34f06eda&v=4",
             "contributedLabRepositories": {
                 "nodes": [
+                    "ORNL/AADL",
+                    "ORNL/AdditiveFOAM",
+                    "ORNL/Analysis-of-Large-Scale-Molecular-Datasets-with-Python",
+                    "ORNL/AutoDIET",
+                    "ORNL/CANRate",
+                    "ORNL/COVID19Vis",
+                    "ORNL/CabanaPD",
+                    "ORNL/CabanaPF",
+                    "ORNL/CaptureFOAM",
+                    "ORNL/Caspian",
+                    "ORNL/ChatHPC",
+                    "ORNL/ChatHPC-ChatHPCforKokkos-SC25",
+                    "ORNL/ChatHPC-app",
+                    "ORNL/Chi-Geometry",
+                    "ORNL/CrossVis",
+                    "ORNL/CrossVis2",
+                    "ORNL/DD-AADL",
+                    "ORNL/DDStore",
+                    "ORNL/DataFed",
+                    "ORNL/DataFed2",
+                    "ORNL/DataFedDependencies",
+                    "ORNL/DataFedEndpointBenchmark",
+                    "ORNL/DistGANs",
+                    "ORNL/ESP32-Traffic-Classifier",
+                    "ORNL/Equilipy",
+                    "ORNL/ExaGO",
+                    "ORNL/GridKit",
+                    "ORNL/HPDM-STD205",
+                    "ORNL/HydraGNN",
+                    "ORNL/HydraGNN_GFM_FineTuning4Materials",
+                    "ORNL/HydroFleetIntel",
+                    "ORNL/Ipopt",
+                    "ORNL/Jekyll-ORNL-Theme",
+                    "ORNL/MATEY",
+                    "ORNL/MLG",
+                    "ORNL/MLHPC2022",
+                    "ORNL/MLMC",
+                    "ORNL/MOOSE_Python_Binder",
+                    "ORNL/MatRIS",
+                    "ORNL/MultiDistTorch",
+                    "ORNL/NeuroCoreX",
+                    "ORNL/ORAgendaVis",
+                    "ORNL/ORMATEX",
+                    "ORNL/ORNL-HydraGNN-graph-generative-models",
+                    "ORNL/ORNL.github.io",
+                    "ORNL/OpenARC",
+                    "ORNL/OpenSAMPL",
+                    "ORNL/OpenSHMEM_Tutorial",
+                    "ORNL/PDMATLAB2D",
+                    "ORNL/PDnetwork",
+                    "ORNL/PETINA",
+                    "ORNL/PFiSM",
+                    "ORNL/ParrLO",
+                    "ORNL/ProgrammingModels.jl",
+                    "ORNL/QuantumChains",
+                    "ORNL/RIOPA.jl",
+                    "ORNL/ReSolve",
+                    "ORNL/Restricted-Alternating-Anderson-Picard",
+                    "ORNL/SAGESim",
+                    "ORNL/SYCLhash",
+                    "ORNL/ScalableWorkflow_VASP_Calculations",
+                    "ORNL/Sci_PPFL_FM",
+                    "ORNL/SensorVisFC",
+                    "ORNL/SetVis",
+                    "ORNL/ShareAnalytics",
+                    "ORNL/SnapshotVis",
+                    "ORNL/Synaptron",
+                    "ORNL/Systemd_Snapshot",
+                    "ORNL/TASMANIAN",
+                    "ORNL/TASQC",
+                    "ORNL/Thermo4PFM",
+                    "ORNL/TwoFold_DL",
+                    "ORNL/VDiSC",
+                    "ORNL/VERTEX-CFD",
+                    "ORNL/VitalVis",
+                    "ORNL/WeldPredictor",
+                    "ORNL/Zambeze",
+                    "ORNL/affinity_pred",
+                    "ORNL/al-asmr",
+                    "ORNL/briar-api",
+                    "ORNL/certified",
+                    "ORNL/cfd-verify",
+                    "ORNL/citebench",
+                    "ORNL/configurable_camera",
+                    "ORNL/cpp-proposals-pub",
                     "ORNL/curifactory",
+                    "ORNL/cyberwheel",
                     "ORNL/dasp-stacker",
+                    "ORNL/developer.ornl.gov",
+                    "ORNL/eden",
+                    "ORNL/experiment_orchestration",
+                    "ORNL/express_sim",
+                    "ORNL/faro",
+                    "ORNL/flowcept",
+                    "ORNL/flowcept.org",
+                    "ORNL/gauntlet",
+                    "ORNL/grit",
+                    "ORNL/hykkt",
                     "ORNL/icat",
+                    "ORNL/intersect-architecture",
                     "ORNL/ipyanchorviz",
+                    "ORNL/ipyoverlay",
+                    "ORNL/iris",
+                    "ORNL/kelvin",
+                    "ORNL/mario",
+                    "ORNL/mcr-container-tools",
+                    "ORNL/meumapps_ss",
+                    "ORNL/mind_the_gap",
+                    "ORNL/ncio",
+                    "ORNL/ordflow",
+                    "ORNL/papyrus",
+                    "ORNL/pcapmunger",
+                    "ORNL/pf_tutorial_codes",
                     "ORNL/picker-xl",
+                    "ORNL/portUrb",
+                    "ORNL/power-energy-tools",
+                    "ORNL/pygarden",
+                    "ORNL/pyvnc_client",
+                    "ORNL/quilt",
+                    "ORNL/reno",
+                    "ORNL/s3m-notebooks",
+                    "ORNL/s3m-sdk-python",
+                    "ORNL/sdproc",
+                    "ORNL/serial-log-replayer",
+                    "ORNL/siena-mem",
+                    "ORNL/slurmfs",
+                    "ORNL/smcdc-2021-covid-kg",
+                    "ORNL/soar_survey_scoring",
+                    "ORNL/software-catalog",
+                    "ORNL/sparse-gosine-similarity",
+                    "ORNL/superneuro",
+                    "ORNL/superneuroabm",
+                    "ORNL/superneuromat",
+                    "ORNL/syclreduce",
+                    "ORNL/test-2017-10-03",
+                    "ORNL/test-2025-11-06",
                     "ORNL/tx2",
-                    "ORNL/wave-denoiser"
+                    "ORNL/uCaspian",
+                    "ORNL/vivaldi",
+                    "ORNL/wave-denoiser",
+                    "ORNL/wave-dp",
+                    "ORNL/workflows"
                 ]
             },
             "login": "stewartsl",
@@ -11666,6 +11859,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
@@ -12423,6 +12617,7 @@
                     "neutrons/IPythonNotebookTutorial",
                     "neutrons/Qikr",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/sje-notebooks"
                 ]
@@ -12517,6 +12712,7 @@
                     "neutrons/branch-mapper",
                     "neutrons/conda-verify",
                     "neutrons/data_workflow",
+                    "neutrons/dgs-resolution",
                     "neutrons/drtsans",
                     "neutrons/finddata",
                     "neutrons/fit_peak_intensities",
