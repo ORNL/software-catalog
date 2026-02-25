@@ -1225,6 +1225,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v5.0.0",
+                        "publishedAt": "2026-02-24T10:51:35Z",
+                        "tagName": "v5.0.0"
+                    },
+                    {
                         "name": "v4.0.0",
                         "publishedAt": "2025-12-09T04:17:28Z",
                         "tagName": "v4.0.0"
@@ -5234,7 +5239,13 @@
         },
         "neutrons/dgs-resolution": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v0.1.0",
+                        "publishedAt": "2026-02-24T19:09:50Z",
+                        "tagName": "v0.1.0"
+                    }
+                ]
             }
         },
         "neutrons/drtsans": {
