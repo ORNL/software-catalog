@@ -1225,11 +1225,6 @@
             "releases": {
                 "nodes": [
                     {
-                        "name": "v5.0.0",
-                        "publishedAt": "2026-02-24T10:51:35Z",
-                        "tagName": "v5.0.0"
-                    },
-                    {
                         "name": "v4.0.0",
                         "publishedAt": "2025-12-09T04:17:28Z",
                         "tagName": "v4.0.0"
@@ -3203,6 +3198,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v3.5.0",
+                        "publishedAt": "2026-02-25T19:57:33Z",
+                        "tagName": "v3.5.0"
+                    },
+                    {
                         "name": "v3.4.0",
                         "publishedAt": "2025-09-25T13:47:41Z",
                         "tagName": "v3.4.0"
@@ -4386,6 +4386,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v2.17.0rc3",
+                        "publishedAt": "2026-02-25T18:32:46Z",
+                        "tagName": "v2.17.0rc3"
+                    },
+                    {
                         "name": "v2.17.0rc2",
                         "publishedAt": "2026-02-23T17:17:23Z",
                         "tagName": "v2.17.0rc2"
@@ -4971,6 +4976,11 @@
             }
         },
         "neutrons/branch-mapper": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "neutrons/conda-pkg-remove": {
             "releases": {
                 "nodes": []
             }
