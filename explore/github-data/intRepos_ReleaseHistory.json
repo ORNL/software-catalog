@@ -5027,7 +5027,13 @@
         },
         "neutrons/conda-actions": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v1",
+                        "publishedAt": "2026-03-06T18:25:47Z",
+                        "tagName": "v1"
+                    }
+                ]
             }
         },
         "neutrons/conda-pkg-remove": {
@@ -5301,6 +5307,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v0.2.0",
+                        "publishedAt": "2026-03-06T18:37:08Z",
+                        "tagName": "v0.2.0"
+                    },
+                    {
                         "name": "v0.1.0",
                         "publishedAt": "2026-02-24T19:09:50Z",
                         "tagName": "v0.1.0"
@@ -5311,6 +5322,11 @@
         "neutrons/drtsans": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v1.26.0rc1",
+                        "publishedAt": "2026-03-06T11:29:34Z",
+                        "tagName": "v1.26.0rc1"
+                    },
                     {
                         "name": "v1.25.0",
                         "publishedAt": "2026-02-23T18:26:00Z",
