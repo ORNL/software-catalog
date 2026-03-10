@@ -5027,13 +5027,7 @@
         },
         "neutrons/conda-actions": {
             "releases": {
-                "nodes": [
-                    {
-                        "name": "v1",
-                        "publishedAt": "2026-03-06T18:25:47Z",
-                        "tagName": "v1"
-                    }
-                ]
+                "nodes": []
             }
         },
         "neutrons/conda-pkg-remove": {
@@ -5306,6 +5300,11 @@
         "neutrons/dgs-resolution": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v0.3.0",
+                        "publishedAt": "2026-03-10T00:01:28Z",
+                        "tagName": "v0.3.0"
+                    },
                     {
                         "name": "v0.2.0",
                         "publishedAt": "2026-03-06T18:37:08Z",
@@ -6103,6 +6102,11 @@
         "neutrons/usansred": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v1.4.0rc1",
+                        "publishedAt": "2026-03-09T16:29:08Z",
+                        "tagName": "v1.4.0rc1"
+                    },
                     {
                         "name": "v1.3.0",
                         "publishedAt": "2026-02-23T22:00:10Z",
