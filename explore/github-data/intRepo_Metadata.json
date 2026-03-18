@@ -316,8 +316,10 @@
     "ORNL-Fusion/PARVMEC": {
         "description": "3D Equilibrium Solver",
         "name": "ORNL-Fusion/PARVMEC",
-        "topics": null,
-        "website": null
+        "topics": [
+            "3d-equilibiurm"
+        ],
+        "website": ""
     },
     "ORNL-Fusion/PENTA": {
         "description": null,
@@ -386,7 +388,9 @@
         "description": "This is an umbrella project for the stellarator community tools.",
         "name": "ORNL-Fusion/Stellarator-Tools",
         "topics": [
-            "stellarators"
+            "stellarators",
+            "3d-equilibiurm",
+            "3d-reconstruction"
         ],
         "website": ""
     },
@@ -481,7 +485,8 @@
             "energetic-particles",
             "plasma-physics",
             "raytracing",
-            "rf"
+            "rf",
+            "autodifferentiation"
         ],
         "website": "https://ornl-fusion.github.io/graph_framework-docs/"
     },

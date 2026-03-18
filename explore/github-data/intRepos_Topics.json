@@ -472,8 +472,16 @@
         },
         "ORNL-Fusion/PARVMEC": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/3d-equilibiurm",
+                        "topic": {
+                            "name": "3d-equilibiurm"
+                        },
+                        "url": "https://github.com/topics/3d-equilibiurm"
+                    }
+                ],
+                "totalCount": 1
             }
         },
         "ORNL-Fusion/PENTA": {
@@ -560,9 +568,23 @@
                             "name": "stellarators"
                         },
                         "url": "https://github.com/topics/stellarators"
+                    },
+                    {
+                        "resourcePath": "/topics/3d-equilibiurm",
+                        "topic": {
+                            "name": "3d-equilibiurm"
+                        },
+                        "url": "https://github.com/topics/3d-equilibiurm"
+                    },
+                    {
+                        "resourcePath": "/topics/3d-reconstruction",
+                        "topic": {
+                            "name": "3d-reconstruction"
+                        },
+                        "url": "https://github.com/topics/3d-reconstruction"
                     }
                 ],
-                "totalCount": 1
+                "totalCount": 3
             }
         },
         "ORNL-Fusion/Stellarator-Tools-Docs": {
@@ -679,9 +701,16 @@
                             "name": "rf"
                         },
                         "url": "https://github.com/topics/rf"
+                    },
+                    {
+                        "resourcePath": "/topics/autodifferentiation",
+                        "topic": {
+                            "name": "autodifferentiation"
+                        },
+                        "url": "https://github.com/topics/autodifferentiation"
                     }
                 ],
-                "totalCount": 4
+                "totalCount": 5
             }
         },
         "ORNL-Fusion/graph_framework-docs": {
