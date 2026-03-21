@@ -17583,30 +17583,23 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
-                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
+                                    "packageName": "neutrons/conda-actions/pkg-verify",
                                     "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/conda-verify",
+                                    "packageName": "neutrons/conda-actions/publish",
                                     "repository": {
-                                        "nameWithOwner": "neutrons/conda-verify"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/commit-comment",
-                                    "repository": {
-                                        "nameWithOwner": "peter-evans/commit-comment"
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
@@ -20694,6 +20687,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "regex-stream",
+                                    "repository": {
+                                        "nameWithOwner": "ornl-sava/regex-stream"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "mocha",
                                     "repository": {
                                         "nameWithOwner": "mochajs/mocha"
@@ -20725,19 +20731,6 @@
                                     "packageName": "stream-tester",
                                     "repository": {
                                         "nameWithOwner": "dominictarr/stream-tester"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "regex-stream",
-                                    "repository": {
-                                        "nameWithOwner": "ornl-sava/regex-stream"
                                     }
                                 }
                             ]
