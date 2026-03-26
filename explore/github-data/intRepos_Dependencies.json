@@ -7459,40 +7459,6 @@
                 ]
             }
         },
-        "ORNL/al-asmr": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "parsl",
-                                    "repository": {
-                                        "nameWithOwner": "Parsl/parsl"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sh",
-                                    "repository": {
-                                        "nameWithOwner": "amoffat/sh"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "ORNL/briar-api": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -15087,6 +15053,40 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/analyze",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "github/codeql-action/init",
+                                    "repository": {
+                                        "nameWithOwner": "github/codeql-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "step-security/harden-runner",
+                                    "repository": {
+                                        "nameWithOwner": "step-security/harden-runner"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "johnwason/vcpkg-action",
                                     "repository": {
                                         "nameWithOwner": "johnwason/vcpkg-action"
@@ -17015,43 +17015,16 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "packageName": "actions/download-artifact",
                                     "repository": {
-                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                        "nameWithOwner": "actions/download-artifact"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
+                                    "packageName": "actions/upload-artifact",
                                     "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/commit-comment",
-                                    "repository": {
-                                        "nameWithOwner": "peter-evans/commit-comment"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "prefix-dev/setup-pixi",
-                                    "repository": {
-                                        "nameWithOwner": "prefix-dev/setup-pixi"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
+                                        "nameWithOwner": "actions/upload-artifact"
                                     }
                                 },
                                 {
@@ -17059,6 +17032,27 @@
                                     "packageName": "codecov/codecov-action",
                                     "repository": {
                                         "nameWithOwner": "codecov/codecov-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/pkg-remove",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/pkg-verify",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/publish",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
@@ -18140,13 +18134,6 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/download-artifact",
                                     "repository": {
                                         "nameWithOwner": "actions/download-artifact"
@@ -18161,30 +18148,30 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
-                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "mamba-org/setup-micromamba",
+                                    "packageName": "neutrons/conda-actions/pkg-verify",
                                     "repository": {
-                                        "nameWithOwner": "mamba-org/setup-micromamba"
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
+                                    "packageName": "neutrons/conda-actions/publish",
                                     "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/commit-comment",
+                                    "packageName": "prefix-dev/setup-pixi",
                                     "repository": {
-                                        "nameWithOwner": "peter-evans/commit-comment"
+                                        "nameWithOwner": "prefix-dev/setup-pixi"
                                     }
                                 },
                                 {
@@ -18984,16 +18971,30 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "mamba-org/setup-micromamba",
+                                    "packageName": "neutrons/branch-mapper",
                                     "repository": {
-                                        "nameWithOwner": "mamba-org/setup-micromamba"
+                                        "nameWithOwner": "neutrons/branch-mapper"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
+                                    "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/pkg-verify",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/publish",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
@@ -19472,22 +19473,16 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "prefix-dev/setup-pixi",
+                                    "packageName": "actions/download-artifact",
                                     "repository": {
-                                        "nameWithOwner": "prefix-dev/setup-pixi"
+                                        "nameWithOwner": "actions/download-artifact"
                                     }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
+                                },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
+                                    "packageName": "actions/upload-artifact",
                                     "repository": {
-                                        "nameWithOwner": "actions/checkout"
+                                        "nameWithOwner": "actions/upload-artifact"
                                     }
                                 },
                                 {
@@ -19499,23 +19494,30 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
-                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
+                                    "packageName": "neutrons/conda-actions/pkg-verify",
                                     "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/commit-comment",
+                                    "packageName": "neutrons/conda-actions/publish",
                                     "repository": {
-                                        "nameWithOwner": "peter-evans/commit-comment"
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "prefix-dev/setup-pixi",
+                                    "repository": {
+                                        "nameWithOwner": "prefix-dev/setup-pixi"
                                     }
                                 },
                                 {
@@ -20687,6 +20689,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
+                                    "packageName": "regex-stream",
+                                    "repository": {
+                                        "nameWithOwner": "ornl-sava/regex-stream"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
                                     "packageName": "mocha",
                                     "repository": {
                                         "nameWithOwner": "mochajs/mocha"
@@ -20718,19 +20733,6 @@
                                     "packageName": "stream-tester",
                                     "repository": {
                                         "nameWithOwner": "dominictarr/stream-tester"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "regex-stream",
-                                    "repository": {
-                                        "nameWithOwner": "ornl-sava/regex-stream"
                                     }
                                 }
                             ]

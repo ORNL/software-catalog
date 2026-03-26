@@ -527,22 +527,6 @@
                 "login": "ORNL"
             }
         },
-        "Parsl/parsl": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "parsl",
-            "nameWithOwner": "Parsl/parsl",
-            "owner": {
-                "isVerified": false,
-                "login": "Parsl"
-            }
-        },
         "PyCQA/bandit": {
             "languages": {
                 "nodes": [
@@ -1298,21 +1282,6 @@
             "nameWithOwner": "alexmojaki/pure_eval",
             "owner": {
                 "login": "alexmojaki"
-            }
-        },
-        "amoffat/sh": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "sh",
-            "nameWithOwner": "amoffat/sh",
-            "owner": {
-                "login": "amoffat"
             }
         },
         "amueller/word_cloud": {
@@ -7931,6 +7900,22 @@
             "nameWithOwner": "stefankoegl/python-json-pointer",
             "owner": {
                 "login": "stefankoegl"
+            }
+        },
+        "step-security/harden-runner": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "harden-runner",
+            "nameWithOwner": "step-security/harden-runner",
+            "owner": {
+                "isVerified": true,
+                "login": "step-security"
             }
         },
         "stub42/pytz": {
