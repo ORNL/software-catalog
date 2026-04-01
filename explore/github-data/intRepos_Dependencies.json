@@ -7159,6 +7159,19 @@
                 ]
             }
         },
+        "ORNL/VisionHPC-SC26": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL/VitalVis": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -14377,81 +14390,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "cif2cell",
-                                    "repository": {
-                                        "nameWithOwner": "torbjornbjorkman/cif2cell"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "h5py",
-                                    "repository": {
-                                        "nameWithOwner": "h5py/h5py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pydot",
-                                    "repository": {
-                                        "nameWithOwner": "pydot/pydot"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "seekpath",
-                                    "repository": {
-                                        "nameWithOwner": "materialscloud-org/seekpath"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "spglib",
-                                    "repository": {
-                                        "nameWithOwner": "spglib/spglib"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "sphinxcontrib-bibtex",
                                     "repository": {
                                         "nameWithOwner": "mcmtroffaes/sphinxcontrib-bibtex"
@@ -17376,9 +17314,23 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/conda-verify",
+                                    "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
-                                        "nameWithOwner": "neutrons/conda-verify"
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/pkg-verify",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/publish",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
@@ -17735,16 +17687,30 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "mamba-org/setup-micromamba",
+                                    "packageName": "neutrons/branch-mapper",
                                     "repository": {
-                                        "nameWithOwner": "mamba-org/setup-micromamba"
+                                        "nameWithOwner": "neutrons/branch-mapper"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
+                                    "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/pkg-verify",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/publish",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
@@ -17896,16 +17862,30 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "mamba-org/setup-micromamba",
+                                    "packageName": "neutrons/branch-mapper",
                                     "repository": {
-                                        "nameWithOwner": "mamba-org/setup-micromamba"
+                                        "nameWithOwner": "neutrons/branch-mapper"
                                     }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/branch-mapper",
+                                    "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
-                                        "nameWithOwner": "neutrons/branch-mapper"
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/pkg-verify",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/publish",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
