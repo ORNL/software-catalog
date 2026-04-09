@@ -755,6 +755,19 @@
                 ]
             }
         },
+        "ORNL-Fusion/GITR_legacy_pisces": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    }
+                ]
+            }
+        },
         "ORNL-Fusion/GITR_legacy_python": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -17905,6 +17918,20 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "repository": {
+                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/branch-mapper",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/branch-mapper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
                                         "nameWithOwner": "neutrons/conda-actions"
@@ -17922,6 +17949,13 @@
                                     "packageName": "neutrons/conda-actions/publish",
                                     "repository": {
                                         "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peter-evans/commit-comment",
+                                    "repository": {
+                                        "nameWithOwner": "peter-evans/commit-comment"
                                     }
                                 },
                                 {
@@ -18460,6 +18494,20 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "repository": {
+                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/branch-mapper",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/branch-mapper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
                                         "nameWithOwner": "neutrons/conda-actions"
@@ -18477,6 +18525,13 @@
                                     "packageName": "neutrons/conda-actions/publish",
                                     "repository": {
                                         "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peter-evans/commit-comment",
+                                    "repository": {
+                                        "nameWithOwner": "peter-evans/commit-comment"
                                     }
                                 },
                                 {
@@ -19059,6 +19114,20 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "repository": {
+                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/branch-mapper",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/branch-mapper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
                                         "nameWithOwner": "neutrons/conda-actions"
@@ -19076,6 +19145,13 @@
                                     "packageName": "neutrons/conda-actions/publish",
                                     "repository": {
                                         "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peter-evans/commit-comment",
+                                    "repository": {
+                                        "nameWithOwner": "peter-evans/commit-comment"
                                     }
                                 },
                                 {
@@ -20405,6 +20481,20 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "repository": {
+                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/branch-mapper",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/branch-mapper"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
                                         "nameWithOwner": "neutrons/conda-actions"
@@ -20422,6 +20512,13 @@
                                     "packageName": "neutrons/conda-actions/publish",
                                     "repository": {
                                         "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peter-evans/commit-comment",
+                                    "repository": {
+                                        "nameWithOwner": "peter-evans/commit-comment"
                                     }
                                 },
                                 {
