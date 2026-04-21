@@ -6828,33 +6828,6 @@
                 ]
             }
         },
-        "ORNL/SYCLhash": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "breathe",
-                                    "repository": {
-                                        "nameWithOwner": "breathe-doc/breathe"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
         "ORNL/ScalableWorkflow_VASP_Calculations": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -20398,9 +20371,23 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/conda-verify",
+                                    "packageName": "neutrons/conda-actions/pkg-remove",
                                     "repository": {
-                                        "nameWithOwner": "neutrons/conda-verify"
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/pkg-verify",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/publish",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
                                     }
                                 },
                                 {
