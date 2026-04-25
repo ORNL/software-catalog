@@ -1889,6 +1889,22 @@
                 "login": "browserstack"
             }
         },
+        "cachix/install-nix-action": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    }
+                ]
+            },
+            "name": "install-nix-action",
+            "nameWithOwner": "cachix/install-nix-action",
+            "owner": {
+                "isVerified": false,
+                "login": "cachix"
+            }
+        },
         "cburroughs/pep8.py": {
             "languages": {
                 "nodes": [
@@ -2518,6 +2534,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "discoveryjs"
+            }
+        },
+        "disqus/nexus": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "nexus",
+            "nameWithOwner": "disqus/nexus",
+            "owner": {
+                "isVerified": false,
+                "login": "disqus"
             }
         },
         "django-auth-ldap/django-auth-ldap": {
@@ -6775,6 +6807,22 @@
             },
             "name": "gh-action-pypi-publish",
             "nameWithOwner": "pypa/gh-action-pypi-publish",
+            "owner": {
+                "isVerified": true,
+                "login": "pypa"
+            }
+        },
+        "pypa/hatch": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "hatch",
+            "nameWithOwner": "pypa/hatch",
             "owner": {
                 "isVerified": true,
                 "login": "pypa"
