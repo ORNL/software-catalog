@@ -18953,9 +18953,23 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "scikit-image",
+                                    "packageName": "odfpy",
                                     "repository": {
-                                        "nameWithOwner": "scikit-image/scikit-image"
+                                        "nameWithOwner": "eea/odfpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "panel",
+                                    "repository": {
+                                        "nameWithOwner": "holoviz/panel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sqlalchemy",
+                                    "repository": {
+                                        "nameWithOwner": "sqlalchemy/sqlalchemy"
                                     }
                                 }
                             ]
@@ -21435,30 +21449,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pyqt5",
-                                    "repository": {
-                                        "nameWithOwner": "pradeepkumar35/Tamil-Learning-Game-For-Kids"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyqtgraph",
-                                    "repository": {
-                                        "nameWithOwner": "pyqtgraph/pyqtgraph"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "pytest-playwright",
                                     "repository": {
                                         "nameWithOwner": "microsoft/playwright-pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "qtpy",
-                                    "repository": {
-                                        "nameWithOwner": "spyder-ide/qtpy"
                                     }
                                 }
                             ]
