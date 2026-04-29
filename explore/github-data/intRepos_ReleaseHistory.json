@@ -407,7 +407,12 @@
             "releases": {
                 "nodes": [
                     {
-                        "name": "Test data v1",
+                        "name": "OpenEdge 26.04",
+                        "publishedAt": "2026-04-28T17:00:14Z",
+                        "tagName": "26.04"
+                    },
+                    {
+                        "name": "Test data v1 (archived)",
                         "publishedAt": "2026-04-02T22:32:47Z",
                         "tagName": "testdata-v1"
                     }
@@ -3016,6 +3021,11 @@
                 "nodes": []
             }
         },
+        "ORNL/matsim-agents": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL/mcr-container-tools": {
             "releases": {
                 "nodes": []
@@ -3615,6 +3625,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v2.1",
+                        "publishedAt": "2026-04-29T01:49:26Z",
+                        "tagName": "v2.1"
+                    },
+                    {
                         "name": "v2.0.1",
                         "publishedAt": "2025-07-17T20:06:06Z",
                         "tagName": "v2.0.1"
@@ -3899,6 +3914,11 @@
         "kokkos/kokkos": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "Kokkos v5.1.1",
+                        "publishedAt": "2026-04-28T16:14:31Z",
+                        "tagName": "5.1.1"
+                    },
                     {
                         "name": "Kokkos v. 4.7.4",
                         "publishedAt": "2026-04-16T13:42:20Z",
@@ -6274,7 +6294,13 @@
         },
         "neutrons/subhkl": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "1.1.0",
+                        "publishedAt": "2026-04-28T17:33:41Z",
+                        "tagName": "1.1.0"
+                    }
+                ]
             }
         },
         "neutrons/usansred": {
@@ -6417,6 +6443,11 @@
         "ornladios/ADIOS2": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v2.12.1",
+                        "publishedAt": "2026-04-29T01:05:16Z",
+                        "tagName": "v2.12.1"
+                    },
                     {
                         "name": "v2.12.0",
                         "publishedAt": "2026-04-16T19:00:37Z",
