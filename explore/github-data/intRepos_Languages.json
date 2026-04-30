@@ -1652,10 +1652,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 18145323
+                        "size": 18164905
                     },
                     {
-                        "size": 891630
+                        "size": 893516
                     },
                     {
                         "size": 395937
@@ -1725,7 +1725,7 @@
                     }
                 ],
                 "totalCount": 10,
-                "totalSize": 20000781
+                "totalSize": 20022249
             }
         },
         "ORNL-Fusion/PARVMEC": {
@@ -5113,7 +5113,7 @@
                         "size": 17998505
                     },
                     {
-                        "size": 4346717
+                        "size": 4347618
                     },
                     {
                         "size": 759582
@@ -5191,7 +5191,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 75573745
+                "totalSize": 75574646
             }
         },
         "ORNL/HydraGNN": {
@@ -5934,13 +5934,16 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 225465
+                        "size": 375285
+                    },
+                    {
+                        "size": 1573
                     },
                     {
                         "size": 836
                     },
                     {
-                        "size": 523
+                        "size": 635
                     }
                 ],
                 "nodes": [
@@ -5949,16 +5952,20 @@
                         "name": "Python"
                     },
                     {
+                        "color": "#384d54",
+                        "name": "Dockerfile"
+                    },
+                    {
                         "color": "#89e051",
                         "name": "Shell"
                     },
                     {
-                        "color": "#384d54",
-                        "name": "Dockerfile"
+                        "color": "#7e858d",
+                        "name": "Mako"
                     }
                 ],
-                "totalCount": 3,
-                "totalSize": 226824
+                "totalCount": 4,
+                "totalSize": 378329
             }
         },
         "ORNL/OpenSHMEM_Tutorial": {
@@ -8030,10 +8037,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 86407
+                        "size": 86776
                     },
                     {
-                        "size": 12395
+                        "size": 30938
                     }
                 ],
                 "nodes": [
@@ -8047,7 +8054,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 98802
+                "totalSize": 117714
             }
         },
         "ORNL/mcr-container-tools": {
@@ -8346,22 +8353,16 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2719123
+                        "size": 1333141
                     },
                     {
                         "size": 281885
                     },
                     {
-                        "size": 233077
+                        "size": 246083
                     },
                     {
-                        "size": 88127
-                    },
-                    {
-                        "size": 41467
-                    },
-                    {
-                        "size": 21851
+                        "size": 21888
                     },
                     {
                         "size": 5355
@@ -8381,14 +8382,6 @@
                         "name": "Python"
                     },
                     {
-                        "color": "#DA5B0B",
-                        "name": "Jupyter Notebook"
-                    },
-                    {
-                        "color": null,
-                        "name": "Sage"
-                    },
-                    {
                         "color": "#89e051",
                         "name": "Shell"
                     },
@@ -8397,8 +8390,8 @@
                         "name": "CMake"
                     }
                 ],
-                "totalCount": 7,
-                "totalSize": 3390885
+                "totalCount": 5,
+                "totalSize": 1888352
             }
         },
         "ORNL/power-energy-tools": {
@@ -9160,16 +9153,16 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 18887779
+                        "size": 18888189
                     },
                     {
-                        "size": 4879496
+                        "size": 4806939
                     },
                     {
                         "size": 4546458
                     },
                     {
-                        "size": 902681
+                        "size": 902675
                     },
                     {
                         "size": 574541
@@ -9317,7 +9310,7 @@
                     }
                 ],
                 "totalCount": 22,
-                "totalSize": 31214289
+                "totalSize": 31142136
             }
         },
         "adamantine-sim/adamantine": {
@@ -9664,10 +9657,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11059995
+                        "size": 11058925
                     },
                     {
-                        "size": 293123
+                        "size": 294183
                     },
                     {
                         "size": 61439
@@ -9744,7 +9737,7 @@
                     }
                 ],
                 "totalCount": 11,
-                "totalSize": 11495282
+                "totalSize": 11495272
             }
         },
         "mcvine/McVineGPU": {
@@ -11417,7 +11410,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 622963
+                        "size": 675810
                     },
                     {
                         "size": 5626
@@ -11441,7 +11434,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 629058
+                "totalSize": 681905
             }
         },
         "neutrons/Shiver": {
@@ -11959,13 +11952,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 754334
+                        "size": 756011
+                    },
+                    {
+                        "size": 1378
                     },
                     {
                         "size": 1238
-                    },
-                    {
-                        "size": 981
                     }
                 ],
                 "nodes": [
@@ -11974,16 +11967,16 @@
                         "name": "Python"
                     },
                     {
-                        "color": "#3D6117",
-                        "name": "TeX"
-                    },
-                    {
                         "color": "#89e051",
                         "name": "Shell"
+                    },
+                    {
+                        "color": "#3D6117",
+                        "name": "TeX"
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 756553
+                "totalSize": 758627
             }
         },
         "neutrons/garnet_reduction": {
@@ -12110,7 +12103,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 821
+                        "size": 98383
                     },
                     {
                         "size": 469
@@ -12127,7 +12120,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 1290
+                "totalSize": 98852
             }
         },
         "neutrons/mandi_autoreduction_scripts": {
