@@ -5464,34 +5464,24 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v1.27.0",
+                        "publishedAt": "2026-05-11T12:58:37Z",
+                        "tagName": "v1.27.0"
+                    },
+                    {
+                        "name": "v1.28.0rc1",
+                        "publishedAt": "2026-05-11T13:11:24Z",
+                        "tagName": "v1.28.0rc1"
+                    },
+                    {
                         "name": "v1.26.0",
                         "publishedAt": "2026-03-30T11:51:03Z",
                         "tagName": "v1.26.0"
                     },
                     {
-                        "name": "v1.26.0rc4",
-                        "publishedAt": "2026-03-25T12:44:34Z",
-                        "tagName": "v1.26.0rc4"
-                    },
-                    {
-                        "name": "v1.26.0rc3",
-                        "publishedAt": "2026-03-23T17:04:40Z",
-                        "tagName": "v1.26.0rc3"
-                    },
-                    {
-                        "name": "v1.26.0rc1",
-                        "publishedAt": "2026-03-06T11:29:34Z",
-                        "tagName": "v1.26.0rc1"
-                    },
-                    {
                         "name": "v1.25.0",
-                        "publishedAt": "2026-02-23T18:26:00Z",
+                        "publishedAt": "2026-05-11T13:14:07Z",
                         "tagName": "v1.25.0"
-                    },
-                    {
-                        "name": "v1.25.0rc1",
-                        "publishedAt": "2026-02-16T16:39:57Z",
-                        "tagName": "v1.25.0rc1"
                     },
                     {
                         "name": "v1.24.0",
@@ -5499,19 +5489,9 @@
                         "tagName": "v1.24.0"
                     },
                     {
-                        "name": "v1.24.0rc1",
-                        "publishedAt": "2025-12-15T15:32:40Z",
-                        "tagName": "v1.24.0rc1"
-                    },
-                    {
                         "name": "v1.23.0",
                         "publishedAt": "2025-12-15T15:13:49Z",
                         "tagName": "v1.23.0"
-                    },
-                    {
-                        "name": "v1.23.0rc1",
-                        "publishedAt": "2025-12-07T15:41:51Z",
-                        "tagName": "v1.23.0rc1"
                     },
                     {
                         "name": "v1.22.0",
@@ -5519,19 +5499,9 @@
                         "tagName": "v1.22.0"
                     },
                     {
-                        "name": "v1.22.0rc1",
-                        "publishedAt": "2025-11-24T17:22:27Z",
-                        "tagName": "v1.22.0rc1"
-                    },
-                    {
                         "name": "v1.21.0",
                         "publishedAt": "2025-11-23T22:31:05Z",
                         "tagName": "v1.21.0"
-                    },
-                    {
-                        "name": "v1.21.0rc1",
-                        "publishedAt": "2025-11-17T15:54:34Z",
-                        "tagName": "v1.21.0rc1"
                     },
                     {
                         "name": "v1.20.0",
@@ -5539,19 +5509,9 @@
                         "tagName": "v1.20.0"
                     },
                     {
-                        "name": "v1.20.0rc1",
-                        "publishedAt": "2025-11-03T17:13:17Z",
-                        "tagName": "v1.20.0rc1"
-                    },
-                    {
                         "name": "v1.19.0",
                         "publishedAt": "2025-11-03T17:12:33Z",
                         "tagName": "v1.19.0"
-                    },
-                    {
-                        "name": "v1.19.0rc1",
-                        "publishedAt": "2025-10-27T13:14:07Z",
-                        "tagName": "v1.19.0rc1"
                     },
                     {
                         "name": "v1.18.0",
@@ -5559,49 +5519,14 @@
                         "tagName": "v1.18.0"
                     },
                     {
-                        "name": "v1.18.0rc3",
-                        "publishedAt": "2025-10-21T12:13:04Z",
-                        "tagName": "v1.18.0rc3"
-                    },
-                    {
-                        "name": "v1.18.0rc2",
-                        "publishedAt": "2025-10-13T19:46:34Z",
-                        "tagName": "v1.18.0rc2"
-                    },
-                    {
-                        "name": "v1.18.0rc1",
-                        "publishedAt": "2025-10-06T14:56:08Z",
-                        "tagName": "v1.18.0rc1"
-                    },
-                    {
                         "name": "v1.17.0",
                         "publishedAt": "2025-09-22T17:34:11Z",
                         "tagName": "v1.17.0"
                     },
                     {
-                        "name": "v1.17.0rc2",
-                        "publishedAt": "2025-09-04T13:31:05Z",
-                        "tagName": "v1.17.0rc2"
-                    },
-                    {
-                        "name": "v1.17.0rc1",
-                        "publishedAt": "2025-09-02T14:24:54Z",
-                        "tagName": "v1.17.0rc1"
-                    },
-                    {
                         "name": "v1.16.0",
                         "publishedAt": "2025-09-02T14:21:36Z",
                         "tagName": "v1.16.0"
-                    },
-                    {
-                        "name": "v1.16.0rc3",
-                        "publishedAt": "2025-08-19T00:50:59Z",
-                        "tagName": "v1.16.0rc3"
-                    },
-                    {
-                        "name": "v1.16.0rc2",
-                        "publishedAt": "2025-07-14T20:36:54Z",
-                        "tagName": "v1.16.0rc2"
                     }
                 ]
             }
@@ -6109,6 +6034,11 @@
         "neutrons/quicknxs": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v4.17.0rc5",
+                        "publishedAt": "2026-05-11T18:06:29Z",
+                        "tagName": "v4.17.0rc5"
+                    },
                     {
                         "name": "v4.17.0rc4",
                         "publishedAt": "2026-04-13T18:03:47Z",
