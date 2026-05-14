@@ -1367,9 +1367,17 @@
         "website": "https://certified.readthedocs.io/"
     },
     "ORNL/cfd-verify": {
-        "description": "A package to conduct solution verification for CFD",
+        "description": "Solution verification for scientific computing",
         "name": "ORNL/cfd-verify",
-        "topics": null,
+        "topics": [
+            "cfd",
+            "computational-fluid-dynamics",
+            "scientific-computing",
+            "uncertainty-quantification",
+            "validation",
+            "verification",
+            "vvuq"
+        ],
         "website": ""
     },
     "ORNL/citebench": {
