@@ -5558,6 +5558,21 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v1.31.0rc2",
+                        "publishedAt": "2026-06-15T20:22:04Z",
+                        "tagName": "v1.31.0rc2"
+                    },
+                    {
+                        "name": "v1.31.0rc1",
+                        "publishedAt": "2026-06-15T14:27:21Z",
+                        "tagName": "v1.31.0rc1"
+                    },
+                    {
+                        "name": "v1.30.0",
+                        "publishedAt": "2026-06-15T13:55:26Z",
+                        "tagName": "v1.30.0"
+                    },
+                    {
                         "name": "v1.30.0rc1",
                         "publishedAt": "2026-06-08T15:10:15Z",
                         "tagName": "v1.30.0rc1"
@@ -5825,6 +5840,11 @@
             }
         },
         "neutrons/live_stream_analysis": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "neutrons/magnetism-tools": {
             "releases": {
                 "nodes": []
             }
