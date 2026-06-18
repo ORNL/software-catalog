@@ -1019,6 +1019,11 @@
                 "nodes": []
             }
         },
+        "ORNL/ARCADE": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL/AdditiveFOAM": {
             "releases": {
                 "nodes": [
@@ -5841,7 +5846,13 @@
         },
         "neutrons/live_stream_analysis": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "Version 0.1.0",
+                        "publishedAt": "2026-06-18T01:15:12Z",
+                        "tagName": "v0.1.0"
+                    }
+                ]
             }
         },
         "neutrons/magnetism-tools": {

@@ -822,7 +822,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 433711
+                        "size": 453097
                     }
                 ],
                 "nodes": [
@@ -832,7 +832,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 433711
+                "totalSize": 453097
             }
         },
         "ORNL-Fusion/GITR": {
@@ -4249,6 +4249,72 @@
                 "totalSize": 153965
             }
         },
+        "ORNL/ARCADE": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 379393
+                    },
+                    {
+                        "size": 115013
+                    },
+                    {
+                        "size": 34858
+                    },
+                    {
+                        "size": 22688
+                    },
+                    {
+                        "size": 15097
+                    },
+                    {
+                        "size": 10568
+                    },
+                    {
+                        "size": 2140
+                    },
+                    {
+                        "size": 364
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    },
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    },
+                    {
+                        "color": "#596706",
+                        "name": "Smalltalk"
+                    },
+                    {
+                        "color": "#e16737",
+                        "name": "MATLAB"
+                    },
+                    {
+                        "color": "#6866fb",
+                        "name": "Objective-C++"
+                    },
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    },
+                    {
+                        "color": "#012456",
+                        "name": "PowerShell"
+                    }
+                ],
+                "totalCount": 8,
+                "totalSize": 580121
+            }
+        },
         "ORNL/AdditiveFOAM": {
             "languages": {
                 "edges": [
@@ -5135,16 +5201,16 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 32964809
+                        "size": 32957004
                     },
                     {
-                        "size": 19120954
+                        "size": 19113264
                     },
                     {
-                        "size": 17991237
+                        "size": 17992109
                     },
                     {
-                        "size": 4406077
+                        "size": 4406245
                     },
                     {
                         "size": 759582
@@ -5222,14 +5288,14 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 76434835
+                "totalSize": 76420380
             }
         },
         "ORNL/HydraGNN": {
             "languages": {
                 "edges": [
                     {
-                        "size": 844625
+                        "size": 844849
                     },
                     {
                         "size": 215635
@@ -5246,7 +5312,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 1060260
+                "totalSize": 1060484
             }
         },
         "ORNL/HydraGNN_GFM_FineTuning4Materials": {
@@ -7044,7 +7110,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 916853
+                        "size": 917116
                     },
                     {
                         "size": 8381
@@ -7068,7 +7134,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 926354
+                "totalSize": 926617
             }
         },
         "ORNL/certified": {
@@ -9642,13 +9708,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11151929
+                        "size": 11176197
                     },
                     {
-                        "size": 246864
+                        "size": 246933
                     },
                     {
-                        "size": 246700
+                        "size": 246691
                     },
                     {
                         "size": 106416
@@ -9701,7 +9767,7 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 11821467
+                "totalSize": 11845795
             }
         },
         "gshs-ornl/choppy": {
@@ -9871,7 +9937,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11183799
+                        "size": 11186477
                     },
                     {
                         "size": 303199
@@ -9951,7 +10017,7 @@
                     }
                 ],
                 "totalCount": 11,
-                "totalSize": 11634863
+                "totalSize": 11637541
             }
         },
         "mcvine/McVineGPU": {
@@ -11645,7 +11711,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 675810
+                        "size": 676716
                     },
                     {
                         "size": 5626
@@ -11669,7 +11735,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 681905
+                "totalSize": 682811
             }
         },
         "neutrons/Shiver": {
@@ -12187,7 +12253,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 873547
+                        "size": 878553
                     },
                     {
                         "size": 1378
@@ -12211,7 +12277,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 876163
+                "totalSize": 881169
             }
         },
         "neutrons/garnet_reduction": {
@@ -12338,13 +12404,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 62259
+                        "size": 152533
                     },
                     {
                         "size": 469
                     },
                     {
-                        "size": 349
+                        "size": 335
                     }
                 ],
                 "nodes": [
@@ -12362,14 +12428,14 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 63077
+                "totalSize": 153337
             }
         },
         "neutrons/magnetism-tools": {
             "languages": {
                 "edges": [
                     {
-                        "size": 68456
+                        "size": 85231
                     }
                 ],
                 "nodes": [
@@ -12379,7 +12445,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 68456
+                "totalSize": 85231
             }
         },
         "neutrons/mandi_autoreduction_scripts": {
