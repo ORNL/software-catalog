@@ -290,6 +290,40 @@
                 "nodes": []
             }
         },
+        "ORNL-CEES/DataTransferKit": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "breathe",
+                                    "repository": {
+                                        "nameWithOwner": "breathe-doc/breathe"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "ORNL-CEES/MCREX": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -14750,8 +14784,8 @@
             "languages": {
                 "nodes": [
                     {
-                        "color": "#DA5B0B",
-                        "name": "Jupyter Notebook"
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -23358,6 +23392,19 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
+                    }
+                ]
+            }
+        },
+        "neutrons/ns-computation-tutorial": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
                     }
                 ]
             }
