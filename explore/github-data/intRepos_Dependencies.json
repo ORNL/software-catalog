@@ -4233,6 +4233,329 @@
                 "nodes": []
             }
         },
+        "ORNL/Equilipy": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "fastexcel",
+                                    "repository": {
+                                        "nameWithOwner": "ToucanToco/fastexcel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "joblib",
+                                    "repository": {
+                                        "nameWithOwner": "joblib/joblib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mpi4py",
+                                    "repository": {
+                                        "nameWithOwner": "mpi4py/mpi4py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "myst-parser",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/MyST-Parser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "polars",
+                                    "repository": {
+                                        "nameWithOwner": "pola-rs/polars"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydantic",
+                                    "repository": {
+                                        "nameWithOwner": "pydantic/pydantic"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyside6",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "regex",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-copybutton",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/sphinx-copybutton"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-mermaid",
+                                    "repository": {
+                                        "nameWithOwner": "mgaitan/sphinxcontrib-mermaid"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "fastexcel",
+                                    "repository": {
+                                        "nameWithOwner": "ToucanToco/fastexcel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "joblib",
+                                    "repository": {
+                                        "nameWithOwner": "joblib/joblib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "polars",
+                                    "repository": {
+                                        "nameWithOwner": "pola-rs/polars"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydantic",
+                                    "repository": {
+                                        "nameWithOwner": "pydantic/pydantic"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "regex",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": []
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "awvwgk/setup-fortran",
+                                    "repository": {
+                                        "nameWithOwner": "fortran-lang/setup-fortran"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "msys2/setup-msys2",
+                                    "repository": {
+                                        "nameWithOwner": "msys2/setup-msys2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "softprops/action-gh-release",
+                                    "repository": {
+                                        "nameWithOwner": "softprops/action-gh-release"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/download-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/download-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "awvwgk/setup-fortran",
+                                    "repository": {
+                                        "nameWithOwner": "fortran-lang/setup-fortran"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "msys2/setup-msys2",
+                                    "repository": {
+                                        "nameWithOwner": "msys2/setup-msys2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pypa/cibuildwheel",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/cibuildwheel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pypa/gh-action-pypi-publish",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/gh-action-pypi-publish"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/configure-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/configure-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/deploy-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/deploy-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-pages-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-pages-artifact"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL/ExaGO": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -15640,6 +15963,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "contourpy",
+                                    "repository": {
+                                        "nameWithOwner": "contourpy/contourpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "coverage",
                                     "repository": {
                                         "nameWithOwner": "coveragepy/coveragepy"
@@ -15650,6 +15980,13 @@
                                     "packageName": "cycler",
                                     "repository": {
                                         "nameWithOwner": "matplotlib/cycler"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "docutils",
+                                    "repository": {
+                                        "nameWithOwner": "jwilk-mirrors/docutils"
                                     }
                                 },
                                 {
@@ -15678,13 +16015,6 @@
                                     "packageName": "h5py",
                                     "repository": {
                                         "nameWithOwner": "h5py/h5py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "hatchling",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/hatch"
                                     }
                                 },
                                 {
@@ -15745,9 +16075,30 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "nexus",
                                     "repository": {
                                         "nameWithOwner": "disqus/nexus"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
                                     }
                                 },
                                 {
@@ -15885,6 +16236,20 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "seekpath",
                                     "repository": {
                                         "nameWithOwner": "materialscloud-org/seekpath"
@@ -15909,6 +16274,20 @@
                                     "packageName": "spglib",
                                     "repository": {
                                         "nameWithOwner": "spglib/spglib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
                                     }
                                 },
                                 {
@@ -21792,88 +22171,7 @@
         },
         "neutrons/garnet": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": []
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/download-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/download-artifact"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/upload-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/upload-artifact"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "codecov/codecov-action",
-                                    "repository": {
-                                        "nameWithOwner": "codecov/codecov-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/conda-verify",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/conda-verify"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "prefix-dev/setup-pixi",
-                                    "repository": {
-                                        "nameWithOwner": "prefix-dev/setup-pixi"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "peter-evans/create-pull-request",
-                                    "repository": {
-                                        "nameWithOwner": "peter-evans/create-pull-request"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "prefix-dev/setup-pixi",
-                                    "repository": {
-                                        "nameWithOwner": "prefix-dev/setup-pixi"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
                 "nodes": [
@@ -21899,46 +22197,7 @@
         },
         "neutrons/garnet_reduction": {
             "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "mantidworkbench",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "codecov/codecov-action",
-                                    "repository": {
-                                        "nameWithOwner": "codecov/codecov-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "mamba-org/setup-micromamba",
-                                    "repository": {
-                                        "nameWithOwner": "mamba-org/setup-micromamba"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "nodes": []
             },
             "languages": {
                 "nodes": [
@@ -22326,24 +22585,6 @@
         "neutrons/live_stream_analysis": {
             "dependencyGraphManifests": {
                 "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "readadara",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    },
                     {
                         "dependencies": {
                             "nodes": [
@@ -23034,6 +23275,24 @@
                                     "repository": {
                                         "nameWithOwner": "executablebooks/MyST-Parser"
                                     }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "readadara",
+                                    "repository": null
                                 }
                             ]
                         }
