@@ -24214,13 +24214,6 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/conda-actions/pkg-remove",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/conda-actions"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "neutrons/gh-actions/branch-mapper",
                                     "repository": {
                                         "nameWithOwner": "neutrons/gh-actions"
@@ -24236,6 +24229,13 @@
                                 {
                                     "packageManager": "ACTIONS",
                                     "packageName": "neutrons/gh-actions/pkg-install",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/gh-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/gh-actions/pkg-remove",
                                     "repository": {
                                         "nameWithOwner": "neutrons/gh-actions"
                                     }
