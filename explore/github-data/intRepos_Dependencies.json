@@ -4241,68 +4241,9 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "fastexcel",
-                                    "repository": {
-                                        "nameWithOwner": "ToucanToco/fastexcel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "joblib",
-                                    "repository": {
-                                        "nameWithOwner": "joblib/joblib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "mpi4py",
-                                    "repository": {
-                                        "nameWithOwner": "mpi4py/mpi4py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "myst-parser",
                                     "repository": {
                                         "nameWithOwner": "executablebooks/MyST-Parser"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "polars",
-                                    "repository": {
-                                        "nameWithOwner": "pola-rs/polars"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pydantic",
-                                    "repository": {
-                                        "nameWithOwner": "pydantic/pydantic"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyside6",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "regex",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
                                     }
                                 },
                                 {
@@ -4331,13 +4272,6 @@
                                     "packageName": "sphinxcontrib-mermaid",
                                     "repository": {
                                         "nameWithOwner": "mgaitan/sphinxcontrib-mermaid"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tqdm",
-                                    "repository": {
-                                        "nameWithOwner": "tqdm/tqdm"
                                     }
                                 }
                             ]
@@ -7860,6 +7794,33 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "cupy",
+                                    "repository": {
+                                        "nameWithOwner": "cupy/cupy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "breathe",
                                     "repository": {
                                         "nameWithOwner": "breathe-doc/breathe"
@@ -9075,6 +9036,19 @@
                         }
                     }
                 ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "ORNL/cassiopeia": {
+            "dependencyGraphManifests": {
+                "nodes": []
             },
             "languages": {
                 "nodes": [
