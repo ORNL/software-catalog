@@ -20,7 +20,7 @@ jobs:
         run:
           ./_explore/scripts/UPDATE.sh
         env:
-          GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_API_TOKEN: ${{ secrets.ORNL_SW_ACCESS_TOKEN }}
       - name: Commit changes
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
