@@ -815,6 +815,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v3.4.0",
+                        "publishedAt": "2026-09-03T17:46:16Z",
+                        "tagName": "v3.4.0"
+                    },
+                    {
                         "name": "v3.3.0",
                         "publishedAt": "2026-03-03T22:27:21Z",
                         "tagName": "v3.3.0"
@@ -4845,6 +4850,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v2.20.0rc1",
+                        "publishedAt": "2026-09-03T17:06:36Z",
+                        "tagName": "v2.20.0rc1"
+                    },
+                    {
                         "name": "v2.19.0",
                         "publishedAt": "2026-08-19T14:24:09Z",
                         "tagName": "v2.19.0"
@@ -6942,7 +6952,13 @@
         },
         "neutrons/vnext": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "0.2.0rc1",
+                        "publishedAt": "2026-09-03T20:35:39Z",
+                        "tagName": "0.2.0rc1"
+                    }
+                ]
             }
         },
         "neutrons/web_reflectivity": {
