@@ -425,7 +425,13 @@
         },
         "ORNL-Fusion/OpenEdge": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "OpenEdge 26.09",
+                        "publishedAt": "2026-09-25T17:58:22Z",
+                        "tagName": "26.09"
+                    }
+                ]
             }
         },
         "ORNL-Fusion/PARVMEC": {
@@ -1789,6 +1795,11 @@
         "ORNL/ReSolve": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "Bug-fix Release",
+                        "publishedAt": "2026-09-25T21:31:38Z",
+                        "tagName": "v0.99.4"
+                    },
                     {
                         "name": "First Beta Release",
                         "publishedAt": "2026-08-19T02:43:24Z",
