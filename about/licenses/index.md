@@ -41,7 +41,7 @@ license, the text of that license will be provided by for you.
 
 In addition to obtaining approval to release your code as open source, you should also consider
 what kind of open source project you want to create around your code. Do you want to build a 
-community of contributors, will it be part of an ecosystem, etc. To help understand the different
+community of contributors, will it be part of an ecosystem, etc? To help understand the different
 aspects of open source projects, you can find best practices and other information in the [CORSA 
 Open-source software project documents repository](https://github.com/corsa-center/oss-documents). 
 
