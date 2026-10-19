@@ -19,7 +19,6 @@ query ($ownName: String!, $repoName: String!) {
       spdxId
       url
     }
-    stargazerCount
     mentionableUsers {
       totalCount
     }
