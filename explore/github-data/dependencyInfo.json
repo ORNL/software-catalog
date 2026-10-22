@@ -359,22 +359,6 @@
                 "login": "INTERSECT-SDK"
             }
         },
-        "Instagram/LibCST": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "LibCST",
-            "nameWithOwner": "Instagram/LibCST",
-            "owner": {
-                "isVerified": false,
-                "login": "Instagram"
-            }
-        },
         "Jimver/cuda-toolkit": {
             "languages": {
                 "nodes": [
@@ -434,21 +418,6 @@
             "owner": {
                 "isVerified": true,
                 "login": "Kitware"
-            }
-        },
-        "Kludex/python-multipart": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "python-multipart",
-            "nameWithOwner": "Kludex/python-multipart",
-            "owner": {
-                "login": "Kludex"
             }
         },
         "Kludex/starlette": {
@@ -602,22 +571,6 @@
             "owner": {
                 "isVerified": true,
                 "login": "NVIDIA"
-            }
-        },
-        "ORNL/OpenSAMPL": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "OpenSAMPL",
-            "nameWithOwner": "ORNL/OpenSAMPL",
-            "owner": {
-                "isVerified": false,
-                "login": "ORNL"
             }
         },
         "ORNL/SAGESim": {
@@ -838,22 +791,6 @@
             },
             "name": "intersphinx_registry",
             "nameWithOwner": "Quansight-Labs/intersphinx_registry",
-            "owner": {
-                "isVerified": false,
-                "login": "Quansight-Labs"
-            }
-        },
-        "Quansight-Labs/pyyaml-ft": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "pyyaml-ft",
-            "nameWithOwner": "Quansight-Labs/pyyaml-ft",
             "owner": {
                 "isVerified": false,
                 "login": "Quansight-Labs"
@@ -1411,21 +1348,6 @@
                 "login": "advanced-security"
             }
         },
-        "aewallin/allantools": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "allantools",
-            "nameWithOwner": "aewallin/allantools",
-            "owner": {
-                "login": "aewallin"
-            }
-        },
         "agronholm/anyio": {
             "languages": {
                 "nodes": [
@@ -1889,38 +1811,6 @@
             "nameWithOwner": "astanin/python-tabulate",
             "owner": {
                 "login": "astanin"
-            }
-        },
-        "astral-sh/ruff": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#dea584",
-                        "name": "Rust"
-                    }
-                ]
-            },
-            "name": "ruff",
-            "nameWithOwner": "astral-sh/ruff",
-            "owner": {
-                "isVerified": true,
-                "login": "astral-sh"
-            }
-        },
-        "astral-sh/ruff-action": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "ruff-action",
-            "nameWithOwner": "astral-sh/ruff-action",
-            "owner": {
-                "isVerified": true,
-                "login": "astral-sh"
             }
         },
         "astral-sh/setup-uv": {
@@ -2422,21 +2312,6 @@
                 "login": "certik"
             }
         },
-        "cf-natali/ntplib": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "ntplib",
-            "nameWithOwner": "cf-natali/ntplib",
-            "owner": {
-                "login": "cf-natali"
-            }
-        },
         "chaijs/chai": {
             "languages": {
                 "nodes": [
@@ -2653,6 +2528,22 @@
             },
             "name": "codecov-action",
             "nameWithOwner": "codecov/codecov-action",
+            "owner": {
+                "isVerified": false,
+                "login": "codecov"
+            }
+        },
+        "codecov/codecov-python": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "codecov-python",
+            "nameWithOwner": "codecov/codecov-python",
             "owner": {
                 "isVerified": false,
                 "login": "codecov"
@@ -2952,38 +2843,6 @@
             "nameWithOwner": "davisking/dlib",
             "owner": {
                 "login": "davisking"
-            }
-        },
-        "dbfixtures/mirakuru": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "mirakuru",
-            "nameWithOwner": "dbfixtures/mirakuru",
-            "owner": {
-                "isVerified": false,
-                "login": "dbfixtures"
-            }
-        },
-        "dbfixtures/pytest-postgresql": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "pytest-postgresql",
-            "nameWithOwner": "dbfixtures/pytest-postgresql",
-            "owner": {
-                "isVerified": false,
-                "login": "dbfixtures"
             }
         },
         "dcodeIO/long.js": {
@@ -4109,21 +3968,6 @@
                 "login": "fb55"
             }
         },
-        "felix-martel/pydanclick": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "pydanclick",
-            "nameWithOwner": "felix-martel/pydanclick",
-            "owner": {
-                "login": "felix-martel"
-            }
-        },
         "felixge/node-dateformat": {
             "languages": {
                 "nodes": [
@@ -4152,21 +3996,6 @@
             "nameWithOwner": "feross/ieee754",
             "owner": {
                 "login": "feross"
-            }
-        },
-        "fizyk/port-for": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "port-for",
-            "nameWithOwner": "fizyk/port-for",
-            "owner": {
-                "login": "fizyk"
             }
         },
         "fj128/pytest-depends": {
@@ -7252,22 +7081,6 @@
                 "login": "mkdocs"
             }
         },
-        "mkdocs/mkdocs-click": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "mkdocs-click",
-            "nameWithOwner": "mkdocs/mkdocs-click",
-            "owner": {
-                "isVerified": false,
-                "login": "mkdocs"
-            }
-        },
         "mkdocstrings/autorefs": {
             "languages": {
                 "nodes": [
@@ -7393,22 +7206,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "moment"
-            }
-        },
-        "more-itertools/more-itertools": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "more-itertools",
-            "nameWithOwner": "more-itertools/more-itertools",
-            "owner": {
-                "isVerified": false,
-                "login": "more-itertools"
             }
         },
         "motdotla/dotenv": {
@@ -7756,6 +7553,22 @@
                 "login": "nodelib"
             }
         },
+        "nose-devs/nose": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "nose",
+            "nameWithOwner": "nose-devs/nose",
+            "owner": {
+                "isVerified": false,
+                "login": "nose-devs"
+            }
+        },
         "npm/fs": {
             "languages": {
                 "nodes": [
@@ -7993,21 +7806,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "openkylin"
-            }
-        },
-        "oprypin/mkdocs-gen-files": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "mkdocs-gen-files",
-            "nameWithOwner": "oprypin/mkdocs-gen-files",
-            "owner": {
-                "login": "oprypin"
             }
         },
         "optuna/optuna": {
@@ -8403,6 +8201,21 @@
                 "login": "pola-rs"
             }
         },
+        "pradeepkumar35/Tamil-Learning-Game-For-Kids": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "Tamil-Learning-Game-For-Kids",
+            "nameWithOwner": "pradeepkumar35/Tamil-Learning-Game-For-Kids",
+            "owner": {
+                "login": "pradeepkumar35"
+            }
+        },
         "pradyunsg/furo": {
             "languages": {
                 "nodes": [
@@ -8491,22 +8304,6 @@
             "owner": {
                 "isVerified": true,
                 "login": "prettier"
-            }
-        },
-        "prometheus/client_python": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "client_python",
-            "nameWithOwner": "prometheus/client_python",
-            "owner": {
-                "isVerified": true,
-                "login": "prometheus"
             }
         },
         "prompt-toolkit/python-prompt-toolkit": {
@@ -9084,6 +8881,22 @@
                 "login": "pytest-dev"
             }
         },
+        "pytest-dev/pytest-qt": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "pytest-qt",
+            "nameWithOwner": "pytest-dev/pytest-qt",
+            "owner": {
+                "isVerified": false,
+                "login": "pytest-dev"
+            }
+        },
         "python-attrs/attrs": {
             "languages": {
                 "nodes": [
@@ -9130,22 +8943,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "python-cffi"
-            }
-        },
-        "python-greenlet/greenlet": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            },
-            "name": "greenlet",
-            "nameWithOwner": "python-greenlet/greenlet",
-            "owner": {
-                "isVerified": false,
-                "login": "python-greenlet"
             }
         },
         "python-hyper/h11": {
@@ -9906,21 +9703,6 @@
                 "login": "scottgonzalez"
             }
         },
-        "sdziallas/softsys-p2j": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "softsys-p2j",
-            "nameWithOwner": "sdziallas/softsys-p2j",
-            "owner": {
-                "login": "sdziallas"
-            }
-        },
         "sehmaschine/django-grappelli": {
             "languages": {
                 "nodes": [
@@ -10353,6 +10135,22 @@
                 "login": "sphinx-doc"
             }
         },
+        "spyder-ide/qtpy": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "qtpy",
+            "nameWithOwner": "spyder-ide/qtpy",
+            "owner": {
+                "isVerified": false,
+                "login": "spyder-ide"
+            }
+        },
         "spyoungtech/FreeSimpleGUI": {
             "languages": {
                 "nodes": [
@@ -10366,38 +10164,6 @@
             "nameWithOwner": "spyoungtech/FreeSimpleGUI",
             "owner": {
                 "login": "spyoungtech"
-            }
-        },
-        "sqlalchemy/alembic": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "alembic",
-            "nameWithOwner": "sqlalchemy/alembic",
-            "owner": {
-                "isVerified": true,
-                "login": "sqlalchemy"
-            }
-        },
-        "sqlalchemy/mako": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "mako",
-            "nameWithOwner": "sqlalchemy/mako",
-            "owner": {
-                "isVerified": true,
-                "login": "sqlalchemy"
             }
         },
         "sqlalchemy/sqlalchemy": {
@@ -10662,6 +10428,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "tensorflow"
+            }
+        },
+        "testing-cabal/mock": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "mock",
+            "nameWithOwner": "testing-cabal/mock",
+            "owner": {
+                "isVerified": false,
+                "login": "testing-cabal"
             }
         },
         "theskumar/python-dotenv": {
