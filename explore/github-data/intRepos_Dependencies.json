@@ -4098,6 +4098,168 @@
                 ]
             }
         },
+        "ORNL/DDStore": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "furo",
+                                    "repository": {
+                                        "nameWithOwner": "pradyunsg/furo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "myst-parser",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/MyST-Parser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cython",
+                                    "repository": {
+                                        "nameWithOwner": "cython/cython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mpi4py",
+                                    "repository": {
+                                        "nameWithOwner": "mpi4py/mpi4py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "wheel",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/wheel"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/deploy-pages",
+                                    "repository": {
+                                        "nameWithOwner": "actions/deploy-pages"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-pages-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-pages-artifact"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL/DEDFOAM": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -4903,372 +5065,6 @@
                     {
                         "color": "#f34b7d",
                         "name": "C++"
-                    }
-                ]
-            }
-        },
-        "ORNL/HydraGNN": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyarrow",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "requests",
-                                    "repository": {
-                                        "nameWithOwner": "psf/requests"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tqdm",
-                                    "repository": {
-                                        "nameWithOwner": "tqdm/tqdm"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "ase",
-                                    "repository": {
-                                        "nameWithOwner": "jfalken/aws_enumeration_lib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "black",
-                                    "repository": {
-                                        "nameWithOwner": "psf/black"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "deepspeed",
-                                    "repository": {
-                                        "nameWithOwner": "deepspeedai/DeepSpeed"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "e3nn",
-                                    "repository": {
-                                        "nameWithOwner": "e3nn/e3nn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "fairchem-core",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "h5py",
-                                    "repository": {
-                                        "nameWithOwner": "h5py/h5py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "matplotlib",
-                                    "repository": {
-                                        "nameWithOwner": "matplotlib/matplotlib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "mendeleev",
-                                    "repository": {
-                                        "nameWithOwner": "lmmentel/mendeleev"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "mpi4py",
-                                    "repository": {
-                                        "nameWithOwner": "mpi4py/mpi4py"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandapower",
-                                    "repository": {
-                                        "nameWithOwner": "e2nIEE/pandapower"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "psutil",
-                                    "repository": {
-                                        "nameWithOwner": "giampaolo/psutil"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "rdkit",
-                                    "repository": {
-                                        "nameWithOwner": "kuelumbus/rdkit-pypi"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-learn",
-                                    "repository": {
-                                        "nameWithOwner": "scikit-learn/scikit-learn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sympy",
-                                    "repository": {
-                                        "nameWithOwner": "sympy/sympy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tensorboard",
-                                    "repository": {
-                                        "nameWithOwner": "tensorflow/tensorboard"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch",
-                                    "repository": {
-                                        "nameWithOwner": "pytorch/pytorch"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch-cluster",
-                                    "repository": {
-                                        "nameWithOwner": "rusty1s/pytorch_cluster"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch-ema",
-                                    "repository": {
-                                        "nameWithOwner": "fadel/pytorch_ema"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch-geometric",
-                                    "repository": {
-                                        "nameWithOwner": "pyg-team/pytorch_geometric"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch-scatter",
-                                    "repository": {
-                                        "nameWithOwner": "rusty1s/pytorch_scatter"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch-sparse",
-                                    "repository": {
-                                        "nameWithOwner": "rusty1s/pytorch_sparse"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch-spline-conv",
-                                    "repository": {
-                                        "nameWithOwner": "rusty1s/pytorch_spline_conv"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torchmetrics",
-                                    "repository": {
-                                        "nameWithOwner": "Lightning-AI/torchmetrics"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torchvision",
-                                    "repository": {
-                                        "nameWithOwner": "pytorch/vision"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tqdm",
-                                    "repository": {
-                                        "nameWithOwner": "tqdm/tqdm"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "vesin",
-                                    "repository": {
-                                        "nameWithOwner": "Luthaf/vesin"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sympy",
-                                    "repository": {
-                                        "nameWithOwner": "sympy/sympy"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "fairchem-core",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "lmdb",
-                                    "repository": {
-                                        "nameWithOwner": "jnwatson/py-lmdb"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "orjson",
-                                    "repository": {
-                                        "nameWithOwner": "ijl/orjson"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
                     }
                 ]
             }
@@ -6694,6 +6490,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "ansicon",
+                                    "repository": {
+                                        "nameWithOwner": "Rockhopper-Technologies/ansicon"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "anyio",
                                     "repository": {
                                         "nameWithOwner": "agronholm/anyio"
@@ -6718,6 +6521,13 @@
                                     "packageName": "backrefs",
                                     "repository": {
                                         "nameWithOwner": "facelessuser/backrefs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "blessed",
+                                    "repository": {
+                                        "nameWithOwner": "jquast/blessed"
                                     }
                                 },
                                 {
@@ -6778,13 +6588,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "exceptiongroup",
-                                    "repository": {
-                                        "nameWithOwner": "python-trio/exceptiongroup"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "fastapi",
                                     "repository": {
                                         "nameWithOwner": "fastapi/fastapi"
@@ -6825,11 +6628,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "griffelib",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "h11",
                                     "repository": {
                                         "nameWithOwner": "python-hyper/h11"
@@ -6861,6 +6659,13 @@
                                     "packageName": "jinja2",
                                     "repository": {
                                         "nameWithOwner": "pallets/jinja"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jinxed",
+                                    "repository": {
+                                        "nameWithOwner": "Rockhopper-Technologies/jinxed"
                                     }
                                 },
                                 {
@@ -6973,13 +6778,6 @@
                                     "packageName": "mkdocs-material-extensions",
                                     "repository": {
                                         "nameWithOwner": "facelessuser/mkdocs-material-extensions"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "mkdocstrings",
-                                    "repository": {
-                                        "nameWithOwner": "mkdocstrings/mkdocstrings"
                                     }
                                 },
                                 {
@@ -7308,13 +7106,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "sphinx",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-doc/sphinx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "sphinxcontrib-applehelp",
                                     "repository": {
                                         "nameWithOwner": "sphinx-doc/sphinxcontrib-applehelp"
@@ -7339,6 +7130,13 @@
                                     "packageName": "sphinxcontrib-jsmath",
                                     "repository": {
                                         "nameWithOwner": "sphinx-doc/sphinxcontrib-jsmath"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-qthelp",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinxcontrib-qthelp"
                                     }
                                 }
                             ]
@@ -7537,13 +7335,6 @@
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "astral-sh/ruff-action",
-                                    "repository": {
-                                        "nameWithOwner": "astral-sh/ruff-action"
                                     }
                                 },
                                 {
@@ -15303,6 +15094,40 @@
                 ]
             }
         },
+        "ORNL/superneuroabm": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sagesim",
+                                    "repository": {
+                                        "nameWithOwner": "ORNL/SAGESim"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "ORNL/superneuromat": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -15766,6 +15591,96 @@
                     {
                         "color": "#DAE1C2",
                         "name": "SystemVerilog"
+                    }
+                ]
+            }
+        },
+        "ORNL/vivaldi": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "hyperopt",
+                                    "repository": {
+                                        "nameWithOwner": "hyperopt/hyperopt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "matplotlib",
+                                    "repository": {
+                                        "nameWithOwner": "matplotlib/matplotlib"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "psycopg2",
+                                    "repository": {
+                                        "nameWithOwner": "psycopg/psycopg2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-learn",
+                                    "repository": {
+                                        "nameWithOwner": "scikit-learn/scikit-learn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "seaborn",
+                                    "repository": {
+                                        "nameWithOwner": "mwaskom/seaborn"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "shap",
+                                    "repository": {
+                                        "nameWithOwner": "shap/shap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sqlalchemy",
+                                    "repository": {
+                                        "nameWithOwner": "sqlalchemy/sqlalchemy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "xgboost",
+                                    "repository": {
+                                        "nameWithOwner": "dmlc/xgboost"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -21589,35 +21504,35 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/conda-actions/pkg-install",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/conda-actions"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/conda-actions/pkg-remove",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/conda-actions"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/conda-actions/pkg-verify",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/conda-actions"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "neutrons/conda-actions/publish",
-                                    "repository": {
-                                        "nameWithOwner": "neutrons/conda-actions"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "neutrons/gh-actions/branch-mapper",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/gh-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/gh-actions/pkg-install",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/gh-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/gh-actions/pkg-remove",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/gh-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/gh-actions/pkg-verify",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/gh-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/gh-actions/publish",
                                     "repository": {
                                         "nameWithOwner": "neutrons/gh-actions"
                                     }
@@ -22925,6 +22840,128 @@
                 ]
             }
         },
+        "neutrons/inspired": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": []
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/download-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/download-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "eic/trigger-gitlab-ci",
+                                    "repository": {
+                                        "nameWithOwner": "eic/trigger-gitlab-ci"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/pkg-remove",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/pkg-verify",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/conda-actions/publish",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/conda-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "neutrons/gh-actions/branch-mapper",
+                                    "repository": {
+                                        "nameWithOwner": "neutrons/gh-actions"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peter-evans/commit-comment",
+                                    "repository": {
+                                        "nameWithOwner": "peter-evans/commit-comment"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "prefix-dev/setup-pixi",
+                                    "repository": {
+                                        "nameWithOwner": "prefix-dev/setup-pixi"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "peter-evans/create-pull-request",
+                                    "repository": {
+                                        "nameWithOwner": "peter-evans/create-pull-request"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "prefix-dev/setup-pixi",
+                                    "repository": {
+                                        "nameWithOwner": "prefix-dev/setup-pixi"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "neutrons/live_data_server": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -23909,8 +23946,8 @@
             "languages": {
                 "nodes": [
                     {
-                        "color": "#3572A5",
-                        "name": "Python"
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
                     }
                 ]
             }

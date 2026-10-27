@@ -4550,7 +4550,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 461205
+                        "size": 450477
                     },
                     {
                         "size": 11622
@@ -4567,7 +4567,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 472827
+                "totalSize": 462099
             }
         },
         "ORNL/CabanaPF": {
@@ -5196,7 +5196,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 81008
+                        "size": 81145
                     },
                     {
                         "size": 122
@@ -5213,7 +5213,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 81130
+                "totalSize": 81267
             }
         },
         "ORNL/DataFedEndpointBenchmark": {
@@ -6256,7 +6256,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 405018
+                        "size": 402826
                     },
                     {
                         "size": 1771
@@ -6294,7 +6294,7 @@
                     }
                 ],
                 "totalCount": 5,
-                "totalSize": 409606
+                "totalSize": 407414
             }
         },
         "ORNL/OpenSHMEM_Tutorial": {
@@ -8686,10 +8686,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2819714
+                        "size": 2886332
                     },
                     {
-                        "size": 821927
+                        "size": 822228
                     },
                     {
                         "size": 76926
@@ -8710,7 +8710,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 3718567
+                "totalSize": 3785486
             }
         },
         "ORNL/mcr-container-tools": {
@@ -9779,10 +9779,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 337919
+                        "size": 338531
                     },
                     {
-                        "size": 44437
+                        "size": 320787
                     }
                 ],
                 "nodes": [
@@ -9796,7 +9796,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 382356
+                "totalSize": 659318
             }
         },
         "ORNL/syclreduce": {
@@ -10030,10 +10030,10 @@
                         "size": 20651950
                     },
                     {
-                        "size": 5981027
+                        "size": 5981975
                     },
                     {
-                        "size": 1143122
+                        "size": 1148662
                     },
                     {
                         "size": 655486
@@ -10198,7 +10198,7 @@
                     }
                 ],
                 "totalCount": 24,
-                "totalSize": 29617588
+                "totalSize": 29624076
             }
         },
         "adamantine-sim/adamantine": {
@@ -10271,13 +10271,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11496954
+                        "size": 11527933
                     },
                     {
-                        "size": 267284
+                        "size": 268184
                     },
                     {
-                        "size": 262810
+                        "size": 262896
                     },
                     {
                         "size": 187367
@@ -10330,7 +10330,7 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 12304720
+                "totalSize": 12336685
             }
         },
         "gshs-ornl/choppy": {
@@ -10552,10 +10552,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11872932
+                        "size": 11903503
                     },
                     {
-                        "size": 348702
+                        "size": 349316
                     },
                     {
                         "size": 66840
@@ -10632,7 +10632,7 @@
                     }
                 ],
                 "totalCount": 11,
-                "totalSize": 12403953
+                "totalSize": 12435138
             }
         },
         "mcvine/McVineGPU": {
@@ -12141,7 +12141,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 46440
+                        "size": 58492
                     }
                 ],
                 "nodes": [
@@ -12151,7 +12151,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 46440
+                "totalSize": 58492
             }
         },
         "neutrons/Py4Circle": {
@@ -12206,7 +12206,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1725427
+                        "size": 1735832
                     },
                     {
                         "size": 2234
@@ -12223,7 +12223,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 1727661
+                "totalSize": 1738066
             }
         },
         "neutrons/PyVDrive": {
@@ -12668,7 +12668,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 832587
+                        "size": 840322
                     },
                     {
                         "size": 188116
@@ -12720,7 +12720,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 1183766
+                "totalSize": 1191501
             }
         },
         "neutrons/dgs-resolution": {
@@ -13027,19 +13027,23 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 488801
+                        "size": 1160551
+                    },
+                    {
+                        "size": 563248
                     },
                     {
                         "size": 1971
-                    },
-                    {
-                        "size": 469
                     },
                     {
                         "size": 250
                     }
                 ],
                 "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    },
                     {
                         "color": "#3572A5",
                         "name": "Python"
@@ -13049,16 +13053,12 @@
                         "name": "Shell"
                     },
                     {
-                        "color": "#DA5B0B",
-                        "name": "Jupyter Notebook"
-                    },
-                    {
                         "color": "#384d54",
                         "name": "Dockerfile"
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 491491
+                "totalSize": 1726020
             }
         },
         "neutrons/magnetism-tools": {
