@@ -700,6 +700,22 @@
                 "login": "PyCQA"
             }
         },
+        "PyCQA/isort": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "isort",
+            "nameWithOwner": "PyCQA/isort",
+            "owner": {
+                "isVerified": false,
+                "login": "PyCQA"
+            }
+        },
         "PyGithub/PyGithub": {
             "languages": {
                 "nodes": [
@@ -3832,38 +3848,6 @@
                 "login": "expressjs"
             }
         },
-        "facebook/docusaurus": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "docusaurus",
-            "nameWithOwner": "facebook/docusaurus",
-            "owner": {
-                "isVerified": true,
-                "login": "facebook"
-            }
-        },
-        "facebook/prop-types": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "prop-types",
-            "nameWithOwner": "facebook/prop-types",
-            "owner": {
-                "isVerified": true,
-                "login": "facebook"
-            }
-        },
         "facebookresearch/fairscale": {
             "languages": {
                 "nodes": [
@@ -4261,6 +4245,21 @@
             "owner": {
                 "isVerified": false,
                 "login": "gafusion"
+            }
+        },
+        "gajus/eslint-plugin-jsdoc": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-plugin-jsdoc",
+            "nameWithOwner": "gajus/eslint-plugin-jsdoc",
+            "owner": {
+                "login": "gajus"
             }
         },
         "geoalchemy/geoalchemy": {
@@ -6889,6 +6888,38 @@
             "owner": {
                 "isVerified": true,
                 "login": "mdx-js"
+            }
+        },
+        "meta/docusaurus": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "docusaurus",
+            "nameWithOwner": "meta/docusaurus",
+            "owner": {
+                "isVerified": true,
+                "login": "meta"
+            }
+        },
+        "meta/prop-types": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "prop-types",
+            "nameWithOwner": "meta/prop-types",
+            "owner": {
+                "isVerified": true,
+                "login": "meta"
             }
         },
         "mgaitan/sphinxcontrib-mermaid": {
@@ -11009,6 +11040,22 @@
             "nameWithOwner": "verigak/colors",
             "owner": {
                 "login": "verigak"
+            }
+        },
+        "vuejs/eslint-plugin-vue": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "eslint-plugin-vue",
+            "nameWithOwner": "vuejs/eslint-plugin-vue",
+            "owner": {
+                "isVerified": true,
+                "login": "vuejs"
             }
         },
         "vylor/geocube": {
