@@ -167,7 +167,7 @@ function renderSingleRepoHTML(repo, pulls, issues) {
     <p class="stats text-center">
       <a href="${repo.url}"> <span class="fa fa-github"></span>GitHub Page </a>
 
-      <a href="${repo.url}/stargazers"> <span class="fa fa-star"></span>Stargazers : ${repo.stargazerCount} </a>
+      <a href="${repo.url}/stargazers"> <span class="fa fa-star"></span>Stargazers : ${repo.stargazers.totalCount} </a>
 
       <a href="${repo.url}/network"> <span class="fa fa-code-fork"></span>Forks : ${repo.forks.totalCount} </a>
 
@@ -197,7 +197,7 @@ function renderSingleRepoHTML(repo, pulls, issues) {
       <br />
       <svg class="repoCreationHistory"></svg>
       <br />
-      ${repo.stargazerCount ? '<svg class="repoStarHistory"></svg>' : ''}
+      ${repo.stargazers.totalCount ? '<svg class="repoStarHistory"></svg>' : ''}
       <br />
       ${repo.languages.totalCount ? '<svg class="languagePie"></svg>' : ''}
       ${repo.repositoryTopics.totalCount ? '<svg class="topicCloud"></svg>' : ''}
@@ -232,7 +232,7 @@ function renderSingleRepo(queryParam) {
         draw_line_repoCreationHistory('repoCreationHistory', queryParam);
         draw_pie_languages('languagePie', queryParam);
         draw_cloud_topics('topicCloud', queryParam);
-        if (repo.stargazerCount) {
+        if (repo.stargazers.totalCount) {
           draw_line_repoStarHistory('repoStarHistory', queryParam);
         }
         if (pulls) {
@@ -494,7 +494,7 @@ function setVisibleRepo(newValue, shouldPushState) {
                           category[count]['description'] = reposInfoObj[repo].description;
                           category[count]['ownerAvatar'] = reposInfoObj[repo].owner.avatarUrl;
                           category[count]['owner'] = reposInfoObj[repo].owner.login;
-                          category[count]['stars'] = reposInfoObj[repo].stargazerCount;
+                          category[count]['stars'] = reposInfoObj[repo].stargazers.totalCount;
                           category[count]['gitUrl'] = reposInfoObj[repo].url;
                           category[count]['homepageUrl'] = reposInfoObj[repo].homepageUrl;
                           if (reposInfoObj[repo].primaryLanguage) {
