@@ -21,4 +21,3 @@ draw_pie_language('languagePie');
 draw_cloud_topics('topicCloud');
 draw_sunburst_licenses('licenseSunburst');
 draw_pack_hierarchy('hierarchyPack');
-draw_line_repoStarHistory('repoStarHistoryChart');
