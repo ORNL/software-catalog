@@ -167,7 +167,7 @@ function renderSingleRepoHTML(repo, pulls, issues) {
     <p class="stats text-center">
       <a href="${repo.url}"> <span class="fa fa-github"></span>GitHub Page </a>
 
-      <a href="${repo.url}/stargazers"> <span class="fa fa-star"></span>Stargazers : ${repo.stargazers.totalCount} </a>
+      <a href="${repo.url}/stargazers"> <span class="fa fa-star"></span>Stargazers : ${repo.stargazerCount} </a>
 
       <a href="${repo.url}/network"> <span class="fa fa-code-fork"></span>Forks : ${repo.forks.totalCount} </a>
 
@@ -196,8 +196,6 @@ function renderSingleRepoHTML(repo, pulls, issues) {
       ${issues ? '<svg class="pieIssues"></svg>' : ''}
       <br />
       <svg class="repoCreationHistory"></svg>
-      <br />
-      ${repo.stargazers.totalCount ? '<svg class="repoStarHistory"></svg>' : ''}
       <br />
       ${repo.languages.totalCount ? '<svg class="languagePie"></svg>' : ''}
       ${repo.repositoryTopics.totalCount ? '<svg class="topicCloud"></svg>' : ''}
@@ -232,9 +230,6 @@ function renderSingleRepo(queryParam) {
         draw_line_repoCreationHistory('repoCreationHistory', queryParam);
         draw_pie_languages('languagePie', queryParam);
         draw_cloud_topics('topicCloud', queryParam);
-        if (repo.stargazers.totalCount) {
-          draw_line_repoStarHistory('repoStarHistory', queryParam);
-        }
         if (pulls) {
           draw_pie_repoPulls('piePulls', queryParam);
         }
@@ -378,7 +373,7 @@ function showSingleRepo() {
  * User has selected a visible repository. If user selects empty repository, render category list instead.
  *
  * @param {string} newValue the next repo to change
- * @param {boolean} shouldPushState Set to true the first time the user navigates to the catalog, or navigates from history. 
+ * @param {boolean} shouldPushState Set to true the first time the user navigates to the catalog, or navigates from history.
  *   Leave as false or undefined if the user triggers a click event.
  *
  */
@@ -494,7 +489,7 @@ function setVisibleRepo(newValue, shouldPushState) {
                           category[count]['description'] = reposInfoObj[repo].description;
                           category[count]['ownerAvatar'] = reposInfoObj[repo].owner.avatarUrl;
                           category[count]['owner'] = reposInfoObj[repo].owner.login;
-                          category[count]['stars'] = reposInfoObj[repo].stargazers.totalCount;
+                          category[count]['stars'] = reposInfoObj[repo].stargazerCount;
                           category[count]['gitUrl'] = reposInfoObj[repo].url;
                           category[count]['homepageUrl'] = reposInfoObj[repo].homepageUrl;
                           if (reposInfoObj[repo].primaryLanguage) {

@@ -112,7 +112,7 @@ function draw_cluster(areaID) {
         name: repoAndOwner[1],
         owner: repoAndOwner[0],
         forks: repoObj['forks']['totalCount'],
-        stars: repoObj['stargazers']['totalCount'],
+        stars: repoObj['stargazerCount'],
         contributors: repoObj['mentionableUsers']['totalCount'],
       });
     }

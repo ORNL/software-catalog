@@ -17,11 +17,11 @@ function containsTopics(catTopics, repoTopics) {
 }
 
 /**
- * 
+ *
  * @param {Array<string>} logos full list of logos
  * @param {string} fileName name of logo we're looking for
- * @param {string} ownerAvatar path of org avatar 
- * @returns 
+ * @param {string} ownerAvatar path of org avatar
+ * @returns
  */
 function uniqueLogo(logos, fileName, ownerAvatar) {
   const file = logos.find((logo) => logo === fileName);
@@ -88,7 +88,7 @@ fetch(`${window.config.baseUrl}/catalog/category_info.json`)
                           reposInfoObj[repo].owner.avatarUrl,
                         );
                         category[count]['ownerLogin'] = reposInfoObj[repo].owner.login;
-                        category[count]['stars'] = reposInfoObj[repo].stargazers.totalCount;
+                        category[count]['stars'] = reposInfoObj[repo].stargazerCount;
                         category[count]['gitUrl'] = reposInfoObj[repo].url;
                         category[count]['homepageUrl'] = reposInfoObj[repo].homepageUrl;
                       }
