@@ -1067,10 +1067,10 @@
                 "totalCount": 0
             },
             "pullRequests_Merged": {
-                "totalCount": 9
+                "totalCount": 10
             },
             "pullRequests_Open": {
-                "totalCount": 0
+                "totalCount": 1
             },
             "repositoryTopics": {
                 "totalCount": 0
@@ -2056,7 +2056,7 @@
                 "totalCount": 0
             },
             "pullRequests_Merged": {
-                "totalCount": 9
+                "totalCount": 11
             },
             "pullRequests_Open": {
                 "totalCount": 0
@@ -3071,7 +3071,7 @@
                 "totalCount": 2
             },
             "pullRequests_Merged": {
-                "totalCount": 112
+                "totalCount": 114
             },
             "pullRequests_Open": {
                 "totalCount": 0
@@ -3225,10 +3225,10 @@
                 "totalCount": 0
             },
             "pullRequests_Merged": {
-                "totalCount": 11
+                "totalCount": 12
             },
             "pullRequests_Open": {
-                "totalCount": 1
+                "totalCount": 0
             },
             "repositoryTopics": {
                 "totalCount": 0
@@ -3435,7 +3435,7 @@
                 "totalCount": 0
             },
             "pullRequests_Merged": {
-                "totalCount": 6
+                "totalCount": 8
             },
             "pullRequests_Open": {
                 "totalCount": 0
@@ -7975,10 +7975,10 @@
             },
             "homepageUrl": "",
             "issues_Closed": {
-                "totalCount": 126
+                "totalCount": 127
             },
             "issues_Open": {
-                "totalCount": 69
+                "totalCount": 68
             },
             "languages": {
                 "totalCount": 4
@@ -8006,7 +8006,7 @@
                 "totalCount": 82
             },
             "pullRequests_Merged": {
-                "totalCount": 337
+                "totalCount": 338
             },
             "pullRequests_Open": {
                 "totalCount": 13
@@ -12577,7 +12577,7 @@
                 "totalCount": 0
             },
             "pullRequests_Merged": {
-                "totalCount": 28
+                "totalCount": 29
             },
             "pullRequests_Open": {
                 "totalCount": 1
@@ -14151,7 +14151,9 @@
         },
         "ORNL/stres-test": {
             "createdAt": "2026-03-20T12:39:13Z",
-            "defaultBranchRef": null,
+            "defaultBranchRef": {
+                "name": "main"
+            },
             "description": null,
             "forks": {
                 "totalCount": 0
@@ -14164,9 +14166,14 @@
                 "totalCount": 0
             },
             "languages": {
-                "totalCount": 0
+                "totalCount": 1
             },
-            "licenseInfo": null,
+            "licenseInfo": {
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "nickname": "Modified BSD License",
+                "spdxId": "BSD-3-Clause",
+                "url": "http://choosealicense.com/licenses/bsd-3-clause/"
+            },
             "mentionableUsers": {
                 "totalCount": 7
             },
@@ -14177,7 +14184,9 @@
                 "login": "ORNL"
             },
             "parent": null,
-            "primaryLanguage": null,
+            "primaryLanguage": {
+                "name": "Python"
+            },
             "pullRequests_Closed": {
                 "totalCount": 0
             },
@@ -14870,7 +14879,7 @@
             },
             "homepageUrl": "http://www.qmcpack.org",
             "issues_Closed": {
-                "totalCount": 1282
+                "totalCount": 1283
             },
             "issues_Open": {
                 "totalCount": 324
@@ -14901,7 +14910,7 @@
                 "totalCount": 321
             },
             "pullRequests_Merged": {
-                "totalCount": 4418
+                "totalCount": 4419
             },
             "pullRequests_Open": {
                 "totalCount": 34
@@ -14954,7 +14963,7 @@
                 "totalCount": 22
             },
             "pullRequests_Merged": {
-                "totalCount": 362
+                "totalCount": 363
             },
             "pullRequests_Open": {
                 "totalCount": 6
@@ -15007,10 +15016,10 @@
                 "totalCount": 109
             },
             "pullRequests_Merged": {
-                "totalCount": 2124
+                "totalCount": 2125
             },
             "pullRequests_Open": {
-                "totalCount": 13
+                "totalCount": 16
             },
             "repositoryTopics": {
                 "totalCount": 9
@@ -15518,7 +15527,7 @@
                 "totalCount": 171
             },
             "pullRequests_Merged": {
-                "totalCount": 1043
+                "totalCount": 1047
             },
             "pullRequests_Open": {
                 "totalCount": 10
@@ -15571,10 +15580,10 @@
                 "totalCount": 813
             },
             "pullRequests_Merged": {
-                "totalCount": 5402
+                "totalCount": 5404
             },
             "pullRequests_Open": {
-                "totalCount": 116
+                "totalCount": 114
             },
             "repositoryTopics": {
                 "totalCount": 7
@@ -17850,10 +17859,10 @@
             },
             "homepageUrl": "https://neutrons-pyrs.readthedocs.io/en/latest/index.html",
             "issues_Closed": {
-                "totalCount": 358
+                "totalCount": 360
             },
             "issues_Open": {
-                "totalCount": 19
+                "totalCount": 18
             },
             "languages": {
                 "totalCount": 2
@@ -17881,10 +17890,10 @@
                 "totalCount": 53
             },
             "pullRequests_Merged": {
-                "totalCount": 612
+                "totalCount": 614
             },
             "pullRequests_Open": {
-                "totalCount": 2
+                "totalCount": 3
             },
             "repositoryTopics": {
                 "totalCount": 0
@@ -18949,7 +18958,7 @@
                 "totalCount": 161
             },
             "pullRequests_Open": {
-                "totalCount": 2
+                "totalCount": 3
             },
             "repositoryTopics": {
                 "totalCount": 0
@@ -20612,10 +20621,10 @@
             },
             "homepageUrl": "https://usansred.readthedocs.io/",
             "issues_Closed": {
-                "totalCount": 2
+                "totalCount": 3
             },
             "issues_Open": {
-                "totalCount": 1
+                "totalCount": 0
             },
             "languages": {
                 "totalCount": 3
@@ -20643,10 +20652,10 @@
                 "totalCount": 17
             },
             "pullRequests_Merged": {
-                "totalCount": 77
+                "totalCount": 78
             },
             "pullRequests_Open": {
-                "totalCount": 3
+                "totalCount": 2
             },
             "repositoryTopics": {
                 "totalCount": 2

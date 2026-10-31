@@ -1277,7 +1277,7 @@
                         "size": 28299
                     },
                     {
-                        "size": 651
+                        "size": 687
                     }
                 ],
                 "nodes": [
@@ -1291,7 +1291,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 28950
+                "totalSize": 28986
             }
         },
         "ORNL-Fusion/LIBSTELL": {
@@ -2094,7 +2094,7 @@
                         "size": 106880
                     },
                     {
-                        "size": 72594
+                        "size": 72670
                     }
                 ],
                 "nodes": [
@@ -2112,7 +2112,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 1373855
+                "totalSize": 1373931
             }
         },
         "ORNL-Fusion/SOLPSxport": {
@@ -2198,7 +2198,7 @@
                         "size": 41656
                     },
                     {
-                        "size": 487
+                        "size": 528
                     }
                 ],
                 "nodes": [
@@ -2212,7 +2212,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 42143
+                "totalSize": 42184
             }
         },
         "ORNL-Fusion/Stellarator-Tools": {
@@ -2278,7 +2278,7 @@
                         "size": 102641
                     },
                     {
-                        "size": 684
+                        "size": 723
                     }
                 ],
                 "nodes": [
@@ -2292,7 +2292,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 103325
+                "totalSize": 103364
             }
         },
         "ORNL-Fusion/VMEC-V3FIT-Inputs": {
@@ -5385,7 +5385,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2998194
+                        "size": 3002756
                     },
                     {
                         "size": 87212
@@ -5416,7 +5416,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 3092198
+                "totalSize": 3096760
             }
         },
         "ORNL/HPDM-STD205": {
@@ -8693,10 +8693,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2901122
+                        "size": 2902461
                     },
                     {
-                        "size": 828934
+                        "size": 828857
                     },
                     {
                         "size": 76926
@@ -8717,7 +8717,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 3806982
+                "totalSize": 3808244
             }
         },
         "ORNL/mcr-container-tools": {
@@ -9634,10 +9634,19 @@
         },
         "ORNL/stres-test": {
             "languages": {
-                "edges": [],
-                "nodes": [],
-                "totalCount": 0,
-                "totalSize": 0
+                "edges": [
+                    {
+                        "size": 510528
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ],
+                "totalCount": 1,
+                "totalSize": 510528
             }
         },
         "ORNL/sundials": {
@@ -10034,7 +10043,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 20737733
+                        "size": 20740425
                     },
                     {
                         "size": 5984328
@@ -10205,14 +10214,14 @@
                     }
                 ],
                 "totalCount": 24,
-                "totalSize": 29728823
+                "totalSize": 29731515
             }
         },
         "adamantine-sim/adamantine": {
             "languages": {
                 "edges": [
                     {
-                        "size": 1133039
+                        "size": 1140459
                     },
                     {
                         "size": 17576
@@ -10271,14 +10280,14 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 1192195
+                "totalSize": 1199615
             }
         },
         "celeritas-project/celeritas": {
             "languages": {
                 "edges": [
                     {
-                        "size": 11563522
+                        "size": 11565102
                     },
                     {
                         "size": 269315
@@ -10337,7 +10346,7 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 12374533
+                "totalSize": 12376113
             }
         },
         "gshs-ornl/choppy": {
@@ -10559,10 +10568,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11916966
+                        "size": 11917498
                     },
                     {
-                        "size": 349363
+                        "size": 349795
                     },
                     {
                         "size": 66840
@@ -10574,7 +10583,7 @@
                         "size": 36331
                     },
                     {
-                        "size": 15093
+                        "size": 16612
                     },
                     {
                         "size": 5735
@@ -10639,7 +10648,7 @@
                     }
                 ],
                 "totalCount": 11,
-                "totalSize": 12448672
+                "totalSize": 12451155
             }
         },
         "mcvine/McVineGPU": {

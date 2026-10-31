@@ -1427,22 +1427,6 @@
                 "login": "actions"
             }
         },
-        "adobe/css-tools": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#663399",
-                        "name": "CSS"
-                    }
-                ]
-            },
-            "name": "css-tools",
-            "nameWithOwner": "adobe/css-tools",
-            "owner": {
-                "isVerified": true,
-                "login": "adobe"
-            }
-        },
         "advanced-security/filter-sarif": {
             "languages": {
                 "nodes": [
@@ -1815,6 +1799,22 @@
                 "login": "annotated-types"
             }
         },
+        "antfu-collective/install-pkg": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "install-pkg",
+            "nameWithOwner": "antfu-collective/install-pkg",
+            "owner": {
+                "isVerified": false,
+                "login": "antfu-collective"
+            }
+        },
         "apache/maven-compiler-plugin": {
             "languages": {
                 "nodes": [
@@ -1845,6 +1845,21 @@
             "owner": {
                 "isVerified": false,
                 "login": "arrow-py"
+            }
+        },
+        "asciidisco/grunt-qunit-istanbul": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "grunt-qunit-istanbul",
+            "nameWithOwner": "asciidisco/grunt-qunit-istanbul",
+            "owner": {
+                "login": "asciidisco"
             }
         },
         "asciidoctor/asciidoctor.js": {
@@ -2187,6 +2202,21 @@
             "nameWithOwner": "bolsote/isoduration",
             "owner": {
                 "login": "bolsote"
+            }
+        },
+        "brandonramirez/grunt-jsonlint": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "grunt-jsonlint",
+            "nameWithOwner": "brandonramirez/grunt-jsonlint",
+            "owner": {
+                "login": "brandonramirez"
             }
         },
         "breathe-doc/breathe": {
@@ -4233,21 +4263,6 @@
                 "login": "gafusion"
             }
         },
-        "gajus/eslint-plugin-jsdoc": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "eslint-plugin-jsdoc",
-            "nameWithOwner": "gajus/eslint-plugin-jsdoc",
-            "owner": {
-                "login": "gajus"
-            }
-        },
         "geoalchemy/geoalchemy": {
             "languages": {
                 "nodes": [
@@ -4580,6 +4595,22 @@
                 "login": "gruntjs"
             }
         },
+        "gruntjs/grunt-contrib-connect": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "grunt-contrib-connect",
+            "nameWithOwner": "gruntjs/grunt-contrib-connect",
+            "owner": {
+                "isVerified": false,
+                "login": "gruntjs"
+            }
+        },
         "gruntjs/grunt-contrib-copy": {
             "languages": {
                 "nodes": [
@@ -4655,6 +4686,22 @@
                 "login": "gruntjs"
             }
         },
+        "gruntjs/grunt-contrib-qunit": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "grunt-contrib-qunit",
+            "nameWithOwner": "gruntjs/grunt-contrib-qunit",
+            "owner": {
+                "isVerified": false,
+                "login": "gruntjs"
+            }
+        },
         "gruntjs/grunt-contrib-requirejs": {
             "languages": {
                 "nodes": [
@@ -4682,6 +4729,22 @@
             },
             "name": "grunt-contrib-uglify",
             "nameWithOwner": "gruntjs/grunt-contrib-uglify",
+            "owner": {
+                "isVerified": false,
+                "login": "gruntjs"
+            }
+        },
+        "gruntjs/grunt-contrib-watch": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "grunt-contrib-watch",
+            "nameWithOwner": "gruntjs/grunt-contrib-watch",
             "owner": {
                 "isVerified": false,
                 "login": "gruntjs"
@@ -5762,6 +5825,22 @@
             "nameWithOwner": "jridgewell/sourcemaps",
             "owner": {
                 "login": "jridgewell"
+            }
+        },
+        "jscs-dev/grunt-jscs": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "grunt-jscs",
+            "nameWithOwner": "jscs-dev/grunt-jscs",
+            "owner": {
+                "isVerified": false,
+                "login": "jscs-dev"
             }
         },
         "jsdom/abab": {
@@ -8154,6 +8233,21 @@
             "owner": {
                 "isVerified": false,
                 "login": "pika"
+            }
+        },
+        "pimterry/grunt-coveralls": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "grunt-coveralls",
+            "nameWithOwner": "pimterry/grunt-coveralls",
+            "owner": {
+                "login": "pimterry"
             }
         },
         "planttheidea/fast-copy": {
@@ -10963,22 +11057,6 @@
             "nameWithOwner": "verigak/colors",
             "owner": {
                 "login": "verigak"
-            }
-        },
-        "vuejs/eslint-plugin-vue": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "eslint-plugin-vue",
-            "nameWithOwner": "vuejs/eslint-plugin-vue",
-            "owner": {
-                "isVerified": true,
-                "login": "vuejs"
             }
         },
         "vylor/geocube": {
