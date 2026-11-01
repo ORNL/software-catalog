@@ -1799,22 +1799,6 @@
                 "login": "annotated-types"
             }
         },
-        "antfu-collective/install-pkg": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "install-pkg",
-            "nameWithOwner": "antfu-collective/install-pkg",
-            "owner": {
-                "isVerified": false,
-                "login": "antfu-collective"
-            }
-        },
         "apache/maven-compiler-plugin": {
             "languages": {
                 "nodes": [
@@ -1971,6 +1955,54 @@
                 "login": "awalsh128"
             }
         },
+        "aws/aws-sdk-js-crypto-helpers": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "aws-sdk-js-crypto-helpers",
+            "nameWithOwner": "aws/aws-sdk-js-crypto-helpers",
+            "owner": {
+                "isVerified": true,
+                "login": "aws"
+            }
+        },
+        "aws/aws-sdk-js-v3": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "aws-sdk-js-v3",
+            "nameWithOwner": "aws/aws-sdk-js-v3",
+            "owner": {
+                "isVerified": true,
+                "login": "aws"
+            }
+        },
+        "awslabs/aws-lambda-invoke-store": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "aws-lambda-invoke-store",
+            "nameWithOwner": "awslabs/aws-lambda-invoke-store",
+            "owner": {
+                "isVerified": true,
+                "login": "awslabs"
+            }
+        },
         "babel/babel": {
             "languages": {
                 "nodes": [
@@ -2032,6 +2064,21 @@
             "nameWithOwner": "bastikr/boolean.py",
             "owner": {
                 "login": "bastikr"
+            }
+        },
+        "bcoe/v8-coverage": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "v8-coverage",
+            "nameWithOwner": "bcoe/v8-coverage",
+            "owner": {
+                "login": "bcoe"
             }
         },
         "beatgammit/base64-js": {
@@ -3720,6 +3767,38 @@
                 "login": "eslint-community"
             }
         },
+        "eslint-community/eslint-utils": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-utils",
+            "nameWithOwner": "eslint-community/eslint-utils",
+            "owner": {
+                "isVerified": false,
+                "login": "eslint-community"
+            }
+        },
+        "eslint-community/regexpp": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "regexpp",
+            "nameWithOwner": "eslint-community/regexpp",
+            "owner": {
+                "isVerified": false,
+                "login": "eslint-community"
+            }
+        },
         "eslint/eslint": {
             "languages": {
                 "nodes": [
@@ -3731,6 +3810,22 @@
             },
             "name": "eslint",
             "nameWithOwner": "eslint/eslint",
+            "owner": {
+                "isVerified": true,
+                "login": "eslint"
+            }
+        },
+        "eslint/eslintrc": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslintrc",
+            "nameWithOwner": "eslint/eslintrc",
             "owner": {
                 "isVerified": true,
                 "login": "eslint"
@@ -4261,6 +4356,21 @@
             "owner": {
                 "isVerified": false,
                 "login": "gafusion"
+            }
+        },
+        "gajus/eslint-plugin-jsdoc": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "eslint-plugin-jsdoc",
+            "nameWithOwner": "gajus/eslint-plugin-jsdoc",
+            "owner": {
+                "login": "gajus"
             }
         },
         "geoalchemy/geoalchemy": {
@@ -5002,6 +5112,54 @@
                 "login": "hukkin"
             }
         },
+        "humanwhocodes/config-array": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "config-array",
+            "nameWithOwner": "humanwhocodes/config-array",
+            "owner": {
+                "isVerified": false,
+                "login": "humanwhocodes"
+            }
+        },
+        "humanwhocodes/module-importer": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "module-importer",
+            "nameWithOwner": "humanwhocodes/module-importer",
+            "owner": {
+                "isVerified": false,
+                "login": "humanwhocodes"
+            }
+        },
+        "humanwhocodes/object-schema": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "object-schema",
+            "nameWithOwner": "humanwhocodes/object-schema",
+            "owner": {
+                "isVerified": false,
+                "login": "humanwhocodes"
+            }
+        },
         "hynek/argon2-cffi-bindings": {
             "languages": {
                 "nodes": [
@@ -5363,6 +5521,38 @@
                 "login": "isomorphic-git"
             }
         },
+        "istanbuljs/load-nyc-config": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "load-nyc-config",
+            "nameWithOwner": "istanbuljs/load-nyc-config",
+            "owner": {
+                "isVerified": false,
+                "login": "istanbuljs"
+            }
+        },
+        "istanbuljs/schema": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "schema",
+            "nameWithOwner": "istanbuljs/schema",
+            "owner": {
+                "isVerified": false,
+                "login": "istanbuljs"
+            }
+        },
         "jakevdp/ipywidgets-static": {
             "languages": {
                 "nodes": [
@@ -5572,6 +5762,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "jawah"
+            }
+        },
+        "jestjs/jest": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "jest",
+            "nameWithOwner": "jestjs/jest",
+            "owner": {
+                "isVerified": false,
+                "login": "jestjs"
             }
         },
         "jfalken/aws_enumeration_lib": {
@@ -7600,6 +7806,22 @@
             "nameWithOwner": "nipunn1313/mypy-protobuf",
             "owner": {
                 "login": "nipunn1313"
+            }
+        },
+        "nodable/val-parsers": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "val-parsers",
+            "nameWithOwner": "nodable/val-parsers",
+            "owner": {
+                "isVerified": false,
+                "login": "nodable"
             }
         },
         "nodeca/argparse": {
@@ -10033,6 +10255,21 @@
                 "login": "shouldjs"
             }
         },
+        "sinclairzx81/sinclair-typebox": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "sinclair-typebox",
+            "nameWithOwner": "sinclairzx81/sinclair-typebox",
+            "owner": {
+                "login": "sinclairzx81"
+            }
+        },
         "sindresorhus/aggregate-error": {
             "languages": {
                 "nodes": [
@@ -10108,6 +10345,38 @@
                 "login": "sindresorhus"
             }
         },
+        "sinonjs/commons": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "commons",
+            "nameWithOwner": "sinonjs/commons",
+            "owner": {
+                "isVerified": false,
+                "login": "sinonjs"
+            }
+        },
+        "sinonjs/fake-timers": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "fake-timers",
+            "nameWithOwner": "sinonjs/fake-timers",
+            "owner": {
+                "isVerified": false,
+                "login": "sinonjs"
+            }
+        },
         "slsa-framework/slsa-github-generator": {
             "languages": {
                 "nodes": [
@@ -10122,6 +10391,22 @@
             "owner": {
                 "isVerified": true,
                 "login": "slsa-framework"
+            }
+        },
+        "smithy-lang/smithy-typescript": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "smithy-typescript",
+            "nameWithOwner": "smithy-lang/smithy-typescript",
+            "owner": {
+                "isVerified": false,
+                "login": "smithy-lang"
             }
         },
         "softprops/action-gh-release": {
@@ -11057,6 +11342,22 @@
             "nameWithOwner": "verigak/colors",
             "owner": {
                 "login": "verigak"
+            }
+        },
+        "vuejs/eslint-plugin-vue": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "eslint-plugin-vue",
+            "nameWithOwner": "vuejs/eslint-plugin-vue",
+            "owner": {
+                "isVerified": true,
+                "login": "vuejs"
             }
         },
         "vylor/geocube": {
