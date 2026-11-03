@@ -1721,10 +1721,52 @@
         "topics": null,
         "website": "https://ornl.github.io/ordflow/"
     },
+    "ORNL/oscar": {
+        "description": "OSCAR (Open Source Central Alarm Monitoring) \u2014 Oak Ridge National Laboratory radiation portal monitoring & central alarm station platform",
+        "name": "ORNL/oscar",
+        "topics": [
+            "ornl",
+            "oscar",
+            "radiation-detection",
+            "sensor-web",
+            "opensensorhub"
+        ],
+        "website": "https://github.com/ORNL/oscar"
+    },
+    "ORNL/oscar-regression": {
+        "description": "Automated end-to-end OSCAR regression, fault-injection, workflow, and performance test suite",
+        "name": "ORNL/oscar-regression",
+        "topics": null,
+        "website": "https://github.com/ORNL/oscar-regression"
+    },
     "ORNL/oscar-regression-suite": {
         "description": "Automated end-to-end OSCAR regression, fault-injection, workflow, and performance test suite",
         "name": "ORNL/oscar-regression-suite",
         "topics": null,
+        "website": null
+    },
+    "ORNL/oscar-viewer": {
+        "description": "Web-based operational viewer and alarm adjudication client for Oak Ridge National Laboratory's OSCAR platform",
+        "name": "ORNL/oscar-viewer",
+        "topics": [
+            "opensensorhub",
+            "ornl",
+            "oscar",
+            "radiation-detection",
+            "sensor-web"
+        ],
+        "website": null
+    },
+    "ORNL/osh-oakridge-modules": {
+        "description": "Oak Ridge National Laboratory OpenSensorHub drivers, services, tiered storage/media modules, and localized operator manuals for OSCAR",
+        "name": "ORNL/osh-oakridge-modules",
+        "topics": [
+            "opensensorhub",
+            "ornl",
+            "oscar",
+            "radiation-detection",
+            "sensor-web"
+        ],
         "website": null
     },
     "ORNL/papyrus": {

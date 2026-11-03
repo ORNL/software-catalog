@@ -4964,10 +4964,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 205335
+                        "size": 217858
                     },
                     {
-                        "size": 120441
+                        "size": 121118
                     },
                     {
                         "size": 28578
@@ -4988,7 +4988,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 354354
+                "totalSize": 367554
             }
         },
         "ORNL/DEDFOAM": {
@@ -5385,7 +5385,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 3002756
+                        "size": 3010505
                     },
                     {
                         "size": 87212
@@ -5416,7 +5416,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 3096760
+                "totalSize": 3104509
             }
         },
         "ORNL/HPDM-STD205": {
@@ -5440,22 +5440,22 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 35736544
+                        "size": 36365913
                     },
                     {
-                        "size": 20208431
+                        "size": 20657053
                     },
                     {
-                        "size": 18032977
+                        "size": 18058201
                     },
                     {
-                        "size": 4593262
+                        "size": 4673442
                     },
                     {
                         "size": 759582
                     },
                     {
-                        "size": 410692
+                        "size": 423222
                     },
                     {
                         "size": 401391
@@ -5527,7 +5527,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 80549931
+                "totalSize": 81745856
             }
         },
         "ORNL/HydraGNN": {
@@ -6086,7 +6086,7 @@
                         "size": 543872
                     },
                     {
-                        "size": 310771
+                        "size": 311601
                     },
                     {
                         "size": 1041
@@ -6107,7 +6107,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 855684
+                "totalSize": 856514
             }
         },
         "ORNL/ORNL-HydraGNN-graph-generative-models": {
@@ -7054,7 +7054,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2578783
+                        "size": 2578715
                     },
                     {
                         "size": 511762
@@ -7066,7 +7066,7 @@
                         "size": 186069
                     },
                     {
-                        "size": 134232
+                        "size": 129470
                     },
                     {
                         "size": 24125
@@ -7141,7 +7141,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 3724432
+                "totalSize": 3719602
             }
         },
         "ORNL/TASQC": {
@@ -8909,6 +8909,82 @@
                 "totalSize": 38376
             }
         },
+        "ORNL/oscar": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 316117
+                    },
+                    {
+                        "size": 119609
+                    },
+                    {
+                        "size": 40147
+                    },
+                    {
+                        "size": 16209
+                    },
+                    {
+                        "size": 2871
+                    },
+                    {
+                        "size": 411
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    },
+                    {
+                        "color": "#012456",
+                        "name": "PowerShell"
+                    },
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    },
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    },
+                    {
+                        "color": "#C1F12E",
+                        "name": "Batchfile"
+                    },
+                    {
+                        "color": "#384d54",
+                        "name": "Dockerfile"
+                    }
+                ],
+                "totalCount": 6,
+                "totalSize": 495364
+            }
+        },
+        "ORNL/oscar-regression": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 870473
+                    },
+                    {
+                        "size": 267792
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    },
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    }
+                ],
+                "totalCount": 2,
+                "totalSize": 1138265
+            }
+        },
         "ORNL/oscar-regression-suite": {
             "languages": {
                 "edges": [
@@ -8931,6 +9007,103 @@
                 ],
                 "totalCount": 2,
                 "totalSize": 1138265
+            }
+        },
+        "ORNL/oscar-viewer": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 1226580
+                    },
+                    {
+                        "size": 10030
+                    },
+                    {
+                        "size": 2106
+                    },
+                    {
+                        "size": 829
+                    },
+                    {
+                        "size": 764
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    },
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    },
+                    {
+                        "color": "#663399",
+                        "name": "CSS"
+                    },
+                    {
+                        "color": "#e34c26",
+                        "name": "HTML"
+                    },
+                    {
+                        "color": "#012456",
+                        "name": "PowerShell"
+                    }
+                ],
+                "totalCount": 5,
+                "totalSize": 1240309
+            }
+        },
+        "ORNL/osh-oakridge-modules": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 8203629
+                    },
+                    {
+                        "size": 355717
+                    },
+                    {
+                        "size": 344461
+                    },
+                    {
+                        "size": 92533
+                    },
+                    {
+                        "size": 1230
+                    },
+                    {
+                        "size": 366
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    },
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    },
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
+                        "color": "#7355dd",
+                        "name": "C#"
+                    },
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    },
+                    {
+                        "color": "#C1F12E",
+                        "name": "Batchfile"
+                    }
+                ],
+                "totalCount": 6,
+                "totalSize": 8997936
             }
         },
         "ORNL/papyrus": {
@@ -10245,7 +10418,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1140459
+                        "size": 1143222
                     },
                     {
                         "size": 17576
@@ -10304,20 +10477,20 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 1199615
+                "totalSize": 1202378
             }
         },
         "celeritas-project/celeritas": {
             "languages": {
                 "edges": [
                     {
-                        "size": 11565102
+                        "size": 11568595
                     },
                     {
-                        "size": 269315
+                        "size": 271882
                     },
                     {
-                        "size": 264020
+                        "size": 264178
                     },
                     {
                         "size": 187371
@@ -10370,7 +10543,7 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 12376113
+                "totalSize": 12382331
             }
         },
         "gshs-ornl/choppy": {
@@ -10592,7 +10765,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11917498
+                        "size": 11917574
                     },
                     {
                         "size": 349795
@@ -10672,7 +10845,7 @@
                     }
                 ],
                 "totalCount": 11,
-                "totalSize": 12451155
+                "totalSize": 12451231
             }
         },
         "mcvine/McVineGPU": {
@@ -12455,7 +12628,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2074735
+                        "size": 2090743
                     },
                     {
                         "size": 416879
@@ -12500,7 +12673,7 @@
                     }
                 ],
                 "totalCount": 6,
-                "totalSize": 2559736
+                "totalSize": 2575744
             }
         },
         "neutrons/WebAnalysis": {
@@ -12805,7 +12978,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 3469211
+                        "size": 3500894
                     },
                     {
                         "size": 397708
@@ -12829,7 +13002,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 3871520
+                "totalSize": 3903203
             }
         },
         "neutrons/finddata": {
