@@ -3280,6 +3280,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v4.0.0.",
+                        "publishedAt": "2026-11-03T16:09:41Z",
+                        "tagName": "v4.0.0"
+                    },
+                    {
                         "name": "",
                         "publishedAt": "2026-02-10T23:07:00Z",
                         "tagName": "v3.0.1"
@@ -3377,7 +3382,13 @@
         },
         "ORNL/oscar": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "Release v3.11.0",
+                        "publishedAt": "2026-11-03T02:49:00Z",
+                        "tagName": "v3.11.0"
+                    }
+                ]
             }
         },
         "ORNL/oscar-regression": {
@@ -5203,6 +5214,16 @@
         "neutrons/PyRS": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v2.0.1",
+                        "publishedAt": "2026-11-03T16:06:04Z",
+                        "tagName": "v2.0.1"
+                    },
+                    {
+                        "name": "v2.0.1rc2",
+                        "publishedAt": "2026-11-03T16:06:35Z",
+                        "tagName": "v2.0.1rc2"
+                    },
                     {
                         "name": "v1.8.0",
                         "publishedAt": "2026-02-03T20:20:31Z",
