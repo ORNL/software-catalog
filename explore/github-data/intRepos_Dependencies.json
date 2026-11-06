@@ -19271,40 +19271,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "actions/cache",
-                                    "repository": {
-                                        "nameWithOwner": "actions/cache"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/upload-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/upload-artifact"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "dmnemec/copy_file_to_another_repo_action",
-                                    "repository": {
-                                        "nameWithOwner": "dmnemec/copy_file_to_another_repo_action"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
                                     "packageName": "actions/checkout",
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
@@ -19569,40 +19535,6 @@
             },
             "languages": {
                 "nodes": []
-            }
-        },
-        "mcvine/dgsres": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "conda-incubator/setup-miniconda",
-                                    "repository": {
-                                        "nameWithOwner": "conda-incubator/setup-miniconda"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#DA5B0B",
-                        "name": "Jupyter Notebook"
-                    }
-                ]
             }
         },
         "mcvine/dgsres-test-data": {
@@ -24865,6 +24797,13 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "python-qpid-proton",
+                                    "repository": {
+                                        "nameWithOwner": "flaper87/test-python-qpid-proton"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "requests",
                                     "repository": {
                                         "nameWithOwner": "psf/requests"
@@ -26205,65 +26144,9 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "grunt",
+                                    "packageName": "express",
                                     "repository": {
-                                        "nameWithOwner": "gruntjs/grunt"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-cli",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-cli"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-copy",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-copy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-cssmin",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-cssmin"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-jshint",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-jshint"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-mincss",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-mincss"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-uglify",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-uglify"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "launchpad",
-                                    "repository": {
-                                        "nameWithOwner": "bitovi/launchpad"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "node-static",
-                                    "repository": {
-                                        "nameWithOwner": "cloudhead/node-static"
+                                        "nameWithOwner": "expressjs/express"
                                     }
                                 }
                             ]
