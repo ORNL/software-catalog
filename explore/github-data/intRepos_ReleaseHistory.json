@@ -1163,6 +1163,11 @@
                 ]
             }
         },
+        "ORNL/Camera-emulator": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL/CaptureFOAM": {
             "releases": {
                 "nodes": [
@@ -1694,6 +1699,11 @@
             }
         },
         "ORNL/MultiDistTorch": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "ORNL/NSDDSiteSim": {
             "releases": {
                 "nodes": []
             }
@@ -3395,7 +3405,7 @@
                 "nodes": [
                     {
                         "name": "Release v3.11.0",
-                        "publishedAt": "2026-11-06T01:27:20Z",
+                        "publishedAt": "2026-11-06T05:12:37Z",
                         "tagName": "v3.11.0"
                     }
                 ]
@@ -5779,6 +5789,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "3.12.1",
+                        "publishedAt": "2026-11-06T17:22:29Z",
+                        "tagName": "3.12.1"
+                    },
+                    {
                         "name": "3.12.0",
                         "publishedAt": "2026-10-19T18:55:24Z",
                         "tagName": "3.12.0"
@@ -7142,6 +7157,11 @@
         "neutrons/usansred": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v1.10.0rc1",
+                        "publishedAt": "2026-11-06T15:00:07Z",
+                        "tagName": "v1.10.0rc1"
+                    },
                     {
                         "name": "v1.9.0",
                         "publishedAt": "2026-09-28T11:44:02Z",
