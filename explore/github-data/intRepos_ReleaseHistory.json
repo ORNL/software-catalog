@@ -3404,7 +3404,7 @@
             "releases": {
                 "nodes": [
                     {
-                        "name": "Release v3.11.0 (Dev)",
+                        "name": "Release v3.11.0 (Amber)",
                         "publishedAt": "2026-11-08T16:05:40Z",
                         "tagName": "v3.11.0"
                     }
@@ -5228,7 +5228,13 @@
         },
         "neutrons/NeutronsStandard": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v1.0.0rc2",
+                        "publishedAt": "2026-11-09T19:33:05Z",
+                        "tagName": "v1.0.0rc2"
+                    }
+                ]
             }
         },
         "neutrons/Py4Circle": {
