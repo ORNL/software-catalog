@@ -490,6 +490,11 @@
                 "nodes": []
             }
         },
+        "ORNL-Fusion/SOLPS-hPIC-coupling": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL-Fusion/SOLPSxport": {
             "releases": {
                 "nodes": []
@@ -1368,6 +1373,11 @@
         "ORNL/DataFed": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v5.2.0",
+                        "publishedAt": "2026-11-12T13:49:41Z",
+                        "tagName": "v5.2.0"
+                    },
                     {
                         "name": "v5.1.2",
                         "publishedAt": "2026-04-06T12:16:50Z",
@@ -7127,6 +7137,26 @@
         "neutrons/subhkl": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "d_min fix",
+                        "publishedAt": "2026-11-13T01:00:11Z",
+                        "tagName": "1.5.4"
+                    },
+                    {
+                        "name": "1.5.3",
+                        "publishedAt": "2026-11-12T22:10:09Z",
+                        "tagName": "1.5.3"
+                    },
+                    {
+                        "name": "Fix IPTS selector glitch",
+                        "publishedAt": "2026-11-12T16:49:43Z",
+                        "tagName": "1.5.2"
+                    },
+                    {
+                        "name": "Indexing and UI improvements",
+                        "publishedAt": "2026-11-12T13:45:06Z",
+                        "tagName": "1.5.1"
+                    },
                     {
                         "name": "Finder-less Solve and new UI",
                         "publishedAt": "2026-11-10T18:43:44Z",
