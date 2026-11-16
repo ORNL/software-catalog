@@ -4608,635 +4608,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@apollo/client",
-                                    "repository": {
-                                        "nameWithOwner": "apollographql/apollo-client"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@headlessui/react",
-                                    "repository": {
-                                        "nameWithOwner": "tailwindlabs/headlessui"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@heroicons/react",
-                                    "repository": {
-                                        "nameWithOwner": "tailwindlabs/heroicons"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@nestjs/common",
-                                    "repository": {
-                                        "nameWithOwner": "nestjs/nest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@nestjs/config",
-                                    "repository": {
-                                        "nameWithOwner": "nestjs/config"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@nestjs/core",
-                                    "repository": {
-                                        "nameWithOwner": "nestjs/nest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@nestjs/graphql",
-                                    "repository": {
-                                        "nameWithOwner": "nestjs/graphql"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@nestjs/platform-express",
-                                    "repository": {
-                                        "nameWithOwner": "nestjs/nest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@pmmmwh/react-refresh-webpack-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "pmmmwh/react-refresh-webpack-plugin"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@relate/common",
-                                    "repository": {
-                                        "nameWithOwner": "neo4j-devtools/relate"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@relate/types",
-                                    "repository": {
-                                        "nameWithOwner": "neo4j-devtools/relate"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@relate/web",
-                                    "repository": {
-                                        "nameWithOwner": "neo4j-devtools/relate"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@sentry/electron",
-                                    "repository": {
-                                        "nameWithOwner": "getsentry/sentry-electron"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@sentry/react",
-                                    "repository": {
-                                        "nameWithOwner": "getsentry/sentry-javascript"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@tailwindcss/forms",
-                                    "repository": {
-                                        "nameWithOwner": "tailwindlabs/tailwindcss-forms"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@testing-library/jest-dom",
-                                    "repository": {
-                                        "nameWithOwner": "testing-library/jest-dom"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@testing-library/react",
-                                    "repository": {
-                                        "nameWithOwner": "testing-library/react-testing-library"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@trivago/prettier-plugin-sort-imports",
-                                    "repository": {
-                                        "nameWithOwner": "trivago/prettier-plugin-sort-imports"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/command-exists",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/detect-port",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/electron-devtools-installer",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/jest",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/node",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/react",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/react-dom",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/semver",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/supertest",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/tailwindcss",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/uuid",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@typescript-eslint/eslint-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "typescript-eslint/typescript-eslint"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@typescript-eslint/parser",
-                                    "repository": {
-                                        "nameWithOwner": "typescript-eslint/typescript-eslint"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "apollo-server-core",
-                                    "repository": {
-                                        "nameWithOwner": "apollographql/apollo-server"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "autoprefixer",
-                                    "repository": {
-                                        "nameWithOwner": "postcss/autoprefixer"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "check-engine",
-                                    "repository": {
-                                        "nameWithOwner": "mohlsen/check-engine"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "class-validator",
-                                    "repository": {
-                                        "nameWithOwner": "typestack/class-validator"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "command-exists",
-                                    "repository": {
-                                        "nameWithOwner": "mathisonian/command-exists"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "cross-env",
-                                    "repository": {
-                                        "nameWithOwner": "kentcdodds/cross-env"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "css-loader",
-                                    "repository": {
-                                        "nameWithOwner": "webpack/css-loader"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "detect-port",
-                                    "repository": {
-                                        "nameWithOwner": "node-modules/detect-port"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "electron",
-                                    "repository": {
-                                        "nameWithOwner": "electron/electron"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "electron-builder",
-                                    "repository": {
-                                        "nameWithOwner": "electron-userland/electron-builder"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "electron-devtools-installer",
-                                    "repository": {
-                                        "nameWithOwner": "MarshallOfSound/electron-devtools-installer"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "electron-log",
-                                    "repository": {
-                                        "nameWithOwner": "megahertz/electron-log"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eslint",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/eslint"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eslint-config-prettier",
-                                    "repository": {
-                                        "nameWithOwner": "prettier/eslint-config-prettier"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eslint-plugin-graphql",
-                                    "repository": {
-                                        "nameWithOwner": "apollographql/eslint-plugin-graphql"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eslint-plugin-prettier",
-                                    "repository": {
-                                        "nameWithOwner": "prettier/eslint-plugin-prettier"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eslint-plugin-react",
-                                    "repository": {
-                                        "nameWithOwner": "jsx-eslint/eslint-plugin-react"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eslint-plugin-react-hooks",
-                                    "repository": {
-                                        "nameWithOwner": "react/react"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eslint-plugin-tailwindcss",
-                                    "repository": {
-                                        "nameWithOwner": "francoismassart/eslint-plugin-tailwindcss"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "graphql",
-                                    "repository": {
-                                        "nameWithOwner": "graphql/graphql-js"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "graphql-subscriptions",
-                                    "repository": {
-                                        "nameWithOwner": "apollographql/graphql-subscriptions"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "graphql-type-json",
-                                    "repository": {
-                                        "nameWithOwner": "taion/graphql-type-json"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "html-webpack-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "jantimon/html-webpack-plugin"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "husky",
-                                    "repository": {
-                                        "nameWithOwner": "typicode/husky"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "jest",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "keytar",
-                                    "repository": {
-                                        "nameWithOwner": "atom/node-keytar"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "lint-staged",
-                                    "repository": {
-                                        "nameWithOwner": "lint-staged/lint-staged"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "mini-css-extract-plugin",
-                                    "repository": {
-                                        "nameWithOwner": "webpack/mini-css-extract-plugin"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "neo4j-driver-lite",
-                                    "repository": {
-                                        "nameWithOwner": "neo4j/neo4j-javascript-driver"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "node-loader",
-                                    "repository": {
-                                        "nameWithOwner": "webpack-contrib/node-loader"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "npm-run-all",
-                                    "repository": {
-                                        "nameWithOwner": "mysticatea/npm-run-all"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "playwright",
-                                    "repository": {
-                                        "nameWithOwner": "microsoft/playwright"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "postcss-cli",
-                                    "repository": {
-                                        "nameWithOwner": "postcss/postcss-cli"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "postcss-loader",
-                                    "repository": {
-                                        "nameWithOwner": "webpack/postcss-loader"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "prettier",
-                                    "repository": {
-                                        "nameWithOwner": "prettier/prettier"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "prettier-plugin-tailwind-css",
-                                    "repository": {
-                                        "nameWithOwner": "marcosvega91/prettier-tailwind"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "react",
-                                    "repository": {
-                                        "nameWithOwner": "react/react"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "react-dom",
-                                    "repository": {
-                                        "nameWithOwner": "react/react"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "react-refresh",
-                                    "repository": {
-                                        "nameWithOwner": "react/react"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "react-refresh-typescript",
-                                    "repository": {
-                                        "nameWithOwner": "Jack-Works/react-refresh-transformer"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "react-toastify",
-                                    "repository": {
-                                        "nameWithOwner": "fkhadra/react-toastify"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "reflect-metadata",
-                                    "repository": {
-                                        "nameWithOwner": "microsoft/reflect-metadata"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "rxjs",
-                                    "repository": {
-                                        "nameWithOwner": "ReactiveX/rxjs"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "semver",
-                                    "repository": {
-                                        "nameWithOwner": "npm/node-semver"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "style-loader",
-                                    "repository": {
-                                        "nameWithOwner": "webpack/style-loader"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "subscriptions-transport-ws",
-                                    "repository": {
-                                        "nameWithOwner": "apollographql/subscriptions-transport-ws"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "supertest",
-                                    "repository": {
-                                        "nameWithOwner": "forwardemail/supertest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "systeminformation",
-                                    "repository": {
-                                        "nameWithOwner": "sebhildebrandt/systeminformation"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "tailwindcss",
-                                    "repository": {
-                                        "nameWithOwner": "tailwindlabs/tailwindcss"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "ts-jest",
-                                    "repository": {
-                                        "nameWithOwner": "kulshekhar/ts-jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "ts-loader",
-                                    "repository": {
-                                        "nameWithOwner": "TypeStrong/ts-loader"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "typescript",
-                                    "repository": {
-                                        "nameWithOwner": "microsoft/TypeScript"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "uuid",
-                                    "repository": {
-                                        "nameWithOwner": "uuidjs/uuid"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "webpack",
-                                    "repository": {
-                                        "nameWithOwner": "webpack/webpack"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "webpack-cli",
-                                    "repository": {
-                                        "nameWithOwner": "webpack/webpack-cli"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "webpack-config-utils",
-                                    "repository": {
-                                        "nameWithOwner": "kentcdodds/webpack-config-utils"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "webpack-dev-server",
-                                    "repository": {
-                                        "nameWithOwner": "webpack/webpack-dev-server"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "webpack-node-externals",
-                                    "repository": {
-                                        "nameWithOwner": "liady/webpack-node-externals"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
                                     "packageName": "@aashutoshrathi/word-wrap",
                                     "repository": {
                                         "nameWithOwner": "jonschlinkert/word-wrap"
@@ -5937,6 +5308,229 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@chakra-ui/react",
+                                    "repository": {
+                                        "nameWithOwner": "chakra-ui/chakra-ui"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emotion/react",
+                                    "repository": {
+                                        "nameWithOwner": "emotion-js/emotion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@emotion/styled",
+                                    "repository": {
+                                        "nameWithOwner": "emotion-js/emotion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/node",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@types/react",
+                                    "repository": {
+                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@typescript-eslint/eslint-plugin",
+                                    "repository": {
+                                        "nameWithOwner": "typescript-eslint/typescript-eslint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "@typescript-eslint/parser",
+                                    "repository": {
+                                        "nameWithOwner": "typescript-eslint/typescript-eslint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "bootstrap",
+                                    "repository": {
+                                        "nameWithOwner": "twbs/bootstrap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chart.js",
+                                    "repository": {
+                                        "nameWithOwner": "chartjs/Chart.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chartjs-adapter-date-fns",
+                                    "repository": {
+                                        "nameWithOwner": "chartjs/chartjs-adapter-date-fns"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chartjs-plugin-crosshair",
+                                    "repository": {
+                                        "nameWithOwner": "AbelHeinsbroek/chartjs-plugin-crosshair"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "chartjs-plugin-zoom",
+                                    "repository": {
+                                        "nameWithOwner": "chartjs/chartjs-plugin-zoom"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "date-fns",
+                                    "repository": {
+                                        "nameWithOwner": "date-fns/date-fns"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "eslint",
+                                    "repository": {
+                                        "nameWithOwner": "eslint/eslint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "eslint-config-next",
+                                    "repository": {
+                                        "nameWithOwner": "vercel/next.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "framer-motion",
+                                    "repository": {
+                                        "nameWithOwner": "motiondivision/motion"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "next",
+                                    "repository": {
+                                        "nameWithOwner": "vercel/next.js"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "papaparse",
+                                    "repository": {
+                                        "nameWithOwner": "mholt/PapaParse"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "prettier",
+                                    "repository": {
+                                        "nameWithOwner": "prettier/prettier"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "prop-types",
+                                    "repository": {
+                                        "nameWithOwner": "meta/prop-types"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react",
+                                    "repository": {
+                                        "nameWithOwner": "react/react"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-bootstrap",
+                                    "repository": {
+                                        "nameWithOwner": "react-bootstrap/react-bootstrap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-bootstrap-table-next",
+                                    "repository": {
+                                        "nameWithOwner": "react-bootstrap-table/react-bootstrap-table2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-bootstrap-table2-filter",
+                                    "repository": {
+                                        "nameWithOwner": "react-bootstrap-table/react-bootstrap-table2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-bootstrap-table2-paginator",
+                                    "repository": {
+                                        "nameWithOwner": "react-bootstrap-table/react-bootstrap-table2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-chartjs-2",
+                                    "repository": {
+                                        "nameWithOwner": "reactchartjs/react-chartjs-2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-datepicker",
+                                    "repository": {
+                                        "nameWithOwner": "Hacker0x01/react-datepicker"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-dom",
+                                    "repository": {
+                                        "nameWithOwner": "react/react"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-icons",
+                                    "repository": {
+                                        "nameWithOwner": "react-icons/react-icons"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "react-table",
+                                    "repository": {
+                                        "nameWithOwner": "TanStack/table"
+                                    }
+                                },
+                                {
+                                    "packageManager": "NPM",
+                                    "packageName": "typescript",
+                                    "repository": {
+                                        "nameWithOwner": "microsoft/TypeScript"
+                                    }
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -6313,700 +5907,9 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@eslint-community/eslint-utils",
+                                    "packageName": "jquery",
                                     "repository": {
-                                        "nameWithOwner": "eslint-community/eslint-utils"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint-community/regexpp",
-                                    "repository": {
-                                        "nameWithOwner": "eslint-community/regexpp"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint/eslintrc",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/eslintrc"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint/js",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/eslint"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@humanwhocodes/config-array",
-                                    "repository": {
-                                        "nameWithOwner": "humanwhocodes/config-array"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@humanwhocodes/module-importer",
-                                    "repository": {
-                                        "nameWithOwner": "humanwhocodes/module-importer"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@humanwhocodes/object-schema",
-                                    "repository": {
-                                        "nameWithOwner": "humanwhocodes/object-schema"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@isaacs/cliui",
-                                    "repository": {
-                                        "nameWithOwner": "isaacs/cliui"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@nodelib/fs.scandir",
-                                    "repository": {
-                                        "nameWithOwner": "nodelib/nodelib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@nodelib/fs.stat",
-                                    "repository": {
-                                        "nameWithOwner": "nodelib/nodelib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@nodelib/fs.walk",
-                                    "repository": {
-                                        "nameWithOwner": "nodelib/nodelib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@pkgjs/parseargs",
-                                    "repository": {
-                                        "nameWithOwner": "pkgjs/parseargs"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@sinonjs/commons",
-                                    "repository": {
-                                        "nameWithOwner": "sinonjs/commons"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@sinonjs/formatio",
-                                    "repository": {
-                                        "nameWithOwner": "sinonjs/formatio"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@sinonjs/samsam",
-                                    "repository": {
-                                        "nameWithOwner": "sinonjs/samsam"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@sinonjs/text-encoding",
-                                    "repository": {
-                                        "nameWithOwner": "sinonjs/text-encoding"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@ungap/structured-clone",
-                                    "repository": {
-                                        "nameWithOwner": "ungap/structured-clone"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "acorn",
-                                    "repository": {
-                                        "nameWithOwner": "acornjs/acorn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "acorn-jsx",
-                                    "repository": {
-                                        "nameWithOwner": "acornjs/acorn-jsx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "agent-base",
-                                    "repository": {
-                                        "nameWithOwner": "TooTallNate/proxy-agents"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "ajv",
-                                    "repository": {
-                                        "nameWithOwner": "ajv-validator/ajv"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "ansi-regex",
-                                    "repository": {
-                                        "nameWithOwner": "chalk/ansi-regex"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "ansi-regex",
-                                    "repository": {
-                                        "nameWithOwner": "chalk/ansi-regex"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "ansi-styles",
-                                    "repository": {
-                                        "nameWithOwner": "chalk/ansi-styles"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "ansi-styles",
-                                    "repository": {
-                                        "nameWithOwner": "chalk/ansi-styles"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "argparse",
-                                    "repository": {
-                                        "nameWithOwner": "nodeca/argparse"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "array-from",
-                                    "repository": {
-                                        "nameWithOwner": "b12-archive/array-from"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "assertion-error",
-                                    "repository": {
-                                        "nameWithOwner": "chaijs/assertion-error"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "asynckit",
-                                    "repository": {
-                                        "nameWithOwner": "alexindigo/asynckit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "available-typed-arrays",
-                                    "repository": {
-                                        "nameWithOwner": "inspect-js/available-typed-arrays"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "aws-sdk",
-                                    "repository": {
-                                        "nameWithOwner": "aws/aws-sdk-js"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "axios",
-                                    "repository": {
-                                        "nameWithOwner": "axios/axios"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "axios-retry",
-                                    "repository": {
-                                        "nameWithOwner": "softonic/axios-retry"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "balanced-match",
-                                    "repository": {
-                                        "nameWithOwner": "juliangruber/balanced-match"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "base64-js",
-                                    "repository": {
-                                        "nameWithOwner": "beatgammit/base64-js"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "brace-expansion",
-                                    "repository": {
-                                        "nameWithOwner": "juliangruber/brace-expansion"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "brace-expansion",
-                                    "repository": {
-                                        "nameWithOwner": "juliangruber/brace-expansion"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "browser-stdout",
-                                    "repository": {
-                                        "nameWithOwner": "kumavis/browser-stdout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "buffer",
-                                    "repository": {
-                                        "nameWithOwner": "coolaj86/browser-buffer"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "call-bind",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/call-bind"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "call-bind-apply-helpers",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/call-bind-apply-helpers"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "callsites",
-                                    "repository": {
-                                        "nameWithOwner": "sindresorhus/callsites"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "camelcase",
-                                    "repository": {
-                                        "nameWithOwner": "sindresorhus/camelcase"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "chai",
-                                    "repository": {
-                                        "nameWithOwner": "chaijs/chai"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "chalk",
-                                    "repository": {
-                                        "nameWithOwner": "chalk/chalk"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "check-error",
-                                    "repository": {
-                                        "nameWithOwner": "chaijs/check-error"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "chokidar",
-                                    "repository": {
-                                        "nameWithOwner": "paulmillr/chokidar"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "cliui",
-                                    "repository": {
-                                        "nameWithOwner": "yargs/cliui"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "color-convert",
-                                    "repository": {
-                                        "nameWithOwner": "Qix-/color-convert"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "color-name",
-                                    "repository": {
-                                        "nameWithOwner": "colorjs/color-name"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "combined-stream",
-                                    "repository": {
-                                        "nameWithOwner": "felixge/node-combined-stream"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "concat-map",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "cross-spawn",
-                                    "repository": {
-                                        "nameWithOwner": "moxystudio/node-cross-spawn"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "debug",
-                                    "repository": {
-                                        "nameWithOwner": "debug-js/debug"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "decamelize",
-                                    "repository": {
-                                        "nameWithOwner": "sindresorhus/decamelize"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "deep-eql",
-                                    "repository": {
-                                        "nameWithOwner": "chaijs/deep-eql"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "deep-is",
-                                    "repository": {
-                                        "nameWithOwner": "thlorenz/deep-is"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "define-data-property",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/define-data-property"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "delayed-stream",
-                                    "repository": {
-                                        "nameWithOwner": "felixge/node-delayed-stream"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "diff",
-                                    "repository": {
-                                        "nameWithOwner": "kpdecker/jsdiff"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "diff",
-                                    "repository": {
-                                        "nameWithOwner": "kpdecker/jsdiff"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "doctrine",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/doctrine"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "dunder-proto",
-                                    "repository": {
-                                        "nameWithOwner": "es-shims/dunder-proto"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eastasianwidth",
-                                    "repository": {
-                                        "nameWithOwner": "komagata/eastasianwidth"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "emoji-regex",
-                                    "repository": {
-                                        "nameWithOwner": "mathiasbynens/emoji-regex"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "emoji-regex",
-                                    "repository": {
-                                        "nameWithOwner": "mathiasbynens/emoji-regex"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "es-define-property",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/es-define-property"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "es-errors",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/es-errors"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "es-object-atoms",
-                                    "repository": {
-                                        "nameWithOwner": "es-shims/es-object-atoms"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "es-set-tostringtag",
-                                    "repository": {
-                                        "nameWithOwner": "es-shims/es-set-tostringtag"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "escalade",
-                                    "repository": {
-                                        "nameWithOwner": "lukeed/escalade"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "escape-string-regexp",
-                                    "repository": {
-                                        "nameWithOwner": "sindresorhus/escape-string-regexp"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eslint",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/eslint"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eslint-scope",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/js"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "eslint-visitor-keys",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/js"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "espree",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/js"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "esquery",
-                                    "repository": {
-                                        "nameWithOwner": "estools/esquery"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "esrecurse",
-                                    "repository": {
-                                        "nameWithOwner": "estools/esrecurse"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "estraverse",
-                                    "repository": {
-                                        "nameWithOwner": "estools/estraverse"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "esutils",
-                                    "repository": {
-                                        "nameWithOwner": "estools/esutils"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "events",
-                                    "repository": {
-                                        "nameWithOwner": "browserify/events"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "fast-deep-equal",
-                                    "repository": {
-                                        "nameWithOwner": "epoberezkin/fast-deep-equal"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "fast-json-stable-stringify",
-                                    "repository": {
-                                        "nameWithOwner": "epoberezkin/fast-json-stable-stringify"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "fast-levenshtein",
-                                    "repository": {
-                                        "nameWithOwner": "hiddentao/fast-levenshtein"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "fastq",
-                                    "repository": {
-                                        "nameWithOwner": "mcollina/fastq"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "file-entry-cache",
-                                    "repository": {
-                                        "nameWithOwner": "jaredwray/cacheable"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "find-up",
-                                    "repository": {
-                                        "nameWithOwner": "sindresorhus/find-up"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "flat",
-                                    "repository": {
-                                        "nameWithOwner": "hughsk/flat"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "flat-cache",
-                                    "repository": {
-                                        "nameWithOwner": "jaredwray/cacheable"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "flatted",
-                                    "repository": {
-                                        "nameWithOwner": "WebReflection/flatted"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "follow-redirects",
-                                    "repository": {
-                                        "nameWithOwner": "follow-redirects/follow-redirects"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "for-each",
-                                    "repository": {
-                                        "nameWithOwner": "Raynos/for-each"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "foreground-child",
-                                    "repository": {
-                                        "nameWithOwner": "tapjs/foreground-child"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "form-data",
-                                    "repository": {
-                                        "nameWithOwner": "form-data/form-data"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "fs.realpath",
-                                    "repository": {
-                                        "nameWithOwner": "isaacs/fs.realpath"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "function-bind",
-                                    "repository": {
-                                        "nameWithOwner": "Raynos/function-bind"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "get-caller-file",
-                                    "repository": {
-                                        "nameWithOwner": "stefanpenner/get-caller-file"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "get-func-name",
-                                    "repository": {
-                                        "nameWithOwner": "chaijs/get-func-name"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "get-intrinsic",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/get-intrinsic"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "get-proto",
-                                    "repository": {
-                                        "nameWithOwner": "ljharb/get-proto"
+                                        "nameWithOwner": "jquery/jquery"
                                     }
                                 }
                             ]
@@ -21010,700 +19913,163 @@
                             "nodes": [
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@aws-cdk/asset-awscli-v1",
+                                    "packageName": "body-parser",
                                     "repository": {
-                                        "nameWithOwner": "cdklabs/awscdk-asset-awscli"
+                                        "nameWithOwner": "expressjs/body-parser"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@aws-cdk/asset-node-proxy-agent-v6",
+                                    "packageName": "browserstack-local",
                                     "repository": {
-                                        "nameWithOwner": "cdklabs/awscdk-asset-node-proxy-agent"
+                                        "nameWithOwner": "browserstack/browserstack-local-nodejs"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@aws-cdk/cloud-assembly-schema",
+                                    "packageName": "commitplease",
                                     "repository": {
-                                        "nameWithOwner": "aws/aws-cdk-cli"
+                                        "nameWithOwner": "jzaefferer/commitplease"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/code-frame",
+                                    "packageName": "diff",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "kpdecker/jsdiff"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/compat-data",
+                                    "packageName": "eslint-config-jquery",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "jquery/eslint-config-jquery"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/core",
+                                    "packageName": "exit-hook",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "sindresorhus/exit-hook"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/generator",
+                                    "packageName": "express",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "expressjs/express"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/helper-compilation-targets",
+                                    "packageName": "express-body-parser-error-handler",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "ntedgi/express-body-parser-error-handler"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/helper-globals",
+                                    "packageName": "grunt",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "gruntjs/grunt"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/helper-module-imports",
+                                    "packageName": "grunt-bowercopy",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "timmywil/grunt-bowercopy"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/helper-module-transforms",
+                                    "packageName": "grunt-compare-size",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "rwaldron/grunt-compare-size"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/helper-plugin-utils",
+                                    "packageName": "grunt-contrib-concat",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "gruntjs/grunt-contrib-concat"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/helper-string-parser",
+                                    "packageName": "grunt-contrib-csslint",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "gruntjs/grunt-contrib-csslint"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/helper-validator-identifier",
+                                    "packageName": "grunt-contrib-requirejs",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "gruntjs/grunt-contrib-requirejs"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/helper-validator-option",
+                                    "packageName": "grunt-contrib-uglify",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "gruntjs/grunt-contrib-uglify"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/helpers",
+                                    "packageName": "grunt-eslint",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "sindresorhus/grunt-eslint"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/parser",
+                                    "packageName": "grunt-git-authors",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "scottgonzalez/grunt-git-authors"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-async-generators",
+                                    "packageName": "grunt-html",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "validator/grunt-html"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-bigint",
+                                    "packageName": "jquery",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "jquery/jquery"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-class-properties",
+                                    "packageName": "load-grunt-tasks",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "sindresorhus/load-grunt-tasks"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-class-static-block",
+                                    "packageName": "rimraf",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "isaacs/rimraf"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-import-attributes",
+                                    "packageName": "selenium-webdriver",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
+                                        "nameWithOwner": "SeleniumHQ/selenium"
                                     }
                                 },
                                 {
                                     "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-import-meta",
+                                    "packageName": "yargs",
                                     "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-json-strings",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-jsx",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-logical-assignment-operators",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-nullish-coalescing-operator",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-numeric-separator",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-object-rest-spread",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-optional-catch-binding",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-optional-chaining",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-private-property-in-object",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-top-level-await",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/plugin-syntax-typescript",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/template",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/traverse",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@babel/types",
-                                    "repository": {
-                                        "nameWithOwner": "babel/babel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@balena/dockerignore",
-                                    "repository": {
-                                        "nameWithOwner": "balena-io-modules/dockerignore"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@bcoe/v8-coverage",
-                                    "repository": {
-                                        "nameWithOwner": "bcoe/v8-coverage"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@cspotcode/source-map-support",
-                                    "repository": {
-                                        "nameWithOwner": "cspotcode/node-source-map-support"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@emnapi/core",
-                                    "repository": {
-                                        "nameWithOwner": "toyobayashi/emnapi"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@emnapi/runtime",
-                                    "repository": {
-                                        "nameWithOwner": "toyobayashi/emnapi"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@emnapi/wasi-threads",
-                                    "repository": {
-                                        "nameWithOwner": "toyobayashi/emnapi"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint-community/eslint-utils",
-                                    "repository": {
-                                        "nameWithOwner": "eslint-community/eslint-utils"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint-community/regexpp",
-                                    "repository": {
-                                        "nameWithOwner": "eslint-community/regexpp"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint/config-array",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/rewrite"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint/config-helpers",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/rewrite"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint/core",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/rewrite"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint/eslintrc",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/eslintrc"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint/js",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/eslint"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint/object-schema",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/rewrite"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@eslint/plugin-kit",
-                                    "repository": {
-                                        "nameWithOwner": "eslint/rewrite"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@humanfs/core",
-                                    "repository": {
-                                        "nameWithOwner": "humanwhocodes/humanfs"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@humanfs/node",
-                                    "repository": {
-                                        "nameWithOwner": "humanwhocodes/humanfs"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@humanwhocodes/module-importer",
-                                    "repository": {
-                                        "nameWithOwner": "humanwhocodes/module-importer"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@humanwhocodes/retry",
-                                    "repository": {
-                                        "nameWithOwner": "humanwhocodes/retry"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@isaacs/cliui",
-                                    "repository": {
-                                        "nameWithOwner": "isaacs/cliui"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@istanbuljs/load-nyc-config",
-                                    "repository": {
-                                        "nameWithOwner": "istanbuljs/load-nyc-config"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@istanbuljs/schema",
-                                    "repository": {
-                                        "nameWithOwner": "istanbuljs/schema"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/console",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/core",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/diff-sequences",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/environment",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/expect",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/expect-utils",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/fake-timers",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/get-type",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/globals",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/pattern",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/reporters",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/schemas",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/snapshot-utils",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/source-map",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/test-result",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/test-sequencer",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/transform",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jest/types",
-                                    "repository": {
-                                        "nameWithOwner": "jestjs/jest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jridgewell/gen-mapping",
-                                    "repository": {
-                                        "nameWithOwner": "jridgewell/sourcemaps"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jridgewell/remapping",
-                                    "repository": {
-                                        "nameWithOwner": "jridgewell/sourcemaps"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jridgewell/resolve-uri",
-                                    "repository": {
-                                        "nameWithOwner": "jridgewell/resolve-uri"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jridgewell/sourcemap-codec",
-                                    "repository": {
-                                        "nameWithOwner": "jridgewell/sourcemaps"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jridgewell/trace-mapping",
-                                    "repository": {
-                                        "nameWithOwner": "jridgewell/sourcemaps"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@jridgewell/trace-mapping",
-                                    "repository": {
-                                        "nameWithOwner": "jridgewell/sourcemaps"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@lmig/swa-cdk-core",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@napi-rs/wasm-runtime",
-                                    "repository": {
-                                        "nameWithOwner": "napi-rs/napi-rs"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@pkgjs/parseargs",
-                                    "repository": {
-                                        "nameWithOwner": "pkgjs/parseargs"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@pkgr/core",
-                                    "repository": {
-                                        "nameWithOwner": "un-ts/pkgr"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@sinclair/typebox",
-                                    "repository": {
-                                        "nameWithOwner": "sinclairzx81/sinclair-typebox"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@sinonjs/commons",
-                                    "repository": {
-                                        "nameWithOwner": "sinonjs/commons"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@sinonjs/fake-timers",
-                                    "repository": {
-                                        "nameWithOwner": "sinonjs/fake-timers"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@tsconfig/node10",
-                                    "repository": {
-                                        "nameWithOwner": "tsconfig/bases"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@tsconfig/node12",
-                                    "repository": {
-                                        "nameWithOwner": "tsconfig/bases"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@tsconfig/node14",
-                                    "repository": {
-                                        "nameWithOwner": "tsconfig/bases"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@tsconfig/node16",
-                                    "repository": {
-                                        "nameWithOwner": "tsconfig/bases"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@tybys/wasm-util",
-                                    "repository": {
-                                        "nameWithOwner": "toyobayashi/wasm-util"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/aws-lambda",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/babel__core",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/babel__generator",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/babel__template",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "@types/babel__traverse",
-                                    "repository": {
-                                        "nameWithOwner": "DefinitelyTyped/DefinitelyTyped"
+                                        "nameWithOwner": "yargs/yargs"
                                     }
                                 }
                             ]
