@@ -3417,7 +3417,13 @@
         },
         "ORNL/oscar": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "Release v3.11.0 (Amber)",
+                        "publishedAt": "2026-11-17T02:50:32Z",
+                        "tagName": "v3.11.0"
+                    }
+                ]
             }
         },
         "ORNL/oscar-regression": {
@@ -3531,6 +3537,11 @@
         "ORNL/reno": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v0.16.0",
+                        "publishedAt": "2026-11-17T15:58:07Z",
+                        "tagName": "v0.16.0"
+                    },
                     {
                         "name": "v0.15.3",
                         "publishedAt": "2026-10-15T15:49:49Z",
@@ -5056,6 +5067,11 @@
         "neutrons/MagnetismReflectometer": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v2.21.0rc4",
+                        "publishedAt": "2026-11-17T16:00:11Z",
+                        "tagName": "v2.21.0rc4"
+                    },
                     {
                         "name": "v2.21.0rc3",
                         "publishedAt": "2026-10-09T15:22:59Z",
@@ -7146,6 +7162,11 @@
         "neutrons/subhkl": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "Faster GPU code path",
+                        "publishedAt": "2026-11-17T03:46:22Z",
+                        "tagName": "1.5.8"
+                    },
                     {
                         "name": "Masking and goniometer recovery",
                         "publishedAt": "2026-11-16T20:52:12Z",
