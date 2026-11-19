@@ -3426,6 +3426,11 @@
                 ]
             }
         },
+        "ORNL/oscar-federation-hub": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ORNL/oscar-regression": {
             "releases": {
                 "nodes": []
@@ -3505,7 +3510,13 @@
         },
         "ORNL/power-grid-data-factory": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v1.0",
+                        "publishedAt": "2026-11-18T21:54:38Z",
+                        "tagName": "v1.0"
+                    }
+                ]
             }
         },
         "ORNL/pyJMAK": {
