@@ -571,11 +571,6 @@
                 "nodes": []
             }
         },
-        "ORNL-Fusion/cuda-fortran": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "ORNL-Fusion/dispersioneering": {
             "releases": {
                 "nodes": []
@@ -810,6 +805,11 @@
                         "tagName": "v0.1.0"
                     }
                 ]
+            }
+        },
+        "ORNL-Fusion/stellinstall": {
+            "releases": {
+                "nodes": []
             }
         },
         "ORNL-Fusion/tokdesigner-doc": {
@@ -3419,7 +3419,12 @@
             "releases": {
                 "nodes": [
                     {
-                        "name": "Release v3.11.0 (Amber)",
+                        "name": "Release v3.11.1 (Amber)",
+                        "publishedAt": "2026-11-20T21:57:39Z",
+                        "tagName": "v3.11.1"
+                    },
+                    {
+                        "name": "Release v3.11.0 (Amber \u2014 Archived / Superseded by v3.11.1)",
                         "publishedAt": "2026-11-17T02:50:32Z",
                         "tagName": "v3.11.0"
                     }
@@ -6133,6 +6138,11 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v1.38.0rc1",
+                        "publishedAt": "2026-11-20T17:28:54Z",
+                        "tagName": "v1.38.0rc1"
+                    },
+                    {
                         "name": "v1.37.0",
                         "publishedAt": "2026-11-16T15:14:24Z",
                         "tagName": "v1.37.0"
@@ -7173,6 +7183,26 @@
         "neutrons/subhkl": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "Indexing improvements",
+                        "publishedAt": "2026-11-20T23:38:38Z",
+                        "tagName": "1.6.6"
+                    },
+                    {
+                        "name": "Wavelength slider + Galaxy reload",
+                        "publishedAt": "2026-11-20T20:12:00Z",
+                        "tagName": "1.6.5"
+                    },
+                    {
+                        "name": "Persistent galaxy history",
+                        "publishedAt": "2026-11-20T18:21:22Z",
+                        "tagName": "1.6.4"
+                    },
+                    {
+                        "name": "Run tasks in local container",
+                        "publishedAt": "2026-11-20T14:48:22Z",
+                        "tagName": "1.6.3"
+                    },
                     {
                         "name": "Fix large dataset download",
                         "publishedAt": "2026-11-20T01:20:22Z",

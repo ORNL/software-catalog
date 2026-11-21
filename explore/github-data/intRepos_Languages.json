@@ -2543,30 +2543,6 @@
                 "totalSize": 0
             }
         },
-        "ORNL-Fusion/cuda-fortran": {
-            "languages": {
-                "edges": [
-                    {
-                        "size": 52357
-                    },
-                    {
-                        "size": 4781
-                    }
-                ],
-                "nodes": [
-                    {
-                        "color": "#4d41b1",
-                        "name": "Fortran"
-                    },
-                    {
-                        "color": "#DA3434",
-                        "name": "CMake"
-                    }
-                ],
-                "totalCount": 2,
-                "totalSize": 57138
-            }
-        },
         "ORNL-Fusion/dispersioneering": {
             "languages": {
                 "edges": [
@@ -3585,6 +3561,79 @@
                 ],
                 "totalCount": 3,
                 "totalSize": 7211326
+            }
+        },
+        "ORNL-Fusion/stellinstall": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 194083900
+                    },
+                    {
+                        "size": 5853233
+                    },
+                    {
+                        "size": 2564573
+                    },
+                    {
+                        "size": 400490
+                    },
+                    {
+                        "size": 199642
+                    },
+                    {
+                        "size": 161100
+                    },
+                    {
+                        "size": 158468
+                    },
+                    {
+                        "size": 27360
+                    },
+                    {
+                        "size": 7496
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#4d41b1",
+                        "name": "Fortran"
+                    },
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
+                    },
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    },
+                    {
+                        "color": null,
+                        "name": "Rich Text Format"
+                    },
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
+                        "color": "#74283c",
+                        "name": "Prolog"
+                    },
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    },
+                    {
+                        "color": "#341708",
+                        "name": "Forth"
+                    },
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ],
+                "totalCount": 9,
+                "totalSize": 203456262
             }
         },
         "ORNL-Fusion/tokdesigner-doc": {
@@ -7157,7 +7206,7 @@
                         "size": 2581070
                     },
                     {
-                        "size": 511638
+                        "size": 511655
                     },
                     {
                         "size": 233315
@@ -7241,7 +7290,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 3721752
+                "totalSize": 3721769
             }
         },
         "ORNL/TASQC": {
@@ -7647,7 +7696,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 537395
+                        "size": 550540
                     },
                     {
                         "size": 196989
@@ -7692,7 +7741,7 @@
                     }
                 ],
                 "totalCount": 6,
-                "totalSize": 765125
+                "totalSize": 778270
             }
         },
         "ORNL/certified": {
@@ -8793,7 +8842,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 5091440
+                        "size": 5130202
                     },
                     {
                         "size": 975936
@@ -8824,7 +8873,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 6232278
+                "totalSize": 6271040
             }
         },
         "ORNL/mcr-container-tools": {
@@ -9020,13 +9069,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 359336
+                        "size": 359684
                     },
                     {
-                        "size": 126936
+                        "size": 128900
                     },
                     {
-                        "size": 70357
+                        "size": 70526
                     },
                     {
                         "size": 16209
@@ -9065,7 +9114,7 @@
                     }
                 ],
                 "totalCount": 6,
-                "totalSize": 576466
+                "totalSize": 578947
             }
         },
         "ORNL/oscar-federation-hub": {
@@ -9096,7 +9145,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1374232
+                        "size": 1375906
                     },
                     {
                         "size": 292978
@@ -9113,14 +9162,14 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 1667210
+                "totalSize": 1668884
             }
         },
         "ORNL/oscar-regression-suite": {
             "languages": {
                 "edges": [
                     {
-                        "size": 1374232
+                        "size": 1375906
                     },
                     {
                         "size": 292978
@@ -9137,7 +9186,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 1667210
+                "totalSize": 1668884
             }
         },
         "ORNL/oscar-video-guides": {
@@ -9220,7 +9269,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 6066017
+                        "size": 6090818
                     },
                     {
                         "size": 355717
@@ -9244,7 +9293,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 6434908
+                "totalSize": 6459709
             }
         },
         "ORNL/papyrus": {
@@ -10381,13 +10430,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 20918457
+                        "size": 20935758
                     },
                     {
                         "size": 5984730
                     },
                     {
-                        "size": 1167155
+                        "size": 1167164
                     },
                     {
                         "size": 655486
@@ -10552,14 +10601,14 @@
                     }
                 ],
                 "totalCount": 24,
-                "totalSize": 29871842
+                "totalSize": 29889152
             }
         },
         "adamantine-sim/adamantine": {
             "languages": {
                 "edges": [
                     {
-                        "size": 1215128
+                        "size": 1215164
                     },
                     {
                         "size": 19079
@@ -10618,20 +10667,20 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 1275787
+                "totalSize": 1275823
             }
         },
         "celeritas-project/celeritas": {
             "languages": {
                 "edges": [
                     {
-                        "size": 11765374
+                        "size": 11788945
                     },
                     {
-                        "size": 285410
+                        "size": 280275
                     },
                     {
-                        "size": 266828
+                        "size": 269362
                     },
                     {
                         "size": 188151
@@ -10684,7 +10733,7 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 12610404
+                "totalSize": 12631374
             }
         },
         "gshs-ornl/choppy": {
@@ -10906,7 +10955,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 11962395
+                        "size": 11965755
                     },
                     {
                         "size": 363596
@@ -10915,7 +10964,7 @@
                         "size": 68535
                     },
                     {
-                        "size": 53153
+                        "size": 53211
                     },
                     {
                         "size": 36462
@@ -10986,7 +11035,7 @@
                     }
                 ],
                 "totalCount": 11,
-                "totalSize": 12512069
+                "totalSize": 12515487
             }
         },
         "mcvine/McVineGPU": {
@@ -12560,7 +12609,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 3251721
+                        "size": 3249831
                     },
                     {
                         "size": 2234
@@ -12577,7 +12626,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 3253955
+                "totalSize": 3252065
             }
         },
         "neutrons/PyVDrive": {
@@ -13022,7 +13071,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 840322
+                        "size": 861615
                     },
                     {
                         "size": 188116
@@ -13074,7 +13123,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 1191501
+                "totalSize": 1212794
             }
         },
         "neutrons/dgs-resolution": {
@@ -13119,7 +13168,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 3500869
+                        "size": 3597406
                     },
                     {
                         "size": 397704
@@ -13143,7 +13192,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 3903174
+                "totalSize": 3999711
             }
         },
         "neutrons/finddata": {
@@ -13222,7 +13271,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1586222
+                        "size": 1592574
                     },
                     {
                         "size": 1378
@@ -13246,7 +13295,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 1588838
+                "totalSize": 1595190
             }
         },
         "neutrons/garnet_reduction": {
@@ -14036,7 +14085,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 3727321
+                        "size": 3950269
                     },
                     {
                         "size": 1294
@@ -14053,7 +14102,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 3728615
+                "totalSize": 3951563
             }
         },
         "neutrons/usansemble": {
@@ -14434,13 +14483,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 9541855
+                        "size": 9535654
                     },
                     {
-                        "size": 859222
+                        "size": 859403
                     },
                     {
-                        "size": 833292
+                        "size": 832747
                     },
                     {
                         "size": 669580
@@ -14468,9 +14517,6 @@
                     },
                     {
                         "size": 2210
-                    },
-                    {
-                        "size": 1214
                     },
                     {
                         "size": 808
@@ -14526,16 +14572,12 @@
                         "name": "Yacc"
                     },
                     {
-                        "color": "#ecdebe",
-                        "name": "Roff"
-                    },
-                    {
                         "color": "#012456",
                         "name": "PowerShell"
                     }
                 ],
-                "totalCount": 14,
-                "totalSize": 12505454
+                "totalCount": 13,
+                "totalSize": 12497675
             }
         },
         "ornlcda/MLHPC2015": {
